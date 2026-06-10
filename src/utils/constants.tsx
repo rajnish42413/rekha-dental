@@ -1,0 +1,3257 @@
+import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa6";
+import { MdEmail, MdPhone } from "react-icons/md";
+import {
+  ScanOutlined,
+  SafetyCertificateOutlined,
+  StarOutlined,
+  TrophyOutlined,
+  ExperimentOutlined,
+  GlobalOutlined,
+  ClockCircleOutlined,
+  PercentageOutlined,
+} from "@ant-design/icons";
+import {
+  FiActivity,
+  FiBarChart2,
+  FiCheckCircle,
+  FiClipboard,
+  FiCpu,
+  FiDatabase,
+  FiEdit3,
+  FiHeart,
+  FiLayers,
+  FiLink,
+  FiLock,
+  FiMapPin,
+  FiMessageSquare,
+  FiRefreshCw,
+  FiShield,
+  FiSmile,
+  FiStar,
+  FiTool,
+  FiTrendingUp,
+  FiUsers,
+} from "react-icons/fi";
+import { CLOUDINARY_BASE } from "./endpoints";
+//Navbar
+export const menuLinks = [
+  {
+    label: "About Us",
+    href: "/about",
+  },
+  {
+    label: "Services",
+    href: "/services",
+  },
+  {
+    label: "Our Team",
+    href: "/doctor",
+  },
+  {
+    label: "Dental Tourism",
+    href: "/tour",
+  },
+  {
+    label: "Academy",
+    href: "/academy",
+  },
+
+  {
+    label: "Gallery",
+    href: "/gallery",
+  },
+  {
+    label: "Reviews",
+    href: "/reviews",
+  },
+  {
+    label: "Our Legacy",
+    href: "/legacy",
+  },
+  {
+    label: "Blogs",
+    href: "/blogs",
+  },
+  {
+    label: "Contact Us",
+    href: "/contact",
+  },
+];
+
+//Footer data
+export const footerLinks = [
+  {
+    title: "Quick Links",
+    links: [
+      { label: "Services", href: "/services" },
+      { label: "Our Team", href: "/doctor" },
+      { label: "Dental Tourism", href: "/tour" },
+      { label: "Academy", href: "/academy" },
+      { label: "Gallery", href: "/gallery" },
+    ],
+  },
+  {
+    title: "Support",
+    links: [
+      { label: "About Us", href: "/about" },
+      { label: "Contact Us", href: "/contact" },
+      { label: "Blogs", href: "/blogs" },
+      { label: "Reviews", href: "/reviews" },
+      { label: "Our Legacy", href: "/legacy" },
+    ],
+  },
+  {
+    title: "Legal",
+    links: [
+      { label: "Privacy Policy", href: "/privacy-policy" },
+      { label: "Terms of Service", href: "/terms-of-service" },
+    ],
+  },
+];
+
+export const socialIcons = [
+  { icon: <FaFacebookF />, url: "https://www.facebook.com/mamtaraghav21" },
+  // { icon: <FaTwitter />, url: "#" },
+  {
+    icon: <FaInstagram />,
+    url: "https://www.instagram.com/rekhadentalgzb?utm_source=qr&igsh=bTRvMzU2eHQ2eW44",
+  },
+  {
+    icon: <FaYoutube />,
+    url: "https://youtube.com/@drgauravsaxena84?si=OFTPftaGOJNF22Qs",
+  },
+];
+
+export const contactInfo = [
+  {
+    icon: MdPhone,
+    text: "+918130406405",
+  },
+  {
+    icon: MdEmail,
+    text: "support@rekhadental.com",
+  },
+];
+
+//Services
+export const serviceCards = [
+  {
+    id: 1,
+    index: "01",
+    title: "Immediate Implantology",
+    slug: "immediate-implantology",
+    description: "Same-day implants with surgical precision.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service1/thumbnail`,
+  },
+
+  {
+    id: 2,
+    index: "02",
+    title: "Digital Robotic Scanning",
+    slug: "digital-robotic-scanning",
+    description: "AI-guided 3D scans for sub-millimetric care.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service2/thumbnail`,
+  },
+
+  {
+    id: 3,
+    index: "03",
+    title: "Preventive · Ages 0–13",
+    slug: "preventive-ages-0-13",
+    description: "Gentle first visits for the youngest smiles.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service3/thumbnail`,
+  },
+
+  {
+    id: 4,
+    index: "04",
+    title: "General and Restorative",
+    slug: "general-restorative",
+    description: "Hygiene, fillings, crowns meticulously done.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service4/thumbnail`,
+  },
+
+  {
+    id: 5,
+    index: "05",
+    title: "Pediatric Dentistry",
+    slug: "pediatric-dentistry",
+    description: "Compassionate dental care tailored for children.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service5/thumbnail`,
+  },
+
+  {
+    id: 6,
+    index: "06",
+    title: "Dental Fillings",
+    slug: "dental-fillings",
+    description: "Natural-looking restorations for healthy smiles.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service6/thumbnail`,
+  },
+
+  {
+    id: 7,
+    index: "07",
+    title: "Dental Bridges",
+    slug: "dental-bridges",
+    description:
+      "Durable tooth replacement solutions for function and aesthetics.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service7/thumbnail`,
+  },
+
+  {
+    id: 8,
+    index: "08",
+    title: "Dental Implants",
+    slug: "dental-implants",
+    description: "Advanced implant procedures for permanent tooth replacement.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service8/thumbnail`,
+  },
+
+  {
+    id: 9,
+    index: "09",
+    title: "Orthodontic Treatment",
+    slug: "orthodontic-treatment",
+    description: "Modern alignment solutions for beautifully straight teeth.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service9/thumbnail`,
+  },
+
+  {
+    id: 10,
+    index: "10",
+    title: "Root Canal Treatment",
+    slug: "root-canal-treatment",
+    description: "Precision endodontic care focused on tooth preservation.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service10/thumbnail`,
+  },
+
+  {
+    id: 11,
+    index: "11",
+    title: "Tooth Removal",
+    slug: "tooth-removal",
+    description: "Safe and comfortable extraction procedures with expert care.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service11/thumbnail`,
+  },
+
+  {
+    id: 12,
+    index: "12",
+    title: "Cosmetic Dentistry",
+    slug: "cosmetic-dentistry",
+    description:
+      "Smile-enhancing treatments designed for aesthetic excellence.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service12/thumbnail`,
+  },
+
+  {
+    id: 13,
+    index: "13",
+    title: "Teeth Cleaning",
+    slug: "teeth-cleaning",
+    description: "Professional scaling and polishing for optimal oral hygiene.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service13/thumbnail`,
+  },
+
+  {
+    id: 14,
+    index: "14",
+    title: "Laser Dental Treatment",
+    slug: "laser-dental-treatment",
+    description: "Minimally invasive laser procedures with enhanced precision.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service14/thumbnail`,
+  },
+  {
+    id: 15,
+    index: "15",
+    title: "Tooth Jewellery",
+    slug: "tooth-jewellery",
+    description: "Enhance your smile with stylish and safe tooth jewellery applications.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service15/thumbnail`,
+  },
+  {
+    id: 16,
+    index: "16",
+    title: "Clear Aligners",
+    slug: "clear-aligners",
+    description: "Discreet and comfortable orthodontic treatment for straighter teeth.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service16/thumbnail`,
+  },
+  {
+    id: 17,
+    index: "17",
+    title: "Minimal Invasive Technology",
+    slug: "minimally-invasive-technology",
+    description: "Advanced dental procedures focused on precision, comfort, and faster recovery.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service17/thumbnail`,
+  },
+  {
+    id: 18,
+    index: "18",
+    title: "Full Mouth Rehabilitation",
+    slug: "full-mouth-rehabilitation",
+    description: "Comprehensive restoration of oral health, function, and aesthetics.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service18/thumbnail`,
+  },
+];
+export const serviceDetails = [
+  {
+    id: 1,
+    slug: "immediate-implantology",
+    hero: {
+      title: "Immediate Implantology",
+      subtitle: "Same-day implants with surgical precision.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/services/service1/thumbnail`,
+    },
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "Immediate implantology, often referred to as 'Teeth in a Day,' represents the pinnacle of modern restorative dentistry. This advanced procedure allows for the placement of a dental implant into the extraction socket immediately after a tooth is removed. By bypassing the traditional several-month waiting period, patients can maintain their facial aesthetics and oral function without interruption. Our clinic utilizes high-resolution bone density mapping to ensure every implant is placed in the optimal position for long-term stability. This approach significantly reduces the number of surgical interventions and shortens the overall healing timeline. It is an ideal solution for those seeking a rapid transition back to a complete, confident smile. Each case is meticulously planned using virtual surgical software to guarantee sub-millimetric accuracy and predictable aesthetic outcomes.",
+    },
+    technology: {
+      tag: "TECHNOLOGY",
+      points: [
+        "3D guided implant placement",
+        "Minimally invasive techniques",
+        "High-precision surgical planning",
+      ],
+    },
+    process: {
+      tag: "THE PROCESS",
+      title: "Step by considered step.",
+      steps: [
+        {
+          index: "01",
+          title: "Consultation",
+          description:
+            "Detailed consultation and imaging to plan implant placement.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service1/process1`,
+        },
+        {
+          index: "02",
+          title: "Same-day Placement",
+          description:
+            "Implant is placed immediately after extraction with precision.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service1/process2`,
+        },
+        {
+          index: "03",
+          title: "Recovery",
+          description: "Guided healing process with follow-up care.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service1/process3`,
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Is same-day implant safe?",
+        answer:
+          "Yes, with proper planning and case selection it is highly safe and effective.",
+      },
+      {
+        question: "How long does recovery take?",
+        answer:
+          "Initial healing takes a few days, full integration takes a few months.",
+      },
+    ],
+  },
+  {
+    id: 2,
+    slug: "digital-robotic-scanning",
+    hero: {
+      title: "Digital Robotic Scanning",
+      subtitle: "AI-guided 3D scans for sub-millimetric care.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/services/service2/thumbnail`,
+    },
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "Digital Robotic Scanning has revolutionized the way we capture the topography of the mouth, moving far beyond the era of messy, uncomfortable putty impressions. Utilizing state-of-the-art intraoral sensors and AI-assisted robotics, we can now create a perfect digital twin of your teeth and gums in mere seconds. This technology allows for a level of precision that human hands alone cannot achieve, capturing details at a sub-millimetric scale. These scans serve as the foundation for everything from clear aligners to custom-milled crowns. The real-time feedback loop allows patients to see their dental structure on-screen immediately, fostering a collaborative environment for treatment planning. By integrating AI, the software can identify potential issues such as micro-fractures or early-stage decay that might be invisible to the naked eye. This commitment to digital excellence ensures that every restoration fits perfectly the first time.",
+    },
+    technology: {
+      tag: "TECHNOLOGY",
+      points: [
+        "AI-powered diagnostics",
+        "High-resolution 3D scans",
+        "Real-time treatment planning",
+      ],
+    },
+    process: {
+      tag: "THE PROCESS",
+      title: "Precision at every step.",
+      steps: [
+        {
+          index: "01",
+          title: "Digital Scan",
+          description: "Comfortable intraoral scanning within minutes.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service2/process1`,
+        },
+        {
+          index: "02",
+          title: "AI Analysis",
+          description: "Automated analysis for precise diagnostics.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service2/process2`,
+        },
+        {
+          index: "03",
+          title: "Planning",
+          description: "Detailed planning using accurate digital models.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service2/process3`,
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Is scanning painful?",
+        answer: "No, it is completely non-invasive and comfortable.",
+      },
+      {
+        question: "How accurate is it?",
+        answer:
+          "It provides extremely high precision compared to traditional methods.",
+      },
+    ],
+  },
+  {
+    id: 3,
+    slug: "preventive-ages-0-13",
+    hero: {
+      title: "Preventive · Ages 0–13",
+      subtitle: "Gentle first visits for the youngest smiles.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/services/service3/thumbnail`,
+    },
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "The foundation of a lifetime of oral health begins well before the first permanent tooth appears. Our preventive program for ages 0–2 is designed to introduce infants and toddlers to the dental environment in a way that is nurturing and entirely stress-free. We focus on the 'Age One Visit' philosophy, which allows us to monitor the early eruption of primary teeth and the development of the jaw. This stage is crucial for educating parents on proper cleaning techniques, the impact of nutrition on dental health, and the prevention of 'nursing bottle' decay. By establishing a 'dental home' early, we significantly reduce the likelihood of dental anxiety in later years. Our child-friendly suites are equipped to make these first interactions playful and engaging. We don't just look at teeth; we look at the overall growth and development of your child's facial structure. Our goal is to ensure that your child's first memories of the dentist are filled with smiles and comfort.",
+    },
+    technology: {
+      tag: "TECHNOLOGY",
+      points: [
+        "Child-friendly suites",
+        "Behavior-guided approach",
+        "Parent education programs",
+      ],
+    },
+    process: {
+      tag: "THE PROCESS",
+      title: "Building trust early.",
+      steps: [
+        {
+          index: "01",
+          title: "First Visit",
+          description: "Relaxed knee-to-knee examination with parents.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service3/process1`,
+        },
+        {
+          index: "02",
+          title: "Assessment",
+          description: "Evaluation of feeding habits and oral development.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service3/process2`,
+        },
+        {
+          index: "03",
+          title: "Routine",
+          description: "Friendly check-ins to monitor growth.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service3/process3`,
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "When should the first visit be?",
+        answer: "Between 6–12 months of age.",
+      },
+      {
+        question: "Will my baby be afraid?",
+        answer: "No, visits are designed to be calm and comforting.",
+      },
+    ],
+  },
+  {
+    id: 4,
+    slug: "general-restorative",
+    hero: {
+      title: "General and Restorative",
+      subtitle: "Hygiene, fillings, crowns meticulously done.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/services/service4/thumbnail`,
+    },
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "General and restorative dentistry forms the backbone of our practice, focusing on the repair and preservation of your natural teeth. Whether you require a routine hygiene session or a complex multi-unit bridge, our approach is defined by meticulous attention to detail. We utilize the latest biocompatible materials that mimic the light-reflecting properties of natural enamel, ensuring your restorations are invisible to the eye. Beyond aesthetics, we prioritize the functional integrity of your bite, ensuring that every crown and filling is perfectly balanced. Our restorative techniques are designed to be minimally invasive, preserving as much of the healthy tooth structure as possible. We incorporate advanced diagnostic tools like digital X-rays and intraoral cameras to catch issues before they require extensive intervention. This proactive approach helps maintain your oral health while avoiding unnecessary costs. Our commitment is to provide restorations that are as durable as they are beautiful.",
+    },
+    technology: {
+      tag: "TECHNOLOGY",
+      points: [
+        "Modern restorative materials",
+        "Precision crown systems",
+        "Digital diagnostics",
+      ],
+    },
+    process: {
+      tag: "THE PROCESS",
+      title: "Care that lasts.",
+      steps: [
+        {
+          index: "01",
+          title: "Assessment",
+          description: "Comprehensive oral health evaluation.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service4/process1`,
+        },
+        {
+          index: "02",
+          title: "Treatment",
+          description: "Precision-driven restorative procedures.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service4/process2`,
+        },
+        {
+          index: "03",
+          title: "Maintenance",
+          description: "Ongoing care for lasting dental health.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service4/process3`,
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Do fillings last long?",
+        answer: "Yes, modern materials ensure durability for many years.",
+      },
+      {
+        question: "Are crowns noticeable?",
+        answer: "No, they are designed to look completely natural.",
+      },
+    ],
+  },
+  {
+    id: 5,
+    slug: "pediatric-dentistry",
+    hero: {
+      title: "Pediatric Dentistry",
+      subtitle: "Compassionate dental care tailored for children.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/services/service5/thumbnail`,
+    },
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "Pediatric dentistry at our clinic is about more than just cleaning teeth; it’s about creating a positive relationship with healthcare. We understand that children have unique anatomical and emotional needs, which is why our environment is specifically tailored to be vibrant and welcoming. From specialized instruments designed for smaller mouths to sedation options for anxious patients, every detail is considered. Our team is trained in pediatric behavior management, ensuring that every child feels empowered and safe during their visit. We offer a full range of services including sealants, fluoride treatments, and early orthodontic assessments. By focusing on education, we teach children the importance of oral hygiene in a way that is fun and memorable. We also work closely with parents to manage developmental milestones like losing baby teeth and the arrival of permanent molars. Our mission is to ensure every child leaves our office with a healthy smile and a sense of pride in their oral health.",
+    },
+    technology: {
+      tag: "TECHNOLOGY",
+      points: [
+        "Gentle sedation options",
+        "Pediatric-sized imaging",
+        "Sealant protection technology",
+      ],
+    },
+    process: {
+      tag: "THE PROCESS",
+      title: "Friendly and fast.",
+      steps: [
+        {
+          index: "01",
+          title: "Introduction",
+          description: "Meet and greet to build comfort.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service5/process1`,
+        },
+        {
+          index: "02",
+          title: "Examination",
+          description: "Gentle cleaning and check-up.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service5/process2`,
+        },
+        {
+          index: "03",
+          title: "Education",
+          description: "Fun lessons on brushing and flossing.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service5/process3`,
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "At what age should kids see a dentist?",
+        answer:
+          "As soon as their first tooth appears, or by their first birthday.",
+      },
+      {
+        question: "Are dental X-rays safe for kids?",
+        answer:
+          "Yes, we use digital X-rays with minimal radiation and lead aprons.",
+      },
+    ],
+  },
+  {
+    id: 6,
+    slug: "dental-fillings",
+    hero: {
+      title: "Dental Fillings",
+      subtitle: "Natural-looking restorations for healthy smiles.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/services/service6/thumbnail`,
+    },
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "Gone are the days of silver-mercury fillings that darken over time. Our modern dental fillings utilize composite resins and ceramic particles that are matched precisely to the shade of your natural tooth. This procedure is designed to restore teeth damaged by decay or minor fractures while maintaining a seamless aesthetic. We use a multi-layered bonding technique that strengthens the tooth structure, effectively sealing off the area to prevent future decay. The process is quick, often completed in a single visit, and requires minimal removal of the healthy tooth. Our materials are mercury-free and highly resistant to the daily wear and tear of chewing. We also prioritize patient comfort, using advanced local anesthetics and isolation techniques to ensure a painless experience. The result is a restoration that is not only functional but completely indistinguishable from the rest of your smile.",
+    },
+    technology: {
+      tag: "TECHNOLOGY",
+      points: [
+        "Tooth-colored composite resins",
+        "Advanced bonding agents",
+        "Digital decay detection",
+      ],
+    },
+    process: {
+      tag: "THE PROCESS",
+      title: "Restore and protect.",
+      steps: [
+        {
+          index: "01",
+          title: "Preparation",
+          description: "Removing decay and cleaning the area.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service6/process1`,
+        },
+        {
+          index: "02",
+          title: "Bonding",
+          description: "Layering composite material to fill the cavity.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service6/process2`,
+        },
+        {
+          index: "03",
+          title: "Polishing",
+          description: "Shaping and buffing for a natural finish.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service6/process3`,
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "How long do composite fillings last?",
+        answer: "Typically 7–10 years with good oral hygiene.",
+      },
+      {
+        question: "Will the filling match my tooth?",
+        answer: "Yes, we use a shade guide to match your enamel perfectly.",
+      },
+    ],
+  },
+  {
+    id: 7,
+    slug: "dental-bridges",
+    hero: {
+      title: "Dental Bridges",
+      subtitle:
+        "Durable tooth replacement solutions for function and aesthetics.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/services/service7/thumbnail`,
+    },
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "A dental bridge is a sophisticated solution for replacing one or more missing teeth by 'bridging' the gap between existing teeth. This restoration consists of custom-made crowns for the teeth on either side of the gap, which support the artificial tooth in the middle. Our bridges are crafted from high-grade porcelain or zirconia, providing both the strength needed for chewing and the translucency of natural teeth. Beyond restoring your smile, bridges prevent the remaining teeth from shifting out of position, which can lead to bite problems and jaw pain. We utilize digital impressions to ensure a perfect fit, which is critical for the long-term health of the supporting teeth. The procedure typically involves two visits: one for preparation and a second for the final placement. A well-maintained bridge can last for many years, significantly improving your quality of life and confidence.",
+    },
+    technology: {
+      tag: "TECHNOLOGY",
+      points: [
+        "High-strength Zirconia",
+        "Digital impression scanning",
+        "CAD/CAM manufacturing",
+      ],
+    },
+    process: {
+      tag: "THE PROCESS",
+      title: "Bridging the gap.",
+      steps: [
+        {
+          index: "01",
+          title: "Prep",
+          description: "Preparing anchor teeth for crowns.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service7/process1`,
+        },
+        {
+          index: "02",
+          title: "Impression",
+          description: "Capturing a 3D model for the lab.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service7/process2`,
+        },
+        {
+          index: "03",
+          title: "Fitting",
+          description: "Permanent placement and adjustment.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service7/process3`,
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Can a bridge be replaced?",
+        answer: "Yes, old bridges can be removed and replaced with new ones.",
+      },
+      {
+        question: "Is it hard to clean under a bridge?",
+        answer:
+          "It requires special flossing tools, which we will show you how to use.",
+      },
+    ],
+  },
+  {
+    id: 8,
+    slug: "dental-implants",
+    hero: {
+      title: "Dental Implants",
+      subtitle: "Advanced implant procedures for permanent tooth replacement.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/services/service8/thumbnail`,
+    },
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "Dental implants are widely considered the gold standard for tooth replacement because they replicate the entire structure of a tooth, including the root. By surgically placing a titanium post into the jawbone, we provide a stable foundation for a custom crown. This process, known as osseointegration, allows the bone to grow around the implant, making it a permanent part of your anatomy. Implants offer unparalleled stability, allowing you to eat, speak, and smile with total confidence. They also play a vital role in preventing bone loss in the jaw, which naturally occurs after a tooth is lost. Our clinic uses 3D CT scanning to assess bone volume and plan the surgery with extreme precision. Whether you are missing a single tooth or require a full-mouth reconstruction, implants provide a lifelong solution. They look, feel, and function exactly like your natural teeth.",
+    },
+    technology: {
+      tag: "TECHNOLOGY",
+      points: [
+        "Titanium and Ceramic implants",
+        "CBCT 3D Bone Imaging",
+        "Plasma-rich growth factors",
+      ],
+    },
+    process: {
+      tag: "THE PROCESS",
+      title: "Foundation for a smile.",
+      steps: [
+        {
+          index: "01",
+          title: "Placement",
+          description: "Surgical insertion of the implant post.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service8/process1`,
+        },
+        {
+          index: "02",
+          title: "Healing",
+          description: "Bone integration over several months.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service8/process2`,
+        },
+        {
+          index: "03",
+          title: "Restoration",
+          description: "Attaching the custom permanent crown.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service8/process3`,
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Are implants painful?",
+        answer:
+          "Most patients report less discomfort than a simple extraction.",
+      },
+      {
+        question: "How long do they last?",
+        answer: "With proper care, dental implants can last a lifetime.",
+      },
+    ],
+  },
+  {
+    id: 9,
+    slug: "orthodontic-treatment",
+    hero: {
+      title: "Orthodontic Treatment",
+      subtitle: "Modern alignment solutions for beautifully straight teeth.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/services/service9/thumbnail`,
+    },
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "Orthodontics has evolved far beyond traditional metal braces, offering a variety of discreet and efficient ways to align your teeth. We specialize in both traditional brackets and clear aligner systems like Invisalign, tailored to fit your lifestyle. Straightening your teeth is about more than just a beautiful smile; it also improves oral hygiene by making teeth easier to clean and reduces the risk of TMJ disorders. Our process begins with a comprehensive digital scan to map out every tooth movement before the treatment even begins. This allow us to show you a virtual preview of your final result. We treat patients of all ages, from interceptive orthodontics for children to advanced alignment for adults. Our goal is to achieve perfect occlusion, where the upper and lower teeth meet harmoniously. Every plan is customized to the individual’s facial profile to ensure the most aesthetic and functional outcome.",
+    },
+    technology: {
+      tag: "TECHNOLOGY",
+      points: [
+        "Clear Aligner Therapy",
+        "Self-ligating brackets",
+        "Digital smile simulation",
+      ],
+    },
+    process: {
+      tag: "THE PROCESS",
+      title: "Aligning your future.",
+      steps: [
+        {
+          index: "01",
+          title: "Scanning",
+          description: "Creating a digital map of your bite.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service9/process1`,
+        },
+        {
+          index: "02",
+          title: "Fitting",
+          description: "Applying braces or delivering aligners.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service9/process2`,
+        },
+        {
+          index: "03",
+          title: "Monitoring",
+          description: "Regular adjustments to guide movement.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service9/process3`,
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Am I too old for braces?",
+        answer: "Never! We treat many adults using discreet clear aligners.",
+      },
+      {
+        question: "How long does treatment take?",
+        answer: "Typically 12–24 months, depending on the complexity.",
+      },
+    ],
+  },
+  {
+    id: 10,
+    slug: "root-canal-treatment",
+    hero: {
+      title: "Root Canal Treatment",
+      subtitle: "Precision endodontic care focused on tooth preservation.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/services/service10/thumbnail`,
+    },
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "Root canal treatment is a vital procedure designed to save a tooth that has become severely infected or decayed. Contrary to popular belief, modern root canals are no more uncomfortable than getting a standard filling, thanks to advanced anesthesia and rotary endodontic tools. During the procedure, the infected pulp is carefully removed from the interior of the tooth, and the canals are cleaned, disinfected, and sealed. This eliminates pain and prevents the spread of infection to the surrounding bone. We use high-magnification microscopes to ensure that even the smallest, most complex canals are thoroughly treated. Preserving your natural tooth is always our priority, as it maintains your natural bite and prevents the need for more complex replacements. Following the treatment, a crown is typically placed to restore the tooth's strength. It is a highly successful procedure that can extend the life of your tooth indefinitely.",
+    },
+    technology: {
+      tag: "TECHNOLOGY",
+      points: [
+        "Microscopic Endodontics",
+        "Rotary instrumentation",
+        "Apex locators",
+      ],
+    },
+    process: {
+      tag: "THE PROCESS",
+      title: "Saving the natural tooth.",
+      steps: [
+        {
+          index: "01",
+          title: "Access",
+          description: "Creating a small opening to reach the pulp.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service10/process1`,
+        },
+        {
+          index: "02",
+          title: "Cleaning",
+          description: "Removing infection and shaping canals.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service10/process2`,
+        },
+        {
+          index: "03",
+          title: "Sealing",
+          description: "Filling the space with biocompatible material.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service10/process3`,
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Is a root canal painful?",
+        answer:
+          "No, the procedure actually relieves the pain caused by infection.",
+      },
+      {
+        question: "Will I need a crown after?",
+        answer: "Usually, yes, to protect the tooth from fracturing.",
+      },
+    ],
+  },
+  {
+    id: 11,
+    slug: "tooth-removal",
+    hero: {
+      title: "Tooth Removal",
+      subtitle: "Safe and comfortable extraction procedures.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/services/service11/thumbnail`,
+    },
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "While our primary goal is always to save your natural teeth, there are instances where an extraction is the best option for your overall health. This may be due to severe decay, advanced periodontal disease, or impacted wisdom teeth that threaten the alignment of your smile. We approach every extraction with a focus on 'atraumatic' techniques, which prioritize the preservation of the surrounding bone and tissue. This is especially important if you plan to replace the tooth with a dental implant in the future. We offer various levels of sedation to ensure that the experience is entirely stress-free and painless. Post-operative care is a cornerstone of our service, and we provide detailed instructions to ensure a fast and complication-free recovery. Our team is expert in surgical extractions, including the removal of complex wisdom teeth. We ensure you are fully informed of your replacement options before the procedure begins.",
+    },
+    technology: {
+      tag: "TECHNOLOGY",
+      points: [
+        "Atraumatic extraction tools",
+        "Piezosurgery (ultrasonic bone cutting)",
+        "Sedation dentistry",
+      ],
+    },
+    process: {
+      tag: "THE PROCESS",
+      title: "Gentle extraction.",
+      steps: [
+        {
+          index: "01",
+          title: "Numbing",
+          description: "Ensuring the area is completely insensitive.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service11/process1`,
+        },
+        {
+          index: "02",
+          title: "Extraction",
+          description: "Careful removal of the tooth structure.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service11/process2`,
+        },
+        {
+          index: "03",
+          title: "Aftercare",
+          description: "Clot protection and healing guidance.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service11/process3`,
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "How long is the recovery?",
+        answer: "Most patients feel normal within 3–5 days.",
+      },
+      {
+        question: "What can I eat after?",
+        answer:
+          "Soft foods like yogurt and soup are best for the first 24 hours.",
+      },
+    ],
+  },
+  {
+    id: 12,
+    slug: "cosmetic-dentistry",
+    hero: {
+      title: "Cosmetic Dentistry",
+      subtitle: "Smile-enhancing treatments designed for excellence.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/services/service12/thumbnail`,
+    },
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "Cosmetic dentistry is the art of creating a smile that perfectly complements your unique facial features. We offer a comprehensive suite of aesthetic services, ranging from chair-side teeth whitening to full porcelain veneers. Our process begins with a 'Digital Smile Design,' where we use photography and 3D imaging to simulate your new look before any work is done. This allows for a collaborative approach where you can provide input on the shape, color, and alignment of your teeth. Whether you want to close a gap, fix a chipped tooth, or completely transform your appearance, we use the most advanced materials available. Our veneers are ultra-thin yet incredibly strong, requiring minimal tooth preparation while providing a life-changing result. We focus on 'natural' beauty, ensuring your smile looks healthy and authentic rather than artificial. A beautiful smile is a powerful tool for confidence, and our goal is to help you achieve it.",
+    },
+    technology: {
+      tag: "TECHNOLOGY",
+      points: [
+        "Digital Smile Design (DSD)",
+        "Porcelain Veneer systems",
+        "Laser whitening",
+      ],
+    },
+    process: {
+      tag: "THE PROCESS",
+      title: "Designing your smile.",
+      steps: [
+        {
+          index: "01",
+          title: "Design",
+          description: "Digital simulation of your ideal smile.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service12/process1`,
+        },
+        {
+          index: "02",
+          title: "Prep",
+          description: "Preparing the teeth for restorations.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service12/process2`,
+        },
+        {
+          index: "03",
+          title: "Reveal",
+          description: "Final placement of your custom veneers.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service12/process3`,
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Will veneers look fake?",
+        answer:
+          "Not at all; we customize the translucency to match natural teeth.",
+      },
+      {
+        question: "How long does whitening last?",
+        answer: "Results can last 1–3 years depending on your habits.",
+      },
+    ],
+  },
+  {
+    id: 13,
+    slug: "teeth-cleaning",
+    hero: {
+      title: "Teeth Cleaning",
+      subtitle: "Professional scaling and polishing for hygiene.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/services/service13/thumbnail`,
+    },
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "Professional teeth cleaning, or prophylaxis, is the most effective way to prevent periodontal disease and tooth decay. Even with perfect brushing habits, plaque can harden into tartar (calculus) in hard-to-reach areas, which can only be removed by a dental professional. Our hygiene sessions are comprehensive, involving ultrasonic scaling to remove buildup and airflow polishing to eliminate surface stains from coffee, tea, or tobacco. We also perform a thorough periodontal screening to check for early signs of gum recession or inflammation. Beyond cleaning, our hygienists provide personalized coaching on home care techniques tailored to your specific oral anatomy. This preventive approach is essential for maintaining the health of both your natural teeth and any dental restorations you may have. We recommend a professional cleaning every six months to keep your breath fresh and your smile bright. It is a painless and refreshing experience that forms the foundation of oral wellness.",
+    },
+    technology: {
+      tag: "TECHNOLOGY",
+      points: [
+        "Ultrasonic Scalers",
+        "Airflow stain removal",
+        "Prophy-jet technology",
+      ],
+    },
+    process: {
+      tag: "THE PROCESS",
+      title: "Foundation of health.",
+      steps: [
+        {
+          index: "01",
+          title: "Scaling",
+          description: "Removing tartar from above and below the gumline.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service13/process1`,
+        },
+        {
+          index: "02",
+          title: "Polishing",
+          description: "Smoothing the tooth surface and removing stains.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service13/process2`,
+        },
+        {
+          index: "03",
+          title: "Fluoride",
+          description: "Optional treatment to strengthen enamel.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service13/process3`,
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "How often should I get a cleaning?",
+        answer: "Every six months is standard for most patients.",
+      },
+      {
+        question: "Does scaling hurt?",
+        answer:
+          "No, we use gentle techniques and can apply numbing gel if you are sensitive.",
+      },
+    ],
+  },
+  {
+    id: 14,
+    slug: "laser-dental-treatment",
+    hero: {
+      title: "Laser Dental Treatment",
+      subtitle: "Minimally invasive laser procedures.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/services/service14/thumbnail`,
+    },
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "Laser dentistry represents a significant leap forward in patient comfort and clinical precision. By using focused light energy, we can perform a wide variety of procedures—ranging from cavity preparation to gum contouring—without the need for traditional drills or scalpels. Lasers are incredibly precise, allowing us to target specific areas while leaving the surrounding healthy tissue untouched. One of the greatest benefits of laser treatment is the reduction in bleeding and swelling, as the laser cauterizes and sterilizes the area as it works. This often leads to much faster healing times and a reduced need for local anesthesia. We use lasers to treat gum disease by removing infected tissue and stimulating the regrowth of healthy gums. It is also an excellent tool for treating cold sores and hypersensitivity. For many patients, the absence of the 'drill sound' makes for a much more relaxed and pleasant dental visit. Laser technology is safe, effective, and at the cutting edge of modern care.",
+    },
+    technology: {
+      tag: "TECHNOLOGY",
+      points: [
+        "WaterLase iPlus",
+        "Diode lasers for soft tissue",
+        "Laser-assisted biostimulation",
+      ],
+    },
+    process: {
+      tag: "THE PROCESS",
+      title: "Light-speed healing.",
+      steps: [
+        {
+          index: "01",
+          title: "Calibration",
+          description: "Setting the laser wavelength for your specific needs.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service14/process1`,
+        },
+        {
+          index: "02",
+          title: "Treatment",
+          description: "Applying laser energy to the target area.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service14/process2`,
+        },
+        {
+          index: "03",
+          title: "Recovery",
+          description: "Rapid healing with minimal post-op care.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service14/process3`,
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Are dental lasers safe?",
+        answer:
+          "Yes, they are FDA-approved and very safe when used by trained professionals.",
+      },
+      {
+        question: "Do lasers replace drills entirely?",
+        answer:
+          "For many procedures, yes, but some traditional tools are still needed for certain tasks.",
+      },
+    ],
+  },
+  {
+    id: 15,
+    slug: "tooth-jewellery",
+    hero: {
+      title: "Tooth Jewellery",
+      subtitle: "Add a sparkle to your smile.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/services/service15/thumbnail`,
+    },
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "Tooth jewellery is a safe, painless, and non-invasive cosmetic dental procedure that enhances your smile with a touch of elegance. Small decorative crystals or gems are carefully bonded to the surface of a tooth using dental-grade adhesive without drilling or damaging the enamel. The procedure is quick, reversible, and completely safe when performed by dental professionals. Tooth gems are available in various shapes and designs, allowing patients to personalize their smile according to their style. With proper care and oral hygiene, tooth jewellery can remain securely attached for months or even years while maintaining its sparkle and appearance.",
+    },
+    technology: {
+      tag: "TECHNOLOGY",
+      points: [
+        "Dental-grade crystal bonding",
+        "LED curing technology",
+        "Non-invasive enamel-safe application",
+      ],
+    },
+    process: {
+      tag: "THE PROCESS",
+      title: "Sparkle with confidence.",
+      steps: [
+        {
+          index: "01",
+          title: "Tooth Preparation",
+          description:
+            "The tooth surface is cleaned and prepared for secure bonding.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service15/process1`,
+        },
+        {
+          index: "02",
+          title: "Gem Placement",
+          description:
+            "The selected crystal or jewel is precisely positioned.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service15/process2`,
+        },
+        {
+          index: "03",
+          title: "Light Curing",
+          description:
+            "The jewel is bonded and secured using curing light technology.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service15/process3`,
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does tooth jewellery damage teeth?",
+        answer:
+          "No. The procedure is completely non-invasive and does not damage the tooth enamel.",
+      },
+      {
+        question: "How long does tooth jewellery last?",
+        answer:
+          "With proper care, tooth jewellery can last from several months to several years.",
+      },
+    ],
+  },
+  {
+    id: 16,
+    slug: "clear-aligners",
+    hero: {
+      title: "Clear Aligners",
+      subtitle: "Straighten your smile discreetly.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/services/service16/thumbnail`,
+    },
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "Clear aligners provide a modern alternative to traditional braces for correcting misaligned teeth. These custom-made transparent trays gradually move teeth into their ideal positions while remaining virtually invisible. Aligners are removable, allowing patients to eat, brush, and floss comfortably without restrictions. Digital treatment planning ensures predictable and precise tooth movement, while the smooth plastic design minimizes irritation often associated with metal braces. Clear aligners are ideal for patients seeking a comfortable, aesthetic, and effective orthodontic solution.",
+    },
+    technology: {
+      tag: "TECHNOLOGY",
+      points: [
+        "Digital smile planning",
+        "3D intraoral scanning",
+        "Custom clear aligner fabrication",
+      ],
+    },
+    process: {
+      tag: "THE PROCESS",
+      title: "Transform your smile step by step.",
+      steps: [
+        {
+          index: "01",
+          title: "Digital Scanning",
+          description:
+            "Advanced intraoral scanning creates a precise 3D model of your teeth.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service16/process1`,
+        },
+        {
+          index: "02",
+          title: "Aligner Delivery",
+          description:
+            "Custom aligners are fabricated and provided according to the treatment plan.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service16/process2`,
+        },
+        {
+          index: "03",
+          title: "Progress Monitoring",
+          description:
+            "Regular reviews ensure teeth are moving according to plan.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service16/process3`,
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Are aligners better than braces?",
+        answer:
+          "For many cases, aligners offer a more comfortable and aesthetic alternative to traditional braces.",
+      },
+      {
+        question: "How many hours should I wear aligners daily?",
+        answer:
+          "Aligners should typically be worn for 20–22 hours per day for optimal results.",
+      },
+    ],
+  },
+  {
+    id: 17,
+    slug: "minimally-invasive-technology",
+    hero: {
+      title: "Minimally Invasive Technology",
+      subtitle: "Preserving more of your natural smile.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/services/service17/thumbnail`,
+    },
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "Minimally invasive dentistry focuses on preserving healthy tooth structure while delivering highly effective treatment outcomes. Using advanced diagnostic tools, digital imaging, magnification systems, and precision instruments, we can detect and treat dental concerns at their earliest stages. This approach reduces discomfort, minimizes tissue removal, shortens recovery time, and improves long-term oral health. Patients benefit from gentler procedures that prioritize conservation of natural teeth while maintaining exceptional treatment precision and aesthetics.",
+    },
+    technology: {
+      tag: "TECHNOLOGY",
+      points: [
+        "Digital intraoral scanning",
+        "Microscope-assisted dentistry",
+        "Advanced diagnostic imaging",
+      ],
+    },
+    process: {
+      tag: "THE PROCESS",
+      title: "Precision with preservation.",
+      steps: [
+        {
+          index: "01",
+          title: "Digital Assessment",
+          description:
+            "Comprehensive digital scanning identifies issues with exceptional accuracy.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service17/process1`,
+        },
+        {
+          index: "02",
+          title: "Treatment Planning",
+          description:
+            "Customized treatment plans are developed using advanced digital tools.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service17/process2`,
+        },
+        {
+          index: "03",
+          title: "Precision Treatment",
+          description:
+            "Targeted procedures preserve healthy tissue while addressing concerns effectively.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service17/process3`,
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "What is minimally invasive dentistry?",
+        answer:
+          "It is an approach that aims to preserve as much healthy tooth structure as possible while providing effective treatment.",
+      },
+      {
+        question: "Is recovery faster with minimally invasive procedures?",
+        answer:
+          "Yes, patients often experience less discomfort and faster healing compared to traditional techniques.",
+      },
+    ],
+  },
+  {
+    id: 18,
+    slug: "full-mouth-rehabilitation",
+    hero: {
+      title: "Full Mouth Rehabilitation",
+      subtitle: "Complete restoration of oral function and aesthetics.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/services/service18/thumbnail`,
+    },
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "Full mouth rehabilitation is a comprehensive treatment approach designed for patients with multiple dental concerns affecting function, appearance, and oral health. It combines restorative, cosmetic, and rehabilitative procedures such as crowns, bridges, implants, veneers, and bite correction to rebuild the entire smile. Through careful diagnosis and treatment planning, we restore proper chewing function, improve aesthetics, relieve discomfort, and enhance overall quality of life. Every rehabilitation plan is tailored to the unique needs and goals of the patient.",
+    },
+    technology: {
+      tag: "TECHNOLOGY",
+      points: [
+        "Digital smile design",
+        "Implant-supported restorations",
+        "Comprehensive occlusal analysis",
+      ],
+    },
+    process: {
+      tag: "THE PROCESS",
+      title: "Rebuilding smiles comprehensively.",
+      steps: [
+        {
+          index: "01",
+          title: "Comprehensive Evaluation",
+          description:
+            "Detailed examination, digital scans, and diagnostics establish treatment goals.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service18/process1`,
+        },
+        {
+          index: "02",
+          title: "Treatment Planning",
+          description:
+            "A personalized rehabilitation plan is designed to restore function and aesthetics.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service18/process2`,
+        },
+        {
+          index: "03",
+          title: "Smile Restoration",
+          description:
+            "Advanced restorative procedures are performed to achieve a healthy, confident smile.",
+          image: `${CLOUDINARY_BASE}/rekha-dental/services/service18/process3`,
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Who needs full mouth rehabilitation?",
+        answer:
+          "Patients with extensive tooth wear, missing teeth, bite issues, or multiple dental concerns may benefit from full mouth rehabilitation.",
+      },
+      {
+        question: "How long does full mouth rehabilitation take?",
+        answer:
+          "Treatment duration varies depending on complexity and may range from a few months to over a year.",
+      },
+    ],
+  },
+];
+
+//About Us
+export const milestonesTimeline = {
+  tag: "OUR JOURNEY",
+  title: "Years of trusted dental excellence.",
+
+  items: [
+    {
+      id: "1",
+      year: "2007",
+      title: "The Beginning",
+      description:
+        "Rekha Dental Clinic was established in Ghaziabad with a vision to provide ethical, patient-focused, and modern dental care for families across the city.",
+
+      image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline1`,
+    },
+
+    {
+      id: "2",
+      year: "2010",
+      title: "Advanced Dental Care",
+      description:
+        "The clinic expanded its services to include advanced restorative and cosmetic dentistry with a strong focus on precision and long-term patient care.",
+
+      image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline2`,
+    },
+
+    {
+      id: "3",
+      year: "2013",
+      title: "Specialized Expertise",
+      description:
+        "With experienced specialists joining the practice, Rekha Dental Clinic strengthened its expertise in oral medicine, radiology, root canal treatments, and smile restoration.",
+
+      image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline3`,
+    },
+
+    {
+      id: "4",
+      year: "2016",
+      title: "Implant And Laser Dentistry",
+      description:
+        "The clinic introduced modern implantology and laser dental procedures, offering minimally invasive treatments with faster healing and greater comfort.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline4`,
+    },
+
+    {
+      id: "5",
+      year: "2020",
+      title: "Technology Expansion",
+      description:
+        "Digital diagnostics, advanced imaging systems, and modern treatment protocols were integrated to deliver safer, faster, and more accurate dental solutions.",
+
+      image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline5`,
+    },
+
+    {
+      id: "6",
+      year: "2025",
+      title: "A Trusted Name in Ghaziabad",
+      description:
+        "Today, Rekha Dental Clinic continues to serve patients across Ghaziabad with comprehensive dental care, compassionate treatment, and a commitment to clinical excellence.",
+
+      image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline6`,
+    },
+  ],
+};
+
+export const accreditationsData = {
+  tag: "ACCREDITATIONS",
+  title: "Recognized by those who set the standard.",
+  items: [
+    `${CLOUDINARY_BASE}/rekha-dental/certificates/certificate1`,
+    `${CLOUDINARY_BASE}/rekha-dental/certificates/certificate2`,
+    `${CLOUDINARY_BASE}/rekha-dental/certificates/certificate3`,
+    `${CLOUDINARY_BASE}/rekha-dental/certificates/certificate4`,
+  ],
+};
+
+// Doctor Page
+export const aboutStatsData = [
+  {
+    value: "14",
+    label: "Years of Practice",
+  },
+  {
+    value: "8400+",
+    label: "Smiles Restored",
+  },
+  {
+    value: "12000+",
+    label: "Implants Placed",
+  },
+  {
+    value: "99.2%",
+    label: "Success Rate",
+  },
+];
+
+export const doctorGauravDetails = {
+  qualifications: [
+    "BDS — DJ College of Dental Sciences & Research, Modinagar",
+    "MDS — Institute of Dental Sciences & Technologies",
+    "14+ Years of Clinical Practice",
+    "Director — Rekha Dental Clinic & Implant Center",
+  ],
+
+  languages: ["English", "Hindi"],
+
+  practiceAreas: [
+    "Root Canal Treatment",
+    "Dental Implants",
+    "Crown & Bridge",
+    "Laser Dentistry",
+    "Esthetic Fillings",
+    "Smile Rehabilitation",
+  ],
+
+  memberships: [
+    "Indian Dental Association (IDA)",
+    "IAOMR — Indian Academy of Oral Medicine & Radiology",
+    "ISOI — Indian Society of Oral Implantologists",
+    "Founder of AIHWA",
+  ],
+};
+
+export const doctorDetailsMamta = {
+  qualifications: [
+    "BDS — King George’s Medical College (KGMC), Lucknow",
+    "MDS — Nair Government Hospital, Mumbai",
+    "Specialization in Oral Medicine & Radiology",
+    "10+ Years of Clinical Experience",
+  ],
+
+  languages: ["English", "Hindi"],
+
+  practiceAreas: [
+    "Implant Dentistry",
+    "Cosmetic Dentistry",
+    "Oral Lesions & Ulcers",
+    "Precancerous Oral Lesions",
+    "Laser Dentistry",
+    "Comprehensive Oral Diagnosis",
+  ],
+
+  memberships: [
+    "Director — Rekha Dental, Laser & Implant Center",
+    "Former Associate Professor — Govt. Dental College, Aurangabad",
+    "Former Senior Lecturer — ITS Dental College",
+  ],
+};
+
+export const reviewsData = [
+  {
+    review:
+      "From the welcome to the recovery, every detail felt considered. The result is so natural I forget it isn't my own.",
+    author: "Karan Kapoor",
+    subtitle: "Full Arch Implants",
+    rating: 5,
+  },
+  {
+    review:
+      "The technology is breathtaking, but it is the calm of the team that I remember most.",
+    author: "Ritika Singh",
+    subtitle: "Robotic Scanning",
+    rating: 5,
+  },
+  {
+    review:
+      "Dr. Gaurav turned what I dreaded into a moment my daughter actually looks forward to.",
+    author: "Abhishek Singh",
+    subtitle: "Pediatric Care · Age 1",
+    rating: 5,
+  },
+];
+
+// Gallery Images
+export const galleryImages = [
+  {
+    id: 1,
+    image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline1`,
+    category: "facility",
+    alt: "Luxury dental clinic reception area",
+  },
+  {
+    id: 2,
+    image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline2`,
+    category: "facility",
+    alt: "Premium dental treatment room",
+  },
+  {
+    id: 3,
+    image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline3`,
+    category: "facility",
+    alt: "Dental Facilities",
+  },
+  {
+    id: 4,
+    image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline4`,
+    category: "facility",
+    alt: "Our Team",
+  },
+  {
+    id: 5,
+    image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline5`,
+    category: "facility",
+    alt: "Our facilities",
+  },
+  {
+    id: 6,
+    image: `${CLOUDINARY_BASE}/rekha-dental/clinic/clinic1`,
+    category: "facility",
+    alt: "Clinic",
+  },
+  {
+    id: 7,
+    image: `${CLOUDINARY_BASE}/rekha-dental/clinic/clinic2`,
+    category: "facility",
+    alt: "Clinic",
+  },
+  {
+    id: 8,
+    image: `${CLOUDINARY_BASE}/rekha-dental/clinic/clinic3`,
+    category: "facility",
+    alt: "Clinic",
+  },
+  {
+    id: 9,
+    image: `${CLOUDINARY_BASE}/rekha-dental/clinic/clinic4`,
+    category: "facility",
+    alt: "Clinic",
+  },
+  {
+    id: 10,
+    image: `${CLOUDINARY_BASE}/rekha-dental/clinic/clinic5`,
+    category: "facility",
+    alt: "Clinic",
+  },
+
+  {
+    id: 11,
+    image: `${CLOUDINARY_BASE}/rekha-dental/gallery/technology-1`,
+    category: "technology",
+    alt: "Advanced dental scanning equipment",
+  },
+  {
+    id: 12,
+    image: `${CLOUDINARY_BASE}/rekha-dental/gallery/technology-2`,
+    category: "technology",
+    alt: "3D dental imaging technology",
+  },
+  {
+    id: 13,
+    image: `${CLOUDINARY_BASE}/rekha-dental/gallery/technology-3`,
+    category: "technology",
+    alt: "Modern dental instruments setup",
+  },
+  {
+    id: 14,
+    image: `${CLOUDINARY_BASE}/rekha-dental/gallery/technology-4`,
+    category: "technology",
+    alt: "Modern dental instruments setup",
+  },
+  {
+    id: 15,
+    image: `${CLOUDINARY_BASE}/rekha-dental/gallery/technology-5`,
+    category: "technology",
+    alt: "Modern dental instruments setup",
+  },
+  {
+    id: 16,
+    image: `${CLOUDINARY_BASE}/rekha-dental/gallery/technology-6`,
+    category: "technology",
+    alt: "Modern dental instruments setup",
+  },
+
+  {
+    id: 17,
+    image: `${CLOUDINARY_BASE}/rekha-dental/current/current1`,
+    category: "smiles",
+    alt: "Patient smile transformation",
+  },
+  {
+    id: 18,
+    image: `${CLOUDINARY_BASE}/rekha-dental/current/current2`,
+    category: "smiles",
+    alt: "Confident patient after treatment",
+  },
+  {
+    id: 19,
+    image: `${CLOUDINARY_BASE}/rekha-dental/current/current3`,
+    category: "smiles",
+    alt: "Workshop",
+  },
+  {
+    id: 20,
+    image: `${CLOUDINARY_BASE}/rekha-dental/smiles/smile1`,
+    category: "smiles",
+    alt: "Happy Patient",
+  },
+  {
+    id: 21,
+    image: `${CLOUDINARY_BASE}/rekha-dental/smiles/smile2`,
+    category: "smiles",
+    alt: "Smiles",
+  },
+  {
+    id: 22,
+    image: `${CLOUDINARY_BASE}/rekha-dental/smiles/smile3`,
+    category: "smiles",
+    alt: "Happy Patient",
+  },
+  {
+    id: 23,
+    image: `${CLOUDINARY_BASE}/rekha-dental/smiles/smile4`,
+    category: "smiles",
+    alt: "Little Smile",
+  },
+  {
+    id: 24,
+    image: `${CLOUDINARY_BASE}/rekha-dental/smiles/smile5`,
+    category: "smiles",
+    alt: "Live Training",
+  },
+  {
+    id: 25,
+    image: `${CLOUDINARY_BASE}/rekha-dental/current/current5`,
+    category: "smiles",
+    alt: "Beautiful smile makeover result",
+  },
+
+  {
+    id: 26,
+    image: `${CLOUDINARY_BASE}/rekha-dental/events/event1`,
+    category: "events",
+    alt: "Dental awareness event",
+  },
+  {
+    id: 27,
+    image: `${CLOUDINARY_BASE}/rekha-dental/events/event2`,
+    category: "events",
+    alt: "Clinic celebration moment",
+  },
+  {
+    id: 28,
+    image: `${CLOUDINARY_BASE}/rekha-dental/events/event3`,
+    category: "events",
+    alt: "Professional dental seminar",
+  },
+  {
+    id: 29,
+    image: `${CLOUDINARY_BASE}/rekha-dental/events/event4`,
+    category: "events",
+    alt: "Certification",
+  },
+  {
+    id: 30,
+    image: `${CLOUDINARY_BASE}/rekha-dental/events/event5`,
+    category: "events",
+    alt: "Professional dental seminar",
+  },
+  {
+    id: 31,
+    image: `${CLOUDINARY_BASE}/rekha-dental/events/event6`,
+    category: "events",
+    alt: "Certification",
+  },
+  {
+    id: 32,
+    image: `${CLOUDINARY_BASE}/rekha-dental/smiles/smile5`,
+    category: "smiles",
+    alt: "Happy Patient",
+  },
+  {
+    id: 33,
+    image: `${CLOUDINARY_BASE}/rekha-dental/events/event8`,
+    category: "events",
+    alt: "Events",
+  },
+  {
+    id: 34,
+    image: `${CLOUDINARY_BASE}/rekha-dental/events/event9`,
+    category: "events",
+    alt: "Events",
+  },
+];
+
+//Landing page
+export const pillars = [
+  {
+    id: 1,
+    title: "AI-Guided Diagnostics",
+    description:
+      "Advanced 3D imaging and precision diagnostics designed to create highly personalized treatment plans.",
+    icon: <ScanOutlined />,
+    number: "01",
+  },
+  {
+    id: 2,
+    title: "Specialist-Only Care",
+    description:
+      "Every procedure is handled by experienced specialists focused exclusively on their area of expertise.",
+    icon: <TrophyOutlined />,
+    number: "02",
+  },
+  {
+    id: 3,
+    title: "Lifetime Aftercare",
+    description:
+      "Long-term guidance, transparent follow-ups, and continued support beyond treatment completion.",
+    icon: <SafetyCertificateOutlined />,
+    number: "03",
+  },
+  {
+    id: 4,
+    title: "Private Atelier Experience",
+    description:
+      "Calm interiors, discreet appointments, and an elevated clinical atmosphere centered around comfort.",
+    icon: <StarOutlined />,
+    number: "04",
+  },
+];
+
+//Academy Page
+export const academyCourses = [
+  {
+    title: "General Dentistry Course",
+    slug: "general-dentistry-course",
+    image: `${CLOUDINARY_BASE}/rekha-dental/courses/course1`,
+    description:
+      "Learn the fundamentals of clinical dentistry including diagnosis, treatment planning, restorative procedures, and patient management.",
+  },
+  {
+    title: "Endodontic Course",
+    slug: "endodontic-course",
+    image: `${CLOUDINARY_BASE}/rekha-dental/courses/course2`,
+    description:
+      "Master root canal procedures, rotary endodontics, access preparation, obturation techniques, and endodontic case management.",
+  },
+  {
+    title: "Prosthodontics Course",
+    slug: "prosthodontics-course",
+    image: `${CLOUDINARY_BASE}/rekha-dental/courses/course3`,
+    description:
+      "Gain hands-on experience in crowns, bridges, dentures, smile rehabilitation, and fixed prosthodontic procedures.",
+  },
+  {
+    title: "Oral Surgery Course",
+    slug: "oral-surgery-course",
+    image: `${CLOUDINARY_BASE}/rekha-dental/courses/course4`,
+    description:
+      "Understand surgical extractions, flap design, suturing techniques, impaction management, and minor oral surgical procedures.",
+  },
+  {
+    title: "Basic Implant Course",
+    slug: "basic-implant-course",
+    image: `${CLOUDINARY_BASE}/rekha-dental/courses/course5`,
+    description:
+      "An introductory implantology course covering implant planning, placement protocols, instruments, and restorative basics.",
+  },
+  {
+    title: "Complete Implant Course",
+    slug: "complete-implant-course",
+    image: `${CLOUDINARY_BASE}/rekha-dental/courses/course6`,
+    description:
+      "Comprehensive implant training with advanced surgical protocols, sinus lift concepts, prosthetic workflows, and live cases.",
+  },
+  {
+    title: "Radiology (CBCT) Course",
+    slug: "radiology-cbct-course",
+    image: `${CLOUDINARY_BASE}/rekha-dental/courses/course7`,
+    description:
+      "Learn CBCT interpretation, radiographic diagnosis, imaging protocols, and digital treatment planning for modern dentistry.",
+  },
+  {
+    title: "Esthetic Dentistry",
+    slug: "esthetic-dentistry-course",
+    image: `${CLOUDINARY_BASE}/rekha-dental/courses/course8`,
+    description:
+      "Explore smile designing, veneers, teeth whitening, composite artistry, and minimally invasive cosmetic dental procedures.",
+  },
+  {
+    title: "Orthodontic Course",
+    slug: "orthodontic-course",
+    image: `${CLOUDINARY_BASE}/rekha-dental/courses/course9`,
+    description:
+      "Study orthodontic diagnosis, treatment planning, wire bending basics, aligners, and fixed appliance mechanics.",
+  },
+  {
+    title: "Laser Course",
+    slug: "laser-dentistry-course",
+    image: `${CLOUDINARY_BASE}/rekha-dental/courses/course10`,
+    description:
+      "Get trained in dental laser applications for soft tissue procedures, periodontal therapy, pain management, and esthetics.",
+  },
+];
+
+export const commonCourseFaqs = [
+  {
+    question: "Who can enroll in this course?",
+    answer:
+      "The course is designed for dental students, interns, and practicing dentists looking to enhance their clinical skills.",
+  },
+  {
+    question: "Will I receive a certificate after completion?",
+    answer:
+      "Yes, participants receive a certificate of completion upon successfully finishing the course.",
+  },
+];
+
+export const commonCourseBenefits = {
+  tag: "WHAT YOU WILL GAIN",
+  points: [
+    "Hands-on clinical exposure",
+    "Real patient case discussions",
+    "Expert mentorship",
+    "Certificate of completion",
+    "Practical treatment planning skills",
+    "Enhanced clinical confidence",
+  ],
+};
+
+export const courseDetails = [
+  {
+    slug: "general-dentistry-course",
+
+    hero: {
+      title: "General Dentistry Course",
+      subtitle:
+        "Build a strong foundation in modern clinical dentistry.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/courses/course1`,
+    },
+
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "This comprehensive course covers the essential principles of diagnosis, treatment planning, restorative procedures, preventive dentistry, and patient management. Participants gain practical insights into day-to-day clinical dentistry and develop confidence in managing routine dental cases.",
+    },
+
+    curriculum: {
+      tag: "CURRICULUM",
+      points: [
+        "Comprehensive Oral Examination",
+        "Diagnosis & Treatment Planning",
+        "Restorative Procedures",
+        "Preventive Dentistry",
+        "Patient Communication",
+        "Clinical Case Discussions",
+      ],
+    },
+
+    benefits: commonCourseBenefits,
+    faqs: commonCourseFaqs,
+  },
+
+  {
+    slug: "endodontic-course",
+
+    hero: {
+      title: "Endodontic Course",
+      subtitle:
+        "Master modern root canal treatment techniques.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/courses/course2`,
+    },
+
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "Designed for dentists seeking expertise in endodontics, this course focuses on diagnosis, access cavity preparation, rotary instrumentation, obturation techniques, and management of complex root canal cases.",
+    },
+
+    curriculum: {
+      tag: "CURRICULUM",
+      points: [
+        "Endodontic Diagnosis",
+        "Access Preparation",
+        "Rotary Endodontics",
+        "Working Length Determination",
+        "Obturation Techniques",
+        "Management of Difficult Cases",
+      ],
+    },
+
+    benefits: commonCourseBenefits,
+    faqs: commonCourseFaqs,
+  },
+
+  {
+    slug: "prosthodontics-course",
+
+    hero: {
+      title: "Prosthodontics Course",
+      subtitle:
+        "Restore function, aesthetics, and confidence.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/courses/course3`,
+    },
+
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "Gain practical experience in crowns, bridges, dentures, fixed prosthodontics, and smile rehabilitation. Learn modern restorative workflows and treatment planning strategies.",
+    },
+
+    curriculum: {
+      tag: "CURRICULUM",
+      points: [
+        "Crown Preparation",
+        "Bridge Design",
+        "Complete Dentures",
+        "Partial Dentures",
+        "Smile Rehabilitation",
+        "Occlusion Principles",
+      ],
+    },
+
+    benefits: commonCourseBenefits,
+    faqs: commonCourseFaqs,
+  },
+
+  {
+    slug: "oral-surgery-course",
+
+    hero: {
+      title: "Oral Surgery Course",
+      subtitle:
+        "Develop confidence in surgical dental procedures.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/courses/course4`,
+    },
+
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "This course introduces participants to oral surgical procedures including extractions, flap design, suturing techniques, impaction management, and post-operative care.",
+    },
+
+    curriculum: {
+      tag: "CURRICULUM",
+      points: [
+        "Surgical Extractions",
+        "Flap Design",
+        "Suturing Techniques",
+        "Impaction Management",
+        "Post-operative Care",
+        "Minor Oral Surgery",
+      ],
+    },
+
+    benefits: commonCourseBenefits,
+    faqs: commonCourseFaqs,
+  },
+
+  {
+    slug: "basic-implant-course",
+
+    hero: {
+      title: "Basic Implant Course",
+      subtitle:
+        "Start your journey into implant dentistry.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/courses/course5`,
+    },
+
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "An introductory implantology course covering treatment planning, implant placement concepts, instrumentation, and restorative basics for beginners.",
+    },
+
+    curriculum: {
+      tag: "CURRICULUM",
+      points: [
+        "Implant Basics",
+        "Case Selection",
+        "Treatment Planning",
+        "Surgical Protocols",
+        "Implant Instruments",
+        "Restorative Concepts",
+      ],
+    },
+
+    benefits: commonCourseBenefits,
+    faqs: commonCourseFaqs,
+  },
+
+  {
+    slug: "complete-implant-course",
+
+    hero: {
+      title: "Complete Implant Course",
+      subtitle:
+        "Comprehensive implantology from planning to restoration.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/courses/course6`,
+    },
+
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "An advanced implant training program featuring surgical placement, prosthetic workflows, bone augmentation concepts, and live clinical cases.",
+    },
+
+    curriculum: {
+      tag: "CURRICULUM",
+      points: [
+        "Advanced Implant Planning",
+        "Surgical Placement",
+        "Bone Augmentation Concepts",
+        "Immediate Loading",
+        "Prosthetic Workflows",
+        "Live Cases",
+      ],
+    },
+
+    benefits: commonCourseBenefits,
+    faqs: commonCourseFaqs,
+  },
+
+  {
+    slug: "radiology-cbct-course",
+
+    hero: {
+      title: "Radiology (CBCT) Course",
+      subtitle:
+        "Master dental imaging and radiographic diagnosis.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/courses/course7`,
+    },
+
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "Learn CBCT interpretation, digital imaging workflows, radiographic diagnosis, and treatment planning using modern radiology techniques.",
+    },
+
+    curriculum: {
+      tag: "CURRICULUM",
+      points: [
+        "CBCT Interpretation",
+        "Radiographic Anatomy",
+        "Diagnostic Imaging",
+        "Pathology Identification",
+        "Implant Planning",
+        "Digital Workflow Integration",
+      ],
+    },
+
+    benefits: commonCourseBenefits,
+    faqs: commonCourseFaqs,
+  },
+
+  {
+    slug: "esthetic-dentistry-course",
+
+    hero: {
+      title: "Esthetic Dentistry Course",
+      subtitle:
+        "Create beautiful smiles with modern cosmetic dentistry.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/courses/course8`,
+    },
+
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "Explore smile design principles, veneers, whitening procedures, composite artistry, and minimally invasive cosmetic treatments.",
+    },
+
+    curriculum: {
+      tag: "CURRICULUM",
+      points: [
+        "Smile Design",
+        "Composite Bonding",
+        "Teeth Whitening",
+        "Veneers",
+        "Facial Aesthetics",
+        "Case Planning",
+      ],
+    },
+
+    benefits: commonCourseBenefits,
+    faqs: commonCourseFaqs,
+  },
+
+  {
+    slug: "orthodontic-course",
+
+    hero: {
+      title: "Orthodontic Course",
+      subtitle:
+        "Learn the fundamentals of tooth movement and alignment.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/courses/course9`,
+    },
+
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "This course covers orthodontic diagnosis, treatment planning, aligners, fixed appliance therapy, and essential biomechanics.",
+    },
+
+    curriculum: {
+      tag: "CURRICULUM",
+      points: [
+        "Orthodontic Diagnosis",
+        "Treatment Planning",
+        "Aligners",
+        "Wire Bending",
+        "Fixed Appliances",
+        "Biomechanics",
+      ],
+    },
+
+    benefits: commonCourseBenefits,
+    faqs: commonCourseFaqs,
+  },
+
+  {
+    slug: "laser-dentistry-course",
+
+    hero: {
+      title: "Laser Dentistry Course",
+      subtitle:
+        "Discover the future of minimally invasive dental care.",
+      image: `${CLOUDINARY_BASE}/rekha-dental/courses/course10`,
+    },
+
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "Gain expertise in dental laser applications for soft tissue procedures, periodontal therapy, pain management, and aesthetic treatments.",
+    },
+
+    curriculum: {
+      tag: "CURRICULUM",
+      points: [
+        "Laser Physics",
+        "Soft Tissue Applications",
+        "Periodontal Therapy",
+        "Pain Management",
+        "Aesthetic Procedures",
+        "Clinical Protocols",
+      ],
+    },
+
+    benefits: commonCourseBenefits,
+    faqs: commonCourseFaqs,
+  },
+];
+export const alumniReviewsData = [
+  {
+    review:
+      "The hands-on implant sessions completely changed my confidence in clinical practice. The mentorship was exceptional throughout.",
+    author: "Dr. Aarav Mehta",
+    subtitle: "Complete Implant Course",
+    rating: 5,
+  },
+  {
+    review:
+      "Unlike conventional workshops, this academy focused heavily on live patient exposure and real-world decision making.",
+    author: "Dr. Raman Saxena",
+    subtitle: "Endodontic Course",
+    rating: 5,
+  },
+  {
+    review:
+      "The faculty were approachable, detail-oriented, and deeply invested in every participant’s growth.",
+    author: "Dr. Rohan Kapoor",
+    subtitle: "Esthetic Dentistry",
+    rating: 5,
+  },
+  {
+    review:
+      "The CBCT training helped me integrate advanced radiology into my clinic immediately after the program.",
+    author: "Dr. Karan Singh",
+    subtitle: "Radiology (CBCT) Course",
+    rating: 5,
+  },
+  {
+    review:
+      "Every session balanced theory with practical execution beautifully. It felt more like mentorship than a course.",
+    author: "Dr. Ishaan Verma",
+    subtitle: "Basic Implant Course",
+    rating: 5,
+  },
+  {
+    review:
+      "The orthodontic module was incredibly structured and clinically relevant. I left with techniques I now use daily.",
+    author: "Dr. Raj Singh",
+    subtitle: "Orthodontic Course",
+    rating: 5,
+  },
+];
+
+export const academyFaqData = [
+  {
+    question: "Who is eligible to enroll?",
+    answer:
+      "Our programs are designed for dental students, fresh graduates, practicing dentists, and clinicians looking to upgrade their clinical expertise.",
+  },
+  {
+    question: "How long are the courses?",
+    answer:
+      "Course durations vary depending on the program. Short-term workshops may last a few days, while advanced clinical programs can extend over several weeks.",
+  },
+  {
+    question: "What are the fees?",
+    answer:
+      "Fees differ based on the course structure, clinical exposure, and specialization. Detailed fee information is shared during the consultation and enrollment process.",
+  },
+  {
+    question: "What certification do I receive?",
+    answer:
+      "Participants receive an academy certification upon successful completion of the course, recognizing their practical and theoretical training.",
+  },
+  {
+    question: "Is accommodation provided?",
+    answer:
+      "Yes, we assist outstation and international participants with accommodation recommendations and nearby stay arrangements for a comfortable learning experience.",
+  },
+  {
+    question: "Will I work on real patients?",
+    answer:
+      "Selected advanced programs include supervised live patient exposure, allowing participants to gain real clinical experience under expert mentorship.",
+  },
+];
+
+export const aluminiData = [
+  {
+    id: 1,
+    image: `${CLOUDINARY_BASE}/rekha-dental/events/event1`,
+    title: "Annual Alumni Meet 2025",
+    description:
+      "Graduates and faculty reunited for an evening of networking, memories, and discussions about the future of modern dentistry.",
+  },
+  {
+    id: 2,
+    image:`${CLOUDINARY_BASE}/rekha-dental/events/event2`,
+    title: "Advanced Implantology Workshop",
+    description:
+      "Alumni participated in a hands-on implantology session led by experienced dental surgeons and international mentors.",
+  },
+  {
+    id: 3,
+    image: `${CLOUDINARY_BASE}/rekha-dental/events/event3`,
+    title: "Dental Health Live Workshop",
+    description:
+      "Former professionals collaborated to demonstrate dental procedures live to showcase advanced dentistry practices.",
+  },
+  {
+    id: 4,
+    image: `${CLOUDINARY_BASE}/rekha-dental/events/event4`,
+    title: "Certification",
+    description:
+      "Alumni researchers presented innovative studies and clinical advancements in restorative and cosmetic dentistry.",
+  },
+  {
+    id: 5,
+    image: `${CLOUDINARY_BASE}/rekha-dental/events/event5`,
+    title: "Achievements",
+    description:
+      "A proud moment celebrating the achievements of dental professionals and their journey.",
+  },
+];
+
+export const currentBatchData = [
+  {
+    id: 1,
+    image: `${CLOUDINARY_BASE}/rekha-dental/academyBanner`,
+    title: "Chairside Clinical Observation Session",
+    description:
+      "Students observed live patient examinations under expert supervision, gaining practical exposure to diagnosis, communication, and clinical workflow.",
+  },
+  {
+    id: 2,
+    image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline3`,
+    title: "Advanced Live Patient Demonstration",
+    description:
+      "Faculty-led demonstrations allowed students to closely understand treatment planning, patient assessment, and precision-based clinical procedures.",
+  },
+  {
+    id: 3,
+    image: `${CLOUDINARY_BASE}/rekha-dental/current/current3`,
+    title: "Oral Healthcare Awareness Drive",
+    description:
+      "Students conducted an awareness campaign promoting preventive dental care and oral hygiene practices within local communities.",
+  },
+  {
+    id: 4,
+    image: `${CLOUDINARY_BASE}/rekha-dental/current/current4`,
+    title: "Pre-Clinical Simulation Workshop",
+    description:
+      "Hands-on simulation exercises helped students build confidence in restorative techniques, patient handling, and procedural accuracy.",
+  },
+  {
+    id: 5,
+    image: `${CLOUDINARY_BASE}/rekha-dental/academy/academy2`,
+    title: "Interactive Clinical Mentorship Program",
+    description:
+      "Students participated in real-time mentorship sessions featuring live patient evaluations, case discussions, and guided clinical learning experiences.",
+  },
+];
+
+export const academyActivities = [
+  {
+    id: 1,
+    title: "Live Implant Demonstration",
+    subtitle:
+      "Hands-on implant placement training conducted under expert supervision.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/extra/extra1`,
+  },
+  {
+    id: 2,
+    title: "Advanced Endodontic Workshop",
+    subtitle:
+      "Practical training focused on modern root canal treatment techniques.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/extra/extra2`,
+  },
+  {
+    id: 3,
+    title: "Clinical Case Discussion",
+    subtitle:
+      "Interactive learning sessions covering complex restorative cases and treatment planning.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/extra/extra3`,
+  },
+
+];
+//Tourism Page
+export const medicalTourismBenefits = [
+  {
+    id: 1,
+    title: "70% More Affordable",
+    description:
+      "World-class dentistry at a fraction of US, UK and Australian prices — without compromise.",
+    icon: <PercentageOutlined />,
+    number: "01",
+  },
+  {
+    id: 2,
+    title: "Internationally Trained",
+    description:
+      "Dentists with degrees and fellowships from Karolinska, NYU, King's College and beyond.",
+    icon: <TrophyOutlined />,
+    number: "02",
+  },
+  {
+    id: 3,
+    title: "Advanced Technology",
+    description:
+      "Robotic scanning, CBCT, digital smile design and 3D-printed surgical guides.",
+    icon: <ExperimentOutlined />,
+    number: "03",
+  },
+  {
+    id: 4,
+    title: "ISO Hygiene Standards",
+    description:
+      "Hospital-grade sterilization with autoclave-validated protocols on every instrument.",
+    icon: <SafetyCertificateOutlined />,
+    number: "04",
+  },
+  {
+    id: 5,
+    title: "English-Speaking Team",
+    description:
+      "Every clinician and concierge fluent in English — translators on request.",
+    icon: <GlobalOutlined />,
+    number: "05",
+  },
+  {
+    id: 6,
+    title: "Compressed Timelines",
+    description:
+      "Treatments completed in a single trip — implants, veneers and full-arch restorations.",
+    icon: <ClockCircleOutlined />,
+    number: "06",
+  },
+];
+
+export const dentalCostComparison = [
+  {
+    category: "General Dentistry",
+    treatments: [
+      {
+        procedure: "Teeth Cleaning",
+        india: "$15 - $30",
+        us: "$180 - $220",
+      },
+      {
+        procedure: "Scaling & Root Planing",
+        india: "$10 - $20",
+        us: "$150 - $250",
+      },
+      {
+        procedure: "Root Canal Treatment",
+        india: "$30 - $50",
+        us: "$1000 - $1300",
+      },
+      {
+        procedure: "Composite Filling",
+        india: "$15 - $25",
+        us: "$200 - $300",
+      },
+      {
+        procedure: "Regular Tooth Extraction",
+        india: "$10 - $20",
+        us: "$250 - $350",
+      },
+      {
+        procedure: "Surgical Tooth Extraction",
+        india: "$25 - $40",
+        us: "$600 - $700",
+      },
+      {
+        procedure: "Wisdom Tooth Extraction",
+        india: "$30 - $50",
+        us: "$750 - $850",
+      },
+    ],
+  },
+
+  {
+    category: "Dental Implants",
+    treatments: [
+      {
+        procedure: "Titanium Implant with Abutment or Crown",
+        india: "$200 - $700",
+        us: "$4500 - $6500",
+      },
+      {
+        procedure: "Zirconium Implant with Abutment",
+        india: "$150 - $250",
+        us: "$5500 - $6500",
+      },
+      {
+        procedure: "Same-Day Implant with Crown",
+        india: "$200 - $400",
+        us: "$5000 - $7000",
+      },
+      {
+        procedure: "All on 4 / All on 6 Dental Implants with Fixed Bridge",
+        india: "$1500 - $2000",
+        us: "$25000 - $30000",
+      },
+    ],
+  },
+
+  {
+    category: "Dental Crowns & Bridges",
+    treatments: [
+      {
+        procedure: "CAD/CAM PFM Crown",
+        india: "$80 - $150",
+        us: "$1000 - $1500",
+      },
+      {
+        procedure: "Only Porcelain Crown",
+        india: "$30 - $60",
+        us: "$1700 - $2000",
+      },
+      {
+        procedure: "CAD/CAM Ceramic Crown",
+        india: "$70 - $100",
+        us: "$1000 - $2000",
+      },
+      {
+        procedure: "Zirconia Crown",
+        india: "$70 - $100",
+        us: "$1500 - $2500",
+      },
+      {
+        procedure: "PFM Bridge",
+        india: "$100 - $150",
+        us: "$3000 - $3500",
+      },
+      {
+        procedure: "All Ceramic Bridge",
+        india: "$150 - $200",
+        us: "$4200 - $4700",
+      },
+      {
+        procedure: "Only Porcelain Bridge",
+        india: "$50 - $100",
+        us: "$5200 - $5500",
+      },
+    ],
+  },
+
+  {
+    category: "Dental Veneers",
+    treatments: [
+      {
+        procedure: "Composite Veneer",
+        india: "$30 - $50",
+        us: "$800 - $1000",
+      },
+      {
+        procedure: "Porcelain Veneer",
+        india: "$80 - $120",
+        us: "$2000 - $3000",
+      },
+      {
+        procedure: "Ceramic Veneer",
+        india: "$50 - $100",
+        us: "$2000 - $2500",
+      },
+    ],
+  },
+
+  {
+    category: "Orthodontic Treatments",
+    treatments: [
+      {
+        procedure: "Metal Braces",
+        india: "$250 - $350",
+        us: "$2800 - $3200",
+      },
+      {
+        procedure: "Ceramic Braces",
+        india: "$300 - $400",
+        us: "$3800 - $4500",
+      },
+      {
+        procedure: "Lingual Braces",
+        india: "$550 - $650",
+        us: "$7500 - $8500",
+      },
+      {
+        procedure: "Clear Aligners",
+        india: "$600 - $2500",
+        us: "$2500 - $3500",
+      },
+    ],
+  },
+
+  {
+    category: "Teeth Whitening",
+    treatments: [
+      {
+        procedure: "Laser Teeth Whitening",
+        india: "$20 - $50",
+        us: "$1200 - $1700",
+      },
+    ],
+  },
+];
+
+export const steps = [
+  {
+    id: "01",
+    title: "Consultation",
+    description: "Share records or photos. We respond within 24 hours.",
+    icon: FiMessageSquare,
+  },
+  {
+    id: "02",
+    title: "Treatment Plan",
+    description: "Personalized written plan with exact costs and timeline.",
+    icon: FiClipboard,
+  },
+  {
+    id: "03",
+    title: "Travel",
+    description: "We arrange visa support, flights and hotel partners.",
+    icon: FiMapPin,
+  },
+  {
+    id: "04",
+    title: "Treatment",
+    description: "Compressed sessions with same-day digital workflows.",
+    icon: FiActivity,
+  },
+  {
+    id: "05",
+    title: "Recovery",
+    description: "Quiet stay with daily follow-ups and concierge support.",
+    icon: FiHeart,
+  },
+  {
+    id: "06",
+    title: "Follow-Up",
+    description: "Lifetime virtual aftercare in your time zone.",
+    icon: FiRefreshCw,
+  },
+];
+
+export const tourismReviews = [
+  {
+    review:
+      "From airport pickup to the final smile makeover, everything was organized flawlessly. The treatment quality exceeded my expectations.",
+    author: "James Walker",
+    subtitle: "Patient from United States",
+    rating: 5,
+  },
+  {
+    review:
+      "I saved nearly 70% compared to treatment costs in London while receiving world-class care and incredible hospitality.",
+    author: "Olivia Bennett",
+    subtitle: "Patient from United Kingdom",
+    rating: 5,
+  },
+  {
+    review:
+      "The doctors explained every step patiently and made me feel completely comfortable during my implant treatment journey.",
+    author: "Daniel Foster",
+    subtitle: "Full Mouth Implant Patient",
+    rating: 5,
+  },
+  {
+    review:
+      "The clinic was modern, spotless, and highly professional. I completed my veneers and crowns in a single trip.",
+    author: "Sophia Turner",
+    subtitle: "Smile Makeover Patient",
+    rating: 5,
+  },
+  {
+    review:
+      "Their team handled accommodation guidance, scheduling, and follow-ups seamlessly. It felt like a luxury healthcare experience.",
+    author: "Michael Harris",
+    subtitle: "Patient from Australia",
+    rating: 5,
+  },
+  {
+    review:
+      "I was nervous about traveling abroad for treatment, but the warmth and expertise of the team made the process stress-free.",
+    author: "Emma Richardson",
+    subtitle: "Dental Tourism Patient",
+    rating: 5,
+  },
+];
+
+export const tourismFaqData = [
+  {
+    question: "Why choose India for dental treatment?",
+    answer:
+      "India offers internationally trained dentists, advanced technology, and significantly lower treatment costs compared to many Western countries — without compromising on quality or safety.",
+  },
+  {
+    question: "How much can I save with dental tourism?",
+    answer:
+      "Patients often save between 60% to 80% on treatments such as implants, veneers, crowns, and smile makeovers compared to prices in the USA, UK, or Australia.",
+  },
+  {
+    question: "How long do I need to stay for treatment?",
+    answer:
+      "The duration depends on the procedure. Cosmetic treatments may take only a few days, while implants or full-mouth rehabilitation can require multiple visits or a longer stay.",
+  },
+  {
+    question: "Do you assist with travel and accommodation?",
+    answer:
+      "Yes, we guide international patients with travel planning, airport pickup coordination, hotel recommendations, and local assistance for a smooth experience.",
+  },
+  {
+    question: "Is the treatment safe and hygienic?",
+    answer:
+      "Our clinic follows strict international sterilization and hygiene protocols, using advanced equipment and globally accepted treatment standards.",
+  },
+  {
+    question: "Can I get an online consultation before traveling?",
+    answer:
+      "Absolutely. Patients can share dental records, X-rays, or photographs online to receive an initial consultation, treatment plan, and estimated cost before booking their trip.",
+  },
+];
+
+//Privacy Page
+export const privacySections = [
+  {
+    title: "Information We Collect",
+    icon: FiDatabase,
+    description:
+      "We may collect personal information such as your name, phone number, email address, appointment preferences, and treatment-related inquiries when you interact with our website.",
+  },
+  {
+    title: "How We Use Your Information",
+    icon: FiCheckCircle,
+    description:
+      "Your information is used to schedule appointments, respond to inquiries, improve patient experience, and communicate important updates related to our services.",
+  },
+  {
+    title: "Patient Confidentiality",
+    icon: FiLock,
+    description:
+      "We respect the confidentiality of all patient information and maintain appropriate safeguards to protect your personal and medical details.",
+  },
+  {
+    title: "Cookies & Analytics",
+    icon: FiBarChart2,
+    description:
+      "Our website may use cookies and analytics tools to understand visitor interactions and improve overall website performance and usability.",
+  },
+  {
+    title: "Third-Party Services",
+    icon: FiUsers,
+    description:
+      "We may use trusted third-party services such as appointment scheduling platforms, payment providers, and analytics tools that process limited information securely.",
+  },
+  {
+    title: "Your Rights",
+    icon: FiShield,
+    description:
+      "You may request access, correction, or deletion of your personal information by contacting our clinic directly.",
+  },
+];
+
+//Terms of Service
+export const termsSections = [
+  {
+    title: "Dental Crowns",
+    icon: FiShield,
+    description:
+      "Warranty: 3–10 years depending on crown type. Covers crown dislodgement, chipping, and manufacturing defects. Excludes damage to the underlying tooth, gum disease, trauma, or crown loss. Regular check-ups are required.",
+  },
+
+  {
+    title: "Dental Implants",
+    icon: FiActivity,
+    description:
+      "Warranty: Up to 10 years on implant fixtures under normal conditions. Covers manufacturing defects in implant components. Excludes failures caused by smoking, poor oral hygiene, trauma, bone loss, or medical conditions affecting healing.",
+  },
+
+  {
+    title: "Dental Veneers",
+    icon: FiSmile,
+    description:
+      "Warranty: Up to 3 years against manufacturing defects. Covers veneer debonding under normal use. Excludes fractures caused by teeth grinding, hard foods, trauma, or misuse. Proper care and maintenance are essential.",
+  },
+
+  {
+    title: "Tooth Jewellery",
+    icon: FiStar,
+    description:
+      "Warranty: 6 months for bonding defects only. Covers detachment caused by adhesive failure. Excludes loss of jewellery, accidental damage, trauma, or removal by the patient. Replacement charges may apply.",
+  },
+
+  {
+    title: "Root Canal Treatment (RCT)",
+    icon: FiTool,
+    description:
+      "Treatment success is monitored for up to 1 year. Covers treatment-related concerns requiring clinical review. Does not guarantee lifetime success and excludes reinfection, tooth fractures, or delays in crown placement.",
+  },
+
+  {
+    title: "Implant Prosthesis",
+    icon: FiCpu,
+    description:
+      "Warranty: 3–5 years depending on prosthesis type. Covers manufacturing defects and prosthetic screw issues. Excludes damage caused by excessive force, poor maintenance, trauma, or implant-related complications.",
+  },
+
+  {
+    title: "Braces Treatment",
+    icon: FiTrendingUp,
+    description:
+      "Typical treatment duration ranges from 12–24 months. Results depend on patient cooperation and appointment compliance. Appliance breakage, poor oral hygiene, or missed visits may affect treatment outcomes.",
+  },
+
+  {
+    title: "Clear Aligners",
+    icon: FiLayers,
+    description:
+      "Typical treatment duration ranges from 6–18 months. Aligners must be worn 20–22 hours daily for optimal results. Lost aligners, poor compliance, or missed reviews may require additional charges.",
+  },
+
+  {
+    title: "Dental Bridges",
+    icon: FiLink,
+    description:
+      "Warranty: Up to 5 years against manufacturing defects. Covers bridge debonding under normal use. Excludes decay, gum disease, trauma, excessive biting forces, or inadequate oral hygiene maintenance.",
+  },
+
+  {
+    title: "Dental Fillings",
+    icon: FiEdit3,
+    description:
+      "Warranty: Up to 1 year for material failure under normal conditions. Covers filling dislodgement due to material defects. Excludes recurrent decay, tooth fractures, grinding habits, or accidental trauma.",
+  },
+];
+//Reviews page
+export const googleReviews = [
+  {
+    id: "1",
+    reviewer_name: "Prateek Kumar",
+    reviewer_picture_url:
+      "https://lh3.googleusercontent.com/a-/ALV-UjU8Zho8caBM1USn1AEPwYSAkzIUSvejRqKBgHM3QUacEGmT17Z6=s120-c-rp-mo-br100",
+    rating: 5,
+    text: "Great service and painless treatment. Highly recommended if you are looking for the best dentist in Ghaziabad.",
+    published_at: 1778933865,
+    url: "https://www.google.com/search?q=rekha+dental+clinic+reviews",
+  },
+
+  {
+    id: "2",
+    reviewer_name: "Jyoti Tyagi",
+    reviewer_picture_url:
+      "https://lh3.googleusercontent.com/a/ACg8ocKFitYG-K2GLCdXiCKhyIypKlzINrO1QEK4lDHpzZEb6zJSWw=s120-c-rp-mo-br100",
+    rating: 5,
+    text: "I had a great experience at Rekha Dental Clinic.",
+    published_at: 1778846531,
+    url: "https://www.google.com/search?q=rekha+dental+clinic+reviews",
+  },
+
+  {
+    id: "3",
+    reviewer_name: "Poornima Gautam",
+    reviewer_picture_url:
+      "https://lh3.googleusercontent.com/a-/ALV-UjX5Xv4nldD45cdj13cofVKXrIZ682VVdiipOqURPYH4pznGYa6OYQ=s120-c-rp-mo-br100",
+    rating: 5,
+    text: "The doctors are highly experienced, and the treatment was smooth, painless, and very comfortable. I would definitely recommend Rekha Dental Clinic for quality dental care.",
+    published_at: 1777708800,
+    url: "https://www.google.com/search?q=rekha+dental+clinic+reviews",
+  },
+
+  {
+    id: "4",
+    reviewer_name: "Sandeep Mandal",
+    reviewer_picture_url:
+      "https://lh3.googleusercontent.com/a-/ALV-UjX_2LoPe7uMJ9A_170pXE-LatUxSuvox4A6h6tegWGdVPgGYdl1=s120-c-rp-mo-ba3-br100",
+    rating: 5,
+    text: "Excellent work done by Dr. Gaurav and team. My RCT treatment was painless and I am very happy with the overall experience.",
+    published_at: 1777523636,
+    url: "https://www.google.com/search?q=rekha+dental+clinic+reviews",
+  },
+
+  {
+    id: "5",
+    reviewer_name: "Amit Kumar",
+    reviewer_picture_url:
+      "https://lh3.googleusercontent.com/a-/ALV-UjUGsmpB4fFt1kd_zLIthzWzK68_tnZxKqUPV-MblFpjF6vMMOjN=s120-c-rp-mo-br100",
+    rating: 5,
+    text: "Very nice experience. I am fully satisfied with the treatment.",
+    published_at: 1776175801,
+    url: "https://www.google.com/search?q=rekha+dental+clinic+reviews",
+  },
+
+  {
+    id: "6",
+    reviewer_name: "Sweaty Mandal",
+    reviewer_picture_url:
+      "https://lh3.googleusercontent.com/a-/ALV-UjUyPwmVrkRnddcSm6LUu4orl98jHmy4uqQky-_61zcjnOOgUOtcWw=s120-c-rp-mo-br100",
+    rating: 5,
+    text: "I recently got veneers done for my front tooth and I’m extremely happy with the results. The entire experience was smooth and comfortable.",
+    published_at: 1776156905,
+    url: "https://www.google.com/search?q=rekha+dental+clinic+reviews",
+  },
+
+  {
+    id: "7",
+    reviewer_name: "Munni Yadav",
+    reviewer_picture_url:
+      "https://lh3.googleusercontent.com/a/ACg8ocKZ2SHHb2bHnPuuY0exfH_vulj7oODump13PWZnbdqGcMNGFg=s120-c-rp-mo-br100",
+    rating: 5,
+    text: "Professional and experienced doctors with great service and a very composed staff.",
+    published_at: 1771226446,
+    url: "https://www.google.com/search?q=rekha+dental+clinic+reviews",
+  },
+
+  {
+    id: "8",
+    reviewer_name: "Azad Sirohi",
+    reviewer_picture_url:
+      "https://lh3.googleusercontent.com/a/ACg8ocIZXLzW4KMnmYI-AU4dt_4PK3gTZlxokqI8sk9kJucT2sgKwo0=s120-c-rp-mo-br100",
+    rating: 5,
+    text: "The treatment quality was outstanding and the staff made me feel extremely comfortable throughout the visit.",
+    published_at: 1770798798,
+    url: "https://www.google.com/search?q=rekha+dental+clinic+reviews",
+  },
+
+  {
+    id: "9",
+    reviewer_name: "Samriddhi",
+    reviewer_picture_url:
+      "https://lh3.googleusercontent.com/a-/ALV-UjUqhEgKggUuxcgkhFo_f6sHUJXTw5f0mXhFmTAx2kvwThx6I2l6xA=s120-c-rp-mo-ba3-br100",
+    rating: 5,
+    text: "The doctors explained every treatment option clearly and ensured I was fully satisfied with the final result. A very reassuring experience.",
+    published_at: 1770386788,
+    url: "https://www.google.com/search?q=rekha+dental+clinic+reviews",
+  },
+
+  {
+    id: "10",
+    reviewer_name: "Harshit Singh",
+    reviewer_picture_url:
+      "https://lh3.googleusercontent.com/a-/ALV-UjWsrAdPl46CO4-GVDs7O_BfXnTv9M7swxQFFrCzb_xn-MxiIVn2=s120-c-rp-mo-br100",
+    rating: 5,
+    text: "The clinic premises and behaviour of the doctors were excellent.",
+    published_at: 1770360376,
+    url: "https://www.google.com/search?q=rekha+dental+clinic+reviews",
+  },
+];
+
+//Legacy Page
+export const achievementsData = [
+  {
+    id: 1,
+    title: "International Implantology Workshop",
+    description:
+      "Participated in an advanced implantology workshop alongside leading dental professionals from around the world, exchanging clinical knowledge and modern treatment techniques.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/achievements/achievement1`,
+  },
+  {
+    id: 2,
+    title: "Global Dental Excellence Meet",
+    description:
+      "Recognized for contributions to modern dentistry during an international gathering of dental experts and educators.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/achievements/achievement2`,
+  },
+
+  {
+    id: 4,
+    title: "International Faculty Interaction",
+    description:
+      "Engaged in collaborative discussions with international faculty members to explore emerging trends in modern dentistry.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/achievements/achievement4`,
+  },
+  {
+    id: 5,
+    title: "Global Implant Symposium",
+    description:
+      "Attended a prestigious symposium featuring global leaders in implant dentistry, digital workflows, and patient-centered care.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/achievements/achievement5`,
+  },
+ 
+  {
+    id: 7,
+    title: "International Continuing Education Event",
+    description:
+      "Enhanced professional expertise through advanced continuing dental education programs conducted by international speakers.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/achievements/achievement7`,
+  },
+  {
+    id: 8,
+    title: "Advanced Prosthodontic Workshop",
+    description:
+      "Received specialized training in modern prosthodontic techniques aimed at improving long-term restorative outcomes.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/achievements/achievement8`,
+  },
+  {
+    id: 9,
+    title: "International Dental Conference",
+    description:
+      "Represented the academy at a global conference dedicated to innovation, technology, and excellence in dental care.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/achievements/achievement9`,
+  },
+  {
+    id: 10,
+    title: "Masterclass in Implant Rehabilitation",
+    description:
+      "Successfully completed an intensive masterclass covering advanced implant placement and full-mouth rehabilitation concepts.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/achievements/achievement10`,
+  },
+  {
+    id: 11,
+    title: "Global Knowledge Exchange Program",
+    description:
+      "Collaborated with international clinicians and educators to exchange ideas and discuss advancements in patient care.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/achievements/achievement11`,
+  },
+ 
+];
+
+export const dentalCampsData = [
+  {
+    id: 1,
+    title: "School Dental Awareness Drive",
+    description:
+      "Conducted an oral health awareness session for students, focusing on proper brushing techniques and preventive dental care.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp1`,
+  },
+  {
+    id: 2,
+    title: "Free Dental Check-up Camp",
+    description:
+      "Organized a community dental screening program to identify oral health concerns and provide preventive guidance.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp2`,
+  },
+  {
+    id: 3,
+    title: "Student Oral Health Initiative",
+    description:
+      "Educated young students about the importance of oral hygiene and regular dental examinations.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp3`,
+  },
+  {
+    id: 4,
+    title: "Community Dental Outreach",
+    description:
+      "Provided free dental consultations and awareness sessions to promote healthier smiles within the community.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp4`,
+  },
+  {
+    id: 5,
+    title: "Dental Education Program",
+    description:
+      "Interactive sessions conducted to spread awareness about preventive dentistry and oral health habits.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp5`,
+  },
+  {
+    id: 6,
+    title: "School Health Screening Camp",
+    description:
+      "Performed dental examinations for school children and educated them on maintaining lifelong oral health.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp6`,
+  },
+  {
+    id: 7,
+    title: "Preventive Dentistry Awareness",
+    description:
+      "Focused on early detection and prevention of dental issues through educational activities and screenings.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp7`,
+  },
+  {
+    id: 8,
+    title: "Rural Dental Care Initiative",
+    description:
+      "Extended oral healthcare awareness and dental check-up services to underserved communities.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp8`,
+  },
+  {
+    id: 9,
+    title: "Healthy Smile Campaign",
+    description:
+      "Promoted oral hygiene awareness through engaging educational activities and dental assessments.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp9`,
+  },
+  {
+    id: 10,
+    title: "Children's Dental Awareness Session",
+    description:
+      "Encouraged healthy dental habits among children through demonstrations and interactive learning.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp10`,
+  },
+  {
+    id: 11,
+    title: "School Oral Hygiene Program",
+    description:
+      "Conducted awareness sessions emphasizing preventive care and regular dental visits.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp11`,
+  },
+  {
+    id: 12,
+    title: "Community Wellness Camp",
+    description:
+      "Integrated oral healthcare awareness into broader health initiatives for local communities.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp12`,
+  },
+  {
+    id: 13,
+    title: "Smile Awareness Initiative",
+    description:
+      "Educated participants about cavity prevention, gum health, and oral hygiene best practices.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp13`,
+  },
+  {
+    id: 14,
+    title: "Dental Screening & Counseling",
+    description:
+      "Provided dental examinations and personalized oral health recommendations to attendees.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp14`,
+  },
+  {
+    id: 15,
+    title: "Youth Oral Health Program",
+    description:
+      "Focused on building awareness among young students regarding preventive dental care and nutrition.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp15`,
+  },
+  {
+    id: 16,
+    title: "School Dental Check-up Drive",
+    description:
+      "Comprehensive dental screenings conducted to identify oral health concerns at an early stage.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp16`,
+  },
+  {
+    id: 17,
+    title: "Oral Health Awareness Workshop",
+    description:
+      "Engaged students and educators in discussions about maintaining healthy teeth and gums.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp17`,
+  },
+  {
+    id: 18,
+    title: "Community Oral Care Program",
+    description:
+      "Promoted preventive dentistry and regular dental check-ups through public awareness initiatives.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp18`,
+  },
+  {
+    id: 19,
+    title: "Dental Health Education Camp",
+    description:
+      "Conducted educational activities to encourage better oral hygiene habits among participants.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp19`,
+  },
+  {
+    id: 20,
+    title: "School Wellness & Dental Camp",
+    description:
+      "Combined health awareness and dental screening services to support student well-being.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp20`,
+  },
+  {
+    id: 21,
+    title: "Community Smile Initiative",
+    description:
+      "A large-scale awareness and screening program dedicated to improving oral health within the community.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp21`,
+  },
+];
+
+export const lecturesData = [
+  {
+    id: 1,
+    title: "Advanced Implantology Masterclass",
+    description:
+      "Delivered an in-depth lecture on modern implantology techniques, treatment planning, and long-term clinical success.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/lectures/lecture1`,
+  },
+  {
+    id: 2,
+    title: "Contemporary Restorative Dentistry",
+    description:
+      "Shared insights on restorative procedures, material selection, and achieving predictable aesthetic outcomes.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/lectures/lecture2`,
+  },
+  {
+    id: 3,
+    title: "Digital Dentistry & Modern Workflows",
+    description:
+      "Presented advanced digital workflows that enhance diagnosis, treatment planning, and patient experience.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/lectures/lecture3`,
+  },
+  {
+    id: 4,
+    title: "Smile Design & Aesthetic Excellence",
+    description:
+      "Conducted an educational session on smile design principles and minimally invasive cosmetic dentistry.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/lectures/lecture4`,
+  },
+  {
+    id: 5,
+    title: "Clinical Success in Implant Rehabilitation",
+    description:
+      "Focused on implant-supported restorations, case selection, and achieving long-term functional outcomes.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/lectures/lecture5`,
+  },
+  {
+    id: 6,
+    title: "Advancements in Endodontic Treatment",
+    description:
+      "Explored modern root canal treatment techniques, magnification, and precision-driven clinical protocols.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/lectures/lecture6`,
+  },
+  {
+    id: 7,
+    title: "Minimally Invasive Dentistry Workshop",
+    description:
+      "Delivered practical guidance on preserving natural tooth structure through modern conservative techniques.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/lectures/lecture7`,
+  },
+  {
+    id: 8,
+    title: "Comprehensive Treatment Planning",
+    description:
+      "Highlighted interdisciplinary approaches to diagnosis, rehabilitation, and patient-centered care.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/lectures/lecture8`,
+  },
+  {
+    id: 9,
+    title: "Laser Dentistry in Modern Practice",
+    description:
+      "Presented the applications and benefits of laser-assisted procedures in contemporary dental care.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/lectures/lecture9`,
+  },
+  {
+    id: 10,
+    title: "Excellence in Clinical Education",
+    description:
+      "Shared knowledge and practical experience with dental professionals through interactive academic sessions.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/lectures/lecture10`,
+  },
+];
+
+export const mediaData = [
+  {
+    id: 1,
+    image: `${CLOUDINARY_BASE}/rekha-dental/media/media1`,
+  },
+  {
+    id: 2,
+    image: `${CLOUDINARY_BASE}/rekha-dental/media/media2`,
+  },
+  {
+    id: 3,
+    image: `${CLOUDINARY_BASE}/rekha-dental/media/media3`,
+  },
+  {
+    id: 4,
+    image: `${CLOUDINARY_BASE}/rekha-dental/media/media4`,
+  },
+  {
+    id: 5,
+    image: `${CLOUDINARY_BASE}/rekha-dental/media/media5`,
+  },
+  {
+    id: 6,
+    image: `${CLOUDINARY_BASE}/rekha-dental/media/media6`,
+  },
+  {
+    id: 7,
+    image: `${CLOUDINARY_BASE}/rekha-dental/media/media7`,
+  },
+  {
+    id: 8,
+    image: `${CLOUDINARY_BASE}/rekha-dental/media/media8`,
+  },
+  {
+    id: 9,
+    image: `${CLOUDINARY_BASE}/rekha-dental/media/media9`,
+  },
+];

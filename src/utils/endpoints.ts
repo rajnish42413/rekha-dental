@@ -1,0 +1,9 @@
+export const CALENDLY_URL_RAJ_NAGAR= "https://calendly.com/rekhadentalrajnagar/20min"
+export const CALENDLY_URL_KOTGAON= "https://calendly.com/rekhadentalkotgaon/20min"
+export const UPI_ID = "9910462461@icici";
+export const WHATSAPP_NUMBER = "918130406405";
+export const FRONTEND_URL = "https://rekhadental.com";
+export const NEXT_PUBLIC_SANITY_DATASET="production"
+export const NEXT_PUBLIC_SANITY_PROJECT_ID="kk32u277"
+export const GA_MEASUREMENT_ID = "G-M7RXF4C7Q1";
+export const CLOUDINARY_BASE ="https://res.cloudinary.com/dygrzu3sm/image/upload/f_auto,q_auto";
