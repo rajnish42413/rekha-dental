@@ -3,8 +3,81 @@ import Achievements from "@/components/legacy/achievements";
 import DentalCamps from "@/components/legacy/dentalCamps";
 import Lectures from "@/components/legacy/lectures";
 import NewspaperCuttings from "@/components/legacy/newspaperCuttings";
-import { CLOUDINARY_BASE } from "@/utils/endpoints";
-import React from "react";
+import { CLOUDINARY_BASE, FRONTEND_URL } from "@/utils/endpoints";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  metadataBase: new URL(FRONTEND_URL),
+
+  title:
+    "Professional Legacy | Rekha Dental Clinic Ghaziabad",
+
+  description:
+    "Explore the professional journey of Rekha Dental Clinic through achievements, dental camps, academic lectures, workshops, community outreach programs, and media recognition.",
+
+  keywords: [
+    "Rekha Dental Clinic",
+    "Dr Gaurav Saxena",
+    "Dental Camps",
+    "Dental Workshops",
+    "Dental Lectures",
+    "Dental Achievements",
+    "Dental Education",
+    "Community Outreach",
+    "Dentist Ghaziabad",
+    "Dental Academy",
+    "Media Coverage",
+    "Professional Legacy",
+  ],
+
+  alternates: {
+    canonical: `${FRONTEND_URL}/legacy`,
+  },
+
+  openGraph: {
+    title:
+      "Professional Legacy | Rekha Dental Clinic Ghaziabad",
+
+    description:
+      "A journey of excellence through dental education, international collaborations, community service, achievements, and professional milestones.",
+
+    url: `${FRONTEND_URL}/legacy`,
+
+    siteName: "Rekha Dental Clinic",
+
+    type: "website",
+
+    locale: "en_US",
+
+    images: [
+      {
+        url: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp4`,
+        width: 1200,
+        height: 630,
+        alt: "Professional Legacy - Rekha Dental Clinic",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+
+    title:
+      "Professional Legacy | Rekha Dental Clinic Ghaziabad",
+
+    description:
+      "Discover the achievements, outreach programs, lectures, and milestones that define Rekha Dental's legacy.",
+
+    images: [
+      `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp4`,
+    ],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 
 function page() {
   return (

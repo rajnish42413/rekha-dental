@@ -1,13 +1,10 @@
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
-
 import Banner from "@/components/general/generalBanner";
 import SectionHeader from "@/components/general/sectionHeader";
 import FAQ from "@/components/general/faq";
-
 import { courseDetails } from "@/utils/constants";
 import { FRONTEND_URL } from "@/utils/endpoints";
-
 import { TiTick } from "react-icons/ti";
 
 interface PageProps {
@@ -129,15 +126,12 @@ export default async function Page({
           </div>
         </div>
       </section>
-
- 
       <section className="py-10 lg:py-20">
         <div className="max-w-7xl mx-auto px-6">
           <SectionHeader
             tag={course.benefits.tag}
             title="What You'll Gain"
           />
-
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
             {course.benefits.points.map(
               (benefit, index) => (
@@ -160,8 +154,6 @@ export default async function Page({
           </div>
         </div>
       </section>
-
-  
       <section className="py-10 lg:py-20">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12">
           <SectionHeader
@@ -169,7 +161,6 @@ export default async function Page({
             title="Frequently asked."
             align="left"
           />
-
           <FAQ data={course.faqs} />
         </div>
       </section>

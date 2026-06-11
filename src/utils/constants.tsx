@@ -1419,7 +1419,36 @@ export const accreditationsData = {
     `${CLOUDINARY_BASE}/rekha-dental/certificates/certificate4`,
   ],
 };
-
+export const clinicJourneyData = [
+  {
+    id: 1,
+    title: "Where the Journey Began",
+    description:
+      "The original reception and patient waiting area that marked the beginning of Rekha Dental's commitment to compassionate and accessible dental care.",
+    image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781156413/old-clinic1_wzmpna.jpg`,
+  },
+  {
+    id: 2,
+    title: "Personalized Patient Consultations",
+    description:
+      "A dedicated consultation space where treatment planning, patient education, and personalized care discussions formed the foundation of every successful treatment.",
+    image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781156422/old-clinic2_z0gtxv.jpg`,
+  },
+  {
+    id: 3,
+    title: "Advancing Clinical Excellence",
+    description:
+      "One of the early treatment rooms equipped to provide comprehensive dental procedures, reflecting the clinic's focus on quality care and continuous growth.",
+    image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781156410/old-clinic3_jb3vda.jpg`,
+  },
+  {
+    id: 4,
+    title: "Building a Legacy of Trust",
+    description:
+      "An early clinical workspace that served hundreds of patients and helped establish Rekha Dental as a trusted name in modern dentistry.",
+    image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781156415/old-clinic4_etadh2.jpg`,
+  },
+];
 // Doctor Page
 export const aboutStatsData = [
   {
@@ -2928,7 +2957,7 @@ export const googleReviews = [
 export const achievementsData = [
   {
     id: 1,
-    title: "International Implantology Workshop",
+    title: "Implantology Workshop",
     description:
       "Participated in an advanced implantology workshop alongside leading dental professionals from around the world, exchanging clinical knowledge and modern treatment techniques.",
     image: `${CLOUDINARY_BASE}/rekha-dental/achievements/achievement1`,
@@ -3018,7 +3047,7 @@ export const dentalCampsData = [
   },
   {
     id: 4,
-    title: "Community Dental Outreach",
+    title: "Kids Dental Outreach",
     description:
       "Provided free dental consultations and awareness sessions to promote healthier smiles within the community.",
     image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp4`,
@@ -3046,7 +3075,7 @@ export const dentalCampsData = [
   },
   {
     id: 8,
-    title: "Rural Dental Care Initiative",
+    title: "Students Dental Care Initiative",
     description:
       "Extended oral healthcare awareness and dental check-up services to underserved communities.",
     image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp8`,
@@ -3060,14 +3089,14 @@ export const dentalCampsData = [
   },
   {
     id: 10,
-    title: "Children's Dental Awareness Session",
+    title: "Community's Dental Awareness Session",
     description:
-      "Encouraged healthy dental habits among children through demonstrations and interactive learning.",
+      "Encouraged healthy dental habits among community through demonstrations and interactive learning.",
     image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp10`,
   },
   {
     id: 11,
-    title: "School Oral Hygiene Program",
+    title: "Community Oral Hygiene Program",
     description:
       "Conducted awareness sessions emphasizing preventive care and regular dental visits.",
     image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp11`,
@@ -3116,7 +3145,7 @@ export const dentalCampsData = [
   },
   {
     id: 18,
-    title: "Community Oral Care Program",
+    title: "School Oral Care Program",
     description:
       "Promoted preventive dentistry and regular dental check-ups through public awareness initiatives.",
     image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp18`,
@@ -3137,7 +3166,7 @@ export const dentalCampsData = [
   },
   {
     id: 21,
-    title: "Community Smile Initiative",
+    title: "Children's Smile Initiative",
     description:
       "A large-scale awareness and screening program dedicated to improving oral health within the community.",
     image: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp21`,
@@ -3159,13 +3188,7 @@ export const lecturesData = [
       "Shared insights on restorative procedures, material selection, and achieving predictable aesthetic outcomes.",
     image: `${CLOUDINARY_BASE}/rekha-dental/lectures/lecture2`,
   },
-  {
-    id: 3,
-    title: "Digital Dentistry & Modern Workflows",
-    description:
-      "Presented advanced digital workflows that enhance diagnosis, treatment planning, and patient experience.",
-    image: `${CLOUDINARY_BASE}/rekha-dental/lectures/lecture3`,
-  },
+ 
   {
     id: 4,
     title: "Smile Design & Aesthetic Excellence",
@@ -3187,13 +3210,7 @@ export const lecturesData = [
       "Explored modern root canal treatment techniques, magnification, and precision-driven clinical protocols.",
     image: `${CLOUDINARY_BASE}/rekha-dental/lectures/lecture6`,
   },
-  {
-    id: 7,
-    title: "Minimally Invasive Dentistry Workshop",
-    description:
-      "Delivered practical guidance on preserving natural tooth structure through modern conservative techniques.",
-    image: `${CLOUDINARY_BASE}/rekha-dental/lectures/lecture7`,
-  },
+ 
   {
     id: 8,
     title: "Comprehensive Treatment Planning",
@@ -3201,13 +3218,7 @@ export const lecturesData = [
       "Highlighted interdisciplinary approaches to diagnosis, rehabilitation, and patient-centered care.",
     image: `${CLOUDINARY_BASE}/rekha-dental/lectures/lecture8`,
   },
-  {
-    id: 9,
-    title: "Laser Dentistry in Modern Practice",
-    description:
-      "Presented the applications and benefits of laser-assisted procedures in contemporary dental care.",
-    image: `${CLOUDINARY_BASE}/rekha-dental/lectures/lecture9`,
-  },
+ 
   {
     id: 10,
     title: "Excellence in Clinical Education",

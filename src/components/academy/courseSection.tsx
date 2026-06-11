@@ -12,7 +12,6 @@ export default function AcademyCoursesSection() {
           title="Advanced dental programs"
           subtitle="Hands-on learning experiences crafted to help dental professionals refine clinical expertise through immersive training."
         />
-
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7 mt-10">
           {academyCourses.map((course, index) => (
             <Link

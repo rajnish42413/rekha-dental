@@ -1,5 +1,6 @@
 import AccreditationsSection from "@/components/about/accreditaions";
 import MilestonesSection from "@/components/about/milestoneSection";
+import OldClinic from "@/components/about/oldClinic";
 import StorySection from "@/components/about/storySection";
 import Banner from "@/components/general/generalBanner";
 import { accreditationsData, milestonesTimeline } from "@/utils/constants";
@@ -8,9 +9,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
-
   title: "About Rekha Dental Clinic | Luxury Dental Care in Ghaziabad",
-
   description:
     "Discover Rekha Dental Clinic’s philosophy of refined, patient-first dentistry in Ghaziabad. Over 14 years of precision-driven dental care, advanced treatments, and calm clinical experiences.",
 
@@ -105,6 +104,7 @@ function page() {
       />
       <MilestonesSection {...milestonesTimeline} />
       <AccreditationsSection {...accreditationsData} />
+      <OldClinic/>
     </div>
   );
 }
