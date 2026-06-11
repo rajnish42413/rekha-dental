@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 
 import { FRONTEND_URL } from "@/utils/endpoints";
 
-import { serviceDetails } from "@/utils/constants";
+import { courseDetails, serviceDetails } from "@/utils/constants";
 
 import { client } from "@/sanity/lib/client";
 
@@ -16,6 +16,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "/doctor",
     "/gallery",
     "/payment",
+    "/legacy",
     "/privacy-policy",
     "/reviews",
     "/services",
@@ -46,6 +47,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.7,
     })
   );
+  const coursePages = courseDetails.map(
+    (course) => ({
+      url: `${FRONTEND_URL}/academy/${course.slug}`,
+  
+      lastModified: new Date(),
+  
+      changeFrequency: "monthly" as const,
+  
+      priority: 0.7,
+    })
+  );
 
   const blogs = await client.fetch(`
     *[_type == "blog"]{
@@ -71,5 +83,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...staticPages,
     ...servicePages,
     ...blogPages,
+    ...coursePages
   ];
 }
