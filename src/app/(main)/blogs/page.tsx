@@ -75,7 +75,7 @@ export const metadata: Metadata = {
     description:
       "Discover modern dental care insights, oral hygiene advice, and cosmetic dentistry knowledge from Rekha Dental Clinic.",
 
-    images: [ `${CLOUDINARY_BASE}/rekha-dental/aboutBanner`],
+    images: [`${CLOUDINARY_BASE}/rekha-dental/aboutBanner`],
   },
 
   robots: {
@@ -108,12 +108,47 @@ export default async function BlogsPage({ searchParams }: BlogsPageProps) {
           tag="REKHA DENTAL BLOGS"
           title=" Dental Insights and Expert Care"
         />
-        <div className="lg:mt-16 mt-6 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {blogs.map((blog, index) => (
+        {blogs.length === 0 ? (
+          <div className="mt-12 flex flex-col items-center justify-center rounded-2xl px-6 py-20 text-center">
+            <Image
+              src={`${CLOUDINARY_BASE}/rekha-dental/aboutBanner`}
+              alt="No blogs available"
+              width={120}
+              height={120}
+              className="mb-6 rounded-full object-cover opacity-80"
+            />
+
+            <p className="mb-3 text-xs font-medium uppercase tracking-[4px] text-[#CBA553]">
+              COMING SOON
+            </p>
+
+            <h2 className="font-header text-3xl text-[#2C2C2C]">
+              Expert insights are on the way.
+            </h2>
+
+            <p className="mt-4 max-w-xl text-sm leading-relaxed text-[#6B6B6B]">
+              We&apos;re preparing educational articles covering oral health,
+              cosmetic dentistry, dental implants, smile makeovers, and
+              preventive dental care. Check back soon for expert guidance from
+              Rekha Dental Clinic.
+            </p>
+
             <Link
-              key={blog._id}
-              href={`/blogs/${blog.slug.current}`}
-              className="
+              href="/contact"
+              className="mt-8 rounded-lg bg-brand px-6 py-3 text-sm font-medium text-white transition hover:opacity-90"
+            >
+              Book a Consultation
+            </Link>
+          </div>
+        ) : (
+          <div>
+            {" "}
+            <div className="lg:mt-16 mt-6 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+              {blogs.map((blog, index) => (
+                <Link
+                  key={blog._id}
+                  href={`/blogs/${blog.slug.current}`}
+                  className="
         group
         flex
         h-full
@@ -124,32 +159,32 @@ export default async function BlogsPage({ searchParams }: BlogsPageProps) {
         duration-700
         hover:-translate-y-1 rounded-xl
       "
-            >
-              <div className="relative lg:h-[260px] h-[200px] w-full rounded-t-xl overflow-hidden">
-                <Image
-                  src={urlFor(blog.thumbnail).url()}
-                  alt={blog.title}
-                  fill
-                  sizes="(max-width: 768px) 100vw,
+                >
+                  <div className="relative lg:h-[260px] h-[200px] w-full rounded-t-xl overflow-hidden">
+                    <Image
+                      src={urlFor(blog.thumbnail).url()}
+                      alt={blog.title}
+                      fill
+                      sizes="(max-width: 768px) 100vw,
                   (max-width: 1024px) 50vw,
                   33vw"
-                  className="
+                      className="
             object-cover
             transition-transform
             duration-700
             ease-out
             group-hover:scale-105
           "
-                />
-              </div>
-              <div className="flex flex-1 flex-col lg:p-6 p-4">
-                <div className="flex items-center gap-3 text-[11px] uppercase tracking-[2px] text-[#CBA553]">
-                  <span>{String(index + 1).padStart(2, "0")}</span>
-                  <span className="h-px w-5 bg-[#CBA553]" />
-                  <span className="line-clamp-1">{blog.category}</span>
-                </div>
-                <h2
-                  className="
+                    />
+                  </div>
+                  <div className="flex flex-1 flex-col lg:p-6 p-4">
+                    <div className="flex items-center gap-3 text-[11px] uppercase tracking-[2px] text-[#CBA553]">
+                      <span>{String(index + 1).padStart(2, "0")}</span>
+                      <span className="h-px w-5 bg-[#CBA553]" />
+                      <span className="line-clamp-1">{blog.category}</span>
+                    </div>
+                    <h2
+                      className="
             mt-5
             line-clamp-2
             font-header text-xl
@@ -157,11 +192,11 @@ export default async function BlogsPage({ searchParams }: BlogsPageProps) {
             leading-snug
             text-[#2C2C2C]
           "
-                >
-                  {blog.title}
-                </h2>
-                <p
-                  className="
+                    >
+                      {blog.title}
+                    </h2>
+                    <p
+                      className="
             mt-4
             line-clamp-2
             min-h-[62px]
@@ -169,65 +204,66 @@ export default async function BlogsPage({ searchParams }: BlogsPageProps) {
             leading-relaxed
             text-[#6B6B6B]
           "
-                >
-                  {blog.excerpt}
-                </p>
-                <div className="mt-auto lg:pt-8 pt-3">
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2 text-xs tracking-[2px] text-[#A0A0A0] uppercase">
-                      <LuClock3 className="text-sm text-[#CBA553]" />
-                      <span>{blog.readingTime}</span>
-                    </div>
-                    <div className="inline-flex items-center gap-2 font-header text-xs tracking-[2px] text-[#CBA553] uppercase">
-                      Read More
-                      <span className="block h-px w-6 bg-[#CBA553] transition-all duration-300 group-hover:w-10" />
+                    >
+                      {blog.excerpt}
+                    </p>
+                    <div className="mt-auto lg:pt-8 pt-3">
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-2 text-xs tracking-[2px] text-[#A0A0A0] uppercase">
+                          <LuClock3 className="text-sm text-[#CBA553]" />
+                          <span>{blog.readingTime}</span>
+                        </div>
+                        <div className="inline-flex items-center gap-2 font-header text-xs tracking-[2px] text-[#CBA553] uppercase">
+                          Read More
+                          <span className="block h-px w-6 bg-[#CBA553] transition-all duration-300 group-hover:w-10" />
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
-            </Link>
-          ))}
-        </div>
+                </Link>
+              ))}
+            </div>
+            <div className="mt-16 flex items-center justify-center gap-2 flex-wrap">
+              {currentPage > 1 && (
+                <Link
+                  href={`/blogs?page=${currentPage - 1}`}
+                  className="rounded-lg bg-[#F5F1EA] py-3 px-5 text-sm text-[#1E1E1E] cursor-pointer active:scale-95 duration-200 transition-all"
+                >
+                  Previous
+                </Link>
+              )}
 
-        <div className="mt-16 flex items-center justify-center gap-2 flex-wrap">
-          {currentPage > 1 && (
-            <Link
-              href={`/blogs?page=${currentPage - 1}`}
-              className="rounded-lg bg-[#F5F1EA] py-3 px-5 text-sm text-[#1E1E1E] cursor-pointer active:scale-95 duration-200 transition-all"
-            >
-              Previous
-            </Link>
-          )}
+              {pagination.map((item, index) =>
+                item === "..." ? (
+                  <span key={index} className="px-2 text-[#777]">
+                    ...
+                  </span>
+                ) : (
+                  <Link
+                    key={index}
+                    href={`/blogs?page=${item}`}
+                    className={`flex h-12 w-12 items-center cursor-pointer active:scale-95 duration-200 justify-center rounded-lg text-sm transition ${
+                      currentPage === item
+                        ? "bg-[#1D4D3B] text-white"
+                        : "bg-[#F5F1EA] text-[#1E1E1E]"
+                    }`}
+                  >
+                    {item}
+                  </Link>
+                )
+              )}
 
-          {pagination.map((item, index) =>
-            item === "..." ? (
-              <span key={index} className="px-2 text-[#777]">
-                ...
-              </span>
-            ) : (
-              <Link
-                key={index}
-                href={`/blogs?page=${item}`}
-                className={`flex h-12 w-12 items-center cursor-pointer active:scale-95 duration-200 justify-center rounded-lg text-sm transition ${
-                  currentPage === item
-                    ? "bg-[#1D4D3B] text-white"
-                    : "bg-[#F5F1EA] text-[#1E1E1E]"
-                }`}
-              >
-                {item}
-              </Link>
-            )
-          )}
-
-          {currentPage < totalPages && (
-            <Link
-              href={`/blogs?page=${currentPage + 1}`}
-              className="rounded-lg bg-[#F5F1EA] px-5 py-3 text-sm text-[#1E1E1E] cursor-pointer active:scale-95 duration-200 transition-all"
-            >
-              Next
-            </Link>
-          )}
-        </div>
+              {currentPage < totalPages && (
+                <Link
+                  href={`/blogs?page=${currentPage + 1}`}
+                  className="rounded-lg bg-[#F5F1EA] px-5 py-3 text-sm text-[#1E1E1E] cursor-pointer active:scale-95 duration-200 transition-all"
+                >
+                  Next
+                </Link>
+              )}
+            </div>{" "}
+          </div>
+        )}
       </div>
     </section>
   );

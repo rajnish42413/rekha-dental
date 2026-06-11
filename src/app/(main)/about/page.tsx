@@ -72,7 +72,7 @@ function page() {
   return (
     <div>
       <Banner
-        imageSrc={`${CLOUDINARY_BASE}/rekha-dental/aboutBanner`}
+        imageSrc={`https://res.cloudinary.com/dygrzu3sm/image/upload/v1781084168/rekha-dental/academy-new/academy-new4.jpg`}
         tag="REKHA DENTAL CLINIC"
         title="A practice built, slowly on purpose."
         subtitle="Fourteen years of refining the same idea — that the finest dental work disappears."
