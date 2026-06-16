@@ -138,162 +138,200 @@ export const serviceCards = [
   {
     id: 1,
     index: "01",
+    title: "Full Mouth Rehabilitation",
+    slug: "full-mouth-rehabilitation",
+    description: "Comprehensive restoration of oral health, function, and aesthetics.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service18/thumbnail`,
+    discount:"10",
+    startingPrice:"999"
+  },
+  {
+    id: 2,
+    index: "02",
     title: "Immediate Implantology",
     slug: "immediate-implantology",
     description: "Same-day implants with surgical precision.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service1/thumbnail`,
+    discount:"10",
+    startingPrice:"999"
   },
-
-  {
-    id: 2,
-    index: "02",
-    title: "Digital Robotic Scanning",
-    slug: "digital-robotic-scanning",
-    description: "AI-guided 3D scans for sub-millimetric care.",
-    image: `${CLOUDINARY_BASE}/rekha-dental/services/service2/thumbnail`,
-  },
-
   {
     id: 3,
     index: "03",
-    title: "Preventive · Ages 0–13",
-    slug: "preventive-ages-0-13",
-    description: "Gentle first visits for the youngest smiles.",
-    image: `${CLOUDINARY_BASE}/rekha-dental/services/service3/thumbnail`,
+    title: "Pediatric Dentistry",
+    slug: "pediatric-dentistry",
+    description: "Compassionate dental care tailored for children.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service5/thumbnail`,
+    discount:"10",
+    startingPrice:"999"
   },
+ 
 
   {
     id: 4,
     index: "04",
-    title: "General and Restorative",
-    slug: "general-restorative",
-    description: "Hygiene, fillings, crowns meticulously done.",
-    image: `${CLOUDINARY_BASE}/rekha-dental/services/service4/thumbnail`,
+    title: "Preventive · Ages 0–13",
+    slug: "preventive-ages-0-13",
+    description: "Gentle first visits for the youngest smiles.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service3/thumbnail`,
+    discount:"10",
+    startingPrice:"999"
   },
 
   {
     id: 5,
     index: "05",
-    title: "Pediatric Dentistry",
-    slug: "pediatric-dentistry",
-    description: "Compassionate dental care tailored for children.",
-    image: `${CLOUDINARY_BASE}/rekha-dental/services/service5/thumbnail`,
+    title: "General and Restorative",
+    slug: "general-restorative",
+    description: "Hygiene, fillings, crowns meticulously done.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service4/thumbnail`,
+    discount:"10",
+    startingPrice:"999"
   },
-
   {
     id: 6,
     index: "06",
-    title: "Dental Fillings",
-    slug: "dental-fillings",
-    description: "Natural-looking restorations for healthy smiles.",
-    image: `${CLOUDINARY_BASE}/rekha-dental/services/service6/thumbnail`,
+    title: "Digital Robotic Scanning",
+    slug: "digital-robotic-scanning",
+    description: "AI-guided 3D scans for sub-millimetric care.",
+    image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781600169/robotic_zqztvx.png`,
+    discount:"10",
+    startingPrice:"999"
   },
+
+
 
   {
     id: 7,
     index: "07",
-    title: "Dental Bridges",
-    slug: "dental-bridges",
-    description:
-      "Durable tooth replacement solutions for function and aesthetics.",
-    image: `${CLOUDINARY_BASE}/rekha-dental/services/service7/thumbnail`,
+    title: "Dental Fillings",
+    slug: "dental-fillings",
+    description: "Natural-looking restorations for healthy smiles.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service6/thumbnail`,
+    discount:"10",
+    startingPrice:"999"
   },
 
   {
     id: 8,
     index: "08",
-    title: "Dental Implants",
-    slug: "dental-implants",
-    description: "Advanced implant procedures for permanent tooth replacement.",
-    image: `${CLOUDINARY_BASE}/rekha-dental/services/service8/thumbnail`,
+    title: "Dental Bridges",
+    slug: "dental-bridges",
+    description:
+      "Durable tooth replacement solutions for function and aesthetics.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service7/thumbnail`,
+    discount:"10",
+    startingPrice:"999"
   },
 
   {
     id: 9,
     index: "09",
-    title: "Orthodontic Treatment",
-    slug: "orthodontic-treatment",
-    description: "Modern alignment solutions for beautifully straight teeth.",
-    image: `${CLOUDINARY_BASE}/rekha-dental/services/service9/thumbnail`,
+    title: "Dental Implants",
+    slug: "dental-implants",
+    description: "Advanced implant procedures for permanent tooth replacement.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service8/thumbnail`,
+    discount:"10",
+    startingPrice:"999"
   },
 
   {
     id: 10,
     index: "10",
-    title: "Root Canal Treatment",
-    slug: "root-canal-treatment",
-    description: "Precision endodontic care focused on tooth preservation.",
-    image: `${CLOUDINARY_BASE}/rekha-dental/services/service10/thumbnail`,
+    title: "Orthodontic Treatment",
+    slug: "orthodontic-treatment",
+    description: "Modern alignment solutions for beautifully straight teeth.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service9/thumbnail`,
+    discount:"10",
+    startingPrice:"999"
   },
 
   {
     id: 11,
     index: "11",
-    title: "Tooth Removal",
-    slug: "tooth-removal",
-    description: "Safe and comfortable extraction procedures with expert care.",
-    image: `${CLOUDINARY_BASE}/rekha-dental/services/service11/thumbnail`,
+    title: "Root Canal Treatment",
+    slug: "root-canal-treatment",
+    description: "Precision endodontic care focused on tooth preservation.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service10/thumbnail`,
+    discount:"10",
+    startingPrice:"999"
   },
 
   {
     id: 12,
     index: "12",
-    title: "Cosmetic Dentistry",
-    slug: "cosmetic-dentistry",
-    description:
-      "Smile-enhancing treatments designed for aesthetic excellence.",
-    image: `${CLOUDINARY_BASE}/rekha-dental/services/service12/thumbnail`,
+    title: "Tooth Removal",
+    slug: "tooth-removal",
+    description: "Safe and comfortable extraction procedures with expert care.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service11/thumbnail`,
+    discount:"10",
+    startingPrice:"999"
   },
 
   {
     id: 13,
     index: "13",
-    title: "Teeth Cleaning",
-    slug: "teeth-cleaning",
-    description: "Professional scaling and polishing for optimal oral hygiene.",
-    image: `${CLOUDINARY_BASE}/rekha-dental/services/service13/thumbnail`,
+    title: "Cosmetic Dentistry",
+    slug: "cosmetic-dentistry",
+    description:
+      "Smile-enhancing treatments designed for aesthetic excellence.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service12/thumbnail`,
+    discount:"10",
+    startingPrice:"999"
   },
 
   {
     id: 14,
     index: "14",
+    title: "Teeth Cleaning",
+    slug: "teeth-cleaning",
+    description: "Professional scaling and polishing for optimal oral hygiene.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service13/thumbnail`,
+    discount:"10",
+    startingPrice:"999"
+  },
+
+  {
+    id: 15,
+    index: "15",
     title: "Laser Dental Treatment",
     slug: "laser-dental-treatment",
     description: "Minimally invasive laser procedures with enhanced precision.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service14/thumbnail`,
-  },
-  {
-    id: 15,
-    index: "15",
-    title: "Tooth Jewellery",
-    slug: "tooth-jewellery",
-    description: "Enhance your smile with stylish and safe tooth jewellery applications.",
-    image: `${CLOUDINARY_BASE}/rekha-dental/services/service15/thumbnail`,
+    discount:"10",
+    startingPrice:"999"
   },
   {
     id: 16,
     index: "16",
-    title: "Clear Aligners",
-    slug: "clear-aligners",
-    description: "Discreet and comfortable orthodontic treatment for straighter teeth.",
-    image: `${CLOUDINARY_BASE}/rekha-dental/services/service16/thumbnail`,
+    title: "Tooth Jewellery",
+    slug: "tooth-jewellery",
+    description: "Enhance your smile with stylish and safe tooth jewellery applications.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service15/thumbnail`,
+    discount:"10",
+    startingPrice:"999"
   },
   {
     id: 17,
     index: "17",
-    title: "Minimal Invasive Technology",
-    slug: "minimally-invasive-technology",
-    description: "Advanced dental procedures focused on precision, comfort, and faster recovery.",
-    image: `${CLOUDINARY_BASE}/rekha-dental/services/service17/thumbnail`,
+    title: "Clear Aligners",
+    slug: "clear-aligners",
+    description: "Discreet and comfortable orthodontic treatment for straighter teeth.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service16/thumbnail`,
+    discount:"10",
+    startingPrice:"999"
   },
   {
     id: 18,
     index: "18",
-    title: "Full Mouth Rehabilitation",
-    slug: "full-mouth-rehabilitation",
-    description: "Comprehensive restoration of oral health, function, and aesthetics.",
-    image: `${CLOUDINARY_BASE}/rekha-dental/services/service18/thumbnail`,
+    title: "Minimal Invasive Technology",
+    slug: "minimally-invasive-technology",
+    description: "Advanced dental procedures focused on precision, comfort, and faster recovery.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service17/thumbnail`,
+    discount:"10",
+    startingPrice:"999"
   },
+ 
 ];
 export const serviceDetails = [
   {
@@ -362,7 +400,7 @@ export const serviceDetails = [
     hero: {
       title: "Digital Robotic Scanning",
       subtitle: "AI-guided 3D scans for sub-millimetric care.",
-      image: `${CLOUDINARY_BASE}/rekha-dental/services/service2/thumbnail`,
+      image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781600169/robotic_zqztvx.png`,
     },
     overview: {
       tag: "OVERVIEW",
@@ -1452,7 +1490,7 @@ export const clinicJourneyData = [
 // Doctor Page
 export const aboutStatsData = [
   {
-    value: "14",
+    value: "19",
     label: "Years of Practice",
   },
   {
@@ -1473,7 +1511,7 @@ export const doctorGauravDetails = {
   qualifications: [
     "BDS — DJ College of Dental Sciences & Research, Modinagar",
     "MDS — Institute of Dental Sciences & Technologies",
-    "14+ Years of Clinical Practice",
+    "19+ Years of Clinical Practice",
     "Director — Rekha Dental Clinic & Implant Center",
   ],
 
@@ -1501,7 +1539,7 @@ export const doctorDetailsMamta = {
     "BDS — King George’s Medical College (KGMC), Lucknow",
     "MDS — Nair Government Hospital, Mumbai",
     "Specialization in Oral Medicine & Radiology",
-    "10+ Years of Clinical Experience",
+    "16+ Years of Clinical Experience",
   ],
 
   languages: ["English", "Hindi"],
@@ -1779,7 +1817,7 @@ export const pillars = [
     id: 3,
     title: "Lifetime Aftercare",
     description:
-      "Long-term guidance, transparent follow-ups, and continued support beyond treatment completion.",
+    "Long-term guidance, transparent follow-ups, and continued support beyond treatment completion with affordable follow-up care as needed.",
     icon: <SafetyCertificateOutlined />,
     number: "03",
   },

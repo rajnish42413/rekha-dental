@@ -43,7 +43,6 @@ function CtaAction() {
           >
             Book Appointment
           </GeneralButton>
-
           {showCenters && (
             <div
               className="absolute  top-14 z-50 w-64 overflow-hidden

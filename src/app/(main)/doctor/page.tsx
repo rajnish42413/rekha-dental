@@ -95,7 +95,7 @@ function page() {
         rating={5.0}
         reviews={1200}
         description="Dr. Gaurav Saxena completed his BDS from DJ College of Dental Sciences & Research,
-         Modinagar in 2007 and MDS from the Institute of Dental Sciences & Technologies. With over 14 years of clinical experience, 
+         Modinagar in 2007 and MDS from the Institute of Dental Sciences & Technologies. With over 19 years of clinical experience, 
          he specializes in root canal treatment, dental implants,
           and crown & bridge procedures. Renowned 
           for his calm and patient-friendly approach, Dr. Gaurav is also a distinguished member of the Indian Dental Association,
@@ -105,7 +105,7 @@ function page() {
       <SectionHeader
         tag="CREDENTIALS"
         title="Experience shaped by precision, trust, and patient care."
-        subtitle="Over 14 years of expertise in advanced dental treatments, implantology, and aesthetic dentistry."
+        subtitle="Over 19 years of expertise in advanced dental treatments, implantology, and aesthetic dentistry."
       />
       <DoctorDetails data={doctorGauravDetails} />
       <DoctorHero
@@ -117,7 +117,7 @@ function page() {
         location="Raj Nagar Extension, Ghaziabad"
         rating={5.0}
         reviews={1000}
-        description="Dr. Mamta Raghav Saxena is a highly experienced dentist and radiologist who completed her BDS from King George’s Medical College (KGMC), Lucknow in 2008 and MDS from Nair Government Hospital, Mumbai in 2013 with specialization in Oral Medicine and Radiology. With more than 10 years of clinical experience, she specializes in implant and cosmetic dentistry, along with diagnosis and management of oral lesions, ulcers, and precancerous conditions. She has also served as an Associate Professor at Government Dental College, Aurangabad and as a Senior Lecturer at ITS Dental College. Known for her calm and patient-friendly approach, Dr. Mamta is widely trusted for comprehensive and compassionate dental care."
+        description="Dr. Mamta Raghav Saxena is a highly experienced dentist and radiologist who completed her BDS from King George’s Medical College (KGMC), Lucknow in 2008 and MDS from Nair Government Hospital, Mumbai in 2013 with specialization in Oral Medicine and Radiology. With more than 16 years of clinical experience, she specializes in implant and cosmetic dentistry, along with diagnosis and management of oral lesions, ulcers, and precancerous conditions. She has also served as an Associate Professor at Government Dental College, Aurangabad and as a Senior Lecturer at ITS Dental College. Known for her calm and patient-friendly approach, Dr. Mamta is widely trusted for comprehensive and compassionate dental care."
         image={`${CLOUDINARY_BASE}/rekha-dental/doctor/doctorMamta`}
       />
       <SectionHeader

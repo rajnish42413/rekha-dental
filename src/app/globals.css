@@ -76,3 +76,8 @@
 .ant-message-warning .anticon {
   color: #16412D !important;
 }
+
+/*Service Card*/
+.clip-path-ribbon {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 75%, 0% 100%) !important;
+}

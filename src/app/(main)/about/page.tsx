@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
   title: "About Rekha Dental Clinic | Luxury Dental Care in Ghaziabad",
   description:
-    "Discover Rekha Dental Clinic’s philosophy of refined, patient-first dentistry in Ghaziabad. Over 14 years of precision-driven dental care, advanced treatments, and calm clinical experiences.",
+    "Discover Rekha Dental Clinic’s philosophy of refined, patient-first dentistry in Ghaziabad. Over 19 years of precision-driven dental care, advanced treatments, and calm clinical experiences.",
 
   keywords: [
     "Rekha Dental Clinic",
@@ -75,7 +75,7 @@ function page() {
         imageSrc={`https://res.cloudinary.com/dygrzu3sm/image/upload/v1781084168/rekha-dental/academy-new/academy-new4.jpg`}
         tag="REKHA DENTAL CLINIC"
         title="A practice built, slowly on purpose."
-        subtitle="Fourteen years of refining the same idea — that the finest dental work disappears."
+        subtitle="Nineteen years of refining the same idea — that the finest dental work disappears."
         highlightText=""
       />
       <StorySection
@@ -98,7 +98,7 @@ function page() {
         tag="OUR STORY"
         title="A quiet rebellion against rushed dentistry."
         paragraphs={[
-          "For more than 14 years, Rekha Dental has been redefining the dental experience through expert care, advanced technology, and a commitment to patient comfort. From a single clinic to two modern centers, our journey has been guided by one goal — delivering dentistry that patients can trust with complete confidence.",
+          "For more than 19 years, Rekha Dental has been redefining the dental experience through expert care, advanced technology, and a commitment to patient comfort. From a single clinic to two modern centers, our journey has been guided by one goal — delivering dentistry that patients can trust with complete confidence.",
           "Our team of specialists provides comprehensive dental solutions in a calm, welcoming environment designed to put patients at ease. While we have expanded over the years, our philosophy remains unchanged: every patient deserves personalized attention, uncompromising quality, and a smile they can be proud of.",
         ]}
       />

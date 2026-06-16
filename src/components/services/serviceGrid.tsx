@@ -7,7 +7,7 @@ function ServiceGrid() {
     <section className="bg-[#EAE4DB] py-16">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+          className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8"
         >
           {serviceCards.map((service) => (
             <ServiceCard
@@ -17,6 +17,8 @@ function ServiceGrid() {
               index={service.index}
               title={service.title}
               description={service.description}
+              discount={service.discount}
+              startingPrice={service.startingPrice}
             />
           ))}
         </div>
