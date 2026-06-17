@@ -1,17 +1,20 @@
 "use client";
 import SectionHeader from "../general/sectionHeader";
 import GeneralButton from "../general/generalButton";
-import useCalendly from "@/hooks/useCalendly";
+
 import {
   CALENDLY_URL_KOTGAON,
   CALENDLY_URL_RAJ_NAGAR,
 } from "@/utils/endpoints";
 import { useEffect, useRef, useState } from "react";
+import CalendlyModal from "../calendly/calendlyModal";
 
 function CtaAction() {
-  const { openCalendly } = useCalendly();
+
   const [showCenters, setShowCenters] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const [calendlyUrl, setCalendlyUrl] = useState("");
+  const [showCalendly, setShowCalendly] = useState(false);
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (
@@ -49,10 +52,11 @@ function CtaAction() {
       border border-[#D6C7B2] bg-white shadow-xl"
             >
               <button
-                onClick={() => {
-                  openCalendly(CALENDLY_URL_RAJ_NAGAR);
-                  setShowCenters(false);
-                }}
+                  onClick={() => {
+                    setCalendlyUrl(CALENDLY_URL_RAJ_NAGAR);
+                    setShowCalendly(true);
+                    setShowCenters(false);
+                  }}
                 className="w-full border-b border-[#E5DDD0] px-4 py-3
         text-left text-sm text-[#1F2A24]
         hover:bg-[#F5F1EA] transition-colors cursor-pointer"
@@ -61,10 +65,11 @@ function CtaAction() {
               </button>
 
               <button
-                onClick={() => {
-                  openCalendly(CALENDLY_URL_KOTGAON);
-                  setShowCenters(false);
-                }}
+              onClick={() => {
+                setCalendlyUrl(CALENDLY_URL_KOTGAON);
+                setShowCalendly(true);
+                setShowCenters(false);
+              }}
                 className="w-full px-4 py-3 text-left text-sm
         text-[#1F2A24] hover:bg-[#F5F1EA] cursor-pointer
         transition-colors"
@@ -75,6 +80,11 @@ function CtaAction() {
           )}
         </div>
       </div>
+      <CalendlyModal
+        url={calendlyUrl}
+        open={showCalendly}
+        onClose={() => setShowCalendly(false)}
+      />
     </div>
   );
 }

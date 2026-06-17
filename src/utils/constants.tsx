@@ -138,42 +138,40 @@ export const serviceCards = [
   {
     id: 1,
     index: "01",
-    title: "Full Mouth Rehabilitation",
-    slug: "full-mouth-rehabilitation",
-    description: "Comprehensive restoration of oral health, function, and aesthetics.",
-    image: `${CLOUDINARY_BASE}/rekha-dental/services/service18/thumbnail`,
+    title: "Immediate Implantology",
+    slug: "immediate-implantology",
+    description: "Same-day implants with surgical precision.",
+    image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781613968/old-implant_llbay6.png`,
     discount:"10",
     startingPrice:"999"
   },
   {
     id: 2,
     index: "02",
-    title: "Immediate Implantology",
-    slug: "immediate-implantology",
-    description: "Same-day implants with surgical precision.",
-    image: `${CLOUDINARY_BASE}/rekha-dental/services/service1/thumbnail`,
+    title: "Clear Aligners",
+    slug: "clear-aligners",
+    description: "Discreet and comfortable orthodontic treatment for straighter teeth.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service16/thumbnail`,
     discount:"10",
     startingPrice:"999"
   },
   {
     id: 3,
     index: "03",
+    title: "Preventive · Ages 0–13",
+    slug: "preventive-ages-0-13",
+    description: "Gentle first visits for the youngest smiles.",
+    image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781614234/preventive-pit_mdjbzb.png`,
+    discount:"10",
+    startingPrice:"999"
+  },
+  {
+    id: 4,
+    index: "04",
     title: "Pediatric Dentistry",
     slug: "pediatric-dentistry",
     description: "Compassionate dental care tailored for children.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service5/thumbnail`,
-    discount:"10",
-    startingPrice:"999"
-  },
- 
-
-  {
-    id: 4,
-    index: "04",
-    title: "Preventive · Ages 0–13",
-    slug: "preventive-ages-0-13",
-    description: "Gentle first visits for the youngest smiles.",
-    image: `${CLOUDINARY_BASE}/rekha-dental/services/service3/thumbnail`,
     discount:"10",
     startingPrice:"999"
   },
@@ -314,13 +312,14 @@ export const serviceCards = [
   {
     id: 17,
     index: "17",
-    title: "Clear Aligners",
-    slug: "clear-aligners",
-    description: "Discreet and comfortable orthodontic treatment for straighter teeth.",
-    image: `${CLOUDINARY_BASE}/rekha-dental/services/service16/thumbnail`,
+    title: "Full Mouth Rehabilitation",
+    slug: "full-mouth-rehabilitation",
+    description: "Comprehensive restoration of oral health, function, and aesthetics.",
+    image: `${CLOUDINARY_BASE}/rekha-dental/services/service18/thumbnail`,
     discount:"10",
     startingPrice:"999"
   },
+ 
   {
     id: 18,
     index: "18",
@@ -340,7 +339,7 @@ export const serviceDetails = [
     hero: {
       title: "Immediate Implantology",
       subtitle: "Same-day implants with surgical precision.",
-      image: `${CLOUDINARY_BASE}/rekha-dental/services/service1/thumbnail`,
+      image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781613968/old-implant_llbay6.png`,
     },
     overview: {
       tag: "OVERVIEW",
@@ -457,7 +456,7 @@ export const serviceDetails = [
     hero: {
       title: "Preventive · Ages 0–13",
       subtitle: "Gentle first visits for the youngest smiles.",
-      image: `${CLOUDINARY_BASE}/rekha-dental/services/service3/thumbnail`,
+      image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781614234/preventive-pit_mdjbzb.png`,
     },
     overview: {
       tag: "OVERVIEW",

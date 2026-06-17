@@ -1,6 +1,5 @@
 "use client";
 
-import useCalendly from "@/hooks/useCalendly";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { FaStar, FaMapMarkerAlt, FaAward, FaCalendarAlt } from "react-icons/fa";
@@ -8,6 +7,7 @@ import {
   CALENDLY_URL_KOTGAON,
   CALENDLY_URL_RAJ_NAGAR,
 } from "@/utils/endpoints";
+import CalendlyModal from "../calendly/calendlyModal";
 
 interface DoctorHeroProps {
   name: string;
@@ -34,9 +34,12 @@ export default function DoctorHero({
   description,
   image,
 }: DoctorHeroProps) {
-  const { openCalendly } = useCalendly();
+
   const [showCenters, setShowCenters] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+
+  const [calendlyUrl, setCalendlyUrl] = useState("");
+  const [showCalendly, setShowCalendly] = useState(false);
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (
@@ -117,7 +120,8 @@ export default function DoctorHero({
       <div className="absolute left-0 top-14 z-20 w-full overflow-hidden border border-[#D6C7B2] bg-white shadow-xl">
         <button
           onClick={() => {
-            openCalendly(CALENDLY_URL_RAJ_NAGAR);
+            setCalendlyUrl(CALENDLY_URL_RAJ_NAGAR);
+            setShowCalendly(true);
             setShowCenters(false);
           }}
           className="w-full border-b border-[#E5DDD0] px-4 cursor-pointer py-3 text-left text-sm text-[#1F2A24]
@@ -128,7 +132,8 @@ export default function DoctorHero({
 
         <button
           onClick={() => {
-            openCalendly(CALENDLY_URL_KOTGAON);
+            setCalendlyUrl(CALENDLY_URL_KOTGAON);
+            setShowCalendly(true);
             setShowCenters(false);
           }}
           className="w-full px-4 py-3 text-left text-sm cursor-pointer text-[#1F2A24]
@@ -152,6 +157,12 @@ export default function DoctorHero({
 </div>
         </div>
       </div>
+
+      <CalendlyModal
+        url={calendlyUrl}
+        open={showCalendly}
+        onClose={() => setShowCalendly(false)}
+      />
     </section>
   );
 }

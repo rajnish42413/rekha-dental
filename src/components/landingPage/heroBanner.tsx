@@ -1,6 +1,5 @@
 "use client";
 
-import useCalendly from "@/hooks/useCalendly";
 import {
   CALENDLY_URL_KOTGAON,
   CALENDLY_URL_RAJ_NAGAR,
@@ -9,10 +8,12 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+import CalendlyModal from "../calendly/calendlyModal";
 
 export default function HeroBanner() {
-  const { openCalendly } = useCalendly();
   const [showCenters, setShowCenters] = useState(false);
+  const [calendlyUrl, setCalendlyUrl] = useState("");
+  const [showCalendly, setShowCalendly] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -77,7 +78,8 @@ export default function HeroBanner() {
                 >
                   <button
                     onClick={() => {
-                      openCalendly(CALENDLY_URL_RAJ_NAGAR);
+                      setCalendlyUrl(CALENDLY_URL_RAJ_NAGAR);
+                      setShowCalendly(true);
                       setShowCenters(false);
                     }}
                     className="w-full border-b border-[#E5DDD0] px-4 py-3
@@ -89,7 +91,8 @@ export default function HeroBanner() {
 
                   <button
                     onClick={() => {
-                      openCalendly(CALENDLY_URL_KOTGAON);
+                      setCalendlyUrl(CALENDLY_URL_KOTGAON);
+                      setShowCalendly(true);
                       setShowCenters(false);
                     }}
                     className="w-full px-4 py-3 text-left text-sm
@@ -112,6 +115,11 @@ export default function HeroBanner() {
           </div>
         </div>
       </div>
+      <CalendlyModal
+        url={calendlyUrl}
+        open={showCalendly}
+        onClose={() => setShowCalendly(false)}
+      />
     </section>
   );
 }

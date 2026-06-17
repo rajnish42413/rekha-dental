@@ -7,19 +7,19 @@ import { usePathname } from "next/navigation";
 import { menuLinks } from "@/utils/constants";
 import { FiPhone } from "react-icons/fi";
 import GeneralButton from "../general/generalButton";
-import useCalendly from "@/hooks/useCalendly";
 import MobileSidebar from "./mobileSidebar";
 import {
   CALENDLY_URL_KOTGAON,
   CALENDLY_URL_RAJ_NAGAR,
 } from "@/utils/endpoints";
 import Image from "next/image";
+import BookAppointmentButton from "../general/bookAppointmentButton";
+import CalendlyModal from "../calendly/calendlyModal";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const pathname = usePathname();
   const isActive = (path: string) => pathname === path;
-  const { openCalendly } = useCalendly();
 
   const linkClass = (path: string) =>
     `relative cursor-pointer transition-colors duration-200
@@ -30,6 +30,8 @@ export default function Navbar() {
     }
     `;
   const [showCenters, setShowCenters] = useState(false);
+  const [calendlyUrl, setCalendlyUrl] = useState("");
+  const [showCalendly, setShowCalendly] = useState(false);
 
   const dropdownRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
@@ -50,9 +52,9 @@ export default function Navbar() {
   }, []);
   return (
     <nav className="sticky w-full max-w-8xl mx-auto top-0 z-50 flex flex-col shadow-sm border-b border-[#FFF9F2]">
-      <div className=" bg-brand flex justify-between text-center items-center text-sm px-2 py-3  font-medium tracking-[0.2em] text-white ">
-        <div className="text-white text-xs">Rekha Dental Clinic, Ghaziabad</div>
-        <div className="text-white text-xs flex gap-1 items-center">
+      <div className=" bg-brand flex justify-between text-center items-center text-sm px-1 lg:px-2 py-3 font-medium tracking-[0.2em] text-white ">
+        <div className="text-white text-xs ">Rekha Dental Clinic</div>
+        <div className="text-white text-xs flex gap-1 items-center ">
           <FiPhone />
           +918130406405
         </div>
@@ -93,7 +95,8 @@ export default function Navbar() {
             >
               <button
                 onClick={() => {
-                  openCalendly(CALENDLY_URL_RAJ_NAGAR);
+                  setCalendlyUrl(CALENDLY_URL_RAJ_NAGAR);
+                  setShowCalendly(true);
                   setShowCenters(false);
                 }}
                 className="w-full border-b border-[#E5DDD0] px-4 py-3
@@ -105,7 +108,8 @@ export default function Navbar() {
 
               <button
                 onClick={() => {
-                  openCalendly(CALENDLY_URL_KOTGAON);
+                  setCalendlyUrl(CALENDLY_URL_KOTGAON);
+                  setShowCalendly(true);
                   setShowCenters(false);
                 }}
                 className="w-full px-4 py-3 text-left text-sm
@@ -118,7 +122,10 @@ export default function Navbar() {
           )}
         </div>
 
-        <div className="flex gap-4 items-center 2xl:hidden">
+        <div className="flex gap-2 items-center 2xl:hidden">
+          <div className="py-4">
+            <BookAppointmentButton showText={false} />
+          </div>
           <button
             className="2xl:hidden text-xl cursor-pointer"
             onClick={() => setMenuOpen(true)}
@@ -131,6 +138,12 @@ export default function Navbar() {
         open={menuOpen}
         onClose={() => setMenuOpen(false)}
         pathname={pathname}
+      />
+
+      <CalendlyModal
+        url={calendlyUrl}
+        open={showCalendly}
+        onClose={() => setShowCalendly(false)}
       />
     </nav>
   );

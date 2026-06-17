@@ -7,8 +7,8 @@ import GalleryTabs from "../gallery/galleryTabs";
 import GeneralButton from "../general/generalButton";
 import { FiMapPin } from "react-icons/fi";
 import { HiOutlineCurrencyDollar } from "react-icons/hi";
-import useCalendly from "@/hooks/useCalendly";
 import { CALENDLY_URL_KOTGAON, CALENDLY_URL_RAJ_NAGAR } from "@/utils/endpoints";
+import CalendlyModal from "../calendly/calendlyModal";
 
 function calculateSavings(india: string, us: string) {
   const getMin = (value: string) => {
@@ -29,9 +29,9 @@ export default function DentalCostComparison() {
   const selectedCategory = dentalCostComparison.find(
     (item) => item.category === activeCategory
   );
-const {openCalendly} = useCalendly();
 const [showCenters, setShowCenters] = useState(false);
-
+const [calendlyUrl, setCalendlyUrl] = useState("");
+const [showCalendly, setShowCalendly] = useState(false);
 const dropdownRef = useRef<HTMLDivElement>(null);
 
 useEffect(() => {
@@ -244,7 +244,8 @@ useEffect(() => {
     >
       <button
         onClick={() => {
-          openCalendly(CALENDLY_URL_RAJ_NAGAR);
+          setCalendlyUrl(CALENDLY_URL_RAJ_NAGAR);
+          setShowCalendly(true);
           setShowCenters(false);
         }}
         className="w-full border-b border-[#E5DDD0]
@@ -257,7 +258,8 @@ useEffect(() => {
 
       <button
         onClick={() => {
-          openCalendly(CALENDLY_URL_KOTGAON);
+          setCalendlyUrl(CALENDLY_URL_KOTGAON);
+          setShowCalendly(true);
           setShowCenters(false);
         }}
         className="w-full px-4 py-3 text-left text-sm
@@ -273,6 +275,11 @@ useEffect(() => {
   </div>
 </div>
       </div>
+      <CalendlyModal
+        url={calendlyUrl}
+        open={showCalendly}
+        onClose={() => setShowCalendly(false)}
+      />
     </section>
   );
 }
