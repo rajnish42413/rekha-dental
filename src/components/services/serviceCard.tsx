@@ -10,6 +10,7 @@ interface ServiceCardProps {
   slug: string;
   discount: string;
   startingPrice: string;
+  price: string;
 }
 
 export default function ServiceCard({
@@ -20,6 +21,7 @@ export default function ServiceCard({
   slug,
   discount,
   startingPrice,
+  price,
 }: ServiceCardProps) {
   return (
     <div
@@ -57,19 +59,25 @@ export default function ServiceCard({
         <h3 className="font-header text-xl md:text-2xl text-[#2C2C2C] mb-3 leading-snug">
           {title}
         </h3>
-        <p className="text-sm text-[#6B6B6B] leading-relaxed line-clamp-1">{description}</p>
+        <p className="text-sm text-[#6B6B6B] leading-relaxed line-clamp-1">
+          {description}
+        </p>
       </div>
       <div className="px-6 pb-6">
         <div className="grid grid-cols-12 gap-4 items-center">
           <div className="col-span-5 flex items-center gap-3 pr-2">
             <div>
-              <p className="text-[11px] uppercase tracking-wide text-[#6B6B6B] font-medium">
-                Starting at 
+              <p className="text-[11px] uppercase tracking-wide text-[#CBA553] font-medium">
+                Starting at
               </p>
-              <p className="text-2xl font-bold text-brand">
-            ₹{startingPrice}
-            
-              </p>
+
+              <div className="flex items-center gap-2">
+                <p className="text-2xl font-bold text-brand">
+                  ₹{startingPrice}
+                </p>
+
+                <p className="text-sm text-gray-400 line-through">₹{price}</p>
+              </div>
             </div>
           </div>
           <div className="col-span-7">

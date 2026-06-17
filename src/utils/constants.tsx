@@ -143,7 +143,8 @@ export const serviceCards = [
     description: "Same-day implants with surgical precision.",
     image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781613968/old-implant_llbay6.png`,
     discount:"10",
-    startingPrice:"999"
+    startingPrice:"999",
+    price: "1110",
   },
   {
     id: 2,
@@ -153,7 +154,8 @@ export const serviceCards = [
     description: "Discreet and comfortable orthodontic treatment for straighter teeth.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service16/thumbnail`,
     discount:"10",
-    startingPrice:"999"
+    startingPrice:"999",
+    price: "1110",
   },
   {
     id: 3,
@@ -163,7 +165,8 @@ export const serviceCards = [
     description: "Gentle first visits for the youngest smiles.",
     image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781614234/preventive-pit_mdjbzb.png`,
     discount:"10",
-    startingPrice:"999"
+    startingPrice:"999",
+    price: "1110",
   },
   {
     id: 4,
@@ -173,7 +176,8 @@ export const serviceCards = [
     description: "Compassionate dental care tailored for children.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service5/thumbnail`,
     discount:"10",
-    startingPrice:"999"
+    startingPrice:"999",
+    price: "1110",
   },
 
   {
@@ -184,7 +188,8 @@ export const serviceCards = [
     description: "Hygiene, fillings, crowns meticulously done.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service4/thumbnail`,
     discount:"10",
-    startingPrice:"999"
+    startingPrice:"999",
+    price: "1110",
   },
   {
     id: 6,
@@ -194,11 +199,9 @@ export const serviceCards = [
     description: "AI-guided 3D scans for sub-millimetric care.",
     image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781600169/robotic_zqztvx.png`,
     discount:"10",
-    startingPrice:"999"
+    startingPrice:"999",
+    price: "1110",
   },
-
-
-
   {
     id: 7,
     index: "07",
@@ -207,7 +210,8 @@ export const serviceCards = [
     description: "Natural-looking restorations for healthy smiles.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service6/thumbnail`,
     discount:"10",
-    startingPrice:"999"
+    startingPrice:"999",
+    price: "1110",
   },
 
   {
@@ -219,7 +223,8 @@ export const serviceCards = [
       "Durable tooth replacement solutions for function and aesthetics.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service7/thumbnail`,
     discount:"10",
-    startingPrice:"999"
+    startingPrice:"999",
+    price: "1110",
   },
 
   {
@@ -230,7 +235,8 @@ export const serviceCards = [
     description: "Advanced implant procedures for permanent tooth replacement.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service8/thumbnail`,
     discount:"10",
-    startingPrice:"999"
+    startingPrice:"999",
+    price: "1110",
   },
 
   {
@@ -241,7 +247,8 @@ export const serviceCards = [
     description: "Modern alignment solutions for beautifully straight teeth.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service9/thumbnail`,
     discount:"10",
-    startingPrice:"999"
+    startingPrice:"999",
+    price: "1110",
   },
 
   {
@@ -252,7 +259,8 @@ export const serviceCards = [
     description: "Precision endodontic care focused on tooth preservation.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service10/thumbnail`,
     discount:"10",
-    startingPrice:"999"
+    startingPrice:"999",
+    price: "1110",
   },
 
   {
@@ -263,7 +271,8 @@ export const serviceCards = [
     description: "Safe and comfortable extraction procedures with expert care.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service11/thumbnail`,
     discount:"10",
-    startingPrice:"999"
+    startingPrice:"999",
+    price: "1110",
   },
 
   {
@@ -275,7 +284,8 @@ export const serviceCards = [
       "Smile-enhancing treatments designed for aesthetic excellence.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service12/thumbnail`,
     discount:"10",
-    startingPrice:"999"
+    startingPrice:"999",
+    price: "1110",
   },
 
   {
@@ -286,7 +296,8 @@ export const serviceCards = [
     description: "Professional scaling and polishing for optimal oral hygiene.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service13/thumbnail`,
     discount:"10",
-    startingPrice:"999"
+    startingPrice:"999",
+    price: "1110",
   },
 
   {
@@ -297,7 +308,8 @@ export const serviceCards = [
     description: "Minimally invasive laser procedures with enhanced precision.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service14/thumbnail`,
     discount:"10",
-    startingPrice:"999"
+    startingPrice:"999",
+    price: "1110",
   },
   {
     id: 16,
@@ -307,7 +319,8 @@ export const serviceCards = [
     description: "Enhance your smile with stylish and safe tooth jewellery applications.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service15/thumbnail`,
     discount:"10",
-    startingPrice:"999"
+    startingPrice:"999",
+    price: "1110",
   },
   {
     id: 17,
@@ -317,7 +330,8 @@ export const serviceCards = [
     description: "Comprehensive restoration of oral health, function, and aesthetics.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service18/thumbnail`,
     discount:"10",
-    startingPrice:"999"
+    startingPrice:"999",
+    price: "1110",
   },
  
   {
@@ -328,7 +342,8 @@ export const serviceCards = [
     description: "Advanced dental procedures focused on precision, comfort, and faster recovery.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service17/thumbnail`,
     discount:"10",
-    startingPrice:"999"
+    startingPrice:"999",
+    price: "1110",
   },
  
 ];
@@ -1836,6 +1851,10 @@ export const academyCourses = [
     title: "General Dentistry Course",
     slug: "general-dentistry-course",
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course1`,
+    discount:"10",
+    startingPrice:"999",
+    price: "1110",
+    duration:"2 weeks",
     description:
       "Learn the fundamentals of clinical dentistry including diagnosis, treatment planning, restorative procedures, and patient management.",
   },
@@ -1843,6 +1862,10 @@ export const academyCourses = [
     title: "Endodontic Course",
     slug: "endodontic-course",
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course2`,
+    discount:"10",
+    startingPrice:"999",
+    price: "1110",
+    duration:"2 weeks",
     description:
       "Master root canal procedures, rotary endodontics, access preparation, obturation techniques, and endodontic case management.",
   },
@@ -1850,6 +1873,10 @@ export const academyCourses = [
     title: "Prosthodontics Course",
     slug: "prosthodontics-course",
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course3`,
+    discount:"10",
+    startingPrice:"999",
+    price: "1110",
+    duration:"2 weeks",
     description:
       "Gain hands-on experience in crowns, bridges, dentures, smile rehabilitation, and fixed prosthodontic procedures.",
   },
@@ -1857,6 +1884,10 @@ export const academyCourses = [
     title: "Oral Surgery Course",
     slug: "oral-surgery-course",
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course4`,
+    discount:"10",
+    startingPrice:"999",
+    price: "1110",
+    duration:"2 weeks",
     description:
       "Understand surgical extractions, flap design, suturing techniques, impaction management, and minor oral surgical procedures.",
   },
@@ -1864,6 +1895,10 @@ export const academyCourses = [
     title: "Basic Implant Course",
     slug: "basic-implant-course",
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course5`,
+    discount:"10",
+    startingPrice:"999",
+    price: "1110",
+    duration:"2 weeks",
     description:
       "An introductory implantology course covering implant planning, placement protocols, instruments, and restorative basics.",
   },
@@ -1871,6 +1906,10 @@ export const academyCourses = [
     title: "Complete Implant Course",
     slug: "complete-implant-course",
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course6`,
+    discount:"10",
+    startingPrice:"999",
+    price: "1110",
+    duration:"2 weeks",
     description:
       "Comprehensive implant training with advanced surgical protocols, sinus lift concepts, prosthetic workflows, and live cases.",
   },
@@ -1878,6 +1917,10 @@ export const academyCourses = [
     title: "Radiology (CBCT) Course",
     slug: "radiology-cbct-course",
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course7`,
+    discount:"10",
+    startingPrice:"999",
+    price: "1110",
+    duration:"2 weeks",
     description:
       "Learn CBCT interpretation, radiographic diagnosis, imaging protocols, and digital treatment planning for modern dentistry.",
   },
@@ -1885,6 +1928,10 @@ export const academyCourses = [
     title: "Esthetic Dentistry",
     slug: "esthetic-dentistry-course",
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course8`,
+    discount:"10",
+    startingPrice:"999",
+    price: "1110",
+    duration:"2 weeks",
     description:
       "Explore smile designing, veneers, teeth whitening, composite artistry, and minimally invasive cosmetic dental procedures.",
   },
@@ -1892,6 +1939,10 @@ export const academyCourses = [
     title: "Orthodontic Course",
     slug: "orthodontic-course",
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course9`,
+    discount:"10",
+    startingPrice:"999",
+    price: "1110",
+    duration:"2 weeks",
     description:
       "Study orthodontic diagnosis, treatment planning, wire bending basics, aligners, and fixed appliance mechanics.",
   },
@@ -1899,6 +1950,10 @@ export const academyCourses = [
     title: "Laser Course",
     slug: "laser-dentistry-course",
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course10`,
+    discount:"10",
+    startingPrice:"999",
+    price: "1110",
+    duration:"2 weeks",
     description:
       "Get trained in dental laser applications for soft tissue procedures, periodontal therapy, pain management, and esthetics.",
   },

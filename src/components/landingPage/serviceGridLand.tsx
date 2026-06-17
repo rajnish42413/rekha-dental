@@ -26,6 +26,7 @@ function ServiceGridLand() {
               description={service.description}
               discount={service.discount}
               startingPrice={service.startingPrice}
+              price={service.price}
             />
           ))}
         </div>
