@@ -3,7 +3,9 @@ import MilestonesSection from "@/components/about/milestoneSection";
 import OldClinic from "@/components/about/oldClinic";
 import StorySection from "@/components/about/storySection";
 import Banner from "@/components/general/generalBanner";
-import { accreditationsData, milestonesTimeline } from "@/utils/constants";
+import PillarCard from "@/components/general/pillarCard";
+import SectionHeader from "@/components/general/sectionHeader";
+import { accreditationsData, milestonesTimeline, ourCoreValues } from "@/utils/constants";
 import { CLOUDINARY_BASE, FRONTEND_URL } from "@/utils/endpoints";
 import { Metadata } from "next";
 
@@ -103,6 +105,22 @@ function page() {
         ]}
       />
       <MilestonesSection {...milestonesTimeline} />
+      <SectionHeader
+  tag="OUR VALUES"
+  title="The principles that guide our care."
+  subtitle="Trust, compassion, integrity, and excellence form the foundation of every patient experience at Rekha Dental."
+/>
+      <div className="lg:my-20 my-10 grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4 mx-10">
+        {ourCoreValues.map((item) => (
+          <PillarCard
+            key={item.id}
+            title={item.title}
+            description={item.description}
+            icon={item.icon}
+            number={item.number}
+          />
+        ))}
+      </div>
       <AccreditationsSection {...accreditationsData} />
       <OldClinic/>
     </div>

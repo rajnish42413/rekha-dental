@@ -1,6 +1,12 @@
-import HeroBanner from "./heroBanner";
+// import HeroBanner from "./heroBanner";
 import StatsStrip from "../general/statsCard";
-import { aboutStatsData, reviewsData } from "@/utils/constants";
+import {
+  aboutStatsData,
+  heroBanners,
+  homeFaqs,
+  premiumDentalProcedures,
+  reviewsData,
+} from "@/utils/constants";
 import StorySection from "../about/storySection";
 import ServiceGridLand from "./serviceGridLand";
 import Pillars from "./pillars";
@@ -9,11 +15,18 @@ import ReviewsSection from "../doctor/reviewSection";
 import AcademyBanner from "./academyBanner";
 import CtaAction from "./ctaAction";
 import { CLOUDINARY_BASE } from "@/utils/endpoints";
+import HeroSwiper from "../general/heroSwiper";
+import ExploreDentalServices from "./iconCards";
+import SectionHeader from "../general/sectionHeader";
+import FAQ from "../general/faq";
+import DentalPlanHighlights from "./dentalPlanHighlights";
+import PremiumProcedureSwiper from "./premiumProceduresSwiper";
 
 function LandingPage() {
   return (
     <div>
-      <HeroBanner />
+      {/* <HeroBanner /> */}
+      <HeroSwiper slides={heroBanners} />
       <StatsStrip data={aboutStatsData} />
       <StorySection
         images={[
@@ -32,7 +45,7 @@ function LandingPage() {
           `${CLOUDINARY_BASE}/rekha-dental/events/event4`,
           `${CLOUDINARY_BASE}/rekha-dental/events/event5`,
           `${CLOUDINARY_BASE}/rekha-dental/events/event6`,
-         `${CLOUDINARY_BASE}/rekha-dental/events/event7`,
+          `${CLOUDINARY_BASE}/rekha-dental/events/event7`,
           `${CLOUDINARY_BASE}/rekha-dental/events/event8`,
           `${CLOUDINARY_BASE}/rekha-dental/events/event9`,
         ]}
@@ -44,11 +57,30 @@ function LandingPage() {
           "From preventive care to complete smile rehabilitation, our team combines modern clinical expertise with a calm, refined patient experience built around comfort, trust, and long-term relationships.",
         ]}
       />
+      <ExploreDentalServices />
+      <SectionHeader
+  tag="PREMIUM DENTISTRY"
+  title="Signature treatments for extraordinary smiles"
+  subtitle="Explore some of our most advanced and sought-after dental procedures."
+/>
+
+<div className="max-w-7xl mx-auto px-6 lg:px-10 mt-10">
+  <PremiumProcedureSwiper
+    procedures={premiumDentalProcedures}
+  />
+</div>
       <ServiceGridLand />
       <GallerySection />
       <ReviewsSection data={reviewsData} />
       <Pillars />
       <AcademyBanner />
+      <DentalPlanHighlights/>
+      <div className=" mb-10 py-10 overflow-hidden flex items-center justify-center flex-col">
+        <div className="max-w-7xl mx-auto px-6 lg:px-10">
+          <SectionHeader tag="FAQ" title="Quietly answered." />
+          <FAQ data={homeFaqs} />
+        </div>
+      </div>
       <CtaAction />
     </div>
   );

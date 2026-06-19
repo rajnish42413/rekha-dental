@@ -1,5 +1,5 @@
-import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa6";
-import { MdEmail, MdPhone } from "react-icons/md";
+import { FaFacebookF, FaHandHoldingHeart, FaHandshake, FaHeart, FaInstagram, FaPeopleGroup, FaShieldHeart, FaShieldVirus, FaTooth, FaUserDoctor, FaUserShield, FaYoutube } from "react-icons/fa6";
+import { MdCleaningServices, MdEmail, MdHealthAndSafety, MdMedicalServices, MdOutlineBiotech, MdOutlineFactCheck, MdOutlineWorkspacePremium, MdPhone, MdVerifiedUser } from "react-icons/md";
 import {
   ScanOutlined,
   SafetyCertificateOutlined,
@@ -12,6 +12,7 @@ import {
 } from "@ant-design/icons";
 import {
   FiActivity,
+  FiAward,
   FiBarChart2,
   FiCheckCircle,
   FiClipboard,
@@ -33,6 +34,30 @@ import {
   FiUsers,
 } from "react-icons/fi";
 import { CLOUDINARY_BASE } from "./endpoints";
+import { FaRegSmile } from "react-icons/fa";
+import { TbDental } from "react-icons/tb";
+import { GiLaserPrecision } from "react-icons/gi";
+import { BsFillDiamondFill } from "react-icons/bs";
+import {
+  FaChild,
+} from "react-icons/fa";
+
+import {
+  MdOutlineHealthAndSafety,
+} from "react-icons/md";
+
+import {
+  GiToothbrush,
+} from "react-icons/gi";
+
+import {
+  PiToothLight,
+  PiToothFill,
+} from "react-icons/pi";
+
+import {
+  TbDentalBroken,
+} from "react-icons/tb";
 //Navbar
 export const menuLinks = [
   {
@@ -88,6 +113,9 @@ export const footerLinks = [
       { label: "Dental Tourism", href: "/tour" },
       { label: "Academy", href: "/academy" },
       { label: "Gallery", href: "/gallery" },
+      {label:"Dental Plans", href:"/dental-plans"},
+      {label: "Common Problems", href:"/common-problems"},
+     
     ],
   },
   {
@@ -98,6 +126,7 @@ export const footerLinks = [
       { label: "Blogs", href: "/blogs" },
       { label: "Reviews", href: "/reviews" },
       { label: "Our Legacy", href: "/legacy" },
+      {label:"Patient Safety Practices", href:"/patient-safety"},
     ],
   },
   {
@@ -1845,6 +1874,261 @@ export const pillars = [
   },
 ];
 
+export const exploreDentalServices = [
+  {
+    id: 1,
+    title: "Dental Implants",
+    slug: "dental-implants",
+    icon: <FaTooth />,
+  },
+
+  {
+    id: 2,
+    title: "Root Canal Treatment",
+    slug: "root-canal-treatment",
+    icon:  <MdMedicalServices />,
+  },
+
+  {
+    id: 3,
+    title: "Clear Aligners",
+    slug: "clear-aligners",
+    icon: <TbDental />,
+  },
+
+  {
+    id: 4,
+    title: "Cosmetic Dentistry",
+    slug: "cosmetic-dentistry",
+    icon: <FaRegSmile />,
+  },
+
+  {
+    id: 5,
+    title: "Teeth Cleaning",
+    slug: "teeth-cleaning",
+    icon: <GiToothbrush />,
+  },
+
+  {
+    id: 6,
+    title: "Dental Fillings",
+    slug: "dental-fillings",
+    icon: <PiToothFill />,
+  },
+
+  {
+    id: 7,
+    title: "Dental Bridges",
+    slug: "dental-bridges",
+    icon: <TbDentalBroken />,
+  },
+
+  {
+    id: 8,
+    title: "Tooth Removal",
+    slug: "tooth-removal",
+    icon: <MdOutlineHealthAndSafety />,
+  },
+
+  {
+    id: 9,
+    title: "Pediatric Dentistry",
+    slug: "pediatric-dentistry",
+    icon: <FaChild />,
+  },
+
+  {
+    id: 10,
+    title: "Laser Treatment",
+    slug: "laser-dental-treatment",
+    icon: <PiToothLight />,
+  },
+
+  {
+    id: 11,
+    title: "Digital Scanning",
+    slug: "digital-robotic-scanning",
+    icon: <MdOutlineBiotech />,
+  },
+
+  {
+    id: 12,
+    title: "Full Mouth Rehabilitation",
+    slug: "full-mouth-rehabilitation",
+    icon: <FaTooth />,
+  },
+];
+
+export const homeFaqs = [
+  {
+    question: "How often should I visit a dentist?",
+    answer:
+      "Most patients benefit from a dental check-up and professional cleaning every six months. Regular visits help detect issues early and maintain long-term oral health.",
+  },
+
+  {
+    question: "Do I need an appointment before visiting?",
+    answer:
+      "While walk-ins may be accommodated when possible, scheduling an appointment helps minimize waiting time and ensures dedicated attention from our dental team.",
+  },
+
+  {
+    question: "Are dental treatments painful?",
+    answer:
+      "Modern dental techniques, advanced equipment, and effective anesthesia make most treatments comfortable with minimal discomfort during and after the procedure.",
+  },
+
+  {
+    question: "Do you provide dental implants?",
+    answer:
+      "Yes, we offer advanced dental implant solutions to replace missing teeth and restore both function and aesthetics with long-lasting results.",
+  },
+
+  {
+    question: "Do you offer clear aligner treatment?",
+    answer:
+      "Yes, we provide clear aligner solutions designed to straighten teeth discreetly and comfortably without the appearance of traditional braces.",
+  },
+
+  {
+    question: "Can children receive treatment at Rekha Dental?",
+    answer:
+      "Absolutely. Our pediatric dental services are designed to provide gentle, child-friendly care that supports healthy smiles from an early age.",
+  },
+
+  {
+    question: "What should I do during a dental emergency?",
+    answer:
+      "If you experience severe pain, swelling, trauma, or a broken tooth, contact our clinic immediately so we can guide you and arrange prompt care.",
+  },
+
+  {
+    question: "Do you offer smile makeover treatments?",
+    answer:
+      "Yes, we provide cosmetic dentistry services including teeth whitening, veneers, aligners, and comprehensive smile makeover solutions tailored to individual goals.",
+  },
+
+  {
+    question: "What payment options are available?",
+    answer:
+      "We accept multiple payment methods and can guide you through available treatment plans and membership options during your consultation.",
+  },
+
+  {
+    question: "How can I book an appointment?",
+    answer:
+      "Appointments can be scheduled through our website, by phone, or directly through WhatsApp for quick assistance from our team.",
+  },
+];
+
+export const dentalPlanHighlights = [
+  {
+    id: 1,
+    title: "Exclusive Discounts",
+    description:
+      "Save on consultations, diagnostics, and selected dental treatments.",
+  },
+  {
+    id: 2,
+    title: "Preventive Care",
+    description:
+      "Regular check-ups and early intervention help protect your long-term oral health.",
+  },
+  {
+    id: 3,
+    title: "Family Benefits",
+    description:
+      "Choose plans designed to support individuals and families alike.",
+  },
+];
+
+export const premiumDentalProcedures = [
+  {
+    id: 1,
+    index: "01",
+    title: "Immediate Implantology",
+    slug: "immediate-implantology",
+    description:
+      "Immediate Implantology enables tooth replacement in a significantly shorter timeframe by placing dental implants soon after extraction. This advanced approach helps preserve bone structure, reduces treatment duration, improves aesthetics, and restores function quickly. Using precise digital planning and modern surgical techniques, patients can enjoy a faster, more comfortable path to a confident smile.",
+    image:
+      "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781847949/implants_rorvzs.png",
+    discount: "10",
+    startingPrice: "999",
+    price: "1110",
+  },
+
+  {
+    id: 2,
+    index: "02",
+    title: "Zimmer Dental Implants",
+    slug: "zimmer-dental-implants",
+    description:
+      "Zimmer Dental Implants are globally recognized for their precision engineering, exceptional stability, and long-term success rates. Designed to integrate naturally with the jawbone, these premium implants provide superior function and aesthetics. They offer a durable solution for missing teeth while ensuring optimal comfort, chewing efficiency, and a natural-looking smile that lasts for years.",
+    image:
+      "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781847949/zimmer_ujhbp4.png",
+    discount: "10",
+    startingPrice: "999",
+    price: "1110",
+  },
+
+  {
+    id: 3,
+    index: "03",
+    title: "Dental Veneers",
+    slug: "dental-veneers",
+    description:
+      "Dental Veneers are ultra-thin custom-crafted shells designed to enhance the appearance of teeth by correcting stains, chips, gaps, and minor alignment concerns. Crafted from high-quality porcelain or composite materials, veneers deliver a natural, bright, and symmetrical smile. They are one of the most sought-after cosmetic dental treatments for achieving dramatic smile transformations.",
+    image:
+      "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781847949/veneers_g2bsb0.png",
+    discount: "10",
+    startingPrice: "999",
+    price: "1110",
+  },
+
+  {
+    id: 4,
+    index: "04",
+    title: "Clear Aligners & Braces",
+    slug: "clear-aligners-braces",
+    description:
+      "Clear Aligners and Braces provide effective solutions for correcting crowded, crooked, or misaligned teeth. Modern orthodontic treatments improve smile aesthetics while enhancing bite function and oral health. Whether choosing nearly invisible aligners or traditional braces, patients benefit from customized treatment plans designed to deliver predictable, comfortable, and long-lasting alignment results.",
+    image:
+      "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781847948/aligners_axk9vz.png",
+    discount: "10",
+    startingPrice: "999",
+    price: "1110",
+  },
+
+  {
+    id: 5,
+    index: "05",
+    title: "Full Mouth Rehabilitation",
+    slug: "full-mouth-rehabilitation",
+    description:
+      "Full Mouth Rehabilitation is a comprehensive treatment approach that restores the health, function, and appearance of the entire mouth. Combining restorative, cosmetic, and rehabilitative procedures, it addresses worn, damaged, missing, or compromised teeth. This customized solution helps patients regain confident smiles, improved chewing ability, balanced bite function, and long-term oral wellness.",
+    image:
+      "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781847948/full-mouth_l1kruz.png",
+    discount: "10",
+    startingPrice: "999",
+    price: "1110",
+  },
+
+  {
+    id: 6,
+    index: "06",
+    title: "Professional Teeth Bleaching",
+    slug: "professional-teeth-bleaching",
+    description:
+      "Professional Teeth Bleaching is an advanced cosmetic procedure designed to safely remove stains and discoloration caused by food, beverages, aging, and lifestyle habits. Performed under expert supervision, the treatment delivers noticeably whiter teeth while maintaining enamel safety. It enhances smile confidence, creates a youthful appearance, and provides faster, more predictable results than over-the-counter whitening products.",
+    image:
+      "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781847948/bleaching_nsgpgz.png",
+    discount: "10",
+    startingPrice: "999",
+    price: "1110",
+  },
+];
+
 //Academy Page
 export const academyCourses = [
   {
@@ -2931,6 +3215,40 @@ export const termsSections = [
     description:
       "Warranty: Up to 1 year for material failure under normal conditions. Covers filling dislodgement due to material defects. Excludes recurrent decay, tooth fractures, grinding habits, or accidental trauma.",
   },
+  {
+    title: "Metal Crown",
+    icon: FiShield,
+    description:
+      "Price Range: ₹4,500–₹5,500. Covers crown removal, crown dislodgement, and crown breakage for 3 months from placement. After the warranty period, replacement or repair may be subject to up to 80% of the treatment cost.",
+  },
+  
+  {
+    title: "PFM Crown",
+    icon: FiAward,
+    description:
+      "Price: ₹6,500. Includes 1 year comprehensive warranty covering crown removal, crown breakage, and related manufacturing concerns. After 1 year, replacement or repair may be subject to approximately 20% of the treatment cost.",
+  },
+  
+  {
+    title: "Premium PFM Crown",
+    icon: FiStar,
+    description:
+      "Price: ₹7,500. Includes 1+1 year warranty covering crown removal and crown breakage under normal usage conditions. After the warranty period, replacement or repair may be subject to approximately 20% of the treatment cost.",
+  },
+  
+  {
+    title: "Full Ceramic Crown",
+    icon: BsFillDiamondFill,
+    description:
+      "Price: ₹12,990. Includes 2 years comprehensive warranty covering crown removal, crown fracture, and manufacturing defects. After 2 years, replacement or repair may be subject to approximately 30% of the treatment cost.",
+  },
+  
+  {
+    title: "E-Max Crown",
+    icon: FiCpu,
+    description:
+      "Price: ₹15,000. Includes 2 years warranty covering crown removal, crown fracture, and manufacturing defects under normal usage conditions. After 2 years, replacement or repair may be subject to approximately 30% of the treatment cost.",
+  },
 ];
 //Reviews page
 export const googleReviews = [
@@ -3356,5 +3674,641 @@ export const mediaData = [
   {
     id: 9,
     image: `${CLOUDINARY_BASE}/rekha-dental/media/media9`,
+  },
+];
+
+//Hero Banner
+
+export const heroBanners = [
+  {
+    image:
+      `${CLOUDINARY_BASE}/rekha-dental/banner`,
+    alt: "Dental Banner 1",
+  },
+  {
+    image:
+     `${CLOUDINARY_BASE}/rekha-dental/aboutBanner`,
+    alt: "Dental Banner 2",
+  },
+  {
+    image:
+    "https://res.cloudinary.com/dygrzu3sm/image/upload/f_auto,q_auto/rekha-dental/services/service5/thumbnail",
+    alt: "Dental Banner 3",
+  },
+];
+
+//Dental Plans
+export const dentalHealthPlans = [
+  {
+    id: 1,
+    slug: "membership-499",
+    title: "Dental Membership 499",
+    price: 499,
+    originalValue: 1300,
+    savings: 801,
+    description:
+      "Basic preventive dental care package for individuals.",
+
+    benefits: [
+      {
+        title: "Dental Consultation",
+        value: "2 Consultations",
+        worth: 600,
+      },
+      {
+        title: "Dental X-Ray",
+        value: "1 X-Ray",
+        worth: 200,
+      },
+      {
+        title: "Front Teeth Scaling",
+        value: "50% Off",
+      },
+      {
+        title: "Complimentary Polishing",
+        value: "Worth ₹700",
+      },
+      {
+        title: "Treatment Voucher",
+        value: "₹500 Discount Voucher",
+      },
+    ],
+
+    applicableFor: [
+      "Bleaching",
+      "Implant Treatment",
+      "Tooth Jewellery",
+    ],
+
+    featured: false,
+  },
+
+  {
+    id: 2,
+    slug: "membership-999",
+    title: "Dental Membership 999",
+    price: 999,
+    originalValue: 2500,
+    savings: 1500,
+    description:
+      "Enhanced membership plan with family benefits and preventive care.",
+
+    benefits: [
+      {
+        title: "Dental Consultation",
+        value: "3 Consultations",
+        worth: 900,
+      },
+      {
+        title: "Dental X-Ray",
+        value: "2 X-Rays",
+        worth: 400,
+      },
+      {
+        title: "Full Mouth Scaling",
+        value: "Single Sitting",
+      },
+      {
+        title: "Family Benefit",
+        value: "50% Off on 2 Consultations + 2 X-Rays",
+      },
+      {
+        title: "Procedure Discount",
+        value: "5% Off on All Procedures",
+      },
+      {
+        title: "Complimentary Polishing",
+        value: "Worth ₹700",
+      },
+      {
+        title: "Treatment Voucher",
+        value: "₹1000 Discount Voucher",
+      },
+    ],
+
+    applicableFor: [
+      "Implant Planning",
+      "Bleaching",
+      "Tooth Jewellery",
+      "Smile Makeover",
+      "Aligners",
+      "Smile Treatment",
+    ],
+
+    notes: [
+      "Pictures will not be shared with patient.",
+    ],
+
+    featured: true,
+  },
+
+  {
+    id: 3,
+    slug: "membership-1499",
+    title: "Dental Membership 1499",
+    price: 1499,
+    originalValue: 4500,
+    savings: 3000,
+    description:
+      "Comprehensive family-focused membership with maximum savings.",
+
+    benefits: [
+      {
+        title: "Dental Consultation",
+        value: "5 Consultations",
+        worth: 1500,
+      },
+      {
+        title: "Dental X-Ray",
+        value: "3 X-Rays",
+        worth: 600,
+      },
+      {
+        title: "Full Mouth Scaling",
+        value: "Single Sitting with Polishing",
+      },
+      {
+        title: "Family Benefit",
+        value: "50% Off on 3 Consultations + 3 X-Rays",
+      },
+      {
+        title: "Procedure Discount",
+        value: "10% Off on All Procedures",
+      },
+      {
+        title: "Complimentary Air Polishing",
+        value: "Worth ₹1000",
+      },
+    ],
+
+    applicableFor: [
+      "Implant Planning",
+      "Bleaching",
+      "Tooth Jewellery",
+      "Smile Makeover",
+      "Aligners",
+      "Smile Treatment",
+    ],
+
+    notes: [
+      "Pictures will be shared with patient.",
+    ],
+
+
+    featured: false,
+  },
+]; 
+
+export const whyChooseRekhaDental = [
+  {
+    id: 1,
+    number: "01",
+    title: "Expert-Led Dentistry",
+    description:
+      "Receive care from experienced dental professionals committed to delivering excellence through precision, compassion, and clinical expertise.",
+    icon: <FaUserDoctor/>,
+  },
+  {
+    id: 2,
+    number: "02",
+    title: "Modern Dental Technology",
+    description:
+      "Digital diagnostics, advanced imaging, and contemporary treatment techniques help ensure accurate diagnosis and predictable results.",
+    icon: <MdOutlineBiotech/>,
+  },
+  {
+    id: 3,
+    number: "03",
+    title: "Comprehensive Smile Solutions",
+    description:
+      "From routine check-ups and preventive care to implants, aligners, smile makeovers, and full mouth rehabilitation.",
+    icon: <FaShieldHeart/>,
+  },
+  {
+    id: 4,
+    number: "04",
+    title: "Safety & Patient Comfort",
+    description:
+      "Strict sterilization protocols, patient-focused care, and transparent treatment planning create a safe and comfortable dental experience.",
+    icon: <MdHealthAndSafety/>,
+  },
+];
+
+export const dentalPlanFaqs = [
+  {
+    question: "What is the Rekha Dental Membership Plan?",
+    answer:
+      "The Rekha Dental Membership Plan is a preventive dental care program that offers consultations, diagnostic benefits, treatment discounts, and exclusive savings on selected dental procedures.",
+  },
+  {
+    question: "Who can enroll in a dental membership plan?",
+    answer:
+      "Anyone can enroll in a membership plan. We offer plans suitable for individuals as well as families looking for affordable and comprehensive dental care benefits.",
+  },
+  {
+    question: "How long is the membership valid?",
+    answer:
+      "The validity period may vary depending on the selected plan. Please contact our team for complete details regarding membership duration and renewal options.",
+  },
+  {
+    question: "Can I use my membership benefits immediately?",
+    answer:
+      "Yes, most membership benefits can be availed immediately after successful enrollment, subject to the terms and conditions of the selected plan.",
+  },
+  {
+    question: "Are consultations included in the membership plans?",
+    answer:
+      "Yes. Depending on your chosen plan, you can receive multiple complimentary dental consultations throughout the membership period.",
+  },
+  {
+    question: "Do the plans include dental X-rays?",
+    answer:
+      "Yes. Selected membership plans include complimentary dental X-rays, helping patients maintain regular oral health monitoring and diagnosis.",
+  },
+  {
+    question: "Can family members use my membership benefits?",
+    answer:
+      "Certain plans include family benefits and discounts. Please review the plan details or contact us to understand the specific family coverage available.",
+  },
+  {
+    question: "Do members receive discounts on treatments?",
+    answer:
+      "Yes. Members enjoy exclusive discounts on various dental procedures, including preventive, restorative, cosmetic, and advanced dental treatments.",
+  },
+  {
+    question: "Which treatments are eligible for membership discounts?",
+    answer:
+      "Discounts may be applicable on treatments such as implants, aligners, smile makeovers, tooth jewellery, bleaching, and other eligible procedures depending on the selected plan.",
+  },
+  {
+    question: "Can I upgrade my membership plan later?",
+    answer:
+      "Yes. Existing members may upgrade to a higher plan to unlock additional benefits and savings. Our team will guide you through the upgrade process.",
+  },
+  {
+    question: "Is the membership fee refundable?",
+    answer:
+      "Membership fees are generally non-refundable once benefits have been activated. Please speak with our team regarding specific terms and conditions.",
+  },
+  {
+    question: "How can I enroll in a Rekha Dental Membership Plan?",
+    answer:
+      "You can enroll by contacting our clinic directly, visiting us in person, or clicking the 'Get Membership' button on the website to connect with our team via WhatsApp.",
+  },
+];
+
+
+export const commonDentalProblems = [
+  {
+    image: "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776993/tooth-decay_ns9ldh.png",
+    title: "Tooth Decay",
+    serviceSlug: "dental-fillings",
+    symptoms: [
+      "Toothache",
+      "Sensitivity to hot and cold foods",
+      "Visible holes in teeth",
+      "Pain while chewing",
+    ],
+    medicalTerm: "Dental Caries",
+    treatment:
+      "Dental fillings, fluoride treatment, crowns, or root canal treatment depending on severity.",
+  },
+
+  {
+    image: "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776995/bleeding_c91jtv.png",
+    title: "Bleeding Gums",
+    serviceSlug: "teeth-cleaning",
+    symptoms: [
+      "Bleeding while brushing",
+      "Swollen gums",
+      "Bad breath",
+      "Tender gum tissue",
+    ],
+    medicalTerm: "Gingivitis",
+    treatment:
+      "Professional scaling, improved oral hygiene, medicated mouthwash, and periodontal care.",
+  },
+
+  {
+    image: "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776940/bad-breathe_ydbzgt.png",
+    title: "Chronic Bad Breath",
+    serviceSlug: "teeth-cleaning",
+    symptoms: [
+      "Persistent bad breath",
+      "Dry mouth",
+      "Unpleasant taste",
+      "White coating on tongue",
+    ],
+    medicalTerm: "Halitosis",
+    treatment:
+      "Professional cleaning, treatment of underlying dental issues, and improved oral hygiene habits.",
+  },
+
+  {
+    image: "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776857/tooth-sensitivity_lz6puy.png",
+    title: "Tooth Sensitivity",
+    serviceSlug: "general-restorative",
+    symptoms: [
+      "Sharp pain with cold drinks",
+      "Discomfort while eating sweets",
+      "Sensitivity to hot foods",
+      "Pain during brushing",
+    ],
+    medicalTerm: "Dentin Hypersensitivity",
+    treatment:
+      "Desensitizing toothpaste, fluoride therapy, bonding procedures, or gum treatment.",
+  },
+
+  {
+    image: "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776856/severe-tooth-infection_xlqpdv.png",
+    title: "Severe Tooth Infection",
+    serviceSlug: "root-canal-treatment",
+    symptoms: [
+      "Persistent toothache",
+      "Swelling around tooth",
+      "Pus discharge",
+      "Pain while biting",
+    ],
+    medicalTerm: "Dental Abscess",
+    treatment:
+      "Root canal treatment, drainage of infection, antibiotics, or tooth extraction if necessary.",
+  },
+
+  {
+    image: "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776849/crooked_j09jg7.png",
+    title: "Crooked or Misaligned Teeth",
+    serviceSlug: "clear-aligners",
+    symptoms: [
+      "Crowded teeth",
+      "Difficulty cleaning teeth",
+      "Bite problems",
+      "Jaw discomfort",
+    ],
+    medicalTerm: "Malocclusion",
+    treatment:
+      "Clear aligners, braces, retainers, or orthodontic correction.",
+  },
+
+  {
+    image: "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776854/wisdom_cdnttc.png",
+    title: "Wisdom Tooth Pain",
+    serviceSlug: "tooth-removal",
+    symptoms: [
+      "Jaw pain",
+      "Swollen gums",
+      "Difficulty opening mouth",
+      "Pain at back of mouth",
+    ],
+    medicalTerm: "Impacted Third Molar",
+    treatment:
+      "Monitoring, medication, or surgical wisdom tooth extraction.",
+  },
+
+  {
+    image: "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776857/grinding_t1umlw.png",
+    title: "Teeth Grinding",
+    serviceSlug: "general-restorative",
+    symptoms: [
+      "Worn teeth",
+      "Jaw pain",
+      "Morning headaches",
+      "Tooth sensitivity",
+    ],
+    medicalTerm: "Bruxism",
+    treatment:
+      "Night guards, bite correction, stress management, and restorative dentistry.",
+  },
+
+  {
+    image: "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776854/missing_l6ce7m.png",
+    title: "Missing Teeth",
+    serviceSlug: "dental-implants",
+    symptoms: [
+      "Difficulty chewing",
+      "Speech issues",
+      "Shifting of nearby teeth",
+      "Bone loss in jaw",
+    ],
+    medicalTerm: "Partial Edentulism",
+    treatment:
+      "Dental implants, bridges, dentures, or full mouth rehabilitation.",
+  },
+
+  {
+    image: "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781777267/yellow_ijiubl.png",
+    title: "Yellow or Stained Teeth",
+    serviceSlug: "cosmetic-dentistry",
+    symptoms: [
+      "Tooth discoloration",
+      "Surface stains",
+      "Uneven tooth shade",
+      "Loss of smile confidence",
+    ],
+    medicalTerm: "Extrinsic / Intrinsic Tooth Staining",
+    treatment:
+      "Professional teeth whitening, bleaching, polishing, veneers, or smile makeover treatments.",
+  },
+];
+
+export const commonDentalProblemsFaq = [
+  {
+    question: "When should I see a dentist for tooth pain?",
+    answer:
+      "You should visit a dentist if tooth pain lasts more than a day or two, becomes severe, causes swelling, or interferes with eating and sleeping. Early diagnosis can prevent more complex treatments later.",
+  },
+
+  {
+    question: "Can bleeding gums be a sign of a serious dental problem?",
+    answer:
+      "Yes. Bleeding gums are often an early sign of gingivitis or gum disease. If left untreated, gum disease can progress and affect the supporting structures of your teeth.",
+  },
+
+  {
+    question: "Why are my teeth sensitive to hot and cold foods?",
+    answer:
+      "Tooth sensitivity may occur due to worn enamel, exposed tooth roots, cavities, gum recession, or teeth grinding. A dental examination can identify the exact cause and appropriate treatment.",
+  },
+
+  {
+    question: "What causes chronic bad breath?",
+    answer:
+      "Persistent bad breath can result from poor oral hygiene, gum disease, tooth decay, dry mouth, or certain medical conditions. Professional cleaning and proper oral care often help resolve the issue.",
+  },
+
+  {
+    question: "Can crooked teeth affect oral health?",
+    answer:
+      "Yes. Misaligned teeth can make brushing and flossing difficult, increasing the risk of cavities and gum disease. They may also contribute to bite problems and jaw discomfort.",
+  },
+
+  {
+    question: "When is a root canal treatment necessary?",
+    answer:
+      "A root canal is usually recommended when the tooth pulp becomes infected or inflamed due to deep decay, trauma, or severe infection. The procedure helps save the natural tooth.",
+  },
+
+  {
+    question: "What are the treatment options for missing teeth?",
+    answer:
+      "Common solutions include dental implants, bridges, dentures, and full mouth rehabilitation. The best option depends on your oral health, bone condition, and treatment goals.",
+  },
+
+  {
+    question: "Do wisdom teeth always need to be removed?",
+    answer:
+      "Not always. Wisdom teeth only require removal when they are impacted, causing pain, infection, crowding, or damage to adjacent teeth.",
+  },
+
+  {
+    question: "Can yellow or stained teeth become white again?",
+    answer:
+      "Yes. Professional teeth whitening, polishing, bleaching, veneers, and cosmetic dental treatments can significantly improve tooth color and appearance.",
+  },
+
+  {
+    question: "How can I prevent common dental problems?",
+    answer:
+      "Maintaining good oral hygiene, brushing twice daily, flossing regularly, limiting sugary foods, and scheduling routine dental check-ups can help prevent most dental problems.",
+  },
+];
+
+export const patientFriendlyCare = [
+  {
+    id: 1,
+    number: "01",
+    title: "Comfort-First Experience",
+    description:
+      "Every treatment is planned with patient comfort in mind, creating a calm and stress-free dental experience from consultation to recovery.",
+    icon: <FaRegSmile />,
+  },
+  {
+    id: 2,
+    number: "02",
+    title: "Transparent Treatment Planning",
+    description:
+      "We explain diagnoses, treatment options, costs, and expected outcomes clearly, empowering patients to make informed decisions.",
+    icon: <MdOutlineFactCheck />,
+  },
+  {
+    id: 3,
+    number: "03",
+    title: "Gentle & Compassionate Care",
+    description:
+      "Our team prioritizes empathy, patience, and personalized attention to ensure every patient feels heard, valued, and comfortable.",
+    icon: <FaHandHoldingHeart />,
+  },
+  {
+    id: 4,
+    number: "04",
+    title: "Family-Friendly Environment",
+    description:
+      "From children to senior citizens, our clinic is designed to provide safe, welcoming, and accessible dental care for all age groups.",
+    icon: <FaPeopleGroup />,
+  },
+];
+export const sterilizationProcess = [
+  {
+    id: 1,
+    number: "01",
+    title: "Medical-Grade Instrument Sterilization",
+    description:
+      "All reusable instruments undergo thorough cleaning, packaging, and autoclave sterilization to eliminate bacteria, viruses, and contaminants.",
+    icon: <MdHealthAndSafety />,
+  },
+  {
+    id: 2,
+    number: "02",
+    title: "Single-Use Disposable Materials",
+    description:
+      "Wherever applicable, disposable items are used once and safely discarded to maintain the highest standards of hygiene.",
+    icon: <FaShieldVirus />,
+  },
+  {
+    id: 3,
+    number: "03",
+    title: "Operatory Disinfection Protocols",
+    description:
+      "Treatment areas are disinfected after every patient using approved medical-grade surface disinfectants and strict sanitation procedures.",
+    icon: <MdCleaningServices />,
+  },
+  {
+    id: 4,
+    number: "04",
+    title: "Continuous Infection Control",
+    description:
+      "Our team follows internationally accepted infection-control protocols, including PPE usage, hand hygiene, and regular compliance checks.",
+    icon: <FaUserShield />,
+  },
+];
+export const advancedDentalTechnologies = [
+  {
+    id: 1,
+    number: "01",
+    title: "Digital Robotic Scanning",
+    description:
+      "High-precision digital scans replace traditional impressions, delivering greater comfort, accuracy, and treatment predictability.",
+    icon: <MdOutlineBiotech />,
+  },
+  {
+    id: 2,
+    number: "02",
+    title: "3D Diagnostic Imaging",
+    description:
+      "Advanced imaging technology provides detailed visualization of teeth, bone, and surrounding structures for precise treatment planning.",
+    icon: <FaTooth />,
+  },
+  {
+    id: 3,
+    number: "03",
+    title: "Laser-Assisted Dentistry",
+    description:
+      "Modern dental lasers enable minimally invasive procedures with improved precision, reduced discomfort, and faster healing.",
+    icon: <GiLaserPrecision />,
+  },
+  {
+    id: 4,
+    number: "04",
+    title: "Technology-Driven Treatment Planning",
+    description:
+      "Digital workflows, AI-assisted diagnostics, and advanced planning tools help deliver predictable, efficient, and personalized care.",
+    icon: <TbDental />,
+  },
+];
+
+export const ourCoreValues = [
+  {
+    id: 1,
+    number: "01",
+    title: "Trust",
+    description:
+      "We build lasting relationships through honest communication, transparent treatment planning, and consistent clinical excellence that patients can rely on.",
+    icon: <FaHandshake />,
+  },
+
+  {
+    id: 2,
+    number: "02",
+    title: "Respect",
+    description:
+      "Every patient is treated with dignity, empathy, and understanding. We listen carefully, value individual needs, and create a welcoming environment for all.",
+    icon: <FaHeart />,
+  },
+
+  {
+    id: 3,
+    number: "03",
+    title: "Integrity",
+    description:
+      "Our recommendations are guided by what is best for the patient. We uphold the highest ethical standards in every diagnosis, treatment, and interaction.",
+    icon: <MdVerifiedUser />,
+  },
+
+  {
+    id: 4,
+    number: "04",
+    title: "Excellence",
+    description:
+      "We continuously pursue clinical excellence through advanced technology, ongoing education, and a commitment to delivering exceptional dental care.",
+    icon: <MdOutlineWorkspacePremium />,
   },
 ];

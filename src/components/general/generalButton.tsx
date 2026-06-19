@@ -18,7 +18,7 @@ export default function GeneralButton({
       className={`
         bg-brand
         cursor-pointer 
-        text-white 
+        text-white  duration-200
         text-sm
         px-6 
         h-10 lg:h-10 
