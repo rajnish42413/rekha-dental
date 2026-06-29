@@ -25,7 +25,7 @@ export default function ServiceCard({
 }: ServiceCardProps) {
   return (
     <div
-      className={`bg-[#F5F1EA] group transform rounded-xl transition-all duration-1200  ease-[cubic-bezier(0.22,1,0.36,1)]
+      className={`bg-[#F5F1EA] group transform rounded-xl transition-all duration-1200 ease-[cubic-bezier(0.22,1,0.36,1)]
      `}
     >
       <Link
@@ -72,7 +72,7 @@ export default function ServiceCard({
               </p>
 
               <div className="flex items-center gap-2">
-                <p className="text-2xl font-bold text-brand">
+                <p className="text-xl font-bold text-brand">
                   ₹{startingPrice}
                 </p>
 

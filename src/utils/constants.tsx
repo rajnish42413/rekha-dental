@@ -1,5 +1,28 @@
-import { FaFacebookF, FaHandHoldingHeart, FaHandshake, FaHeart, FaInstagram, FaPeopleGroup, FaShieldHeart, FaShieldVirus, FaTooth, FaUserDoctor, FaUserShield, FaYoutube } from "react-icons/fa6";
-import { MdCleaningServices, MdEmail, MdHealthAndSafety, MdMedicalServices, MdOutlineBiotech, MdOutlineFactCheck, MdOutlineWorkspacePremium, MdPhone, MdVerifiedUser } from "react-icons/md";
+import {
+  FaFacebookF,
+  FaHandHoldingHeart,
+  FaHandshake,
+  FaHeart,
+  FaInstagram,
+  FaPeopleGroup,
+  FaShieldHeart,
+  FaShieldVirus,
+  FaTooth,
+  FaUserDoctor,
+  FaUserShield,
+  FaYoutube,
+} from "react-icons/fa6";
+import {
+  MdCleaningServices,
+  MdEmail,
+  MdHealthAndSafety,
+  MdMedicalServices,
+  MdOutlineBiotech,
+  MdOutlineFactCheck,
+  MdOutlineWorkspacePremium,
+  MdPhone,
+  MdVerifiedUser,
+} from "react-icons/md";
 import {
   ScanOutlined,
   SafetyCertificateOutlined,
@@ -38,26 +61,11 @@ import { FaRegSmile } from "react-icons/fa";
 import { TbDental } from "react-icons/tb";
 import { GiLaserPrecision } from "react-icons/gi";
 import { BsFillDiamondFill } from "react-icons/bs";
-import {
-  FaChild,
-} from "react-icons/fa";
-
-import {
-  MdOutlineHealthAndSafety,
-} from "react-icons/md";
-
-import {
-  GiToothbrush,
-} from "react-icons/gi";
-
-import {
-  PiToothLight,
-  PiToothFill,
-} from "react-icons/pi";
-
-import {
-  TbDentalBroken,
-} from "react-icons/tb";
+import { FaChild } from "react-icons/fa";
+import { MdOutlineHealthAndSafety } from "react-icons/md";
+import { GiToothbrush } from "react-icons/gi";
+import { PiToothLight, PiToothFill } from "react-icons/pi";
+import { TbDentalBroken } from "react-icons/tb";
 //Navbar
 export const menuLinks = [
   {
@@ -113,9 +121,8 @@ export const footerLinks = [
       { label: "Dental Tourism", href: "/tour" },
       { label: "Academy", href: "/academy" },
       { label: "Gallery", href: "/gallery" },
-      {label:"Dental Plans", href:"/dental-plans"},
-      {label: "Common Problems", href:"/common-problems"},
-     
+      { label: "Dental Plans", href: "/dental-plans" },
+      { label: "Common Problems", href: "/common-problems" },
     ],
   },
   {
@@ -126,7 +133,7 @@ export const footerLinks = [
       { label: "Blogs", href: "/blogs" },
       { label: "Reviews", href: "/reviews" },
       { label: "Our Legacy", href: "/legacy" },
-      {label:"Patient Safety Practices", href:"/patient-safety"},
+      { label: "Patient Safety Practices", href: "/patient-safety" },
     ],
   },
   {
@@ -171,20 +178,21 @@ export const serviceCards = [
     slug: "immediate-implantology",
     description: "Same-day implants with surgical precision.",
     image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781613968/old-implant_llbay6.png`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
+    discount: "10",
+    startingPrice: "32990",
+    price: "45990",
   },
   {
     id: 2,
     index: "02",
     title: "Clear Aligners",
     slug: "clear-aligners",
-    description: "Discreet and comfortable orthodontic treatment for straighter teeth.",
+    description:
+      "Discreet and comfortable orthodontic treatment for straighter teeth.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service16/thumbnail`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
+    discount: "10",
+    startingPrice: "6000",
+    price: "70000",
   },
   {
     id: 3,
@@ -193,9 +201,9 @@ export const serviceCards = [
     slug: "preventive-ages-0-13",
     description: "Gentle first visits for the youngest smiles.",
     image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781614234/preventive-pit_mdjbzb.png`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
+    discount: "10",
+    startingPrice: "1499",
+    price: "2499",
   },
   {
     id: 4,
@@ -204,9 +212,9 @@ export const serviceCards = [
     slug: "pediatric-dentistry",
     description: "Compassionate dental care tailored for children.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service5/thumbnail`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
+    discount: "10",
+    startingPrice: "1499",
+    price: "3999",
   },
 
   {
@@ -216,9 +224,9 @@ export const serviceCards = [
     slug: "general-restorative",
     description: "Hygiene, fillings, crowns meticulously done.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service4/thumbnail`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
+    discount: "10",
+    startingPrice: "1250",
+    price: "3500",
   },
   {
     id: 6,
@@ -227,9 +235,9 @@ export const serviceCards = [
     slug: "digital-robotic-scanning",
     description: "AI-guided 3D scans for sub-millimetric care.",
     image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781600169/robotic_zqztvx.png`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
+    discount: "10",
+    startingPrice: "2000",
+    price: "2200",
   },
   {
     id: 7,
@@ -238,9 +246,9 @@ export const serviceCards = [
     slug: "dental-fillings",
     description: "Natural-looking restorations for healthy smiles.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service6/thumbnail`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
+    discount: "10",
+    startingPrice: "1250",
+    price: "12500",
   },
 
   {
@@ -251,9 +259,9 @@ export const serviceCards = [
     description:
       "Durable tooth replacement solutions for function and aesthetics.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service7/thumbnail`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
+    discount: "10",
+    startingPrice: "5500",
+    price: "15990",
   },
 
   {
@@ -263,9 +271,9 @@ export const serviceCards = [
     slug: "dental-implants",
     description: "Advanced implant procedures for permanent tooth replacement.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service8/thumbnail`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
+    discount: "10",
+    startingPrice: "32990",
+    price: "45990",
   },
 
   {
@@ -275,9 +283,9 @@ export const serviceCards = [
     slug: "orthodontic-treatment",
     description: "Modern alignment solutions for beautifully straight teeth.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service9/thumbnail`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
+    discount: "10",
+    startingPrice: "40000",
+    price: "70000",
   },
 
   {
@@ -287,9 +295,9 @@ export const serviceCards = [
     slug: "root-canal-treatment",
     description: "Precision endodontic care focused on tooth preservation.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service10/thumbnail`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
+    discount: "10",
+    startingPrice: "4990",
+    price: "8990",
   },
 
   {
@@ -299,9 +307,9 @@ export const serviceCards = [
     slug: "tooth-removal",
     description: "Safe and comfortable extraction procedures with expert care.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service11/thumbnail`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
+    discount: "10",
+    startingPrice: "1000",
+    price: "7990",
   },
 
   {
@@ -312,21 +320,21 @@ export const serviceCards = [
     description:
       "Smile-enhancing treatments designed for aesthetic excellence.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service12/thumbnail`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
+    discount: "10",
+    startingPrice: "1490",
+    price: "15990",
   },
 
   {
     id: 14,
     index: "14",
-    title: "Teeth Cleaning",
-    slug: "teeth-cleaning",
+    title: "Teeth Cleaning & scaling",
+    slug: "teeth-cleaning-scaling",
     description: "Professional scaling and polishing for optimal oral hygiene.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service13/thumbnail`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
+    discount: "10",
+    startingPrice: "990",
+    price: "3490",
   },
 
   {
@@ -336,45 +344,95 @@ export const serviceCards = [
     slug: "laser-dental-treatment",
     description: "Minimally invasive laser procedures with enhanced precision.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service14/thumbnail`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
+    discount: "10",
+    startingPrice: "1000",
+    price: "4990",
   },
   {
     id: 16,
     index: "16",
     title: "Tooth Jewellery",
     slug: "tooth-jewellery",
-    description: "Enhance your smile with stylish and safe tooth jewellery applications.",
+    description:
+      "Enhance your smile with stylish and safe tooth jewellery applications.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service15/thumbnail`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
+    discount: "10",
+    startingPrice: "2500",
+    price: "2500",
   },
   {
     id: 17,
     index: "17",
     title: "Full Mouth Rehabilitation",
     slug: "full-mouth-rehabilitation",
-    description: "Comprehensive restoration of oral health, function, and aesthetics.",
+    description:
+      "Comprehensive restoration of oral health, function, and aesthetics.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service18/thumbnail`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
+    discount: "10",
+    startingPrice: "32990",
+    price: "Custom Quote",
   },
- 
+
   {
-    id: 18,
-    index: "18",
-    title: "Minimal Invasive Technology",
-    slug: "minimally-invasive-technology",
-    description: "Advanced dental procedures focused on precision, comfort, and faster recovery.",
-    image: `${CLOUDINARY_BASE}/rekha-dental/services/service17/thumbnail`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
+    id: 19,
+    index: "19",
+    title: "Dental Crowns",
+    slug: "dental-crowns",
+    description:
+      "Custom-crafted dental crowns designed to restore damaged, weakened, or root canal treated teeth. From durable PFM crowns to premium ceramic and Emax restorations, our crowns blend strength, function, and natural aesthetics for long-lasting smile rehabilitation.",
+    image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781857257/ChatGPT_Image_Jun_19_2026_01_45_07_PM_tilxyt.png`,
+    discount: "10",
+    startingPrice: "4500",
+    price: "5000",
   },
- 
+  {
+    id: 20,
+    index: "20",
+    title: "Dental Veneers",
+    slug: "dental-veneers",
+    description:
+      "Transform chipped, stained, uneven, or worn teeth with ultra-thin custom veneers designed to enhance smile aesthetics. Our direct and indirect veneer solutions create a brighter, more symmetrical smile while preserving a natural appearance and long-term durability.",
+    image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781858744/ChatGPT_Image_Jun_19_2026_02_13_50_PM_i6r1dk.png`,
+    discount: "10",
+    startingPrice: "5490",
+    price: "7490",
+  },
+  {
+    id: 21,
+    index: "21",
+    title: "Dental Splints",
+    slug: "dental-splints",
+    description:
+      "Custom-made dental splints and night guards designed to protect teeth from grinding, clenching, and excessive bite forces. These appliances help reduce jaw pain, prevent tooth wear, relieve muscle tension, and improve comfort for patients affected by bruxism and TMJ-related concerns.",
+    image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781859345/Gemini_Generated_Image_sk6bask6bask6bas_uuyrxz.png`,
+    discount: "10",
+    startingPrice: "4500",
+    price: "8500",
+  },
+  {
+    id: 22,
+    index: "22",
+    title: "Dentures",
+    slug: "dentures",
+    description:
+      "Restore confidence, speech, and chewing ability with custom-crafted complete and partial dentures. Designed for comfort, stability, and natural aesthetics, our denture solutions help replace missing teeth while improving facial support and overall oral function for a confident everyday smile.",
+    image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781859910/Gemini_Generated_Image_fmvfgqfmvfgqfmvf_dvceiq.png`,
+    discount: "10",
+    startingPrice: "8990",
+    price: "25990",
+  },
+  {
+    id: 23,
+    index: "23",
+    title: "General Dental Procedures",
+    slug: "general-dental-procedures",
+    description:
+      "Comprehensive dental care covering routine examinations, dental X-rays, emergency treatments, sensitivity management, preventive procedures, minor surgical care, and essential oral health services. Designed to address everyday dental concerns with timely diagnosis, comfort, and professional clinical care.",
+    image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781860548/Gemini_Generated_Image_lhoye4lhoye4lhoy_v4ijx4.png`,
+    discount: "10",
+    startingPrice: "300",
+    price: "2500",
+  },
 ];
 export const serviceDetails = [
   {
@@ -436,6 +494,40 @@ export const serviceDetails = [
           "Initial healing takes a few days, full integration takes a few months.",
       },
     ],
+    treatments: [
+      {
+        name: "Osstem Dio",
+        price: "₹32,990",
+      },
+      {
+        name: "Neodent Aqua Straumann Implant",
+        price: "₹34,990",
+      },
+      {
+        name: "ZimVie BioHorizons Implant",
+        price: "₹45,990",
+      },
+      {
+        name: "Bone Graft",
+        price: "₹3,990 - ₹7,990",
+      },
+      {
+        name: "Densa Burs",
+        price: "₹4,990 - ₹6,990",
+      },
+      {
+        name: "Colla Plug / Tape",
+        price: "₹1,200 - ₹2,000",
+      },
+      {
+        name: "Piezo Use",
+        price: "₹4,990 per implant",
+      },
+      {
+        name: "Abutment Cost (Milled & Custumised is Extra ",
+        price: "Approx. ₹3,000 - ₹6,000",
+      },
+    ],
   },
   {
     id: 2,
@@ -491,6 +583,24 @@ export const serviceDetails = [
         question: "How accurate is it?",
         answer:
           "It provides extremely high precision compared to traditional methods.",
+      },
+    ],
+    treatments: [
+      {
+        name: "Digital Intraoral Scan",
+        price: "Included with Treatment",
+      },
+      {
+        name: "3D Digital Smile Scan",
+        price: "Included with Treatment",
+      },
+      {
+        name: "Digital Treatment Planning",
+        price: "Included with Treatment",
+      },
+      {
+        name: "Robotic Guided Dental Scan",
+        price: "Included with Treatment",
       },
     ],
   },
@@ -549,6 +659,20 @@ export const serviceDetails = [
         answer: "No, visits are designed to be calm and comforting.",
       },
     ],
+    treatments: [
+      {
+        name: "Pit & Fissure Sealant",
+        price: "₹1,499-₹1,999",
+      },
+      {
+        name: "Varnish",
+        price: "₹1999/-(Voco)",
+      },
+      {
+        name: "Varnish",
+        price: "₹2499/-(Ivoclar)",
+      },
+    ],
   },
   {
     id: 4,
@@ -603,6 +727,36 @@ export const serviceDetails = [
       {
         question: "Are crowns noticeable?",
         answer: "No, they are designed to look completely natural.",
+      },
+    ],
+    treatments: [
+      {
+        name: "Basic GIC Filling",
+        price: "₹1,250",
+      },
+      {
+        name: "Premium GIC Filling",
+        price: "₹1,800",
+      },
+      {
+        name: "Nano Hybrid Composite Filling",
+        price: "₹1,500",
+      },
+      {
+        name: "VOCO Premium Filling",
+        price: "₹1,990",
+      },
+      {
+        name: "Ivoclar VIP Premium Filling",
+        price: "₹2,490",
+      },
+      {
+        name: "Direct Composite Filling",
+        price: "₹3,500",
+      },
+      {
+        name: "Class II Restoration Under Rubber Dam",
+        price: "₹3,500",
       },
     ],
   },
@@ -663,6 +817,25 @@ export const serviceDetails = [
           "Yes, we use digital X-rays with minimal radiation and lead aprons.",
       },
     ],
+    treatments: [
+
+      {
+        name: "Pulpectomy",
+        price: "₹3,500",
+      },
+      {
+        name: "Pit & Fissure Sealant",
+        price: "₹1,499-₹1,999",
+      },
+      {
+        name: "Varnish",
+        price: "₹1999/-(Voco)",
+      },
+      {
+        name: "Varnish",
+        price: "₹2499/-(Ivoclar)",
+      },
+    ],
   },
   {
     id: 6,
@@ -717,6 +890,52 @@ export const serviceDetails = [
       {
         question: "Will the filling match my tooth?",
         answer: "Yes, we use a shade guide to match your enamel perfectly.",
+      },
+    ],
+    treatments: [
+      {
+        name: "Basic Restoration GIC Filling",
+        price: "₹1,250",
+      },
+      {
+        name: "Premium Restoration GIC Filling",
+        price: "₹1,800",
+      },
+      {
+        name: "Nano Hybrid Composite Filling",
+        price: "₹1,500",
+      },
+      {
+        name: "VOCO Premium Composite Filling",
+        price: "₹1,990",
+      },
+      {
+        name: "Ivoclar VIP Composite Filling",
+        price: "₹2,490",
+      },
+      {
+        name: "Direct Composite Restoration",
+        price: "₹3,500",
+      },
+      {
+        name: "Class II Restoration Under Rubber Dam",
+        price: "₹3,500",
+      },
+      {
+        name: "Metal Inlay / Onlay",
+        price: "₹3,500",
+      },
+      {
+        name: "Ceramic (Emax) Inlay / Onlay",
+        price: "₹9,500 - ₹12,500",
+      },
+      {
+        name: "Direct",
+        price: "₹3500/- I ₹4500/- I ₹5500/- (R-DAM)",
+      },
+      {
+        name: "Calss 2 Or Under Rubber Dam",
+        price: "₹3500/",
       },
     ],
   },
@@ -777,6 +996,24 @@ export const serviceDetails = [
           "It requires special flossing tools, which we will show you how to use.",
       },
     ],
+    treatments: [
+      {
+        name: "Metal/PFM/Ceramic",
+        price: "Per tooth ₹16500/-, ₹19500/-, ₹22500/- include 3 Units",
+      },
+      // {
+      //   name: "Metal Bridge",
+      //   price: "₹4,500 per unit",
+      // },
+      // {
+      //   name: "Ceramic Bridge",
+      //   price: "₹10,990 per unit",
+      // },
+      // {
+      //   name: "Emax Bridge",
+      //   price: "₹15,990 per unit",
+      // },
+    ],
   },
   {
     id: 8,
@@ -834,6 +1071,40 @@ export const serviceDetails = [
         answer: "With proper care, dental implants can last a lifetime.",
       },
     ],
+    treatments: [
+      {
+        name: "Osstem Dio",
+        price: "₹32,990",
+      },
+      {
+        name: "Neodent Aqua Straumann Implant",
+        price: "₹34,990",
+      },
+      {
+        name: "ZimVie BioHorizons Implant",
+        price: "₹45,990",
+      },
+      {
+        name: "Bone Grafting",
+        price: "₹3,990 - ₹7,990",
+      },
+      {
+        name: "Densah Burs",
+        price: "₹4,990 - ₹6,990",
+      },
+      {
+        name: "Colla Plug / Colla Tape",
+        price: "₹1,200 - ₹2,000",
+      },
+      {
+        name: "Piezo Use",
+        price: "₹4,990 per implant",
+      },
+      {
+        name: "Abutment Cost (Milled & Custumised is Extra ",
+        price: "₹3,000 - ₹6,000",
+      },
+    ],
   },
   {
     id: 9,
@@ -888,6 +1159,28 @@ export const serviceDetails = [
       {
         question: "How long does treatment take?",
         answer: "Typically 12–24 months, depending on the complexity.",
+      },
+    ],
+    treatments: [
+      {
+        name: "SELF LIGATING CERAMIC",
+        price: "(P) ₹70000/-(VP) ₹90000/",
+      },
+      {
+        name: " FIXED IN VISIBLE",
+        price: "₹7,000-₹8,000",
+      },
+      {
+        name: "Extra Premium Braces",
+        price: "₹70,000 onwards",
+      },
+      {
+        name: "REMOVABLE(PLATE)-",
+        price: "₹4,500 onwards",
+      },
+      {
+        name: "ALIGNERESS TYPE",
+        price: "₹6,000 onwards",
       },
     ],
   },
@@ -947,6 +1240,16 @@ export const serviceDetails = [
         answer: "Usually, yes, to protect the tooth from fracturing.",
       },
     ],
+    treatments: [
+      {
+        name: "Root Canal Treatment Starts from ",
+        price: "₹5,990",
+      },
+      {
+        name: "Re-RCT",
+        price: "₹6500/- +(₹2500/- + ₹3500/-) + ₹5500/- Crown ",
+      },
+    ],
   },
   {
     id: 11,
@@ -1002,6 +1305,44 @@ export const serviceDetails = [
         question: "What can I eat after?",
         answer:
           "Soft foods like yogurt and soup are best for the first 24 hours.",
+      },
+    ],
+    treatments: [
+      {
+        name: "Anterior Mobile Tooth Extraction",
+        price: "₹1,500",
+      },
+      {
+        name: "Anterior Normal Tooth Extraction",
+        price: "₹1,800-₹2,200",
+      },
+      {
+        name: "Upper Surgical Extraction",
+        price: "₹5,000",
+      },
+      {
+        name: "Lower Surgical Extraction",
+        price: "₹6,000",
+      },
+      {
+        name: "Posterior Mobile Tooth Extraction",
+        price: "₹1,500",
+      },
+      {
+        name: "Posterior Normal Tooth Extraction",
+        price: "₹1,800-₹2,200",
+      },
+      {
+        name: "Posterior Upper Surgical Extraction",
+        price: "₹8,000",
+      },
+      {
+        name: "Posterior Lower Surgical Extraction",
+        price: "₹12,000",
+      },
+      {
+        name: "Posterior Implant Tooth Extraction",
+        price: "₹5,000-₹8,000",
       },
     ],
   },
@@ -1061,12 +1402,38 @@ export const serviceDetails = [
         answer: "Results can last 1–3 years depending on your habits.",
       },
     ],
+    treatments: [
+      {
+        name: "Basic Teeth Bleaching",
+        price: "₹8000",
+      },
+      {
+        name: "1 Cycle Teeth Bleaching",
+        price: "₹8000",
+      },
+      {
+        name: "2 Cycle Teeth Bleaching",
+        price: "₹12000",
+      },
+      {
+        name: "Premium Laser Bleaching",
+        price: "₹18000",
+      },
+      {
+        name: "Direct Composite Veneer",
+        price: "₹5,490",
+      },
+      {
+        name: "Indirect Ceramic Veneer",
+        price: "₹15,990",
+      },
+    ],
   },
   {
     id: 13,
-    slug: "teeth-cleaning",
+    slug: "teeth-cleaning-scaling",
     hero: {
-      title: "Teeth Cleaning",
+      title: "Teeth Cleaning & Scaling",
       subtitle: "Professional scaling and polishing for hygiene.",
       image: `${CLOUDINARY_BASE}/rekha-dental/services/service13/thumbnail`,
     },
@@ -1116,6 +1483,32 @@ export const serviceDetails = [
         question: "Does scaling hurt?",
         answer:
           "No, we use gentle techniques and can apply numbing gel if you are sensitive.",
+      },
+    ],
+    treatments: [
+      {
+        name: "Buccal Only (Anterior)",
+        price: "₹1499",
+      },
+      {
+        name: "Buccal Upper Teeth Only",
+        price: "₹999",
+      },
+      {
+        name: "First Premolar to First Premolar",
+        price: "₹2,490",
+      },
+      {
+        name: "(Ant+Post) Full Mouth",
+        price: "₹2,990",
+      },
+      {
+        name: "Polishing",
+        price: "₹990",
+      },
+      {
+        name: "Air Polishing",
+        price: "₹990",
       },
     ],
   },
@@ -1176,6 +1569,28 @@ export const serviceDetails = [
           "For many procedures, yes, but some traditional tools are still needed for certain tasks.",
       },
     ],
+    treatments: [
+      {
+        name: "Laser Bio-Stimulation",
+        price: "₹1,499/-sitting",
+      },
+      {
+        name: "Laser Tooth Eruption",
+        price: "₹1,499-₹1,999",
+      },
+      {
+        name: "Laser Root Canal Treatment",
+        price: "₹1000/-sitting",
+      },
+      {
+        name: "Laser Periodontal Therapy (Per Quadrant)",
+        price: "₹3,000-₹5,000",
+      },
+      {
+        name: "Periodontal Therapy",
+        price: "₹1,499/-tooth",
+      },
+    ],
   },
   {
     id: 15,
@@ -1212,8 +1627,7 @@ export const serviceDetails = [
         {
           index: "02",
           title: "Gem Placement",
-          description:
-            "The selected crystal or jewel is precisely positioned.",
+          description: "The selected crystal or jewel is precisely positioned.",
           image: `${CLOUDINARY_BASE}/rekha-dental/services/service15/process2`,
         },
         {
@@ -1235,6 +1649,12 @@ export const serviceDetails = [
         question: "How long does tooth jewellery last?",
         answer:
           "With proper care, tooth jewellery can last from several months to several years.",
+      },
+    ],
+    treatments: [
+      {
+        name: "Tooth Jewellery",
+        price: "₹5,000",
       },
     ],
   },
@@ -1296,6 +1716,24 @@ export const serviceDetails = [
         question: "How many hours should I wear aligners daily?",
         answer:
           "Aligners should typically be worn for 20–22 hours per day for optimal results.",
+      },
+    ],
+    treatments: [
+      {
+        name: "Extra Premium",
+        price: "₹55,000",
+      },
+      {
+        name: "SELF LIGATING METAL",
+        price: "₹45000/-₹55000/-₹65000/-",
+      },
+      {
+        name: "CERAMIC",
+        price: "₹40,000-₹50,000",
+      },
+      {
+        name: "Fixed Invisible Braces",
+        price: "₹7,000 - ₹8,000",
       },
     ],
   },
@@ -1418,6 +1856,559 @@ export const serviceDetails = [
         question: "How long does full mouth rehabilitation take?",
         answer:
           "Treatment duration varies depending on complexity and may range from a few months to over a year.",
+      },
+    ],
+
+    treatments: [
+      {
+        name: "Dental Implants",
+        price: "₹32,990 onwards",
+      },
+      {
+        name: "Root Canal Treatment",
+        price: "₹5,990 onwards",
+      },
+      {
+        name: "Dental Crowns",
+        price: "₹4,500 onwards",
+      },
+      // {
+      //   name: "Dental Bridges",
+      //   price: "₹4,500 per unit onwards",
+      // },
+      {
+        name: "Complete Dentures",
+        price: "₹40,000 onwards",
+      },
+      {
+        name: "Cast Partial Dentures",
+        price: "₹6,000 onwards",
+      },
+      {
+        name: "Bone Grafting",
+        price: "₹3,990-₹7,990",
+      },
+      // {
+      //   name: "Smile Rehabilitation Plan",
+      //   price: "Custom Quote",
+      // },
+    ],
+  },
+  {
+    id: 19,
+    slug: "dental-crowns",
+    hero: {
+      title: "Dental Crowns",
+      subtitle: "Strength, protection, and natural aesthetics restored.",
+      image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781857257/ChatGPT_Image_Jun_19_2026_01_45_07_PM_tilxyt.png`,
+    },
+
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "Dental crowns are custom-crafted restorations designed to rebuild damaged, weakened, fractured, or root canal treated teeth. Acting as a protective cap, a crown restores the tooth's shape, strength, function, and appearance while preventing further deterioration. At Rekha Dental, we offer a wide range of crown options including Metal, PFM, Ceramic, Zirconia, and premium Emax crowns to suit varying functional and aesthetic needs. Using advanced digital scanning and precision fabrication techniques, every crown is designed to blend seamlessly with surrounding teeth. Our focus is to provide long-lasting restorations that look natural, feel comfortable, and withstand everyday chewing forces. Whether restoring a single tooth or supporting a larger rehabilitation plan, dental crowns play a vital role in preserving oral health and smile confidence.",
+    },
+
+    technology: {
+      tag: "TECHNOLOGY",
+      points: [
+        "Digital crown design and smile planning",
+        "High-strength ceramic and Emax restorations",
+        "Precision shade matching for natural aesthetics",
+      ],
+    },
+
+    process: {
+      tag: "THE PROCESS",
+      title: "Crafted for strength and beauty.",
+      steps: [
+        {
+          index: "01",
+          title: "Assessment & Preparation",
+          description:
+            "The tooth is carefully examined, prepared, and digitally scanned to ensure an accurate fit and long-term success.",
+          image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781857199/ChatGPT_Image_Jun_19_2026_01_46_17_PM_p1neso.png`,
+        },
+
+        {
+          index: "02",
+          title: "Custom Crown Fabrication",
+          description:
+            "Your crown is designed using advanced dental technology to achieve optimal strength, comfort, and aesthetics.",
+          image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781857195/ChatGPT_Image_Jun_19_2026_01_47_19_PM_sqggno.png`,
+        },
+
+        {
+          index: "03",
+          title: "Placement & Refinement",
+          description:
+            "The crown is securely bonded, adjusted for bite accuracy, and polished for a natural, seamless appearance.",
+          image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781857197/ChatGPT_Image_Jun_19_2026_01_49_07_PM_lxgzji.png`,
+        },
+      ],
+   
+    },
+    treatments: [
+      {
+        name: "Metal Crown",
+        price: "₹4,500",
+      },
+      {
+        name: "Premium Robotic Digital Scan Crown",
+        price: "₹5,500",
+      },
+      {
+        name: "PFM Crown",
+        price: "₹5,500",
+      },
+      { name: "PFM Premium Robotic Digital Scan", price: "₹6,500" },
+      {
+        name: "VVIP PFM Crown",
+        price: "₹7,500",
+      },
+      {
+        name: "All Ceramic Crown",
+        price: "₹10990/- Monolith, ₹12990/- (Emax Basic)",
+      },
+      {
+        name: "All Cermaic Crown (Emax Premium)",
+        price: "₹15,990",
+      },
+      {
+        name: "All Cermaic Crown VVIP Premium",
+        price: "₹20,000",
+      },
+    ],
+
+    faqs: [
+      {
+        question: "How long does a dental crown last?",
+        answer:
+          "With proper care and regular dental visits, most crowns can last between 10 and 15 years or even longer.",
+      },
+
+      {
+        question: "Which crown material is best?",
+        answer:
+          "The ideal material depends on the tooth location, bite forces, aesthetics, and budget. Ceramic, Zirconia, and Emax crowns are popular choices for natural-looking results.",
+      },
+
+      {
+        question: "Is getting a dental crown painful?",
+        answer:
+          "The procedure is generally comfortable and performed under local anesthesia. Most patients experience minimal discomfort.",
+      },
+
+      {
+        question: "Do crowns look natural?",
+        answer:
+          "Yes. Modern ceramic, Zirconia, and Emax crowns are carefully shade-matched to blend naturally with surrounding teeth.",
+      },
+    ],
+  },
+  {
+    id: 20,
+    slug: "dental-veneers",
+    hero: {
+      title: "Dental Veneers",
+      subtitle: "Transform imperfections into a naturally radiant smile.",
+      image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781858744/ChatGPT_Image_Jun_19_2026_02_13_50_PM_i6r1dk.png`,
+    },
+
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "Dental veneers are ultra-thin custom-crafted shells designed to enhance the appearance of teeth by correcting discoloration, chips, gaps, minor misalignment, and uneven tooth shapes. Bonded to the front surface of the teeth, veneers create a brighter, more symmetrical, and aesthetically pleasing smile while preserving a natural appearance. At Rekha Dental, we offer both direct and indirect veneer solutions tailored to individual smile goals. Using advanced smile design principles and precision shade matching, every veneer is customized to complement facial features and dental proportions. Veneers are one of the most sought-after cosmetic dentistry treatments for patients seeking dramatic smile transformations with minimal tooth preparation and long-lasting results.",
+    },
+
+    technology: {
+      tag: "TECHNOLOGY",
+      points: [
+        "Digital smile design and facial analysis",
+        "High-aesthetic composite and porcelain veneers",
+        "Precision shade matching for natural results",
+      ],
+    },
+
+    process: {
+      tag: "THE PROCESS",
+      title: "Designed for a confident smile.",
+      steps: [
+        {
+          index: "01",
+          title: "Smile Assessment",
+          description:
+            "A detailed consultation evaluates smile aesthetics, tooth proportions, facial harmony, and patient expectations.",
+          image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781858741/ChatGPT_Image_Jun_19_2026_02_13_59_PM_on3ali.png`,
+        },
+
+        {
+          index: "02",
+          title: "Custom Veneer Design",
+          description:
+            "The ideal shape, shade, and smile design are planned to achieve natural and personalized results.",
+          image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781858739/ChatGPT_Image_Jun_19_2026_02_14_06_PM_z8lqtj.png`,
+        },
+
+        {
+          index: "03",
+          title: "Bonding & Smile Reveal",
+          description:
+            "The veneers are precisely bonded and polished to create a seamless, beautiful, and long-lasting smile.",
+          image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781858742/Gemini_Generated_Image_c35uj7c35uj7c35u_wsmk5f.png`,
+        },
+      ],
+  
+    },
+    treatments: [
+      {
+        name: "Direct Composite Veneer",
+        price: "₹5,490",
+      },
+      {
+        name: "Premium Direct Composite Veneer",
+        price: "₹7,490",
+      },
+      {
+        name: "VIP Direct Composite Veneer",
+        price: "₹9,490",
+      },
+      {
+        name: "Indirect Ceramic Veneer",
+        price: "₹12,500",
+      },
+      {
+        name: "Premium Ceramic / Emax Veneer",
+        price: "₹15,500",
+      },
+    ],
+
+    faqs: [
+      {
+        question: "How long do dental veneers last?",
+        answer:
+          "With proper care, porcelain veneers can last 10–15 years or longer, while composite veneers typically last several years before requiring maintenance.",
+      },
+
+      {
+        question: "Do veneers look natural?",
+        answer:
+          "Yes. Modern veneers are carefully designed to mimic the color, translucency, and texture of natural teeth for highly aesthetic results.",
+      },
+
+      {
+        question: "Are veneers permanent?",
+        answer:
+          "Veneers are considered a long-term cosmetic solution. Depending on the type of veneer, minimal tooth preparation may be required.",
+      },
+
+      {
+        question: "Can veneers fix gaps and chipped teeth?",
+        answer:
+          "Yes. Veneers are commonly used to correct gaps, chips, worn edges, discoloration, and minor alignment concerns.",
+      },
+    ],
+  },
+  {
+    id: 21,
+    slug: "dental-splints",
+    hero: {
+      title: "Dental Splints",
+      subtitle: "Protect your teeth, relieve jaw strain, and restore comfort.",
+      image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781859345/Gemini_Generated_Image_sk6bask6bask6bas_uuyrxz.png`,
+    },
+
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "Dental splints are custom-made oral appliances designed to protect teeth from excessive grinding, clenching, and abnormal bite forces. Commonly prescribed for patients suffering from bruxism, TMJ disorders, jaw pain, or excessive tooth wear, splints help reduce pressure on teeth and jaw joints while promoting healthier bite function. At Rekha Dental, every splint is carefully fabricated using precise dental impressions and bite analysis to ensure maximum comfort and effectiveness. Whether used during sleep or as part of a comprehensive bite correction plan, dental splints can prevent long-term damage, relieve muscle tension, reduce headaches, and improve overall oral health. Our solutions include basic, premium, and occlusal splints tailored to individual needs.",
+    },
+
+    technology: {
+      tag: "TECHNOLOGY",
+      points: [
+        "Custom bite analysis and jaw evaluation",
+        "Precision-fabricated splints for optimal fit",
+        "Advanced TMJ and bruxism management solutions",
+      ],
+    },
+
+    process: {
+      tag: "THE PROCESS",
+      title: "Designed for protection and comfort.",
+      steps: [
+        {
+          index: "01",
+          title: "Diagnosis & Bite Assessment",
+          description:
+            "A detailed examination evaluates teeth wear, jaw function, bite alignment, and symptoms related to grinding or clenching.",
+          image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781859346/Gemini_Generated_Image_72rua572rua572ru_g66sep.png`,
+        },
+
+        {
+          index: "02",
+          title: "Custom Splint Fabrication",
+          description:
+            "Precise impressions or digital scans are used to create a personalized splint that fits comfortably and functions effectively.",
+          image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781859346/Gemini_Generated_Image_k9w8a6k9w8a6k9w8_kgk7rv.png`,
+        },
+
+        {
+          index: "03",
+          title: "Fitting & Follow-Up",
+          description:
+            "The splint is adjusted for comfort and bite accuracy, followed by periodic reviews to ensure long-term effectiveness.",
+          image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781859344/Gemini_Generated_Image_2xuxrx2xuxrx2xux_cfwwfl.png`,
+        },
+      ],
+    },
+
+    faqs: [
+      {
+        question: "Who needs a dental splint?",
+        answer:
+          "Dental splints are commonly recommended for patients who grind their teeth, clench their jaw, experience TMJ discomfort, or show signs of excessive tooth wear.",
+      },
+
+      {
+        question: "Do I have to wear the splint every night?",
+        answer:
+          "Most patients wear their splints during sleep, although some conditions may require additional daytime use as advised by the dentist.",
+      },
+
+      {
+        question: "Can a splint stop teeth grinding completely?",
+        answer:
+          "A splint protects teeth from damage and reduces the effects of grinding, but it does not eliminate the underlying habit itself.",
+      },
+
+      {
+        question: "How long does a dental splint last?",
+        answer:
+          "With proper care and regular check-ups, a quality dental splint can last several years depending on usage and grinding intensity.",
+      },
+    ],
+    treatments: [
+      {
+        name: "Basic Occlusal Splint",
+        price: "₹4,500",
+      },
+      {
+        name: "Premium Occlusal Splint",
+        price: "₹5,500",
+      },
+      {
+        name: "Basic Splint",
+        price: "₹4,500",
+      },
+      {
+        name: "Premium Splint",
+        price: "₹5,000",
+      },
+      {
+        name: "PERIO PACK(GC COMPANY)-",
+        price: "₹1,200",
+      },
+      {
+        name: "PER SUTURE",
+        price: "₹800-₹1000",
+      },
+    ],
+  },
+  {
+    id: 22,
+    slug: "dentures",
+    hero: {
+      title: "Dentures",
+      subtitle: "Restore confidence, comfort, and the ability to smile freely.",
+      image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781859910/Gemini_Generated_Image_fmvfgqfmvfgqfmvf_dvceiq.png`,
+    },
+
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "Dentures are custom-crafted prosthetic solutions designed to replace missing teeth and restore essential oral functions such as chewing, speaking, and smiling with confidence. Whether replacing a few teeth or an entire arch, modern dentures offer significantly improved comfort, aesthetics, and stability compared to traditional designs. At Rekha Dental, we provide complete dentures, partial dentures, cast partial dentures, and precision attachment dentures tailored to each patient's needs. Using advanced impressions, bite analysis, and aesthetic planning, every denture is designed to achieve a natural appearance and comfortable fit. Our goal is to help patients regain oral function, facial support, and confidence while improving their overall quality of life.",
+    },
+    treatments: [
+      {
+        name: "Cast Partial Denture with Precision Attachment",
+        price: "₹6,000",
+      },
+      {
+        name: "RPD- Cast Partial Denture with Precision Attachment",
+        price: "₹13,000 onwards",
+      },
+      {
+        name: "Complete Denture",
+        price: "STARTING AT ₹40000/-₹60000/- ₹8000/-, *6000/- Extra For ivoclar Teeth",
+      },
+    ],
+
+    technology: {
+      tag: "TECHNOLOGY",
+      points: [
+        "Precision-fit complete and partial dentures",
+        "Advanced bite registration and jaw relation analysis",
+        "Natural tooth selection and aesthetic smile planning",
+      ],
+    },
+
+    process: {
+      tag: "THE PROCESS",
+      title: "Designed for comfort and confidence.",
+      steps: [
+        {
+          index: "01",
+          title: "Consultation & Evaluation",
+          description:
+            "A detailed assessment is performed to evaluate missing teeth, oral tissues, jaw structure, and treatment goals.",
+          image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781859909/Gemini_Generated_Image_rydlemrydlemrydl_w3orag.png`,
+        },
+
+        {
+          index: "02",
+          title: "Custom Denture Fabrication",
+          description:
+            "Precise impressions and measurements are used to create dentures that offer optimal fit, function, and aesthetics.",
+          image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781859832/Gemini_Generated_Image_a15fqfa15fqfa15f_rbgso7.png`,
+        },
+
+        {
+          index: "03",
+          title: "Delivery & Adjustments",
+          description:
+            "The dentures are fitted, adjusted for comfort, and reviewed periodically to ensure long-term satisfaction and performance.",
+          image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781859828/Gemini_Generated_Image_2jogdy2jogdy2jog_aamhwg.png`,
+        },
+      ],
+    },
+
+    faqs: [
+      {
+        question: "What types of dentures do you offer?",
+        answer:
+          "We provide complete dentures, partial dentures, cast partial dentures, and precision attachment dentures based on individual requirements.",
+      },
+
+      {
+        question: "Will dentures look natural?",
+        answer:
+          "Yes. Modern dentures are carefully designed to match facial features, gum contours, and natural tooth appearance for an aesthetic result.",
+      },
+
+      {
+        question: "How long does it take to get dentures?",
+        answer:
+          "The timeline varies depending on the type of denture and individual case requirements, but treatment typically involves multiple appointments for optimal results.",
+      },
+
+      {
+        question: "Can I eat normally with dentures?",
+        answer:
+          "Most patients regain significant chewing function after adapting to their dentures, allowing them to enjoy a wide variety of foods comfortably.",
+      },
+    ],
+  },
+  {
+    id: 23,
+    slug: "general-dental-procedures",
+
+    hero: {
+      title: "General Dental Procedures",
+      subtitle: "Essential dental care for everyday oral health needs.",
+      image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781860548/Gemini_Generated_Image_lhoye4lhoye4lhoy_v4ijx4.png`,
+    },
+
+    overview: {
+      tag: "OVERVIEW",
+      description:
+        "General dental procedures form the foundation of long-term oral health by focusing on prevention, diagnosis, routine care, and timely intervention. From comprehensive dental examinations and digital X-rays to sensitivity management, preventive treatments, emergency care, and minor dental procedures, these services help detect problems early and maintain healthy teeth and gums. At Rekha Dental, every treatment is delivered with a patient-first approach, combining modern technology, clinical expertise, and personalized care. Whether you need a routine check-up, pain relief, diagnostic assessment, or preventive treatment, our goal is to provide effective solutions that support lifelong oral wellness.",
+    },
+    treatments: [
+      {
+        name: "IOPA",
+        price: "₹300",
+      },
+      {
+        name: "Eugenol Dressing",
+        price: "₹600/- First Sitting, ₹600/- Second Sitting Onwards",
+      },
+      {
+        name: "Sharp Tooth Trimming",
+        price: "₹999",
+      },
+      {
+        name: "Sensitivity Test",
+        price: "₹500",
+      },
+      {
+        name: "Local Anesthesia Test",
+        price: "₹500",
+      },
+    ],
+    technology: {
+      tag: "TECHNOLOGY",
+      points: [
+        "Digital diagnostic imaging and dental X-rays",
+        "Comprehensive oral health assessment",
+        "Modern preventive and minimally invasive techniques",
+      ],
+    },
+
+    process: {
+      tag: "THE PROCESS",
+      title: "Simple, preventive, and patient-focused.",
+      steps: [
+        {
+          index: "01",
+          title: "Examination & Diagnosis",
+          description:
+            "A detailed oral examination helps identify concerns, evaluate oral health, and determine the most appropriate treatment plan.",
+          image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781860550/Gemini_Generated_Image_1pen5n1pen5n1pen_aqksrf.png`,
+        },
+
+        {
+          index: "02",
+          title: "Treatment Planning",
+          description:
+            "Based on clinical findings, preventive, diagnostic, or corrective procedures are recommended according to individual needs.",
+          image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781860550/Gemini_Generated_Image_q29wwyq29wwyq29w_zugoze.png`,
+        },
+
+        {
+          index: "03",
+          title: "Care & Follow-Up",
+          description:
+            "Treatment is completed with appropriate guidance, preventive recommendations, and follow-up support when required.",
+          image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781860550/Gemini_Generated_Image_s9i61cs9i61cs9i6_ukkzen.png`,
+        },
+      ],
+    },
+
+    faqs: [
+      {
+        question:
+          "What treatments are included under general dental procedures?",
+        answer:
+          "General dental procedures include examinations, dental X-rays, sensitivity management, preventive care, emergency dental treatment, minor procedures, and routine oral health services.",
+      },
+
+      {
+        question: "How often should I have a dental check-up?",
+        answer:
+          "Most patients should visit their dentist every six months for routine examinations and preventive care, although individual needs may vary.",
+      },
+
+      {
+        question: "Do I need an X-ray at every visit?",
+        answer:
+          "Not always. Dental X-rays are recommended only when clinically necessary to diagnose conditions that may not be visible during a routine examination.",
+      },
+
+      {
+        question: "Can I visit for dental pain or an emergency?",
+        answer:
+          "Yes. General dental care includes the assessment and management of dental pain, infections, trauma, and other urgent oral health concerns.",
       },
     ],
   },
@@ -1860,7 +2851,7 @@ export const pillars = [
     id: 3,
     title: "Lifetime Aftercare",
     description:
-    "Long-term guidance, transparent follow-ups, and continued support beyond treatment completion with affordable follow-up care as needed.",
+      "Long-term guidance, transparent follow-ups, and continued support beyond treatment completion with affordable follow-up care as needed.",
     icon: <SafetyCertificateOutlined />,
     number: "03",
   },
@@ -1886,7 +2877,7 @@ export const exploreDentalServices = [
     id: 2,
     title: "Root Canal Treatment",
     slug: "root-canal-treatment",
-    icon:  <MdMedicalServices />,
+    icon: <MdMedicalServices />,
   },
 
   {
@@ -2135,10 +3126,11 @@ export const academyCourses = [
     title: "General Dentistry Course",
     slug: "general-dentistry-course",
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course1`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
-    duration:"2 weeks",
+    discount: "10",
+    startingPrice: "49,000",
+    price: "53,900",
+    duration: "45 days",
+    handsOn:false,
     description:
       "Learn the fundamentals of clinical dentistry including diagnosis, treatment planning, restorative procedures, and patient management.",
   },
@@ -2146,10 +3138,11 @@ export const academyCourses = [
     title: "Endodontic Course",
     slug: "endodontic-course",
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course2`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
-    duration:"2 weeks",
+    discount: "10",
+    startingPrice: "15,000",
+    price: "16,500",
+    duration: "3 days",
+    handsOn:false,
     description:
       "Master root canal procedures, rotary endodontics, access preparation, obturation techniques, and endodontic case management.",
   },
@@ -2157,10 +3150,11 @@ export const academyCourses = [
     title: "Prosthodontics Course",
     slug: "prosthodontics-course",
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course3`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
-    duration:"2 weeks",
+    discount: "10",
+    startingPrice: "20,000",
+    price: "22,000",
+    duration: "3 days",
+    handsOn:false,
     description:
       "Gain hands-on experience in crowns, bridges, dentures, smile rehabilitation, and fixed prosthodontic procedures.",
   },
@@ -2168,10 +3162,10 @@ export const academyCourses = [
     title: "Oral Surgery Course",
     slug: "oral-surgery-course",
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course4`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
-    duration:"2 weeks",
+    discount: "10",
+    startingPrice: "30,000",
+    price: "33,000",
+    duration: "15 days",
     description:
       "Understand surgical extractions, flap design, suturing techniques, impaction management, and minor oral surgical procedures.",
   },
@@ -2179,10 +3173,10 @@ export const academyCourses = [
     title: "Basic Implant Course",
     slug: "basic-implant-course",
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course5`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
-    duration:"2 weeks",
+    discount: "10",
+    startingPrice: "60,000",
+    price: "66,000",
+    duration: "4 months",
     description:
       "An introductory implantology course covering implant planning, placement protocols, instruments, and restorative basics.",
   },
@@ -2190,10 +3184,10 @@ export const academyCourses = [
     title: "Complete Implant Course",
     slug: "complete-implant-course",
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course6`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
-    duration:"2 weeks",
+    discount: "10",
+    startingPrice: "99,000",
+    price: "1,08,900",
+    duration: "3 months",
     description:
       "Comprehensive implant training with advanced surgical protocols, sinus lift concepts, prosthetic workflows, and live cases.",
   },
@@ -2201,10 +3195,11 @@ export const academyCourses = [
     title: "Radiology (CBCT) Course",
     slug: "radiology-cbct-course",
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course7`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
-    duration:"2 weeks",
+    discount: "10",
+    startingPrice: "15,000",
+    price: "16,500",
+    duration: "2 days",
+    handsOn:true,
     description:
       "Learn CBCT interpretation, radiographic diagnosis, imaging protocols, and digital treatment planning for modern dentistry.",
   },
@@ -2212,10 +3207,10 @@ export const academyCourses = [
     title: "Esthetic Dentistry",
     slug: "esthetic-dentistry-course",
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course8`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
-    duration:"2 weeks",
+    discount: "10",
+    startingPrice: "49,000",
+    price: "53,900",
+    duration: "3 days",
     description:
       "Explore smile designing, veneers, teeth whitening, composite artistry, and minimally invasive cosmetic dental procedures.",
   },
@@ -2223,10 +3218,10 @@ export const academyCourses = [
     title: "Orthodontic Course",
     slug: "orthodontic-course",
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course9`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
-    duration:"2 weeks",
+    discount: "10",
+    startingPrice: "99,000",
+    price: "1,08,900",
+    duration: "6 months",
     description:
       "Study orthodontic diagnosis, treatment planning, wire bending basics, aligners, and fixed appliance mechanics.",
   },
@@ -2234,10 +3229,10 @@ export const academyCourses = [
     title: "Laser Course",
     slug: "laser-dentistry-course",
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course10`,
-    discount:"10",
-    startingPrice:"999",
-    price: "1110",
-    duration:"2 weeks",
+    discount: "10",
+    startingPrice: "15,000",
+    price: "16,500",
+    duration: "2 days",
     description:
       "Get trained in dental laser applications for soft tissue procedures, periodontal therapy, pain management, and esthetics.",
   },
@@ -2274,8 +3269,7 @@ export const courseDetails = [
 
     hero: {
       title: "General Dentistry Course",
-      subtitle:
-        "Build a strong foundation in modern clinical dentistry.",
+      subtitle: "Build a strong foundation in modern clinical dentistry.",
       image: `${CLOUDINARY_BASE}/rekha-dental/courses/course1`,
     },
 
@@ -2284,6 +3278,25 @@ export const courseDetails = [
       description:
         "This comprehensive course covers the essential principles of diagnosis, treatment planning, restorative procedures, preventive dentistry, and patient management. Participants gain practical insights into day-to-day clinical dentistry and develop confidence in managing routine dental cases.",
     },
+    details: [
+      {
+        title: "Comprehensive Oral Examination and Diagnosis",
+        description:
+          "Learn how to perform a systematic oral examination and identify common dental conditions through clinical evaluation and radiographic interpretation. The course covers diagnostic protocols, case history recording, risk assessment, and methods to arrive at accurate treatment decisions for routine dental cases.",
+      },
+    
+      {
+        title: "Treatment Planning and Restorative Procedures",
+        description:
+          "Understand the principles of treatment planning and sequencing of dental procedures for optimal patient outcomes. Participants will learn cavity preparation techniques, restorative material selection, direct restorations, and evidence-based approaches for managing common restorative cases in daily practice.",
+      },
+    
+      {
+        title: "Preventive Dentistry and Patient Management",
+        description:
+          "Develop expertise in preventive care strategies including oral hygiene education, fluoride therapy, scaling recommendations, and long-term maintenance planning. The course also focuses on patient communication, informed consent, treatment acceptance, and building trust for successful clinical practice.",
+      },
+    ],
 
     curriculum: {
       tag: "CURRICULUM",
@@ -2306,8 +3319,7 @@ export const courseDetails = [
 
     hero: {
       title: "Endodontic Course",
-      subtitle:
-        "Master modern root canal treatment techniques.",
+      subtitle: "Master modern root canal treatment techniques.",
       image: `${CLOUDINARY_BASE}/rekha-dental/courses/course2`,
     },
 
@@ -2316,6 +3328,25 @@ export const courseDetails = [
       description:
         "Designed for dentists seeking expertise in endodontics, this course focuses on diagnosis, access cavity preparation, rotary instrumentation, obturation techniques, and management of complex root canal cases.",
     },
+    details: [
+      {
+        title: "Diagnosis and Treatment Planning in Endodontics",
+        description:
+          "Learn to diagnose pulpal and periapical pathologies through clinical examination, vitality testing, radiographic interpretation, and case assessment. The course covers differential diagnosis, case selection, treatment planning, and decision-making protocols for successful endodontic therapy.",
+      },
+    
+      {
+        title: "Access Opening, Working Length and Canal Preparation",
+        description:
+          "Master the fundamental steps of root canal treatment including access cavity preparation, canal identification, working length determination, glide path creation, and biomechanical preparation. Participants will gain practical knowledge of hand files, rotary instrumentation systems, and irrigation protocols used in modern endodontics.",
+      },
+    
+      {
+        title: "Obturation Techniques and Management of Complex Cases",
+        description:
+          "Understand the principles of three-dimensional obturation and post-endodontic restoration to achieve long-term treatment success. The course also covers the management of curved canals, calcified canals, retreatment cases, procedural errors, and methods to prevent common endodontic complications.",
+      },
+    ],
 
     curriculum: {
       tag: "CURRICULUM",
@@ -2338,8 +3369,7 @@ export const courseDetails = [
 
     hero: {
       title: "Prosthodontics Course",
-      subtitle:
-        "Restore function, aesthetics, and confidence.",
+      subtitle: "Restore function, aesthetics, and confidence.",
       image: `${CLOUDINARY_BASE}/rekha-dental/courses/course3`,
     },
 
@@ -2348,6 +3378,25 @@ export const courseDetails = [
       description:
         "Gain practical experience in crowns, bridges, dentures, fixed prosthodontics, and smile rehabilitation. Learn modern restorative workflows and treatment planning strategies.",
     },
+    details: [
+      {
+        title: "Principles of Prosthodontic Diagnosis and Treatment Planning",
+        description:
+          "Learn the fundamentals of prosthodontic diagnosis, patient evaluation, occlusal assessment, and treatment planning for partially and completely edentulous patients. The course focuses on selecting appropriate prosthetic solutions based on functional, aesthetic, and biological considerations.",
+      },
+    
+      {
+        title: "Fixed and Removable Prosthodontic Procedures",
+        description:
+          "Gain in-depth knowledge of tooth preparation principles, impression techniques, temporization, and cementation procedures for crowns and bridges. Participants will also learn the design, fabrication, and clinical management of removable partial dentures and complete dentures.",
+      },
+    
+      {
+        title: "Occlusion, Aesthetics, and Full Mouth Rehabilitation",
+        description:
+          "Understand the role of occlusion in prosthodontic success and learn techniques for achieving functional and aesthetic rehabilitation. The course covers smile design principles, vertical dimension assessment, occlusal rehabilitation, and multidisciplinary approaches for complex restorative cases.",
+      },
+    ],
 
     curriculum: {
       tag: "CURRICULUM",
@@ -2370,8 +3419,7 @@ export const courseDetails = [
 
     hero: {
       title: "Oral Surgery Course",
-      subtitle:
-        "Develop confidence in surgical dental procedures.",
+      subtitle: "Develop confidence in surgical dental procedures.",
       image: `${CLOUDINARY_BASE}/rekha-dental/courses/course4`,
     },
 
@@ -2380,6 +3428,25 @@ export const courseDetails = [
       description:
         "This course introduces participants to oral surgical procedures including extractions, flap design, suturing techniques, impaction management, and post-operative care.",
     },
+    details: [
+      {
+        title: "Patient Evaluation and Surgical Treatment Planning",
+        description:
+          "Learn the principles of case selection, medical history evaluation, clinical examination, and radiographic interpretation for oral surgical procedures. The course covers diagnosis, treatment planning, informed consent, and pre-operative assessment to ensure safe and predictable surgical outcomes.",
+      },
+    
+      {
+        title: "Exodontia and Minor Oral Surgical Procedures",
+        description:
+          "Gain hands-on knowledge of extraction techniques including forceps and elevator principles, flap design, bone removal, tooth sectioning, and suturing methods. Participants will learn the management of routine extractions, impacted teeth, retained roots, and other minor oral surgical procedures.",
+      },
+    
+      {
+        title: "Management of Surgical Complications and Post-Operative Care",
+        description:
+          "Understand the prevention and management of common surgical complications such as bleeding, dry socket, root fractures, oro-antral communication, and infection. The course also covers post-operative instructions, pain management, wound healing, and follow-up protocols for successful patient recovery.",
+      },
+    ],
 
     curriculum: {
       tag: "CURRICULUM",
@@ -2402,8 +3469,7 @@ export const courseDetails = [
 
     hero: {
       title: "Basic Implant Course",
-      subtitle:
-        "Start your journey into implant dentistry.",
+      subtitle: "Start your journey into implant dentistry.",
       image: `${CLOUDINARY_BASE}/rekha-dental/courses/course5`,
     },
 
@@ -2412,6 +3478,25 @@ export const courseDetails = [
       description:
         "An introductory implantology course covering treatment planning, implant placement concepts, instrumentation, and restorative basics for beginners.",
     },
+    details: [
+      {
+        title: "Case Selection and Implant Treatment Planning",
+        description:
+          "Learn the fundamentals of implant case selection, patient evaluation, CBCT interpretation, bone assessment, and treatment planning. The course covers indications and contraindications for implant therapy, implant positioning principles, and methods for selecting the appropriate implant system for different clinical situations.",
+      },
+    
+      {
+        title: "Surgical Protocol for Implant Placement",
+        description:
+          "Gain practical knowledge of implant surgery including flap design, osteotomy preparation, implant insertion protocols, torque values, and achieving primary stability. Participants will understand the step-by-step workflow involved in single implant placement and immediate post-operative management.",
+      },
+    
+      {
+        title: "Healing, Prosthetic Considerations, and Complication Management",
+        description:
+          "Understand the biological principles of osseointegration, healing timelines, and prosthetic planning for implant-supported restorations. The course also covers the prevention and management of common surgical complications, post-operative care, and long-term maintenance protocols for successful implant outcomes.",
+      },
+    ],
 
     curriculum: {
       tag: "CURRICULUM",
@@ -2434,8 +3519,7 @@ export const courseDetails = [
 
     hero: {
       title: "Complete Implant Course",
-      subtitle:
-        "Comprehensive implantology from planning to restoration.",
+      subtitle: "Comprehensive implantology from planning to restoration.",
       image: `${CLOUDINARY_BASE}/rekha-dental/courses/course6`,
     },
 
@@ -2444,6 +3528,26 @@ export const courseDetails = [
       description:
         "An advanced implant training program featuring surgical placement, prosthetic workflows, bone augmentation concepts, and live clinical cases.",
     },
+
+    details: [
+      {
+        title: "Advanced Implant Diagnosis and Comprehensive Treatment Planning",
+        description:
+          "Develop expertise in advanced implant treatment planning through CBCT interpretation, bone quality assessment, prosthetically driven implant placement, and management of partially and completely edentulous patients. The course covers single tooth replacements, multiple implants, full arch rehabilitation, and interdisciplinary treatment planning for complex cases.",
+      },
+    
+      {
+        title: "Advanced Surgical Techniques and Immediate Implant Protocols",
+        description:
+          "Master advanced implant surgical procedures including immediate implant placement, immediate loading protocols, guided implant surgery, flapless implant placement, sinus lift procedures, ridge expansion, and bone grafting techniques. Participants will gain a thorough understanding of surgical decision-making and case selection for predictable outcomes.",
+      },
+    
+      {
+        title: "Implant Prosthetics, Complications, and Full Mouth Rehabilitation",
+        description:
+          "Learn the principles of implant prosthetics including impression techniques, abutment selection, screw-retained and cement-retained restorations, and occlusal considerations for implant-supported prostheses. The course also covers the management of surgical and prosthetic complications, peri-implant diseases, maintenance protocols, and full mouth implant rehabilitation workflows.",
+      },
+    ],
 
     curriculum: {
       tag: "CURRICULUM",
@@ -2466,8 +3570,7 @@ export const courseDetails = [
 
     hero: {
       title: "Radiology (CBCT) Course",
-      subtitle:
-        "Master dental imaging and radiographic diagnosis.",
+      subtitle: "Master dental imaging and radiographic diagnosis.",
       image: `${CLOUDINARY_BASE}/rekha-dental/courses/course7`,
     },
 
@@ -2476,6 +3579,25 @@ export const courseDetails = [
       description:
         "Learn CBCT interpretation, digital imaging workflows, radiographic diagnosis, and treatment planning using modern radiology techniques.",
     },
+    details: [
+      {
+        title: "Fundamentals of Dental Radiology and CBCT Imaging",
+        description:
+          "Learn the principles of dental radiology including image formation, radiation physics, exposure parameters, and radiation safety protocols. The course introduces the indications, advantages, and limitations of Cone Beam Computed Tomography (CBCT) and its role in modern dental diagnosis and treatment planning.",
+      },
+    
+      {
+        title: "CBCT Interpretation and Anatomical Landmark Identification",
+        description:
+          "Develop the skills required to systematically interpret CBCT scans by identifying normal anatomical structures and pathological findings in the maxillofacial region. Participants will learn to evaluate bone quality, sinus anatomy, mandibular canal location, impacted teeth, periapical lesions, and other clinically relevant findings.",
+      },
+    
+      {
+        title: "Clinical Applications of CBCT in Dentistry",
+        description:
+          "Understand the use of CBCT imaging in implant planning, endodontics, oral surgery, orthodontics, and TMJ assessment. The course covers three-dimensional treatment planning, measurement techniques, diagnostic workflows, and methods for integrating CBCT findings into everyday clinical practice for improved treatment outcomes.",
+      },
+    ],
 
     curriculum: {
       tag: "CURRICULUM",
@@ -2498,8 +3620,7 @@ export const courseDetails = [
 
     hero: {
       title: "Esthetic Dentistry Course",
-      subtitle:
-        "Create beautiful smiles with modern cosmetic dentistry.",
+      subtitle: "Create beautiful smiles with modern cosmetic dentistry.",
       image: `${CLOUDINARY_BASE}/rekha-dental/courses/course8`,
     },
 
@@ -2508,6 +3629,26 @@ export const courseDetails = [
       description:
         "Explore smile design principles, veneers, whitening procedures, composite artistry, and minimally invasive cosmetic treatments.",
     },
+
+    details: [
+      {
+        title: "Principles of Smile Design and Facial Aesthetics",
+        description:
+          "Learn the fundamentals of aesthetic analysis including facial proportions, smile line evaluation, gingival architecture, tooth proportions, and dentofacial harmony. The course covers Digital Smile Design (DSD) concepts and methods for creating treatment plans that balance function with aesthetics.",
+      },
+    
+      {
+        title: "Direct and Indirect Aesthetic Restorations",
+        description:
+          "Gain practical knowledge of modern aesthetic procedures including composite bonding, diastema closure, tooth reshaping, veneers, and ceramic restorations. Participants will learn material selection, shade matching protocols, layering techniques, and preparation principles for predictable aesthetic outcomes.",
+      },
+    
+      {
+        title: "Minimally Invasive Cosmetic Dentistry Techniques",
+        description:
+          "Understand contemporary minimally invasive approaches to aesthetic dentistry including enamel preservation, adhesive dentistry, tooth whitening protocols, and conservative smile enhancement procedures. The course also covers case selection, patient communication, and long-term maintenance of aesthetic restorations.",
+      },
+    ],
 
     curriculum: {
       tag: "CURRICULUM",
@@ -2530,8 +3671,7 @@ export const courseDetails = [
 
     hero: {
       title: "Orthodontic Course",
-      subtitle:
-        "Learn the fundamentals of tooth movement and alignment.",
+      subtitle: "Learn the fundamentals of tooth movement and alignment.",
       image: `${CLOUDINARY_BASE}/rekha-dental/courses/course9`,
     },
 
@@ -2540,7 +3680,25 @@ export const courseDetails = [
       description:
         "This course covers orthodontic diagnosis, treatment planning, aligners, fixed appliance therapy, and essential biomechanics.",
     },
-
+    details: [
+      {
+        title: "Orthodontic Diagnosis and Treatment Planning",
+        description:
+          "Learn the fundamentals of orthodontic diagnosis through facial analysis, cephalometric evaluation, space analysis, and occlusal assessment. The course covers classification of malocclusions, growth assessment, case selection, and treatment planning for both adolescent and adult patients.",
+      },
+    
+      {
+        title: "Biomechanics and Appliance Therapy",
+        description:
+          "Develop a thorough understanding of orthodontic biomechanics including force systems, anchorage control, and tooth movement principles. Participants will learn the indications, mechanics, and clinical applications of fixed appliances, removable appliances, self-ligating brackets, and clear aligner therapy.",
+      },
+    
+      {
+        title: "Management of Orthodontic Cases and Retention Protocols",
+        description:
+          "Understand the clinical management of crowding, spacing, crossbites, deep bites, open bites, and Class II and Class III malocclusions. The course also covers treatment progress monitoring, finishing and detailing, retention strategies, and prevention of relapse to achieve stable long-term outcomes.",
+      },
+    ],
     curriculum: {
       tag: "CURRICULUM",
       points: [
@@ -2562,11 +3720,28 @@ export const courseDetails = [
 
     hero: {
       title: "Laser Dentistry Course",
-      subtitle:
-        "Discover the future of minimally invasive dental care.",
+      subtitle: "Discover the future of minimally invasive dental care.",
       image: `${CLOUDINARY_BASE}/rekha-dental/courses/course10`,
     },
-
+    details: [
+      {
+        title: "Fundamentals of Laser Physics and Tissue Interaction",
+        description:
+          "Learn the principles of laser technology, wavelength characteristics, and the interaction of laser energy with soft and hard oral tissues. The course covers different dental laser systems, tissue absorption properties, laser safety protocols, and selection criteria for various clinical applications.",
+      },
+    
+      {
+        title: "Soft Tissue Applications in Laser Dentistry",
+        description:
+          "Develop expertise in soft tissue laser procedures including gingivectomy, frenectomy, operculectomy, depigmentation, crown lengthening, and management of soft tissue lesions. Participants will understand laser settings, technique selection, and methods to achieve precise tissue management with minimal discomfort and bleeding.",
+      },
+    
+      {
+        title: "Hard Tissue Applications and Advanced Clinical Procedures",
+        description:
+          "Understand the applications of lasers in cavity preparation, caries removal, periodontal therapy, peri-implantitis management, and endodontic procedures. The course also covers post-operative care, complication management, and the integration of laser technology into modern dental practice for minimally invasive treatment outcomes.",
+      },
+    ],
     overview: {
       tag: "OVERVIEW",
       description:
@@ -2677,7 +3852,7 @@ export const aluminiData = [
   },
   {
     id: 2,
-    image:`${CLOUDINARY_BASE}/rekha-dental/events/event2`,
+    image: `${CLOUDINARY_BASE}/rekha-dental/events/event2`,
     title: "Advanced Implantology Workshop",
     description:
       "Alumni participated in a hands-on implantology session led by experienced dental surgeons and international mentors.",
@@ -2765,7 +3940,6 @@ export const academyActivities = [
       "Interactive learning sessions covering complex restorative cases and treatment planning.",
     image: `${CLOUDINARY_BASE}/rekha-dental/extra/extra3`,
   },
-
 ];
 //Tourism Page
 export const medicalTourismBenefits = [
@@ -3221,28 +4395,28 @@ export const termsSections = [
     description:
       "Price Range: ₹4,500–₹5,500. Covers crown removal, crown dislodgement, and crown breakage for 3 months from placement. After the warranty period, replacement or repair may be subject to up to 80% of the treatment cost.",
   },
-  
+
   {
     title: "PFM Crown",
     icon: FiAward,
     description:
       "Price: ₹6,500. Includes 1 year comprehensive warranty covering crown removal, crown breakage, and related manufacturing concerns. After 1 year, replacement or repair may be subject to approximately 20% of the treatment cost.",
   },
-  
+
   {
     title: "Premium PFM Crown",
     icon: FiStar,
     description:
       "Price: ₹7,500. Includes 1+1 year warranty covering crown removal and crown breakage under normal usage conditions. After the warranty period, replacement or repair may be subject to approximately 20% of the treatment cost.",
   },
-  
+
   {
     title: "Full Ceramic Crown",
     icon: BsFillDiamondFill,
     description:
       "Price: ₹12,990. Includes 2 years comprehensive warranty covering crown removal, crown fracture, and manufacturing defects. After 2 years, replacement or repair may be subject to approximately 30% of the treatment cost.",
   },
-  
+
   {
     title: "E-Max Crown",
     icon: FiCpu,
@@ -3394,7 +4568,7 @@ export const achievementsData = [
       "Attended a prestigious symposium featuring global leaders in implant dentistry, digital workflows, and patient-centered care.",
     image: `${CLOUDINARY_BASE}/rekha-dental/achievements/achievement5`,
   },
- 
+
   {
     id: 7,
     title: "International Continuing Education Event",
@@ -3430,7 +4604,6 @@ export const achievementsData = [
       "Collaborated with international clinicians and educators to exchange ideas and discuss advancements in patient care.",
     image: `${CLOUDINARY_BASE}/rekha-dental/achievements/achievement11`,
   },
- 
 ];
 
 export const dentalCampsData = [
@@ -3598,7 +4771,7 @@ export const lecturesData = [
       "Shared insights on restorative procedures, material selection, and achieving predictable aesthetic outcomes.",
     image: `${CLOUDINARY_BASE}/rekha-dental/lectures/lecture2`,
   },
- 
+
   {
     id: 4,
     title: "Smile Design & Aesthetic Excellence",
@@ -3620,7 +4793,7 @@ export const lecturesData = [
       "Explored modern root canal treatment techniques, magnification, and precision-driven clinical protocols.",
     image: `${CLOUDINARY_BASE}/rekha-dental/lectures/lecture6`,
   },
- 
+
   {
     id: 8,
     title: "Comprehensive Treatment Planning",
@@ -3628,7 +4801,7 @@ export const lecturesData = [
       "Highlighted interdisciplinary approaches to diagnosis, rehabilitation, and patient-centered care.",
     image: `${CLOUDINARY_BASE}/rekha-dental/lectures/lecture8`,
   },
- 
+
   {
     id: 10,
     title: "Excellence in Clinical Education",
@@ -3681,18 +4854,16 @@ export const mediaData = [
 
 export const heroBanners = [
   {
-    image:
-      `${CLOUDINARY_BASE}/rekha-dental/banner`,
+    image: `${CLOUDINARY_BASE}/rekha-dental/banner`,
     alt: "Dental Banner 1",
   },
   {
-    image:
-     `${CLOUDINARY_BASE}/rekha-dental/aboutBanner`,
+    image: `${CLOUDINARY_BASE}/rekha-dental/aboutBanner`,
     alt: "Dental Banner 2",
   },
   {
     image:
-    "https://res.cloudinary.com/dygrzu3sm/image/upload/f_auto,q_auto/rekha-dental/services/service5/thumbnail",
+      "https://res.cloudinary.com/dygrzu3sm/image/upload/f_auto,q_auto/rekha-dental/services/service5/thumbnail",
     alt: "Dental Banner 3",
   },
 ];
@@ -3705,9 +4876,9 @@ export const dentalHealthPlans = [
     title: "Dental Membership 499",
     price: 499,
     originalValue: 1300,
+    planType:"BASIC",
     savings: 801,
-    description:
-      "Basic preventive dental care package for individuals.",
+    description: "Basic preventive dental care package for individuals.",
 
     benefits: [
       {
@@ -3734,11 +4905,7 @@ export const dentalHealthPlans = [
       },
     ],
 
-    applicableFor: [
-      "Bleaching",
-      "Implant Treatment",
-      "Tooth Jewellery",
-    ],
+    applicableFor: ["Bleaching", "Implant Treatment", "Tooth Jewellery"],
 
     featured: false,
   },
@@ -3749,8 +4916,9 @@ export const dentalHealthPlans = [
     title: "Dental Membership 999",
     price: 999,
     originalValue: 2500,
+    planType:"STANDARD",
     savings: 1500,
-    description:
+     description:
       "Enhanced membership plan with family benefits and preventive care.",
 
     benefits: [
@@ -3795,9 +4963,7 @@ export const dentalHealthPlans = [
       "Smile Treatment",
     ],
 
-    notes: [
-      "Pictures will not be shared with patient.",
-    ],
+    notes: ["Pictures will not be shared with patient."],
 
     featured: true,
   },
@@ -3808,8 +4974,9 @@ export const dentalHealthPlans = [
     title: "Dental Membership 1499",
     price: 1499,
     originalValue: 4500,
+    planType:"PREMIUM",
     savings: 3000,
-    description:
+     description:
       "Comprehensive family-focused membership with maximum savings.",
 
     benefits: [
@@ -3833,7 +5000,7 @@ export const dentalHealthPlans = [
       },
       {
         title: "Procedure Discount",
-        value: "10% Off on All Procedures",
+        value: "10-15% Off on All Procedures",
       },
       {
         title: "Complimentary Air Polishing",
@@ -3850,14 +5017,11 @@ export const dentalHealthPlans = [
       "Smile Treatment",
     ],
 
-    notes: [
-      "Pictures will be shared with patient.",
-    ],
-
+    notes: ["Pictures will be shared with patient."],
 
     featured: false,
   },
-]; 
+];
 
 export const whyChooseRekhaDental = [
   {
@@ -3866,7 +5030,7 @@ export const whyChooseRekhaDental = [
     title: "Expert-Led Dentistry",
     description:
       "Receive care from experienced dental professionals committed to delivering excellence through precision, compassion, and clinical expertise.",
-    icon: <FaUserDoctor/>,
+    icon: <FaUserDoctor />,
   },
   {
     id: 2,
@@ -3874,7 +5038,7 @@ export const whyChooseRekhaDental = [
     title: "Modern Dental Technology",
     description:
       "Digital diagnostics, advanced imaging, and contemporary treatment techniques help ensure accurate diagnosis and predictable results.",
-    icon: <MdOutlineBiotech/>,
+    icon: <MdOutlineBiotech />,
   },
   {
     id: 3,
@@ -3882,7 +5046,7 @@ export const whyChooseRekhaDental = [
     title: "Comprehensive Smile Solutions",
     description:
       "From routine check-ups and preventive care to implants, aligners, smile makeovers, and full mouth rehabilitation.",
-    icon: <FaShieldHeart/>,
+    icon: <FaShieldHeart />,
   },
   {
     id: 4,
@@ -3890,7 +5054,7 @@ export const whyChooseRekhaDental = [
     title: "Safety & Patient Comfort",
     description:
       "Strict sterilization protocols, patient-focused care, and transparent treatment planning create a safe and comfortable dental experience.",
-    icon: <MdHealthAndSafety/>,
+    icon: <MdHealthAndSafety />,
   },
 ];
 
@@ -3957,10 +5121,10 @@ export const dentalPlanFaqs = [
   },
 ];
 
-
 export const commonDentalProblems = [
   {
-    image: "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776993/tooth-decay_ns9ldh.png",
+    image:
+      "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776993/tooth-decay_ns9ldh.png",
     title: "Tooth Decay",
     serviceSlug: "dental-fillings",
     symptoms: [
@@ -3975,7 +5139,8 @@ export const commonDentalProblems = [
   },
 
   {
-    image: "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776995/bleeding_c91jtv.png",
+    image:
+      "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776995/bleeding_c91jtv.png",
     title: "Bleeding Gums",
     serviceSlug: "teeth-cleaning",
     symptoms: [
@@ -3990,7 +5155,8 @@ export const commonDentalProblems = [
   },
 
   {
-    image: "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776940/bad-breathe_ydbzgt.png",
+    image:
+      "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776940/bad-breathe_ydbzgt.png",
     title: "Chronic Bad Breath",
     serviceSlug: "teeth-cleaning",
     symptoms: [
@@ -4005,7 +5171,8 @@ export const commonDentalProblems = [
   },
 
   {
-    image: "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776857/tooth-sensitivity_lz6puy.png",
+    image:
+      "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776857/tooth-sensitivity_lz6puy.png",
     title: "Tooth Sensitivity",
     serviceSlug: "general-restorative",
     symptoms: [
@@ -4020,7 +5187,8 @@ export const commonDentalProblems = [
   },
 
   {
-    image: "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776856/severe-tooth-infection_xlqpdv.png",
+    image:
+      "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776856/severe-tooth-infection_xlqpdv.png",
     title: "Severe Tooth Infection",
     serviceSlug: "root-canal-treatment",
     symptoms: [
@@ -4035,7 +5203,8 @@ export const commonDentalProblems = [
   },
 
   {
-    image: "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776849/crooked_j09jg7.png",
+    image:
+      "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776849/crooked_j09jg7.png",
     title: "Crooked or Misaligned Teeth",
     serviceSlug: "clear-aligners",
     symptoms: [
@@ -4045,12 +5214,12 @@ export const commonDentalProblems = [
       "Jaw discomfort",
     ],
     medicalTerm: "Malocclusion",
-    treatment:
-      "Clear aligners, braces, retainers, or orthodontic correction.",
+    treatment: "Clear aligners, braces, retainers, or orthodontic correction.",
   },
 
   {
-    image: "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776854/wisdom_cdnttc.png",
+    image:
+      "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776854/wisdom_cdnttc.png",
     title: "Wisdom Tooth Pain",
     serviceSlug: "tooth-removal",
     symptoms: [
@@ -4060,12 +5229,12 @@ export const commonDentalProblems = [
       "Pain at back of mouth",
     ],
     medicalTerm: "Impacted Third Molar",
-    treatment:
-      "Monitoring, medication, or surgical wisdom tooth extraction.",
+    treatment: "Monitoring, medication, or surgical wisdom tooth extraction.",
   },
 
   {
-    image: "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776857/grinding_t1umlw.png",
+    image:
+      "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776857/grinding_t1umlw.png",
     title: "Teeth Grinding",
     serviceSlug: "general-restorative",
     symptoms: [
@@ -4080,7 +5249,8 @@ export const commonDentalProblems = [
   },
 
   {
-    image: "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776854/missing_l6ce7m.png",
+    image:
+      "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776854/missing_l6ce7m.png",
     title: "Missing Teeth",
     serviceSlug: "dental-implants",
     symptoms: [
@@ -4095,7 +5265,8 @@ export const commonDentalProblems = [
   },
 
   {
-    image: "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781777267/yellow_ijiubl.png",
+    image:
+      "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781777267/yellow_ijiubl.png",
     title: "Yellow or Stained Teeth",
     serviceSlug: "cosmetic-dentistry",
     symptoms: [

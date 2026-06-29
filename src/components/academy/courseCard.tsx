@@ -122,7 +122,7 @@ export default function CourseCard({
               </p>
 
               <div className="flex items-center gap-2">
-                <p className="text-2xl font-bold text-brand">
+                <p className="text-xl font-bold text-brand">
                   ₹{course.startingPrice}
                 </p>
 

@@ -7,6 +7,7 @@ import FAQ from "@/components/general/faq";
 import { TiTick } from "react-icons/ti";
 import { FRONTEND_URL } from "@/utils/endpoints";
 import { Metadata } from "next";
+import BookAppointmentButton from "@/components/general/bookAppointmentButton";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -25,16 +26,13 @@ export async function generateMetadata({
 
   const slug = resolvedParams?.slug;
 
-  const service = serviceDetails.find(
-    (s) => s.slug === slug
-  );
+  const service = serviceDetails.find((s) => s.slug === slug);
 
   if (!service) {
     return {
       title: "Treatment Not Found | Rekha Dental Clinic",
 
-      description:
-        "The requested dental treatment page could not be found.",
+      description: "The requested dental treatment page could not be found.",
 
       robots: {
         index: false,
@@ -45,9 +43,7 @@ export async function generateMetadata({
 
   const title = `${service.hero.title} | Rekha Dental Clinic Ghaziabad`;
 
-  const description =
-    service.hero.subtitle ||
-    service.overview.description;
+  const description = service.hero.subtitle || service.overview.description;
 
   return {
     metadataBase: new URL(FRONTEND_URL),
@@ -103,9 +99,7 @@ export async function generateMetadata({
 
       description,
 
-      images: [
-        `${FRONTEND_URL}${service.hero.image}`,
-      ],
+      images: [`${FRONTEND_URL}${service.hero.image}`],
     },
 
     robots: {
@@ -164,6 +158,53 @@ export default async function Page({ params }: PageProps) {
           </div>
         </div>
       </section>
+
+      <section className="lg:pb-20 pb-10">
+        <div className="max-w-7xl mx-auto px-6">
+          <SectionHeader tag="PRICING" title="Treatment Pricing" />
+
+          <div className="mt-10 overflow-hidden rounded-xl border border-[#D8CFC2] bg-[#F5F1EA] shadow-sm">
+            <div className="grid grid-cols-[1fr_auto] bg-brand text-white">
+              <div className="px-6 py-4 text-sm tracking-[2px] uppercase font-semibold">
+                Treatment
+              </div>
+              <div className="px-6 py-4 text-sm tracking-[2px] uppercase font-semibold text-right">
+                Price
+              </div>
+            </div>
+
+            {service.treatments?.map((treatment, index) => (
+              <div
+                key={index}
+                className={`grid grid-cols-[1fr_auto] items-center transition-colors duration-300 hover:bg-[#EFE8DD]
+          ${
+            index !== service.treatments?.length - 1
+              ? "border-b border-[#E2D9CE]"
+              : ""
+          }`}
+              >
+                <div className="px-6 py-5 flex items-center gap-3">
+                  <div className="w-2 h-2 rounded-full bg-[#CBA553]" />
+
+                  <span className="text-[#2C2C2C] font-header">
+                    {treatment.name}
+                  </span>
+                </div>
+
+                <div className="px-6 py-5 font-semibold text-[#0f3d3e] text-right whitespace-nowrap">
+                  {treatment.price}
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <p className="mt-4 text-sm text-[#6B6B6B] italic">
+            * Prices are indicative and may vary depending on clinical
+            examination and individual treatment requirements.
+          </p>
+        </div>
+      </section>
+
       <section className="lg:py-20 py-10 ">
         <div className="max-w-7xl mx-auto px-6">
           <SectionHeader
@@ -198,6 +239,38 @@ export default async function Page({ params }: PageProps) {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-10">
+        <div className="max-w-7xl mx-auto px-6">
+          <div
+            className="
+   border border-[#E8DED0]
+                bg-[#FCFAF6] rounded-2xl p-6 md:p-8
+    flex flex-col md:flex-row 
+    items-center justify-between gap-6 shadow-sm
+  "
+          >
+            <div>
+              <p className="text-xs font-semibold tracking-[3px] text-[#CBA553] mb-4 uppercase">
+                Book Your Consultation
+              </p>
+
+              <h4 className="font-header text-xl md:text-2xl text-[#2C2A27]">
+                Ready to transform your smile?
+              </h4>
+
+              <p className="mt-5 text-[#6F675F] leading-relaxed md:text-md text-sm">
+                Schedule an appointment with our dental experts and get a
+                personalized treatment plan tailored to your needs.
+              </p>
+            </div>
+
+            <div className="w-full md:w-auto shrink-0">
+              <BookAppointmentButton className="w-full md:w-auto" />
+            </div>
           </div>
         </div>
       </section>
