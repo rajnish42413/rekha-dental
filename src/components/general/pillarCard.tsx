@@ -41,7 +41,7 @@ function PillarCard({
 
       <div className="relative z-10 lg:mt-8 mt-4">
         <h3
-          className="font-header text-xl lg:text-3xl leading-tight
+          className="font-header text-xl lg:text-2xl leading-tight
           text-[#2C2A27]"
         >
           {title}

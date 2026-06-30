@@ -32,9 +32,7 @@ export default function GalleryHeroSection() {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
-
   const activeTab = searchParams.get("category") || "all";
-
   const handleTabChange = (tab: string) => {
     const params = new URLSearchParams(searchParams.toString());
 

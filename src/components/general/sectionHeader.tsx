@@ -28,7 +28,7 @@ interface SectionHeaderProps {
             <div className="w-8 h-[2px] bg-[#CBA553]/70" />
           </div>
         )}
-        <h2 className="font-header text-2xl md:text-4xl lg:text-5xl text-[#2C2C2C] leading-tight max-w-3xl">
+        <h2 className="font-header text-2xl lg:text-5xl text-[#2C2C2C] leading-tight max-w-3xl">
           {title}
         </h2>
         {subtitle && (

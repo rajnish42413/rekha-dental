@@ -1,14 +1,18 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { dentalCostComparison } from "@/utils/constants";
 import SectionHeader from "../general/sectionHeader";
 import GalleryTabs from "../gallery/galleryTabs";
 import GeneralButton from "../general/generalButton";
 import { FiMapPin } from "react-icons/fi";
 import { HiOutlineCurrencyDollar } from "react-icons/hi";
-import useCalendly from "@/hooks/useCalendly";
-import { CALENDLY_URL_KOTGAON, CALENDLY_URL_RAJ_NAGAR } from "@/utils/endpoints";
+import {
+  CALENDLY_URL_KOTGAON,
+  CALENDLY_URL_RAJ_NAGAR,
+} from "@/utils/endpoints";
+import CalendlyModal from "../calendly/calendlyModal";
+import { useRouter, useSearchParams } from "next/navigation";
 
 function calculateSavings(india: string, us: string) {
   const getMin = (value: string) => {
@@ -22,34 +26,50 @@ function calculateSavings(india: string, us: string) {
 }
 
 export default function DentalCostComparison() {
-  const [activeCategory, setActiveCategory] = useState(
-    dentalCostComparison[0].category
-  );
+  const router = useRouter();
+  const searchParams = useSearchParams();
 
+  const activeCategory = useMemo(() => {
+    const tab = searchParams.get("category");
+
+    const exists = dentalCostComparison.some((item) => item.category === tab);
+
+    return exists ? tab! : dentalCostComparison[0].category;
+  }, [searchParams]);
+
+  const handleTabChange = (category: string) => {
+    const params = new URLSearchParams(searchParams.toString());
+
+    params.set("category", category);
+
+    router.replace(`?${params.toString()}`, {
+      scroll: false,
+    });
+  };
   const selectedCategory = dentalCostComparison.find(
     (item) => item.category === activeCategory
   );
-const {openCalendly} = useCalendly();
-const [showCenters, setShowCenters] = useState(false);
+  const [showCenters, setShowCenters] = useState(false);
+  const [calendlyUrl, setCalendlyUrl] = useState("");
+  const [showCalendly, setShowCalendly] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
-const dropdownRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
+        setShowCenters(false);
+      }
+    };
 
-useEffect(() => {
-  const handleClickOutside = (event: MouseEvent) => {
-    if (
-      dropdownRef.current &&
-      !dropdownRef.current.contains(event.target as Node)
-    ) {
-      setShowCenters(false);
-    }
-  };
+    document.addEventListener("mousedown", handleClickOutside);
 
-  document.addEventListener("mousedown", handleClickOutside);
-
-  return () => {
-    document.removeEventListener("mousedown", handleClickOutside);
-  };
-}, []);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
   return (
     <section className=" py-10 lg:py-10">
       <div className="mx-auto max-w-[1500px] px-4 lg:px-10">
@@ -67,7 +87,7 @@ useEffect(() => {
               label: item.category,
             }))}
             activeTab={activeCategory}
-            onChange={setActiveCategory}
+            onChange={handleTabChange}
           />
         </div>
         <div className="mt-10 hidden overflow-hidden  border border-[#DDD4C8]  bg-[#F8F4ED] shadow-[0_10px_40px_rgba(0,0,0,0.04)] lg:block">
@@ -201,78 +221,86 @@ useEffect(() => {
           ))}
         </div>
         <div
-  className="
+          className="
     mt-12 border border-[#E7DED1]
     bg-[#F8F4ED]
     px-6 py-8
     lg:px-10 lg:py-10
   "
->
-  <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
-    <div>
-      <p className="text-xs uppercase tracking-[4px] text-[#CBA553]">
-        DENTAL TOURISM
-      </p>
+        >
+          <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
+            <div>
+              <p className="text-xs uppercase tracking-[4px] text-[#CBA553]">
+                DENTAL TOURISM
+              </p>
 
-      <h3 className="mt-5 font-header text-xl leading-[1.1] text-[#1E3D34] md:text-3xl">
-        Why patients choose India
-      
-        for dental tourism.
-      </h3>
+              <h3 className="mt-5 font-header text-xl leading-[1.1] text-[#1E3D34] md:text-3xl">
+                Why patients choose India for dental tourism.
+              </h3>
 
-      <p className="mt-5 max-w-3xl lg:text-md text-sm leading-relaxed text-[#5E6A66]">
-        International patients receive globally recognized dental care,
-        advanced technology, and experienced specialists — while saving
-        significantly compared to treatment costs in Western countries.
-      </p>
-    </div>
+              <p className="mt-5 max-w-3xl lg:text-md text-sm leading-relaxed text-[#5E6A66]">
+                International patients receive globally recognized dental care,
+                advanced technology, and experienced specialists — while saving
+                significantly compared to treatment costs in Western countries.
+              </p>
+            </div>
 
-    <div className="shrink-0">
-    <div ref={dropdownRef} className="relative shrink-0 w-full lg:w-auto">
-  <GeneralButton
-    onClick={() => setShowCenters((prev) => !prev)}
-    className="w-full lg:w-auto min-w-[240px]"
-  >
-    BOOK CONSULTATION
-  </GeneralButton>
+            <div className="shrink-0">
+              <div
+                ref={dropdownRef}
+                className="relative shrink-0 w-full lg:w-auto"
+              >
+                <GeneralButton
+                  onClick={() => setShowCenters((prev) => !prev)}
+                  className="w-full lg:w-auto min-w-[240px]"
+                >
+                  BOOK CONSULTATION
+                </GeneralButton>
 
-  {showCenters && (
-    <div
-      className="absolute left-0 top-14 z-50 w-full lg:w-64
+                {showCenters && (
+                  <div
+                    className="absolute left-0 top-14 z-50 w-full lg:w-64
       overflow-hidden border border-[#D6C7B2]
       bg-white shadow-xl"
-    >
-      <button
-        onClick={() => {
-          openCalendly(CALENDLY_URL_RAJ_NAGAR);
-          setShowCenters(false);
-        }}
-        className="w-full border-b border-[#E5DDD0]
+                  >
+                    <button
+                      onClick={() => {
+                        setCalendlyUrl(CALENDLY_URL_RAJ_NAGAR);
+                        setShowCalendly(true);
+                        setShowCenters(false);
+                      }}
+                      className="w-full border-b border-[#E5DDD0]
         px-4 py-3 text-left text-sm text-[#1F2A24]
         hover:bg-[#F5F1EA]
         transition-colors cursor-pointer"
-      >
-        Raj Nagar Center
-      </button>
+                    >
+                      Raj Nagar Center
+                    </button>
 
-      <button
-        onClick={() => {
-          openCalendly(CALENDLY_URL_KOTGAON);
-          setShowCenters(false);
-        }}
-        className="w-full px-4 py-3 text-left text-sm
+                    <button
+                      onClick={() => {
+                        setCalendlyUrl(CALENDLY_URL_KOTGAON);
+                        setShowCalendly(true);
+                        setShowCenters(false);
+                      }}
+                      className="w-full px-4 py-3 text-left text-sm
         text-[#1F2A24] hover:bg-[#F5F1EA]
         transition-colors cursor-pointer"
-      >
-        Kotgaon Center
-      </button>
-    </div>
-  )}
-</div>
-    </div>
-  </div>
-</div>
+                    >
+                      Kotgaon Center
+                    </button>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      <CalendlyModal
+        url={calendlyUrl}
+        open={showCalendly}
+        onClose={() => setShowCalendly(false)}
+      />
     </section>
   );
 }
