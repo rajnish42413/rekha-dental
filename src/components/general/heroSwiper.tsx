@@ -2,39 +2,29 @@
 
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import {
-  Autoplay,
-  Pagination,
-  Navigation,
-  EffectFade,
-} from "swiper/modules";
+import { Autoplay, Pagination, Navigation, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/effect-fade";
 import { TiArrowLeft, TiArrowRight } from "react-icons/ti";
+import Link from "next/link";
 
 interface HeroSlide {
   image: string;
   alt?: string;
+  slug:string;
 }
 
 interface HeroSwiperProps {
   slides: HeroSlide[];
 }
 
-export default function HeroSwiper({
-  slides,
-}: HeroSwiperProps) {
+export default function HeroSwiper({ slides }: HeroSwiperProps) {
   return (
     <div className="relative">
       <Swiper
-        modules={[
-          Autoplay,
-          Pagination,
-          Navigation,
-          EffectFade,
-        ]}
+        modules={[Autoplay, Pagination, Navigation, EffectFade]}
         effect="fade"
         fadeEffect={{ crossFade: true }}
         slidesPerView={1}
@@ -56,15 +46,18 @@ export default function HeroSwiper({
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
-            <div className="relative w-full h-[400px] md:h-[550px] lg:h-[700px]">
-              <Image
-                src={slide.image}
-                alt={slide.alt || `Banner ${index + 1}`}
-                fill
-                priority={index === 0}
-                className="object-cover"
-              />
-            </div>
+          <Link
+  href={slide.slug}
+  className="relative block w-full h-[250px] md:h-[400px] lg:h-[60vh] xl:h-[80vh]"
+>
+  <Image
+    src={slide.image}
+    alt={slide.alt || `Banner ${index + 1}`}
+    fill
+    priority={index === 0}
+    className="object-fill"
+  />
+</Link>
           </SwiperSlide>
         ))}
       </Swiper>

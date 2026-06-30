@@ -183,10 +183,10 @@ export default async function Page({ params }: PageProps) {
               : ""
           }`}
               >
-                <div className="px-6 py-5 flex items-center gap-3">
-                  <div className="w-2 h-2 rounded-full bg-[#CBA553]" />
+                <div className="px-4 md:px-6 py-5 flex items-center gap-2 md:gap-3">
+                  {/* <div className="w-2 h-2 rounded-full bg-[#CBA553]" /> */}
 
-                  <span className="text-[#2C2C2C] font-header">
+                  <span className="text-[#2C2C2C] text-sm md:text-md font-header">
                     {treatment.name}
                   </span>
                 </div>

@@ -16,6 +16,7 @@ interface CourseCardProps {
     price: string ;
     startingPrice: string ;
     discount?: string;
+    handsOn:boolean;
   };
   index?: number;
 }
@@ -98,12 +99,14 @@ export default function CourseCard({
           </span>
         </div>
 
-        <div className="border border-[#DCCEB9] rounded-xl p-2 flex flex-col sm:flex-row items-center justify-center gap-2 text-center">
-          <MdOutlineSchool className="text-brand shrink-0" size={18} />
-          <span className="text-xs lg:text-sm text-[#2C2C2C] font-semibold">
-            Hands-on
-          </span>
-        </div>
+      {
+        course.handsOn===true && <div className="border border-[#DCCEB9] rounded-xl p-2 flex flex-col sm:flex-row items-center justify-center gap-2 text-center">
+        <MdOutlineSchool className="text-brand shrink-0" size={18} />
+        <span className="text-xs lg:text-sm text-[#2C2C2C] font-semibold">
+          Hands-on
+        </span>
+      </div>
+      }  
 
         <div className="border border-[#DCCEB9] rounded-xl p-2 flex flex-col sm:flex-row items-center justify-center gap-2 text-center">
           <PiCertificate className="text-brand shrink-0" size={18} />

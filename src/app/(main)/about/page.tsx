@@ -83,10 +83,9 @@ function page() {
       <StorySection
         images={[
           `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline3`,
-          `${CLOUDINARY_BASE}/rekha-dental/smiles/smile1`,
           `${CLOUDINARY_BASE}/rekha-dental/smiles/smile3`,
           `${CLOUDINARY_BASE}/rekha-dental/smiles/smile4`,
-          `${CLOUDINARY_BASE}/rekha-dental/smiles/smile5`,
+          // `${CLOUDINARY_BASE}/rekha-dental/smiles/smile5`,
           `${CLOUDINARY_BASE}/rekha-dental/events/event1`,
           `${CLOUDINARY_BASE}/rekha-dental/events/event2`,
           `${CLOUDINARY_BASE}/rekha-dental/events/event3`,
@@ -94,7 +93,7 @@ function page() {
           `${CLOUDINARY_BASE}/rekha-dental/events/event5`,
           `${CLOUDINARY_BASE}/rekha-dental/events/event6`,
           `${CLOUDINARY_BASE}/rekha-dental/events/event7`,
-          `${CLOUDINARY_BASE}/rekha-dental/events/event8`,
+          // `${CLOUDINARY_BASE}/rekha-dental/events/event8`,
           `${CLOUDINARY_BASE}/rekha-dental/events/event9`,
         ]}
         tag="OUR STORY"

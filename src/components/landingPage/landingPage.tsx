@@ -3,6 +3,7 @@ import StatsStrip from "../general/statsCard";
 import {
   aboutStatsData,
   heroBanners,
+  // heroBanners,
   homeFaqs,
   premiumDentalProcedures,
   reviewsData,
@@ -15,14 +16,15 @@ import ReviewsSection from "../doctor/reviewSection";
 import AcademyBanner from "./academyBanner";
 import CtaAction from "./ctaAction";
 import { CLOUDINARY_BASE } from "@/utils/endpoints";
-import HeroSwiper from "../general/heroSwiper";
 import ExploreDentalServices from "./iconCards";
 import SectionHeader from "../general/sectionHeader";
 import FAQ from "../general/faq";
 import DentalPlanHighlights from "./dentalPlanHighlights";
 import PremiumProcedureSwiper from "./premiumProceduresSwiper";
+import HeroSwiper from "../general/heroSwiper";
 
 function LandingPage() {
+  
   return (
     <div>
       {/* <HeroBanner /> */}
@@ -31,14 +33,13 @@ function LandingPage() {
       <StorySection
         images={[
           `${CLOUDINARY_BASE}/rekha-dental/academyBanner`,
-          `${CLOUDINARY_BASE}/rekha-dental/academy/academy1`,
+          // `${CLOUDINARY_BASE}/rekha-dental/academy/academy1`,
           `${CLOUDINARY_BASE}/rekha-dental/current/current3`,
           `${CLOUDINARY_BASE}/rekha-dental/current/current4`,
           `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline4`,
-          `${CLOUDINARY_BASE}/rekha-dental/smiles/smile1`,
           `${CLOUDINARY_BASE}/rekha-dental/smiles/smile3`,
           `${CLOUDINARY_BASE}/rekha-dental/smiles/smile4`,
-          `${CLOUDINARY_BASE}/rekha-dental/smiles/smile5`,
+          // `${CLOUDINARY_BASE}/rekha-dental/smiles/smile5`,
           `${CLOUDINARY_BASE}/rekha-dental/events/event1`,
           `${CLOUDINARY_BASE}/rekha-dental/events/event2`,
           `${CLOUDINARY_BASE}/rekha-dental/events/event3`,
@@ -46,7 +47,7 @@ function LandingPage() {
           `${CLOUDINARY_BASE}/rekha-dental/events/event5`,
           `${CLOUDINARY_BASE}/rekha-dental/events/event6`,
           `${CLOUDINARY_BASE}/rekha-dental/events/event7`,
-          `${CLOUDINARY_BASE}/rekha-dental/events/event8`,
+          // `${CLOUDINARY_BASE}/rekha-dental/events/event8`,
           `${CLOUDINARY_BASE}/rekha-dental/events/event9`,
         ]}
         tag="REKHA DENTAL CLINIC"

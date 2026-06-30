@@ -7,6 +7,8 @@ import {
   FaPeopleGroup,
   FaShieldHeart,
   FaShieldVirus,
+  FaStar,
+  FaTeeth,
   FaTooth,
   FaUserDoctor,
   FaUserShield,
@@ -17,6 +19,7 @@ import {
   MdEmail,
   MdHealthAndSafety,
   MdMedicalServices,
+  MdOutlineAlignHorizontalCenter,
   MdOutlineBiotech,
   MdOutlineFactCheck,
   MdOutlineWorkspacePremium,
@@ -57,9 +60,9 @@ import {
   FiUsers,
 } from "react-icons/fi";
 import { CLOUDINARY_BASE } from "./endpoints";
-import { FaRegSmile } from "react-icons/fa";
+import { FaRegSmile, FaSmile } from "react-icons/fa";
 import { TbDental } from "react-icons/tb";
-import { GiLaserPrecision } from "react-icons/gi";
+import { GiCrownedHeart, GiLaserPrecision, GiMedicines, GiTooth } from "react-icons/gi";
 import { BsFillDiamondFill } from "react-icons/bs";
 import { FaChild } from "react-icons/fa";
 import { MdOutlineHealthAndSafety } from "react-icons/md";
@@ -98,8 +101,8 @@ export const menuLinks = [
     href: "/reviews",
   },
   {
-    label: "Our Legacy",
-    href: "/legacy",
+    label: "Offers",
+    href: "/dental-plans",
   },
   {
     label: "Blogs",
@@ -179,20 +182,20 @@ export const serviceCards = [
     description: "Same-day implants with surgical precision.",
     image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781613968/old-implant_llbay6.png`,
     discount: "10",
-    startingPrice: "32990",
-    price: "45990",
+    startingPrice: "32,990",
+    price: "36,990",
   },
   {
     id: 2,
     index: "02",
-    title: "Clear Aligners",
+    title: "Clear Aligners & Braces",
     slug: "clear-aligners",
     description:
       "Discreet and comfortable orthodontic treatment for straighter teeth.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service16/thumbnail`,
-    discount: "10",
-    startingPrice: "6000",
-    price: "70000",
+    discount: "30",
+    startingPrice: "7,000",
+    price: "10,000",
   },
   {
     id: 3,
@@ -201,9 +204,9 @@ export const serviceCards = [
     slug: "preventive-ages-0-13",
     description: "Gentle first visits for the youngest smiles.",
     image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781614234/preventive-pit_mdjbzb.png`,
-    discount: "10",
-    startingPrice: "1499",
-    price: "2499",
+    discount: "30",
+    startingPrice: "1,499",
+    price: "2,141",
   },
   {
     id: 4,
@@ -213,8 +216,8 @@ export const serviceCards = [
     description: "Compassionate dental care tailored for children.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service5/thumbnail`,
     discount: "10",
-    startingPrice: "1499",
-    price: "3999",
+    startingPrice: "1,999",
+    price: "2,221",
   },
 
   {
@@ -225,8 +228,8 @@ export const serviceCards = [
     description: "Hygiene, fillings, crowns meticulously done.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service4/thumbnail`,
     discount: "10",
-    startingPrice: "1250",
-    price: "3500",
+    startingPrice: "1,250",
+    price: "1,389",
   },
   {
     id: 6,
@@ -236,8 +239,8 @@ export const serviceCards = [
     description: "AI-guided 3D scans for sub-millimetric care.",
     image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781600169/robotic_zqztvx.png`,
     discount: "10",
-    startingPrice: "2000",
-    price: "2200",
+    startingPrice: "2,999",
+    price: "3,332",
   },
   {
     id: 7,
@@ -247,8 +250,8 @@ export const serviceCards = [
     description: "Natural-looking restorations for healthy smiles.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service6/thumbnail`,
     discount: "10",
-    startingPrice: "1250",
-    price: "12500",
+    startingPrice: "1,250",
+    price: "1,389",
   },
 
   {
@@ -260,8 +263,8 @@ export const serviceCards = [
       "Durable tooth replacement solutions for function and aesthetics.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service7/thumbnail`,
     discount: "10",
-    startingPrice: "5500",
-    price: "15990",
+    startingPrice: "16,500",
+    price: "18,333",
   },
 
   {
@@ -271,9 +274,9 @@ export const serviceCards = [
     slug: "dental-implants",
     description: "Advanced implant procedures for permanent tooth replacement.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service8/thumbnail`,
-    discount: "10",
-    startingPrice: "32990",
-    price: "45990",
+    discount: "25",
+    startingPrice: "32,990",
+    price: "43,990",
   },
 
   {
@@ -284,8 +287,8 @@ export const serviceCards = [
     description: "Modern alignment solutions for beautifully straight teeth.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service9/thumbnail`,
     discount: "10",
-    startingPrice: "40000",
-    price: "70000",
+    startingPrice: "4,500",
+    price: "5,000",
   },
 
   {
@@ -296,8 +299,8 @@ export const serviceCards = [
     description: "Precision endodontic care focused on tooth preservation.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service10/thumbnail`,
     discount: "10",
-    startingPrice: "4990",
-    price: "8990",
+    startingPrice: "5,990",
+    price: "6,656",
   },
 
   {
@@ -308,8 +311,8 @@ export const serviceCards = [
     description: "Safe and comfortable extraction procedures with expert care.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service11/thumbnail`,
     discount: "10",
-    startingPrice: "1000",
-    price: "7990",
+    startingPrice: "1,500",
+    price: "1,667",
   },
 
   {
@@ -320,9 +323,9 @@ export const serviceCards = [
     description:
       "Smile-enhancing treatments designed for aesthetic excellence.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service12/thumbnail`,
-    discount: "10",
-    startingPrice: "1490",
-    price: "15990",
+    discount: "25",
+    startingPrice: "5,490",
+    price: "7,320",
   },
 
   {
@@ -334,7 +337,7 @@ export const serviceCards = [
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service13/thumbnail`,
     discount: "10",
     startingPrice: "990",
-    price: "3490",
+    price: "1,100",
   },
 
   {
@@ -345,8 +348,8 @@ export const serviceCards = [
     description: "Minimally invasive laser procedures with enhanced precision.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service14/thumbnail`,
     discount: "10",
-    startingPrice: "1000",
-    price: "4990",
+    startingPrice: "1499",
+    price: "1666",
   },
   {
     id: 16,
@@ -357,8 +360,8 @@ export const serviceCards = [
       "Enhance your smile with stylish and safe tooth jewellery applications.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service15/thumbnail`,
     discount: "10",
-    startingPrice: "2500",
-    price: "2500",
+    startingPrice: "5,000",
+    price: "5556",
   },
   {
     id: 17,
@@ -369,8 +372,8 @@ export const serviceCards = [
       "Comprehensive restoration of oral health, function, and aesthetics.",
     image: `${CLOUDINARY_BASE}/rekha-dental/services/service18/thumbnail`,
     discount: "10",
-    startingPrice: "32990",
-    price: "Custom Quote",
+    startingPrice: "32,990",
+    price: "36,656",
   },
 
   {
@@ -381,9 +384,9 @@ export const serviceCards = [
     description:
       "Custom-crafted dental crowns designed to restore damaged, weakened, or root canal treated teeth. From durable PFM crowns to premium ceramic and Emax restorations, our crowns blend strength, function, and natural aesthetics for long-lasting smile rehabilitation.",
     image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781857257/ChatGPT_Image_Jun_19_2026_01_45_07_PM_tilxyt.png`,
-    discount: "10",
-    startingPrice: "4500",
-    price: "5000",
+    discount: "25",
+    startingPrice: "4,500",
+    price: "6,000",
   },
   {
     id: 20,
@@ -393,7 +396,7 @@ export const serviceCards = [
     description:
       "Transform chipped, stained, uneven, or worn teeth with ultra-thin custom veneers designed to enhance smile aesthetics. Our direct and indirect veneer solutions create a brighter, more symmetrical smile while preserving a natural appearance and long-term durability.",
     image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781858744/ChatGPT_Image_Jun_19_2026_02_13_50_PM_i6r1dk.png`,
-    discount: "10",
+    discount: "25",
     startingPrice: "5490",
     price: "7490",
   },
@@ -406,8 +409,8 @@ export const serviceCards = [
       "Custom-made dental splints and night guards designed to protect teeth from grinding, clenching, and excessive bite forces. These appliances help reduce jaw pain, prevent tooth wear, relieve muscle tension, and improve comfort for patients affected by bruxism and TMJ-related concerns.",
     image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781859345/Gemini_Generated_Image_sk6bask6bask6bas_uuyrxz.png`,
     discount: "10",
-    startingPrice: "4500",
-    price: "8500",
+    startingPrice: "4,500",
+    price: "5,000",
   },
   {
     id: 22,
@@ -418,8 +421,8 @@ export const serviceCards = [
       "Restore confidence, speech, and chewing ability with custom-crafted complete and partial dentures. Designed for comfort, stability, and natural aesthetics, our denture solutions help replace missing teeth while improving facial support and overall oral function for a confident everyday smile.",
     image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781859910/Gemini_Generated_Image_fmvfgqfmvfgqfmvf_dvceiq.png`,
     discount: "10",
-    startingPrice: "8990",
-    price: "25990",
+    startingPrice: "6,000",
+    price: "6,667",
   },
   {
     id: 23,
@@ -431,7 +434,7 @@ export const serviceCards = [
     image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781860548/Gemini_Generated_Image_lhoye4lhoye4lhoy_v4ijx4.png`,
     discount: "10",
     startingPrice: "300",
-    price: "2500",
+    price: "333",
   },
 ];
 export const serviceDetails = [
@@ -524,7 +527,7 @@ export const serviceDetails = [
         price: "₹4,990 per implant",
       },
       {
-        name: "Abutment Cost (Milled & Custumised is Extra ",
+        name: "Abutment (Milled & Custumised-Extra) ",
         price: "Approx. ₹3,000 - ₹6,000",
       },
     ],
@@ -587,21 +590,10 @@ export const serviceDetails = [
     ],
     treatments: [
       {
-        name: "Digital Intraoral Scan",
-        price: "Included with Treatment",
+        name: "Digital Robotic Scan",
+        price: "₹2,999",
       },
-      {
-        name: "3D Digital Smile Scan",
-        price: "Included with Treatment",
-      },
-      {
-        name: "Digital Treatment Planning",
-        price: "Included with Treatment",
-      },
-      {
-        name: "Robotic Guided Dental Scan",
-        price: "Included with Treatment",
-      },
+     
     ],
   },
   {
@@ -821,7 +813,11 @@ export const serviceDetails = [
 
       {
         name: "Pulpectomy",
-        price: "₹3,500",
+        price: "₹4,990",
+      },
+      {
+        name: "Laser Pulpectomy",
+        price: "₹6,990",
       },
       {
         name: "Pit & Fissure Sealant",
@@ -1244,6 +1240,30 @@ export const serviceDetails = [
       {
         name: "Root Canal Treatment Starts from ",
         price: "₹5,990",
+      },
+      {
+        name: "Basic RCT (Anterior)",
+        price: "₹5,999",
+      },
+      {
+        name: "Basic RCT (Posterior)",
+        price: "₹6,999",
+      },
+      {
+        name: "Consultant RCT (Anterior)",
+        price: "₹6,999",
+      },
+      {
+        name: "Consultant RCT (Posterior)",
+        price: "₹7,999",
+      },
+      {
+        name: "Laser RCT + Meta Pex RCT (Anterior)",
+        price: "₹9,999",
+      },
+      {
+        name: "Laser RCT + Meta Pex RCT (Posterior)",
+        price: "₹10,990",
       },
       {
         name: "Re-RCT",
@@ -3128,7 +3148,7 @@ export const academyCourses = [
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course1`,
     discount: "10",
     startingPrice: "49,000",
-    price: "53,900",
+    price: "54,444",
     duration: "45 days",
     handsOn:false,
     description:
@@ -3140,7 +3160,7 @@ export const academyCourses = [
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course2`,
     discount: "10",
     startingPrice: "15,000",
-    price: "16,500",
+    price: "16,667",
     duration: "3 days",
     handsOn:false,
     description:
@@ -3152,7 +3172,7 @@ export const academyCourses = [
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course3`,
     discount: "10",
     startingPrice: "20,000",
-    price: "22,000",
+    price: "22,222",
     duration: "3 days",
     handsOn:false,
     description:
@@ -3164,8 +3184,9 @@ export const academyCourses = [
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course4`,
     discount: "10",
     startingPrice: "30,000",
-    price: "33,000",
+    price: "33,333",
     duration: "15 days",
+    handsOn:false,
     description:
       "Understand surgical extractions, flap design, suturing techniques, impaction management, and minor oral surgical procedures.",
   },
@@ -3175,7 +3196,8 @@ export const academyCourses = [
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course5`,
     discount: "10",
     startingPrice: "60,000",
-    price: "66,000",
+    handsOn:false,
+    price: "66667",
     duration: "4 months",
     description:
       "An introductory implantology course covering implant planning, placement protocols, instruments, and restorative basics.",
@@ -3186,7 +3208,8 @@ export const academyCourses = [
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course6`,
     discount: "10",
     startingPrice: "99,000",
-    price: "1,08,900",
+    handsOn:false,
+    price: "1,10,000",
     duration: "3 months",
     description:
       "Comprehensive implant training with advanced surgical protocols, sinus lift concepts, prosthetic workflows, and live cases.",
@@ -3197,7 +3220,7 @@ export const academyCourses = [
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course7`,
     discount: "10",
     startingPrice: "15,000",
-    price: "16,500",
+    price: "16,667",
     duration: "2 days",
     handsOn:true,
     description:
@@ -3209,8 +3232,9 @@ export const academyCourses = [
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course8`,
     discount: "10",
     startingPrice: "49,000",
-    price: "53,900",
+    price: "54,444",
     duration: "3 days",
+    handsOn:true,
     description:
       "Explore smile designing, veneers, teeth whitening, composite artistry, and minimally invasive cosmetic dental procedures.",
   },
@@ -3220,8 +3244,9 @@ export const academyCourses = [
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course9`,
     discount: "10",
     startingPrice: "99,000",
-    price: "1,08,900",
+    price: "1,10,000",
     duration: "6 months",
+    handsOn:false,
     description:
       "Study orthodontic diagnosis, treatment planning, wire bending basics, aligners, and fixed appliance mechanics.",
   },
@@ -3231,8 +3256,9 @@ export const academyCourses = [
     image: `${CLOUDINARY_BASE}/rekha-dental/courses/course10`,
     discount: "10",
     startingPrice: "15,000",
-    price: "16,500",
+    price: "16,667",
     duration: "2 days",
+    handsOn:true,
     description:
       "Get trained in dental laser applications for soft tissue procedures, periodontal therapy, pain management, and esthetics.",
   },
@@ -3312,11 +3338,39 @@ export const courseDetails = [
 
     benefits: commonCourseBenefits,
     faqs: commonCourseFaqs,
+    courses: [
+      {
+        name: "General Dentistry - Short Course",
+        duration: "45 Days",
+        price: "49000"
+      },
+      {
+        name: "General Dentistry - Long Course",
+        duration: "3 to 6 Months",
+        price: "99000"
+      }
+    ],
   },
 
   {
     slug: "endodontic-course",
-
+    courses: [
+      {
+        name: "Endodontics - Basic Course",
+        duration: "3 Days",
+        price: "15000"
+      },
+      {
+        name: "Endodontics - Short Course",
+        duration: "15 Days",
+        price: "30000"
+      },
+      {
+        name: "Endodontics - Long Course",
+        duration: "2 Months",
+        price: "49000"
+      },
+    ],
     hero: {
       title: "Endodontic Course",
       subtitle: "Master modern root canal treatment techniques.",
@@ -3366,7 +3420,16 @@ export const courseDetails = [
 
   {
     slug: "prosthodontics-course",
-
+courses:[ {
+  name: "Prosthodontics - Veneers, Inlay & Onlay",
+  duration: "3 Days",
+  price: "20000"
+},
+{
+  name: "Prosthodontics - Comprehensive Course",
+  duration: "15 Days",
+  price: "30000"
+},],
     hero: {
       title: "Prosthodontics Course",
       subtitle: "Restore function, aesthetics, and confidence.",
@@ -3416,7 +3479,13 @@ export const courseDetails = [
 
   {
     slug: "oral-surgery-course",
-
+courses:[
+  {
+    name: "Oral Surgery",
+    duration: "15 Days",
+    price: "30000"
+  },
+],
     hero: {
       title: "Oral Surgery Course",
       subtitle: "Develop confidence in surgical dental procedures.",
@@ -3466,7 +3535,13 @@ export const courseDetails = [
 
   {
     slug: "basic-implant-course",
-
+courses:[
+  {
+    name: "Basic Implant Course",
+    duration: "3 to 4 Months",
+    price: "60000"
+  },
+],
     hero: {
       title: "Basic Implant Course",
       subtitle: "Start your journey into implant dentistry.",
@@ -3516,7 +3591,11 @@ export const courseDetails = [
 
   {
     slug: "complete-implant-course",
-
+courses:[ {
+  name: "Complete Implant Course",
+  duration: "3 to 6 Months",
+  price: "99000"
+},],
     hero: {
       title: "Complete Implant Course",
       subtitle: "Comprehensive implantology from planning to restoration.",
@@ -3567,7 +3646,11 @@ export const courseDetails = [
 
   {
     slug: "radiology-cbct-course",
-
+courses:[  {
+  name: "Radiology Course",
+  duration: "2 Days",
+  price: "15000"
+},],
     hero: {
       title: "Radiology (CBCT) Course",
       subtitle: "Master dental imaging and radiographic diagnosis.",
@@ -3617,7 +3700,11 @@ export const courseDetails = [
 
   {
     slug: "esthetic-dentistry-course",
-
+course:[  {
+  name: "Aesthetic Dentistry Course",
+  duration: "3 Days",
+  price: "49000"
+},],
     hero: {
       title: "Esthetic Dentistry Course",
       subtitle: "Create beautiful smiles with modern cosmetic dentistry.",
@@ -3668,7 +3755,11 @@ export const courseDetails = [
 
   {
     slug: "orthodontic-course",
-
+courses:[  {
+  name: "Orthodontics Course",
+  duration: "3 to 6 Months",
+  price: "99000"
+}],
     hero: {
       title: "Orthodontic Course",
       subtitle: "Learn the fundamentals of tooth movement and alignment.",
@@ -3717,7 +3808,11 @@ export const courseDetails = [
 
   {
     slug: "laser-dentistry-course",
-
+courses:[{
+  name: "Laser Course",
+  duration: "2 Days",
+  price: "15000"
+},],
     hero: {
       title: "Laser Dentistry Course",
       subtitle: "Discover the future of minimally invasive dental care.",
@@ -4854,17 +4949,26 @@ export const mediaData = [
 
 export const heroBanners = [
   {
-    image: `${CLOUDINARY_BASE}/rekha-dental/banner`,
+    image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1782810422/1000193949_ejhdzy.png`,
     alt: "Dental Banner 1",
+    slug:"/services/clear-aligners"
   },
   {
-    image: `${CLOUDINARY_BASE}/rekha-dental/aboutBanner`,
+    image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1782810422/1000193952_feqalx.png`,
     alt: "Dental Banner 2",
+    slug:"/services/clear-aligners"
   },
   {
     image:
-      "https://res.cloudinary.com/dygrzu3sm/image/upload/f_auto,q_auto/rekha-dental/services/service5/thumbnail",
+      "https://res.cloudinary.com/dygrzu3sm/image/upload/v1782810420/1000193963_nvtmaj.png",
     alt: "Dental Banner 3",
+    slug:"/services/dental-implants"
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dygrzu3sm/image/upload/v1782810420/1000193955_qswsbj.png",
+    alt: "Dental Banner 4",
+    slug:"/contact"
   },
 ];
 
@@ -4942,7 +5046,7 @@ export const dentalHealthPlans = [
       },
       {
         title: "Procedure Discount",
-        value: "5% Off on All Procedures",
+        value: "10-15% Off on All Procedures",
       },
       {
         title: "Complimentary Polishing",
@@ -5000,10 +5104,10 @@ export const dentalHealthPlans = [
       },
       {
         title: "Procedure Discount",
-        value: "10-15% Off on All Procedures",
+        value: "15% Off on All Procedures",
       },
       {
-        title: "Complimentary Air Polishing",
+        title: "Complimentary Polishing",
         value: "Worth ₹1000",
       },
     ],
@@ -5023,6 +5127,118 @@ export const dentalHealthPlans = [
   },
 ];
 
+export const offers = [
+  {
+    title: "Premium Implants",
+    offer: "Up to 25% OFF",
+    icon: FaTeeth,
+    slug:"/services/dental-implants"
+  },
+  {
+    title: "Kids Cavity Prevention",
+    description: "Varnish & Pit and Fissure Sealants",
+    offer: "Up to 30% OFF",
+    icon: FaChild,
+    slug:"/services/preventive-ages-0-13"
+  },
+  {
+    title: "Braces",
+    offer: "Up to 30% OFF",
+    icon: MdOutlineAlignHorizontalCenter,
+    slug:"/services/clear-aligners"
+  },
+  {
+    title: "Premium Aligners",
+    offer: "Up to 30% OFF",
+    icon: TbDental,
+    slug:"/services/clear-aligners"
+  },
+  {
+    title: "Veneers",
+    offer: "Up to 25% OFF",
+    icon: FaStar,
+    slug:"/services/dental-veneers"
+  },
+  {
+    title: "Smile Designing",
+    offer: "Up to 25% OFF",
+    icon: FaSmile,
+    slug:"/services/cosmetic-dentistry"
+  },
+  {
+    title: "Premium Full Ceramic Crowns",
+    offer: "Up to 25% OFF",
+    icon: GiCrownedHeart,
+    slug:"/services/dental-crowns"
+  },
+  {
+    title: "Pulpectomy",
+    price: "₹4,990",
+    description: "Up to 2 sittings",
+    icon: GiTooth,
+    slug:"/services/pediatric-dentistry"
+  },
+  {
+    title: "Laser Pulpectomy",
+    price: "₹6,990",
+    icon: TbDentalBroken,
+    slug:"/services/pediatric-dentistry"
+  },
+  {
+    title: "Basic RCT (Anterior)",
+    price: "₹5,999",
+    icon: GiTooth,
+    slug:"/services/root-canal-treatment"
+  },
+  {
+    title: "Basic RCT (Posterior)",
+    price: "₹6,999",
+    icon: GiTooth,
+    slug:"/services/root-canal-treatment"
+  },
+  {
+    title: "Consultant RCT (Anterior)",
+    price: "₹6,999",
+    description: "Rotary File + Advanced Technology",
+    icon: MdHealthAndSafety,
+    slug:"/services/root-canal-treatment"
+  },
+  {
+    title: "Consultant RCT (Posterior)",
+    price: "₹7,999",
+    description: "Rotary File + Advanced Technology",
+    icon: MdHealthAndSafety,
+    slug:"/services/root-canal-treatment"
+  },
+  {
+    title: "Laser RCT + Meta Pex RCT (Anterior)",
+    price: "₹9,999",
+    icon: GiMedicines,
+    slug:"/services/root-canal-treatment"
+  },
+  {
+    title: "Laser RCT + Meta Pex RCT (Posterior)",
+    price: "₹10,990",
+    icon: GiMedicines,
+    slug:"/services/root-canal-treatment"
+  },
+  // {
+  //   title: "Laser RCT + Meta Pex RCT",
+  //   description:
+  //     "Indicated for Endo Perio Lesion, Cystic Lesion and 3rd Molar cases",
+  //   icon: GiMedicines,
+  // },
+  // {
+  //   title: "Core Build-up",
+  //   description: "Additional charges applicable",
+  //   icon: TbDental,
+  // },
+  // {
+  //   title: "Cap / Onlay / Inlay",
+  //   description: "Additional charges applicable",
+  //   icon: TbDental,
+  // },
+];
 export const whyChooseRekhaDental = [
   {
     id: 1,

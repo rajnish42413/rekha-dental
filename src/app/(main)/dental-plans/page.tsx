@@ -1,9 +1,8 @@
-import DentalPlanCard from "@/components/dental-plans/dentalPlanCard";
+import PlansOffersContainer from "@/components/dental-plans/plansOffersContainer";
 import FAQ from "@/components/general/faq";
 import PillarCard from "@/components/general/pillarCard";
 import SectionHeader from "@/components/general/sectionHeader";
 import {
-  dentalHealthPlans,
   dentalPlanFaqs,
   whyChooseRekhaDental,
 } from "@/utils/constants";
@@ -86,15 +85,11 @@ function page() {
   return (
     <div className="pt-10">
       <SectionHeader
-        tag="DENTAL HEALTH PLANS"
+        tag="DENTAL HEALTH PLANS ANd OFFERS"
         title="Smart savings. Better oral health."
-        subtitle="Choose a membership plan that offers exclusive benefits, discounts, and priority dental care."
+        subtitle="Choose a membership plan and explore offers with exclusive benefits, discounts, and priority dental care."
       />
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 my-20 mx-10 lg:mx-18">
-        {dentalHealthPlans.map((plan) => (
-          <DentalPlanCard key={plan.id} plan={plan} />
-        ))}
-      </div>
+      <PlansOffersContainer/>
 
       <SectionHeader
         tag="WHY CHOOSE REKHA DENTAL"

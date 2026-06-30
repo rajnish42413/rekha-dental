@@ -91,7 +91,7 @@ function page() {
       <StorySection
         images={[
           `${CLOUDINARY_BASE}/rekha-dental/academyBanner`,
-          `${CLOUDINARY_BASE}/rekha-dental/academy/academy1`,
+          // `${CLOUDINARY_BASE}/rekha-dental/academy/academy1`,
           `${CLOUDINARY_BASE}/rekha-dental/current/current3`,
           `${CLOUDINARY_BASE}/rekha-dental/current/current4`,
           `${CLOUDINARY_BASE}/rekha-dental/academy-new/academy-new1`,
@@ -108,7 +108,7 @@ function page() {
         title="An atelier, not a classroom."
         paragraphs={[
           "Rekha Dental Academy was founded on a single belief — that exceptional dentistry cannot be taught in slides alone. Our programs are built around live patient cases, small mentor-led cohorts, and the same protocols our specialists use every day in clinic.",
-          "Since 2014, we've trained over 2,400 clinicians from multiple countries — many returning year after year for advanced modules and faculty fellowships.",
+          
         ]}
       />
       <ExtraImageSection/>
