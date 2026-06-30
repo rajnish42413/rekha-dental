@@ -71,8 +71,8 @@ export default function HeroSwiper({ slides }: HeroSwiperProps) {
           cursor-pointer active:scale-95 duration-200 
           -translate-y-1/2
           z-20
-          h-10
-          w-10
+          h-8
+          w-8
           lg:h-12
           lg:w-12
           rounded-full
@@ -100,8 +100,8 @@ export default function HeroSwiper({ slides }: HeroSwiperProps) {
           -translate-y-1/2
           cursor-pointer active:scale-95 duration-200 
           z-20
-          h-10
-          w-10
+          h-8
+          w-8
           lg:h-12
           lg:w-12
           rounded-full
