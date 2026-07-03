@@ -77,11 +77,11 @@ export default function PremiumProcedureSwiper({
                  Procedure {item.index}
                 </p>
 
-                <h2 className="font-header text-3xl lg:text-5xl text-[#2C2C2C] mt-4">
+                <h2 className="font-header text-2xl md:text-3xl lg:text-5xl text-[#2C2C2C] mt-4">
                   {item.title}
                 </h2>
 
-                <p className="mt-6 text-[#666] leading-8 text-base">
+                <p className="mt-6 text-[#666] leading-6 md:leading-8 text-sm md:text-base">
                   {item.description}
                 </p>
 

@@ -149,11 +149,11 @@ export const footerLinks = [
 ];
 
 export const socialIcons = [
-  { icon: <FaFacebookF />, url: "https://www.facebook.com/mamtaraghav21" },
+  { icon: <FaFacebookF />, url: "https://www.facebook.com/profile.php?id=61590839840757" },
   // { icon: <FaTwitter />, url: "#" },
   {
     icon: <FaInstagram />,
-    url: "https://www.instagram.com/rekhadentalgzb?utm_source=qr&igsh=bTRvMzU2eHQ2eW44",
+    url: "https://www.instagram.com/rekha_dental_/",
   },
   {
     icon: <FaYoutube />,
