@@ -200,9 +200,9 @@ export const serviceCards = [
   {
     id: 3,
     index: "03",
-    title: "Preventive · Ages 0–13",
+    title: "Preventive Dentistry",
     slug: "preventive-ages-0-13",
-    description: "Gentle first visits for the youngest smiles.",
+    description: "For ages 0-13 & 14-15.",
     image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781614234/preventive-pit_mdjbzb.png`,
     discount: "30",
     startingPrice: "1,499",
@@ -600,14 +600,14 @@ export const serviceDetails = [
     id: 3,
     slug: "preventive-ages-0-13",
     hero: {
-      title: "Preventive · Ages 0–13",
-      subtitle: "Gentle first visits for the youngest smiles.",
+      title: "Preventive Dentistry",
+      subtitle: "For ages 0-13 & 14-15",
       image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781614234/preventive-pit_mdjbzb.png`,
     },
     overview: {
       tag: "OVERVIEW",
       description:
-        "The foundation of a lifetime of oral health begins well before the first permanent tooth appears. Our preventive program for ages 0–2 is designed to introduce infants and toddlers to the dental environment in a way that is nurturing and entirely stress-free. We focus on the 'Age One Visit' philosophy, which allows us to monitor the early eruption of primary teeth and the development of the jaw. This stage is crucial for educating parents on proper cleaning techniques, the impact of nutrition on dental health, and the prevention of 'nursing bottle' decay. By establishing a 'dental home' early, we significantly reduce the likelihood of dental anxiety in later years. Our child-friendly suites are equipped to make these first interactions playful and engaging. We don't just look at teeth; we look at the overall growth and development of your child's facial structure. Our goal is to ensure that your child's first memories of the dentist are filled with smiles and comfort.",
+        "The foundation of a lifetime of oral health begins well before the first permanent tooth appears. Our preventive program for ages 0–13 & 14-15 is designed to introduce infants and toddlers to the dental environment in a way that is nurturing and entirely stress-free. We focus on the 'Age One Visit' philosophy, which allows us to monitor the early eruption of primary teeth and the development of the jaw. This stage is crucial for educating parents on proper cleaning techniques, the impact of nutrition on dental health, and the prevention of 'nursing bottle' decay. By establishing a 'dental home' early, we significantly reduce the likelihood of dental anxiety in later years. Our child-friendly suites are equipped to make these first interactions playful and engaging. We don't just look at teeth; we look at the overall growth and development of your child's facial structure. Our goal is to ensure that your child's first memories of the dentist are filled with smiles and comfort.",
     },
     technology: {
       tag: "TECHNOLOGY",

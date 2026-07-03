@@ -54,8 +54,8 @@ export default function BookAppointmentButton({
         <FaCalendarAlt className="w-3.5 h-3.5" />
         {showText && (
           <div>
-            <span className="hidden sm:inline">Book Appointment</span>
-            <span className="sm:hidden">Book</span>
+            <span className="hidden lg:inline">Book Appointment</span>
+            <span className="lg:hidden">Book</span>
           </div>
         )}
       </button>
