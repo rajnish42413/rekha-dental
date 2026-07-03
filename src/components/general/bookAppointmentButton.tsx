@@ -49,13 +49,13 @@ export default function BookAppointmentButton({
           e.stopPropagation();
           setShowCenters((prev) => !prev);
         }}
-        className={`w-full bg-brand hover:bg-[#093528] cursor-pointer active:scale-95 duration-200 transition-all text-white py-2.5 px-3 rounded-lg font-medium text-sm flex items-center justify-center gap-2 shadow-sm relative z-30 ${className}`}
+        className={` bg-brand hover:bg-[#093528] cursor-pointer active:scale-95 duration-200 transition-all text-white py-2.5 px-3 rounded-lg font-medium text-sm flex items-center justify-center gap-2 shadow-sm relative z-30 ${className}`}
       >
         <FaCalendarAlt className="w-3.5 h-3.5" />
         {showText && (
           <div>
-            <span className="hidden sm:inline">Book Appointment</span>
-            <span className="sm:hidden">Book</span>
+            <span className="hidden lg:inline">Book Appointment</span>
+            <span className="lg:hidden">Book</span>
           </div>
         )}
       </button>

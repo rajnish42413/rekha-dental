@@ -176,14 +176,14 @@ export default async function Page({ params }: PageProps) {
             {service.treatments?.map((treatment, index) => (
               <div
                 key={index}
-                className={`grid grid-cols-[1fr_auto] items-center transition-colors duration-300 hover:bg-[#EFE8DD]
+                className={`grid grid-cols-[1fr_auto]  transition-colors duration-300 hover:bg-[#EFE8DD]
           ${
             index !== service.treatments?.length - 1
               ? "border-b border-[#E2D9CE]"
               : ""
           }`}
               >
-                <div className="px-4 md:px-6 py-5 flex items-center gap-2 md:gap-3">
+                <div className="px-4 md:px-6 py-5 flex  gap-2 md:gap-3">
                   {/* <div className="w-2 h-2 rounded-full bg-[#CBA553]" /> */}
 
                   <span className="text-[#2C2C2C] text-sm md:text-md font-header">
@@ -191,7 +191,7 @@ export default async function Page({ params }: PageProps) {
                   </span>
                 </div>
 
-                <div className="px-6 py-5 font-semibold text-[#0f3d3e] text-right whitespace-nowrap">
+                <div className="px-6 py-5 font-semibold text-[#0f3d3e] text-right ">
                   {treatment.price}
                 </div>
               </div>
