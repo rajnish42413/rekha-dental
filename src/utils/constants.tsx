@@ -2917,7 +2917,7 @@ export const exploreDentalServices = [
   {
     id: 5,
     title: "Teeth Cleaning",
-    slug: "teeth-cleaning",
+    slug: "teeth-cleaning-scaling",
     icon: <GiToothbrush />,
   },
 
@@ -5358,7 +5358,7 @@ export const commonDentalProblems = [
     image:
       "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776995/bleeding_c91jtv.png",
     title: "Bleeding Gums",
-    serviceSlug: "teeth-cleaning",
+    serviceSlug: "teeth-cleaning-scaling",
     symptoms: [
       "Bleeding while brushing",
       "Swollen gums",
@@ -5374,7 +5374,7 @@ export const commonDentalProblems = [
     image:
       "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781776940/bad-breathe_ydbzgt.png",
     title: "Chronic Bad Breath",
-    serviceSlug: "teeth-cleaning",
+    serviceSlug: "teeth-cleaning-scaling",
     symptoms: [
       "Persistent bad breath",
       "Dry mouth",

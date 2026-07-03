@@ -117,8 +117,8 @@ export default function CourseCard({
       </div>
 
       <div className="px-6 pb-6">
-        <div className="grid grid-cols-12 gap-4 items-center">
-          <div className="col-span-5 flex items-center gap-3 pr-2">
+        <div className="flex justify-between gap-4 items-center">
+          <div className="flex items-center gap-3 pr-2">
             <div>
               <p className="text-[11px] uppercase tracking-wide text-[#CBA553] font-medium">
                 Starting at
@@ -136,12 +136,12 @@ export default function CourseCard({
             </div>
           </div>
 
-          <div className="col-span-7">
+          <div className="">
             <a
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full bg-brand hover:bg-[#093528] active:scale-95 duration-200 transition-all text-white py-2.5 px-3 rounded-lg font-medium text-sm flex items-center justify-center gap-2 shadow-sm"
+              className=" bg-brand hover:bg-[#093528] active:scale-95 duration-200 transition-all text-white py-2.5 px-3 rounded-lg font-medium text-sm flex items-center justify-center gap-2 shadow-sm"
             >
               <FaWhatsapp size={20} />
 
