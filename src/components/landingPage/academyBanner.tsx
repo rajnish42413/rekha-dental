@@ -7,8 +7,8 @@ export default function AcademyBanner() {
   return (
     <section className="my-10">
       <div className="mx-auto w-full ">
-        <div className="relative overflow-hidden rounded-[4px]">
-          <div className="relative h-[420px] w-full">
+        <div className="relative overflow-hidden ">
+          <div className="relative h-[460px] w-full">
             <Image
               src={`${CLOUDINARY_BASE}/rekha-dental/academy`}
               alt="Dental Academy"
@@ -37,7 +37,7 @@ export default function AcademyBanner() {
               <div className="max-w-3xl">
                 <p
                   className="
-                    mb-5 text-xs font-semibold uppercase
+                    mb-5 text-md md:text-lg font-semibold uppercase
                     tracking-[0.32em] text-[#C9A45B]
                   "
                 >
@@ -57,7 +57,7 @@ export default function AcademyBanner() {
                 <p
                   className="
                     mt-6 max-w-2xl
-                    text-sm lg:leading-8 text-white/75
+                    text-md lg:leading-8 text-white/75
                     md:text-lg
                   "
                 >

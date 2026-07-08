@@ -38,23 +38,20 @@ function PillarCard({
       >
         {icon}
       </div>
-
       <div className="relative z-10 lg:mt-8 mt-4">
         <h3
-          className="font-header text-xl lg:text-2xl leading-tight
+          className="font-header font-semibold text-xl lg:text-2xl leading-tight
           text-[#2C2A27]"
         >
           {title}
         </h3>
-
         <p
-          className="mt-5 text-sm lg:leading-7 leading-6 text-[#66625C]
-          md:text-base"
+          className="mt-5 text-sm md:text-base lg:leading-7 leading-6 text-[#66625C] 
+          "
         >
           {description}
         </p>
       </div>
-
       <div
         className="absolute -bottom-10 -right-10 h-40 w-40
         rounded-full bg-[#EFE5D7] opacity-0 blur-3xl

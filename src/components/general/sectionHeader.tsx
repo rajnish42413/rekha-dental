@@ -22,17 +22,17 @@ interface SectionHeaderProps {
         {tag && (
           <div className="flex items-center gap-3">
             <div className="w-8 h-[2px] bg-[#CBA553]/70" />
-            <p className="uppercase tracking-[3px] text-xs text-[#CBA553] font-semibold">
+            <p className="uppercase tracking-[3px]  text-sm font-semibold lg:text-md  text-[#CBA553] ">
               {tag}
             </p>
             <div className="w-8 h-[2px] bg-[#CBA553]/70" />
           </div>
         )}
-        <h2 className="font-header text-2xl lg:text-5xl text-[#2C2C2C] leading-tight max-w-3xl">
+        <h2 className="font-header text-2xl lg:text-4xl text-[#2C2C2C] leading-tight max-w-3xl">
           {title}
         </h2>
         {subtitle && (
-          <p className="text-sm md:text-base text-[#6B6B6B] max-w-xl leading-relaxed ">
+          <p className="text-sm md:text-base  text-[#6B6B6B] max-w-xl leading-relaxed ">
             {subtitle}
           </p>
         )}

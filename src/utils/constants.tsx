@@ -5,6 +5,7 @@ import {
   FaHeart,
   FaInstagram,
   FaPeopleGroup,
+  FaRegCalendarCheck,
   FaShieldHeart,
   FaShieldVirus,
   FaStar,
@@ -60,7 +61,7 @@ import {
   FiUsers,
 } from "react-icons/fi";
 import { CLOUDINARY_BASE } from "./endpoints";
-import { FaRegSmile, FaSmile } from "react-icons/fa";
+import { FaMapMarkerAlt, FaRegSmile, FaShieldAlt, FaSmile } from "react-icons/fa";
 import { TbDental } from "react-icons/tb";
 import { GiCrownedHeart, GiLaserPrecision, GiMedicines, GiTooth } from "react-icons/gi";
 import { BsFillDiamondFill } from "react-icons/bs";
@@ -1752,7 +1753,7 @@ export const serviceDetails = [
         price: "₹40,000-₹50,000",
       },
       {
-        name: "Fixed Invisible Braces",
+        name: "Fixed Invisible Retainer",
         price: "₹7,000 - ₹8,000",
       },
     ],
@@ -2544,7 +2545,7 @@ export const clinicJourneyData = [
 // Doctor Page
 export const aboutStatsData = [
   {
-    value: "19",
+    value: "19+",
     label: "Years of Practice",
   },
   {
@@ -4946,7 +4947,6 @@ export const mediaData = [
 ];
 
 //Hero Banner
-
 export const heroBanners = [
   {
     image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1782810422/1000193949_ejhdzy.png`,
@@ -5697,5 +5697,121 @@ export const ourCoreValues = [
     description:
       "We continuously pursue clinical excellence through advanced technology, ongoing education, and a commitment to delivering exceptional dental care.",
     icon: <MdOutlineWorkspacePremium />,
+  },
+];
+
+
+//Appointment Page
+export const appointmentSteps = [
+  {
+    id: 1,
+    number: "01",
+    title: "Choose a Centre",
+    description:
+      "Select the Rekha Dental clinic location that's most convenient for your visit.",
+    icon: <FaMapMarkerAlt />,
+  },
+  {
+    id: 2,
+    number: "02",
+    title: "Select Date & Time",
+    description:
+      "Choose your preferred appointment slot through our secure online booking system.",
+    icon: <FaRegCalendarCheck />,
+  },
+  {
+    id: 3,
+    number: "03",
+    title: "Confirm Appointment",
+    description:
+      "Complete your booking and receive instant confirmation with your appointment details.",
+    icon: <FaShieldAlt />,
+  },
+];
+
+export const centers = [
+  {
+    id: 1,
+    slug: "ghaziabad",
+    city: "Ghaziabad",
+    name: "Rekha Dental Clinic Ghaziabad",
+    image:
+      "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781156413/old-clinic1_wzmpna.jpg",
+    description:
+      "Comprehensive dental care with advanced technology, experienced specialists, and personalized treatment plans.",
+    address:
+      "House No. 622, First Floor, Satyam Enclave, New Kotgaon, Ghaziabad, Uttar Pradesh 201001",
+    timings: "Mon – Sat • 10:00 AM – 2:00 PM & 5:00 PM – 7:00 PM\nSun • 10:00 AM – 2:00 PM",
+    phone: "+91 81304 06405",
+  },
+  {
+    id: 2,
+    slug: "raj-nagar",
+    city: "Raj Nagar Extension",
+    name: "Rekha Dental Clinic Laser & Implant Center",
+    image:
+      "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781156410/old-clinic3_jb3vda.jpg",
+    description:
+      "Dedicated center for dental implants, smile makeovers, cosmetic dentistry, and advanced laser treatments.",
+    address:
+      "A-007, Raj Nagar Residency, Near KW Delhi 6 Mall, Ghukna, Raj Nagar Extension, Ghaziabad, Uttar Pradesh 201017",
+    timings: "Mon – Sat • 10:00 AM – 2:00 PM & 5:00 PM – 7:00 PM\nSun • 10:00 AM – 2:00 PM",
+    phone: "+91 81304 06405",
+  },
+];
+
+export const centerDetails = [
+  {
+    slug: "ghaziabad",
+
+    heading: "Modern dentistry with a personal touch.",
+
+    description:
+      "Our Ghaziabad centre combines advanced dental technology with compassionate care. From preventive check-ups to complex implant procedures, every treatment is tailored to your comfort and long-term oral health.",
+
+    specialties: [
+      "Dental Implants",
+      "Smile Designing",
+      "Root Canal Treatment",
+      "Laser Dentistry",
+      "Invisible Aligners",
+      "Pediatric Dentistry",
+    ],
+
+    highlights: [
+      "Experienced implant specialists",
+      "Digital X-Ray & RVG",
+      "Modern sterilization protocols",
+      "Pain-free dentistry",
+      "Cashless insurance assistance",
+      "Comfortable waiting lounge",
+    ],
+  },
+
+  {
+    slug: "raj-nagar",
+
+    heading: "Advanced implant & laser dentistry.",
+
+    description:
+      "Our Raj Nagar Extension centre specializes in cosmetic dentistry, implantology and full mouth rehabilitation using modern equipment and evidence-based treatment protocols.",
+
+    specialties: [
+      "Dental Implants",
+      "Laser Dentistry",
+      "Full Mouth Rehabilitation",
+      "Smile Makeover",
+      "Cosmetic Dentistry",
+      "Orthodontics",
+    ],
+
+    highlights: [
+      "Latest implant systems",
+      "Digital smile planning",
+      "Experienced specialists",
+      "Advanced sterilization",
+      "Convenient parking",
+      "Flexible appointments",
+    ],
   },
 ];

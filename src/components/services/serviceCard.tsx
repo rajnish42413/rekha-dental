@@ -56,19 +56,19 @@ export default function ServiceCard({
         <p className="text-xs tracking-[2px] text-[#CBA553] lg:mb-3 mb-2 font-medium">
           {index}
         </p>
-        <h3 className="font-header text-xl md:text-2xl text-[#2C2C2C] mb-3 leading-snug">
+        <h3 className="font-header font-semibold text-xl md:text-2xl text-[#2C2C2C] mb-3 leading-snug">
           {title}
         </h3>
-        <p className="text-sm text-[#6B6B6B] leading-relaxed line-clamp-1">
+        <p className="md:text-base text-sm text-[#6B6B6B] leading-relaxed line-clamp-1">
           {description}
         </p>
       </div>
       <div className="px-6 pb-6">
-        <div className="flex justify-between gap-4 items-center">
+        <div className="flex justify-between  items-center">
           <div className=" flex items-center gap-3 pr-2">
             <div>
               <p className="text-[11px] uppercase tracking-wide text-[#CBA553] font-medium">
-                Starting at
+                Starts from*
               </p>
 
               <div className="flex items-center gap-2">

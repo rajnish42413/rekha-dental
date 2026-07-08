@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex flex-col space-y-6">
           <Link href="/">
             <div className="flex items-center gap-2 cursor-pointer group">
-              <span className="font-serif font-header tracking-widest uppercase text-lg text-white font-semibold">
+              <span className="font-serif font-header tracking-widest uppercase text-xl text-white font-semibold">
                 Rekha Dental Clinic
               </span>
             </div>

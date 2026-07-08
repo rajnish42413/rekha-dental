@@ -28,7 +28,10 @@ function LandingPage() {
     <div>
       {/* <HeroBanner /> */}
       <HeroSwiper slides={heroBanners} />
+      <div className="px-5 lg:px-10">
       <StatsStrip data={aboutStatsData} />
+      </div>
+     
       <StorySection
         images={[
           `${CLOUDINARY_BASE}/rekha-dental/academyBanner`,
