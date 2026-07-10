@@ -26,7 +26,7 @@ export default function HowItWorksSection() {
                 <div className="grid grid-cols-1 lg:grid-cols-[1fr_120px]">
                   <div className="px-6 py-8 lg:px-10 lg:py-10">
                     <div className="flex items-center gap-4">
-                      <span className="text-xs tracking-[4px] text-[#CBA553]">
+                      <span className="text-xs tracking-[4px] text-yellow font-extrabold">
                         STEP {step.id}
                       </span>
 

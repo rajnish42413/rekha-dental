@@ -38,7 +38,7 @@ export default function VisitCard({ center }: Props) {
   };
   return (
     <aside className="sticky top-24 border border-[#D6D0C6] bg-[#F5F5EC] p-8">
-      <div className="flex items-center gap-2 text-[#B89B5E] text-xs font-semibold tracking-[3px] uppercase mb-6">
+      <div className="flex items-center gap-2 text-yellow text-sm font-extrabold tracking-[3px] uppercase mb-6">
         <MdLocationOn size={16} />
         <span>Visit Centre</span>
       </div>
@@ -52,7 +52,7 @@ export default function VisitCard({ center }: Props) {
           <FiMapPin size={18} className="mt-1 shrink-0 text-[#B89B5E]" />
 
           <div>
-            <p className="uppercase text-[11px] tracking-[2px] text-[#8C867B] mb-2">
+            <p className="uppercase text-sm font-extrabold tracking-[2px] text-yellow mb-2">
               Address
             </p>
 
@@ -64,7 +64,7 @@ export default function VisitCard({ center }: Props) {
           <FiClock size={18} className="mt-1 shrink-0 text-[#B89B5E]" />
 
           <div>
-            <p className="uppercase text-[11px] tracking-[2px] text-[#8C867B] mb-2">
+            <p className="uppercase text-sm tracking-[2px] text-yellow font-extrabold mb-2">
               Consultation Hours
             </p>
 
@@ -77,7 +77,7 @@ export default function VisitCard({ center }: Props) {
         <div className="flex gap-4 py-5">
           <FiPhone size={18} className="mt-1 shrink-0 text-[#B89B5E]" />
           <div>
-            <p className="uppercase text-[11px] tracking-[2px] text-[#8C867B] mb-2">
+            <p className="uppercase text-sm font-extrabold tracking-[2px] text-yellow mb-2">
               Phone
             </p>
             <a

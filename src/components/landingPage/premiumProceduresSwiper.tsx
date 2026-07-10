@@ -73,7 +73,7 @@ export default function PremiumProcedureSwiper({
               </div>
 
               <div className="p-8 lg:p-14">
-                <p className="text-[#CBA553] tracking-[3px] text-md lg:text-lg uppercase font-bold">
+                <p className="uppercase tracking-[3px]  text-md font-extrabold lg:text-lg  text-yellow ">
                  Procedure {item.index}
                 </p>
 

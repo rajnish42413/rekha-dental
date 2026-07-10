@@ -118,7 +118,7 @@ export default async function BlogsPage({ searchParams }: BlogsPageProps) {
               className="mb-6 rounded-full object-cover opacity-80"
             />
 
-            <p className="mb-3 text-xs font-medium uppercase tracking-[4px] text-[#CBA553]">
+            <p className="mb-3 text-xs font-medium uppercase tracking-[4px] text-yellow">
               COMING SOON
             </p>
 
@@ -178,9 +178,9 @@ export default async function BlogsPage({ searchParams }: BlogsPageProps) {
                     />
                   </div>
                   <div className="flex flex-1 flex-col lg:p-6 p-4">
-                    <div className="flex items-center gap-3 text-[11px] uppercase tracking-[2px] text-[#CBA553]">
+                    <div className="flex items-center gap-3 text-sm uppercase font-extrabold tracking-[2px] text-yellow">
                       <span>{String(index + 1).padStart(2, "0")}</span>
-                      <span className="h-px w-5 bg-[#CBA553]" />
+                      <span className="h-[2px] w-5 bg-yellow" />
                       <span className="line-clamp-1">{blog.category}</span>
                     </div>
                     <h2
@@ -210,12 +210,12 @@ export default async function BlogsPage({ searchParams }: BlogsPageProps) {
                     <div className="mt-auto lg:pt-8 pt-3">
                       <div className="flex items-center justify-between">
                         <div className="flex items-center gap-2 text-xs tracking-[2px] text-[#A0A0A0] uppercase">
-                          <LuClock3 className="text-sm text-[#CBA553]" />
-                          <span>{blog.readingTime}</span>
+                          <LuClock3 className="text-sm text-yellow" />
+                          <span className="text-yellow font-extrabold text sm">{blog.readingTime}</span>
                         </div>
-                        <div className="inline-flex items-center gap-2 font-header text-xs tracking-[2px] text-[#CBA553] uppercase">
+                        <div className="inline-flex items-center gap-2  text-xs tracking-[2px] text-yellow  font-extrabold uppercase">
                           Read More
-                          <span className="block h-px w-6 bg-[#CBA553] transition-all duration-300 group-hover:w-10" />
+                          <span className="block h-[2px] w-6 bg-yellow transition-all duration-300 group-hover:w-10" />
                         </div>
                       </div>
                     </div>

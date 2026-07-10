@@ -29,7 +29,7 @@ export default function OfferCard({
       "
     >
       <div className="w-16 h-16 rounded-full bg-[#F8F3EA] flex items-center justify-center mx-auto mb-5">
-        <Icon className="text-[#CBA553] text-3xl" />
+        <Icon className="text-yellow text-3xl" />
       </div>
       <h3 className="text-[#163B2F] text-xl font-semibold text-center leading-tight min-h-[56px]">
         {title}

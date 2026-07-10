@@ -8,7 +8,7 @@ function NewspaperCuttings() {
     <section className=" py-10 lg:py-16">
       <div className="mx-4 lg:mx-10">
         <div className="mx-auto max-w-4xl text-center">
-          <p className="mb-5 text-xs font-medium uppercase tracking-[5px] text-[#CBA553]">
+          <p className="mb-5 text-md font-extrabold uppercase tracking-[5px] text-yellow">
             MEDIA COVERAGE
           </p>
 
@@ -37,7 +37,7 @@ function NewspaperCuttings() {
               </div>
 
               <div className="mt-4">
-                <p className="text-xs font-medium uppercase tracking-[3px] text-[#CBA553]">
+                <p className="text-md font-extrabold uppercase tracking-[3px] text-yellow">
                   Media Coverage
                 </p>
 

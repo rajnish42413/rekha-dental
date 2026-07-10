@@ -38,7 +38,7 @@ export default function AcademyBanner() {
                 <p
                   className="
                     mb-5 text-md md:text-lg font-semibold uppercase
-                    tracking-[0.32em] text-[#C9A45B]
+                    tracking-[0.32em] text-yellow
                   "
                 >
                   The Rekha Academy

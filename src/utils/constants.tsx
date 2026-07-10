@@ -4,6 +4,7 @@ import {
   FaHandshake,
   FaHeart,
   FaInstagram,
+  // FaLinkedinIn,
   FaPeopleGroup,
   FaRegCalendarCheck,
   FaShieldHeart,
@@ -13,6 +14,7 @@ import {
   FaTooth,
   FaUserDoctor,
   FaUserShield,
+  FaWhatsapp,
   FaYoutube,
 } from "react-icons/fa6";
 import {
@@ -60,7 +62,7 @@ import {
   FiTrendingUp,
   FiUsers,
 } from "react-icons/fi";
-import { CLOUDINARY_BASE } from "./endpoints";
+import { CLOUDINARY_BASE, WHATSAPP_NUMBER } from "./endpoints";
 import { FaMapMarkerAlt, FaRegSmile, FaShieldAlt, FaSmile } from "react-icons/fa";
 import { TbDental } from "react-icons/tb";
 import { GiCrownedHeart, GiLaserPrecision, GiMedicines, GiTooth } from "react-icons/gi";
@@ -70,6 +72,7 @@ import { MdOutlineHealthAndSafety } from "react-icons/md";
 import { GiToothbrush } from "react-icons/gi";
 import { PiToothLight, PiToothFill } from "react-icons/pi";
 import { TbDentalBroken } from "react-icons/tb";
+import { SiMagic } from "react-icons/si";
 //Navbar
 export const menuLinks = [
   {
@@ -134,10 +137,12 @@ export const footerLinks = [
     links: [
       { label: "About Us", href: "/about" },
       { label: "Contact Us", href: "/contact" },
+      { label: "Appointment", href: "/appointment" },
       { label: "Blogs", href: "/blogs" },
       { label: "Reviews", href: "/reviews" },
       { label: "Our Legacy", href: "/legacy" },
       { label: "Patient Safety Practices", href: "/patient-safety" },
+     
     ],
   },
   {
@@ -149,30 +154,55 @@ export const footerLinks = [
   },
 ];
 
+const message = encodeURIComponent(
+  "Hi, I'm interested in your services."
+);
+
 export const socialIcons = [
-  { icon: <FaFacebookF />, url: "https://www.facebook.com/profile.php?id=61590839840757" },
-  // { icon: <FaTwitter />, url: "#" },
+  {
+    icon: <FaFacebookF />,
+    url: "https://www.facebook.com/profile.php?id=61590839840757",
+    label: "Facebook",
+  },
   {
     icon: <FaInstagram />,
     url: "https://www.instagram.com/rekha_dental_/",
+    label: "Instagram",
   },
   {
     icon: <FaYoutube />,
     url: "https://youtube.com/@drgauravsaxena84?si=OFTPftaGOJNF22Qs",
+    label: "YouTube",
+  },
+  // {
+  //   icon: <FaLinkedinIn />,
+  //   url: "https://www.linkedin.com/company/your-linkedin-page",
+  //   label: "LinkedIn",
+  // },
+  {
+    icon: <SiMagic />,
+    url: "https://magicpin.in/Ghaziabad/Daulatpura/Healthcare/Rekha-Dental-Clinic-Ghaziabad/store/181b6a9?srsltid=AfmBOoph3cCOGhMp4yg6Sn_eXbB88HJieMezG67cKOXbWA7_8oefqX6U",
+    label: "Magicpin",
+  },
+  {
+    icon: <FaWhatsapp />,
+    url: `https://wa.me/${WHATSAPP_NUMBER}?text=${message}`,
+    label: "WhatsApp",
   },
 ];
 
 export const contactInfo = [
   {
     icon: MdPhone,
-    text: "+918130406405",
+    text: "+91-8130-406-405",
+    href: "tel:+918130406405",
   },
   {
     icon: MdEmail,
     text: "support@rekhadental.com",
+    href: "mailto:support@rekhadental.com",
   },
 ];
-
 //Services
 export const serviceCards = [
   {
@@ -2567,25 +2597,23 @@ export const doctorGauravDetails = {
     "BDS — DJ College of Dental Sciences & Research, Modinagar",
     "MDS — Institute of Dental Sciences & Technologies",
     "19+ Years of Clinical Practice",
-    "Director — Rekha Dental Clinic & Implant Center",
+    "Director — Rekha Dental",
+    "Founder — All India Healthcare Worker Association (Regd.)"
   ],
-
   languages: ["English", "Hindi"],
 
   practiceAreas: [
-    "Root Canal Treatment",
     "Dental Implants",
-    "Crown & Bridge",
     "Laser Dentistry",
-    "Esthetic Fillings",
     "Smile Rehabilitation",
+    "Esthetic Fillings",
   ],
 
   memberships: [
     "Indian Dental Association (IDA)",
     "IAOMR — Indian Academy of Oral Medicine & Radiology",
     "ISOI — Indian Society of Oral Implantologists",
-    "Founder of AIHWA",
+    "Founder — All India Healthcare Worker Association (Regd.)",
   ],
 };
 
@@ -2593,7 +2621,7 @@ export const doctorDetailsMamta = {
   qualifications: [
     "BDS — King George’s Medical College (KGMC), Lucknow",
     "MDS — Nair Government Hospital, Mumbai",
-    "Specialization in Oral Medicine & Radiology",
+    "Specialization in Smile & Esthetic Dentistry",
     "16+ Years of Clinical Experience",
   ],
 
@@ -2603,9 +2631,7 @@ export const doctorDetailsMamta = {
     "Implant Dentistry",
     "Cosmetic Dentistry",
     "Oral Lesions & Ulcers",
-    "Precancerous Oral Lesions",
-    "Laser Dentistry",
-    "Comprehensive Oral Diagnosis",
+    "Preventive Dentistry"
   ],
 
   memberships: [
@@ -5736,13 +5762,13 @@ export const centers = [
     city: "Ghaziabad",
     name: "Rekha Dental Clinic Ghaziabad",
     image:
-      "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781156413/old-clinic1_wzmpna.jpg",
+    `${CLOUDINARY_BASE}/rekha-dental/clinic/clinic3`,
     description:
       "Comprehensive dental care with advanced technology, experienced specialists, and personalized treatment plans.",
     address:
       "House No. 622, First Floor, Satyam Enclave, New Kotgaon, Ghaziabad, Uttar Pradesh 201001",
     timings: "Mon – Sat • 10:00 AM – 2:00 PM & 5:00 PM – 7:00 PM\nSun • 10:00 AM – 2:00 PM",
-    phone: "+91 81304 06405",
+    phone: "+91-8130-406-405",
   },
   {
     id: 2,
@@ -5750,13 +5776,13 @@ export const centers = [
     city: "Raj Nagar Extension",
     name: "Rekha Dental Clinic Laser & Implant Center",
     image:
-      "https://res.cloudinary.com/dygrzu3sm/image/upload/v1781156410/old-clinic3_jb3vda.jpg",
+    `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline1`,
     description:
       "Dedicated center for dental implants, smile makeovers, cosmetic dentistry, and advanced laser treatments.",
     address:
       "A-007, Raj Nagar Residency, Near KW Delhi 6 Mall, Ghukna, Raj Nagar Extension, Ghaziabad, Uttar Pradesh 201017",
     timings: "Mon – Sat • 10:00 AM – 2:00 PM & 5:00 PM – 7:00 PM\nSun • 10:00 AM – 2:00 PM",
-    phone: "+91 81304 06405",
+    phone: "+91-8130-406-405",
   },
 ];
 
@@ -5783,7 +5809,7 @@ export const centerDetails = [
       "Digital X-Ray & RVG",
       "Modern sterilization protocols",
       "Pain-free dentistry",
-      "Cashless insurance assistance",
+      "Flexible appointments",
       "Comfortable waiting lounge",
     ],
   },
@@ -5810,7 +5836,7 @@ export const centerDetails = [
       "Digital smile planning",
       "Experienced specialists",
       "Advanced sterilization",
-      "Convenient parking",
+      "Comfortable waiting lounge",
       "Flexible appointments",
     ],
   },

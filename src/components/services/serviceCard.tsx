@@ -19,7 +19,7 @@ export default function ServiceCard({
   title,
   description,
   slug,
-  discount,
+  // discount,
   startingPrice,
   price,
 }: ServiceCardProps) {
@@ -32,7 +32,7 @@ export default function ServiceCard({
         href={`/services/${slug}`}
         className="block relative w-full lg:h-[260px] h-[200px] overflow-hidden rounded-t-xl"
       >
-        {discount && (
+        {/* {discount && (
           <div className="absolute top-0 left-4 z-10 bg-brand text-white px-3 pb-3 pt-4 font-bold text-center text-sm tracking-wider rounded-b-sm shadow-md flex flex-col items-center">
             <span className="leading-tight">{discount}%</span>
             <span className="text-[10px] font-normal tracking-widest block mt-0.5">
@@ -40,7 +40,7 @@ export default function ServiceCard({
             </span>
             <div className="absolute bottom-0 left-0 right-0 h-2 bg-[#0F4C3A] clip-path-ribbon"></div>
           </div>
-        )}
+        )} */}
 
         <Image
           src={image}
@@ -53,7 +53,7 @@ export default function ServiceCard({
         />
       </Link>
       <div className="lg:p-6 p-4">
-        <p className="text-xs tracking-[2px] text-[#CBA553] lg:mb-3 mb-2 font-medium">
+        <p className="text-xs tracking-[2px] text-yellow lg:mb-3 mb-2 font-semibold">
           {index}
         </p>
         <h3 className="font-header font-semibold text-xl md:text-2xl text-[#2C2C2C] mb-3 leading-snug">
@@ -67,7 +67,7 @@ export default function ServiceCard({
         <div className="flex justify-between  items-center">
           <div className=" flex items-center gap-3 pr-2">
             <div>
-              <p className="text-[11px] uppercase tracking-wide text-[#CBA553] font-medium">
+              <p className="text-[11px] uppercase tracking-wide text-yellow font-extrabold">
                 Starts from*
               </p>
 

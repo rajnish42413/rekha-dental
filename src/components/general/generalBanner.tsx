@@ -33,13 +33,13 @@ function Banner({
           <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 text-white">
             {tag && (
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-8 h-[2px] bg-[#CBA553]" />
+                <div className="w-8 h-[3px] bg-yellow" />
 
-                <p className="uppercase tracking-[3px] text-sm text-[#CBA553] font-semibold whitespace-nowrap">
+                <p className=" text-sm text-yellow  whitespace-nowrap uppercase tracking-[3px]  text-md font-extrabold lg:text-lg ">
                   {tag}
                 </p>
 
-                <div className="w-8 h-[2px] bg-[#CBA553]" />
+                <div className="w-8 h-[3px] bg-yellow" />
               </div>
             )}
             <h1 className="font-header text-3xl md:text-5xl lg:text-6xl leading-tight max-w-3xl">

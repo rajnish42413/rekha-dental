@@ -7,7 +7,7 @@ interface Props {
 export default function SpecialtiesGrid({ specialties }: Props) {
   return (
     <section className="mt-14">
-      <div className="flex items-center gap-2 font-semibold text-[#B89B5E] text-xs tracking-[3px] uppercase mb-6">
+      <div className="flex items-center gap-2 font-extrabold text-yellow text-sm tracking-[3px] uppercase mb-6">
         <FaStethoscope size={14} />
         <span>Specialties</span>
       </div>

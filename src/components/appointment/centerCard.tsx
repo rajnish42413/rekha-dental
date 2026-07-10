@@ -71,7 +71,7 @@ export default function CenterCard({ center, index }: CenterCardProps) {
       </div>
       <div className="p-6 flex justify-between items-center gap-4">
         <div>
-          <p className="text-[11px] uppercase tracking-wide text-[#CBA553] font-medium">
+          <p className="text-sm uppercase tracking-wide text-yellow font-extrabold">
             Contact
           </p>
           <a

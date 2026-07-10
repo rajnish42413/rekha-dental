@@ -27,13 +27,13 @@ export default function ReviewsSection({
       <div className="max-w-7xl mx-auto px-6 lg:px-10 text-center">
         
         <div className="flex items-center justify-center gap-4 mb-6">
-          <span className="h-[2px] w-10 bg-[#B89B5E]" />
+          <span className="h-[2px] w-10 bg-yellow" />
 
-          <p className="text-md md:text-lg font-bold tracking-[3px] text-[#B89B5E] uppercase">
+          <p className="text-md md:text-lg font-extrabold tracking-[3px] text-yellow uppercase">
             {tag}
           </p>
 
-          <span className="h-[2px] w-10 bg-[#B89B5E]" />
+          <span className="h-[2px] w-10 bg-yellow" />
         </div>
 
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-header text-white">

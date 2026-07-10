@@ -33,7 +33,7 @@ function OldClinic() {
               </div>
 
               <div className="p-5 lg:p-7">
-                <p className="text-xs tracking-[3px] uppercase text-[#CBA553] font-medium mb-3">
+                <p className="text-xs tracking-[3px] uppercase text-yellow font-extrabold mb-3">
                   Chapter {String(item.id).padStart(2, "0")}
                 </p>
 

@@ -17,7 +17,7 @@ export default function ReviewCard({
 }: ReviewCardProps) {
   return (
     <div className="border border-[#2E5A45] p-6 md:p-8 bg-transparent h-full flex flex-col justify-between">
-      <div className="flex gap-1 text-[#D4AF37] mb-4">
+      <div className="flex gap-1 text-yellow mb-4">
         {Array.from({ length: rating }).map((_, i) => (
           <FaStar key={i} size={14} />
         ))}

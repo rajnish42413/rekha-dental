@@ -7,8 +7,8 @@ interface Props {
 export default function Highlights({ highlights }: Props) {
   return (
     <section className="mt-14">
-      <div className="flex items-center gap-2 font-semibold text-[#B89B5E] text-xs tracking-[3px] uppercase mb-6">
-        <MdVerified size={14} />
+      <div className="flex items-center gap-2 font-extrabold text-yellow text-sm tracking-[3px] uppercase mb-6">
+        <MdVerified size={18} />
         <span>Centre Highlights</span>
       </div>
 

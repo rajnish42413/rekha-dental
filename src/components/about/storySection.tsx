@@ -43,7 +43,7 @@ export default function StorySection({
           className={`max-w-xl transform transition-all duration-1400 delay-200 ease-[cubic-bezier(0.22,1,0.36,1)]
         `}
         >
-          <p className="text-md lg:text-base tracking-[3px] text-[#cba553] font-semibold lg:mb-6 mb-2 uppercase">
+          <p className="text-md lg:text-lg tracking-[3px] text-yellow font-extrabold lg:mb-6 mb-2 uppercase">
             {tag}
           </p>
 

@@ -152,7 +152,7 @@ export default function DentalCostComparison() {
       "
             >
               <div className="flex items-start justify-between px-5 pt-5">
-                <p className="text-xs tracking-[3px] text-[#CBA553]">
+                <p className="text-xs tracking-[3px] text-yellow font-extrabold">
                   {(index + 1).toString().padStart(2, "0")}
                 </p>
 
@@ -230,7 +230,7 @@ export default function DentalCostComparison() {
         >
           <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
             <div>
-              <p className="text-xs uppercase tracking-[4px] text-[#CBA553]">
+              <p className="text-sm font-extrabold uppercase tracking-[4px] text-yellow">
                 DENTAL TOURISM
               </p>
 

@@ -43,7 +43,7 @@ export default function LegacyCard({
         <div className="lg:mb-5 mb-3 flex items-center gap-2">
           <FaCalendarAlt className="text-sm text-[#CBA553]" />
 
-          <p className="text-xs font-medium uppercase tracking-[3px] text-[#CBA553]">
+          <p className="text-xs  uppercase tracking-[3px] text-yellow font-extrabold">
             {isAchievemnet ? "Achievements" : "Dental Camps"}
           </p>
         </div>

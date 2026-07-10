@@ -78,7 +78,7 @@ import {
       <section className="h-full bg-[#F5F1EA] p-6 md:p-6 lg:p-10">
         <div className="flex h-full flex-col justify-between">
           <div>
-            <p className="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-[#B8914E]">
+            <p className="mb-3 text-xs font-extrabold uppercase tracking-[0.3em] text-yellow">
               Contact Information
             </p>
             <div className="mt-10 grid grid-cols-1 gap-5">
@@ -92,7 +92,7 @@ import {
                       {item.icon}
                     </div>
                     <div>
-                      <p className="mb-2 text-xs font-semibold uppercase tracking-[0.24em] text-[#B8914E]">
+                      <p className="mb-2 text-xs font-extrabold uppercase tracking-[0.24em] text-yellow">
                         {item.title}
                       </p>
   

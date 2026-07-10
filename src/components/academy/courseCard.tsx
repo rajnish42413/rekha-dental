@@ -15,7 +15,7 @@ interface CourseCardProps {
     duration: string;
     price: string ;
     startingPrice: string ;
-    discount?: string;
+    // discount?: string;
     handsOn:boolean;
   };
   index?: number;
@@ -45,7 +45,7 @@ export default function CourseCard({
     >
       <Link href={`/academy/${course.slug}`}>
         <div className="relative w-full lg:h-[260px] h-[200px] overflow-hidden rounded-t-lg cursor-pointer">
-          {course.discount && (
+          {/* {course.discount && (
             <div className="absolute top-0 left-4 z-10 bg-brand text-white px-3 pb-3 pt-4 font-bold text-center text-sm tracking-wider rounded-b-sm shadow-md flex flex-col items-center">
               <span>{course.discount}%</span>
               <span className="text-[10px] font-normal tracking-widest mt-0.5">
@@ -53,7 +53,7 @@ export default function CourseCard({
               </span>
               <div className="absolute bottom-0 left-0 right-0 h-2 bg-[#0F4C3A] clip-path-ribbon" />
             </div>
-          )}
+          )} */}
 
           <Image
             src={course.image}
@@ -77,7 +77,7 @@ export default function CourseCard({
 
       <div className="lg:p-6 p-4">
         {typeof index === "number" && (
-          <p className="text-xs tracking-[2px] text-[#CBA553] mb-3 font-medium">
+          <p className="text-xs tracking-[2px] text-yellow mb-3 font-extrabold">
             COURSE {String(index + 1).padStart(2, "0")}
           </p>
         )}
@@ -85,12 +85,10 @@ export default function CourseCard({
         <h3 className="font-header text-xl md:text-2xl text-[#2C2C2C] mb-3 leading-snug">
           {course.title}
         </h3>
-
         <p className="text-sm text-[#6B6B6B] leading-relaxed line-clamp-2">
           {course.description}
         </p>
       </div>
-
       <div className="grid grid-cols-3 gap-2 mb-4 mx-4">
         <div className="border border-[#DCCEB9] rounded-xl p-2 flex flex-col sm:flex-row items-center justify-center gap-2 text-center">
           <FiCalendar className="text-brand shrink-0" size={18} />
@@ -98,7 +96,6 @@ export default function CourseCard({
             {course.duration}
           </span>
         </div>
-
       {
         course.handsOn===true && <div className="border border-[#DCCEB9] rounded-xl p-2 flex flex-col sm:flex-row items-center justify-center gap-2 text-center">
         <MdOutlineSchool className="text-brand shrink-0" size={18} />
@@ -107,7 +104,6 @@ export default function CourseCard({
         </span>
       </div>
       }  
-
         <div className="border border-[#DCCEB9] rounded-xl p-2 flex flex-col sm:flex-row items-center justify-center gap-2 text-center">
           <PiCertificate className="text-brand shrink-0" size={18} />
           <span className="text-xs lg:text-sm text-[#2C2C2C] font-semibold">
@@ -120,7 +116,7 @@ export default function CourseCard({
         <div className="flex justify-between gap-4 items-center">
           <div className="flex items-center gap-3 pr-2">
             <div>
-              <p className="text-[11px] uppercase tracking-wide text-[#CBA553] font-medium">
+              <p className="text-[11px] uppercase tracking-wide text-yellow font-extrabold">
                 Starting at
               </p>
 

@@ -8,8 +8,7 @@ function ExtraImageSection() {
       <div className="container mx-auto px-4">
         <SectionHeader
           title="Clinical Excellence Through Hands-On Learning"
-          tag="Training programs designed to
-            help dental professionals"
+          tag="Training"
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {academyActivities.map((item, index) => (
@@ -31,7 +30,7 @@ function ExtraImageSection() {
                 />
               </div>
               <div className="p-6">
-                <p className="text-xs tracking-[2px] text-[#CBA553] mb-3 font-medium">
+                <p className="text-sm tracking-[2px] text-yellow  mb-3 font-extrabold">
                   {(index + 1).toString().padStart(2, "0")}
                 </p>
 
