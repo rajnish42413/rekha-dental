@@ -157,16 +157,16 @@ export default async function SingleBlogPage({ params }: PageProps) {
           >
             <div className="flex flex-wrap items-center gap-3 border-b border-[#EFE7DB] pb-8 text-sm text-[#7A7A7A]">
               <span className="font-semibold text-lg text-[#1E1E1E] font-header">{blog.author}</span>
-              <span className="text-[#CBA553]">•</span>
-              <span className="text-[#CBA553] flex items-center gap-1 text-md"> <FaCalendarAlt />
+              <span className="text-yellow">•</span>
+              <span className="text-yellow flex items-center font-extrabold gap-1 text-md"> <FaCalendarAlt />
                 {new Intl.DateTimeFormat("en-IN", {
                   day: "numeric",
                   month: "long",
                   year: "numeric",
                 }).format(new Date(blog.publishedAt))}
               </span>
-              <span className="text-[#CBA553]">•</span>
-              <span className="flex items-center gap-1 text-[#CBA553] text-md"><MdOutlineWatchLater />{blog.readingTime}</span>
+              <span className="text-yellow">•</span>
+              <span className="flex items-center gap-1 text-yellow font-extrabold text-md"><MdOutlineWatchLater size={16}/>{blog.readingTime}</span>
             </div>
             <div className="pt-4">
               <PortableText

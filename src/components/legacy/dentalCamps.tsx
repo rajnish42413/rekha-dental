@@ -19,7 +19,7 @@ function DentalCamps() {
     <section className=" py-10 lg:py-24 my-6">
       <div className="mx-4 lg:mx-10">
       <div className="mx-auto max-w-4xl text-center">
-  <p className="mb-5 text-xs font-medium uppercase tracking-[5px] text-[#CBA553]">
+  <p className="mb-5 text-md font-extrabold uppercase tracking-[5px] text-yellow">
     DENTAL CAMPS & OUTREACH
   </p>
 

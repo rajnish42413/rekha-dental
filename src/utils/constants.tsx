@@ -4,7 +4,9 @@ import {
   FaHandshake,
   FaHeart,
   FaInstagram,
+  // FaLinkedinIn,
   FaPeopleGroup,
+  FaRegCalendarCheck,
   FaShieldHeart,
   FaShieldVirus,
   FaStar,
@@ -12,6 +14,7 @@ import {
   FaTooth,
   FaUserDoctor,
   FaUserShield,
+  FaWhatsapp,
   FaYoutube,
 } from "react-icons/fa6";
 import {
@@ -59,8 +62,8 @@ import {
   FiTrendingUp,
   FiUsers,
 } from "react-icons/fi";
-import { CLOUDINARY_BASE } from "./endpoints";
-import { FaRegSmile, FaSmile } from "react-icons/fa";
+import { CLOUDINARY_BASE, WHATSAPP_NUMBER } from "./endpoints";
+import { FaMapMarkerAlt, FaRegSmile, FaShieldAlt, FaSmile } from "react-icons/fa";
 import { TbDental } from "react-icons/tb";
 import { GiCrownedHeart, GiLaserPrecision, GiMedicines, GiTooth } from "react-icons/gi";
 import { BsFillDiamondFill } from "react-icons/bs";
@@ -69,6 +72,7 @@ import { MdOutlineHealthAndSafety } from "react-icons/md";
 import { GiToothbrush } from "react-icons/gi";
 import { PiToothLight, PiToothFill } from "react-icons/pi";
 import { TbDentalBroken } from "react-icons/tb";
+import { SiMagic } from "react-icons/si";
 //Navbar
 export const menuLinks = [
   {
@@ -133,10 +137,12 @@ export const footerLinks = [
     links: [
       { label: "About Us", href: "/about" },
       { label: "Contact Us", href: "/contact" },
+      { label: "Appointment", href: "/appointment" },
       { label: "Blogs", href: "/blogs" },
       { label: "Reviews", href: "/reviews" },
       { label: "Our Legacy", href: "/legacy" },
       { label: "Patient Safety Practices", href: "/patient-safety" },
+     
     ],
   },
   {
@@ -148,30 +154,55 @@ export const footerLinks = [
   },
 ];
 
+const message = encodeURIComponent(
+  "Hi, I'm interested in your services."
+);
+
 export const socialIcons = [
-  { icon: <FaFacebookF />, url: "https://www.facebook.com/profile.php?id=61590839840757" },
-  // { icon: <FaTwitter />, url: "#" },
+  {
+    icon: <FaFacebookF />,
+    url: "https://www.facebook.com/profile.php?id=61590839840757",
+    label: "Facebook",
+  },
   {
     icon: <FaInstagram />,
     url: "https://www.instagram.com/rekha_dental_/",
+    label: "Instagram",
   },
   {
     icon: <FaYoutube />,
     url: "https://youtube.com/@drgauravsaxena84?si=OFTPftaGOJNF22Qs",
+    label: "YouTube",
+  },
+  // {
+  //   icon: <FaLinkedinIn />,
+  //   url: "https://www.linkedin.com/company/your-linkedin-page",
+  //   label: "LinkedIn",
+  // },
+  {
+    icon: <SiMagic />,
+    url: "https://magicpin.in/Ghaziabad/Daulatpura/Healthcare/Rekha-Dental-Clinic-Ghaziabad/store/181b6a9?srsltid=AfmBOoph3cCOGhMp4yg6Sn_eXbB88HJieMezG67cKOXbWA7_8oefqX6U",
+    label: "Magicpin",
+  },
+  {
+    icon: <FaWhatsapp />,
+    url: `https://wa.me/${WHATSAPP_NUMBER}?text=${message}`,
+    label: "WhatsApp",
   },
 ];
 
 export const contactInfo = [
   {
     icon: MdPhone,
-    text: "+918130406405",
+    text: "+91-8130-406-405",
+    href: "tel:+918130406405",
   },
   {
     icon: MdEmail,
     text: "support@rekhadental.com",
+    href: "mailto:support@rekhadental.com",
   },
 ];
-
 //Services
 export const serviceCards = [
   {
@@ -1752,7 +1783,7 @@ export const serviceDetails = [
         price: "₹40,000-₹50,000",
       },
       {
-        name: "Fixed Invisible Braces",
+        name: "Fixed Invisible Retainer",
         price: "₹7,000 - ₹8,000",
       },
     ],
@@ -2544,7 +2575,7 @@ export const clinicJourneyData = [
 // Doctor Page
 export const aboutStatsData = [
   {
-    value: "19",
+    value: "19+",
     label: "Years of Practice",
   },
   {
@@ -2566,25 +2597,23 @@ export const doctorGauravDetails = {
     "BDS — DJ College of Dental Sciences & Research, Modinagar",
     "MDS — Institute of Dental Sciences & Technologies",
     "19+ Years of Clinical Practice",
-    "Director — Rekha Dental Clinic & Implant Center",
+    "Director — Rekha Dental",
+    "Founder — All India Healthcare Worker Association (Regd.)"
   ],
-
   languages: ["English", "Hindi"],
 
   practiceAreas: [
-    "Root Canal Treatment",
     "Dental Implants",
-    "Crown & Bridge",
     "Laser Dentistry",
-    "Esthetic Fillings",
     "Smile Rehabilitation",
+    "Esthetic Fillings",
   ],
 
   memberships: [
     "Indian Dental Association (IDA)",
     "IAOMR — Indian Academy of Oral Medicine & Radiology",
     "ISOI — Indian Society of Oral Implantologists",
-    "Founder of AIHWA",
+    "Founder — All India Healthcare Worker Association (Regd.)",
   ],
 };
 
@@ -2592,7 +2621,7 @@ export const doctorDetailsMamta = {
   qualifications: [
     "BDS — King George’s Medical College (KGMC), Lucknow",
     "MDS — Nair Government Hospital, Mumbai",
-    "Specialization in Oral Medicine & Radiology",
+    "Specialization in Smile & Esthetic Dentistry",
     "16+ Years of Clinical Experience",
   ],
 
@@ -2602,9 +2631,7 @@ export const doctorDetailsMamta = {
     "Implant Dentistry",
     "Cosmetic Dentistry",
     "Oral Lesions & Ulcers",
-    "Precancerous Oral Lesions",
-    "Laser Dentistry",
-    "Comprehensive Oral Diagnosis",
+    "Preventive Dentistry"
   ],
 
   memberships: [
@@ -4946,7 +4973,6 @@ export const mediaData = [
 ];
 
 //Hero Banner
-
 export const heroBanners = [
   {
     image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1782810422/1000193949_ejhdzy.png`,
@@ -5697,5 +5723,121 @@ export const ourCoreValues = [
     description:
       "We continuously pursue clinical excellence through advanced technology, ongoing education, and a commitment to delivering exceptional dental care.",
     icon: <MdOutlineWorkspacePremium />,
+  },
+];
+
+
+//Appointment Page
+export const appointmentSteps = [
+  {
+    id: 1,
+    number: "01",
+    title: "Choose a Centre",
+    description:
+      "Select the Rekha Dental clinic location that's most convenient for your visit.",
+    icon: <FaMapMarkerAlt />,
+  },
+  {
+    id: 2,
+    number: "02",
+    title: "Select Date & Time",
+    description:
+      "Choose your preferred appointment slot through our secure online booking system.",
+    icon: <FaRegCalendarCheck />,
+  },
+  {
+    id: 3,
+    number: "03",
+    title: "Confirm Appointment",
+    description:
+      "Complete your booking and receive instant confirmation with your appointment details.",
+    icon: <FaShieldAlt />,
+  },
+];
+
+export const centers = [
+  {
+    id: 1,
+    slug: "ghaziabad",
+    city: "Ghaziabad",
+    name: "Rekha Dental Clinic Ghaziabad",
+    image:
+    `${CLOUDINARY_BASE}/rekha-dental/clinic/clinic3`,
+    description:
+      "Comprehensive dental care with advanced technology, experienced specialists, and personalized treatment plans.",
+    address:
+      "House No. 622, First Floor, Satyam Enclave, New Kotgaon, Ghaziabad, Uttar Pradesh 201001",
+    timings: "Mon – Sat • 10:00 AM – 2:00 PM & 5:00 PM – 7:00 PM\nSun • 10:00 AM – 2:00 PM",
+    phone: "+91-8130-406-405",
+  },
+  {
+    id: 2,
+    slug: "raj-nagar",
+    city: "Raj Nagar Extension",
+    name: "Rekha Dental Clinic Laser & Implant Center",
+    image:
+    `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline1`,
+    description:
+      "Dedicated center for dental implants, smile makeovers, cosmetic dentistry, and advanced laser treatments.",
+    address:
+      "A-007, Raj Nagar Residency, Near KW Delhi 6 Mall, Ghukna, Raj Nagar Extension, Ghaziabad, Uttar Pradesh 201017",
+    timings: "Mon – Sat • 10:00 AM – 2:00 PM & 5:00 PM – 7:00 PM\nSun • 10:00 AM – 2:00 PM",
+    phone: "+91-8130-406-405",
+  },
+];
+
+export const centerDetails = [
+  {
+    slug: "ghaziabad",
+
+    heading: "Modern dentistry with a personal touch.",
+
+    description:
+      "Our Ghaziabad centre combines advanced dental technology with compassionate care. From preventive check-ups to complex implant procedures, every treatment is tailored to your comfort and long-term oral health.",
+
+    specialties: [
+      "Dental Implants",
+      "Smile Designing",
+      "Root Canal Treatment",
+      "Laser Dentistry",
+      "Invisible Aligners",
+      "Pediatric Dentistry",
+    ],
+
+    highlights: [
+      "Experienced implant specialists",
+      "Digital X-Ray & RVG",
+      "Modern sterilization protocols",
+      "Pain-free dentistry",
+      "Flexible appointments",
+      "Comfortable waiting lounge",
+    ],
+  },
+
+  {
+    slug: "raj-nagar",
+
+    heading: "Advanced implant & laser dentistry.",
+
+    description:
+      "Our Raj Nagar Extension centre specializes in cosmetic dentistry, implantology and full mouth rehabilitation using modern equipment and evidence-based treatment protocols.",
+
+    specialties: [
+      "Dental Implants",
+      "Laser Dentistry",
+      "Full Mouth Rehabilitation",
+      "Smile Makeover",
+      "Cosmetic Dentistry",
+      "Orthodontics",
+    ],
+
+    highlights: [
+      "Latest implant systems",
+      "Digital smile planning",
+      "Experienced specialists",
+      "Advanced sterilization",
+      "Comfortable waiting lounge",
+      "Flexible appointments",
+    ],
   },
 ];

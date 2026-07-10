@@ -60,7 +60,7 @@ export default function ProblemCard({
       <div className="p-6 flex flex-col flex-1">
         <div className="flex-1">
           {typeof index === "number" && (
-            <p className="text-xs tracking-[2px] text-[#CBA553] mb-3 font-medium">
+            <p className="text-xs tracking-[2px] text-yellow mb-3 font-extrabold">
               CONDITION {String(index + 1).padStart(2, "0")}
             </p>
           )}
@@ -84,7 +84,7 @@ export default function ProblemCard({
       text-center
     "
   >
-    <p className="text-xs text-[#CBA553] uppercase tracking-wide">
+    <p className="text-xs text-yellow font-extrabold uppercase tracking-wide">
       Medical Term
     </p>
 
@@ -116,7 +116,7 @@ export default function ProblemCard({
       text-center
     "
   >
-    <p className="text-xs text-[#CBA553] uppercase tracking-wide">
+    <p className="text-xs text-yellow font-extrabold uppercase tracking-wide">
       Symptoms
     </p>
 
@@ -127,7 +127,7 @@ export default function ProblemCard({
 </div>
 
           <div className="border border-[#DCCEB9] rounded-xl p-4">
-            <p className="text-xs uppercase tracking-wide text-[#CBA553] font-medium mb-3">
+            <p className="text-xs uppercase tracking-wide text-yellow font-extrabold mb-3">
               Common Symptoms
             </p>
 
@@ -145,7 +145,7 @@ export default function ProblemCard({
           </div>
 
           <div className="mt-5 border border-[#DCCEB9] rounded-xl p-4">
-            <p className="text-xs uppercase tracking-wide text-[#CBA553] font-medium mb-2">
+            <p className="text-xs uppercase tracking-wide text-yellow font-extrabold mb-2">
               Recommended Treatment
             </p>
 

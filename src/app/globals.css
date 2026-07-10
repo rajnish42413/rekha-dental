@@ -28,6 +28,32 @@
   }
 }
 
+:root {
+  --color-yellow: #B89B5E;
+}
+
+@layer utilities {
+  .bg-yellow {
+    background-color: var(--color-yellow);
+  }
+  .text-yellow {
+    color: var(--color-yellow);
+  }
+  .border-yellow {
+    border-color: var(--color-yellow);
+  }
+  .hover\:text-yellow:hover {
+    color: var(--color-yellow);
+  }
+  .hover\:bg-yellow:hover {
+    background-color: var(--color-yellow);
+  }
+  .focus\:border-yellow:focus {
+    border-color: var(--color-yellow);
+  }
+}
+
+
 .font-header {
   font-family: var(--font-playfair), serif;
   letter-spacing: 0.5px;

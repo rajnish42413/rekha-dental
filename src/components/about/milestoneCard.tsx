@@ -44,7 +44,7 @@ export default function MilestoneCard({
           />
         </div>
 
-        <p className="text-[#CBA553] font-header text-lg mb-2">
+        <p className="text-yellow font-extrabold font-header text-lg mb-2">
           {item.year}
         </p>
 

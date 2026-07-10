@@ -73,11 +73,11 @@ export default function PremiumProcedureSwiper({
               </div>
 
               <div className="p-8 lg:p-14">
-                <p className="text-[#CBA553] tracking-[3px] text-xs uppercase font-medium">
+                <p className="uppercase tracking-[3px]  text-md font-extrabold lg:text-lg  text-yellow ">
                  Procedure {item.index}
                 </p>
 
-                <h2 className="font-header text-2xl md:text-3xl lg:text-5xl text-[#2C2C2C] mt-4">
+                <h2 className="font-header text-2xl md:text-3xl lg:text-4xl text-[#2C2C2C] mt-4">
                   {item.title}
                 </h2>
 
@@ -85,26 +85,6 @@ export default function PremiumProcedureSwiper({
                   {item.description}
                 </p>
 
-                {/* <Link
-                  href={`/services/${item.slug}`}
-                  className="
-                    mt-8
-                    inline-flex
-                    items-center
-                    justify-center
-                    bg-brand
-                    text-white
-                    px-8
-                    h-12
-                    rounded-lg
-                    font-medium
-                    hover:bg-[#093528]
-                    transition-all
-                    active:scale-95
-                  "
-                >
-                  Learn More
-                </Link> */}
               </div>
             </div>
           </SwiperSlide>

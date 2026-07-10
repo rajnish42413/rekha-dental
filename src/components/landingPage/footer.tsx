@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex flex-col space-y-6">
           <Link href="/">
             <div className="flex items-center gap-2 cursor-pointer group">
-              <span className="font-serif font-header tracking-widest uppercase text-lg text-white font-semibold">
+              <span className="font-serif font-header tracking-widest uppercase text-xl text-white font-semibold">
                 Rekha Dental Clinic
               </span>
             </div>
@@ -21,13 +21,17 @@ export default function Footer() {
           </p>
 
           <div className="space-y-3 text-sm text-white">
-            {contactInfo.map(({ icon: Icon, text }, index) => (
-              <p key={index} className="flex items-center gap-3">
-                <Icon className="text-white" />
-                <span className="">{text}</span>
-              </p>
-            ))}
-          </div>
+  {contactInfo.map(({ icon: Icon, text, href }, index) => (
+    <a
+      key={index}
+      href={href}
+      className="flex items-center gap-3 hover:text-primary transition-colors"
+    >
+      <Icon className="shrink-0" />
+      <span>{text}</span>
+    </a>
+  ))}
+</div>
 
           <div className="flex gap-4 pt-2">
             {socialIcons.map((item, index) => (
@@ -54,7 +58,7 @@ export default function Footer() {
 
         {footerLinks.map((section, index) => (
           <div key={index} className="flex flex-col space-y-5">
-            <h3 className="text-[#CBA553] font-medium text-sm tracking-widest uppercase">
+            <h3 className="text-yellow font-medium text-sm tracking-widest uppercase">
               {section.title}
             </h3>
             <ul className="space-y-3">
@@ -62,7 +66,7 @@ export default function Footer() {
                 <li key={idx}>
                   <Link
                     href={link.href}
-                    className="text-sm text-white hover:text-[#CBA553] transition-all duration-300 block"
+                    className="text-sm text-white hover:text-yellow transition-all duration-300 block"
                   >
                     {link.label}
                   </Link>

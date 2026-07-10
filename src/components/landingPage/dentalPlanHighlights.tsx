@@ -31,15 +31,15 @@ function DentalPlanHighlights() {
                 {iconMap[item.id]}
               </div>
               <h3
-                className="font-header text-xl lg:text-2xl leading-tight
+                className="font-header text-xl lg:text-2xl font-semibold leading-tight
           text-[#2C2A27]"
               >
                 {item.title}
               </h3>
 
               <p
-                className="mt-5 text-sm lg:leading-7 leading-6 text-[#66625C]
-          md:text-base"
+                className="mt-5 text-sm md:text-base lg:leading-7 leading-6 text-[#66625C]
+          text-md"
               >
                 {item.description}
               </p>

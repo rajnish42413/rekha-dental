@@ -11,7 +11,7 @@ export default function ExploreDentalServices() {
           title="How can we help you today?"
           subtitle="Explore personalized dental treatments designed to restore comfort, improve oral health, and enhance your smile."
         />
-        <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 lg:gap-7 mt-10">
+        <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 lg:gap-7 mt-10">
           {exploreDentalServices.map((service) => (
             <Link
               key={service.id}

@@ -41,9 +41,9 @@ export default function AlumniCard({
 
       <div className="p-6 md:p-7">
         <div className="lg:mb-5 mb-3 flex items-center gap-2">
-          <FaCalendarAlt className="text-sm text-[#CBA553]" />
+          <FaCalendarAlt className="text-sm text-yellow" />
 
-          <p className="text-xs font-medium uppercase tracking-[3px] text-[#CBA553]">
+          <p className="text-xs font-extrabold uppercase tracking-[3px] text-yellow">
             {isAlumni ? "Alumni Event" : "Current Batch"}
           </p>
         </div>

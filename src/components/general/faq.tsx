@@ -30,7 +30,7 @@ export default function FAQ({ data }: FAQProps) {
             onClick={() => toggle(index)}
           >
             <div className="flex items-center justify-between">
-              <h4 className="font-header text-base md:text-lg text-[#2C2C2C]">
+              <h4 className="font-header text-md md:text-lg text-[#2C2C2C]">
                 {item.question}
               </h4>
 
@@ -48,7 +48,7 @@ export default function FAQ({ data }: FAQProps) {
                 isOpen ? "max-h-40 mt-3" : "max-h-0"
               }`}
             >
-              <p className="text-sm text-[#6B6B6B] leading-relaxed pr-6">
+              <p className="text-sm md:text-base text-[#6B6B6B] leading-relaxed pr-6">
                 {item.answer}
               </p>
             </div>

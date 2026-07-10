@@ -14,8 +14,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
 
-  title:
-    "Meet Our Dental Specialists | Rekha Dental Clinic Ghaziabad",
+  title: "Meet Our Dental Specialists | Rekha Dental Clinic Ghaziabad",
 
   description:
     "Meet Dr. Gaurav Saxena and Dr. Mamta Raghav Saxena at Rekha Dental Clinic, Ghaziabad. Experienced specialists in dental implants, cosmetic dentistry, root canal treatment, oral medicine, and precision-driven patient care.",
@@ -38,8 +37,7 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title:
-      "Meet Our Dental Specialists | Rekha Dental Clinic Ghaziabad",
+    title: "Meet Our Dental Specialists | Rekha Dental Clinic Ghaziabad",
 
     description:
       "Explore the expertise, experience, and patient-first approach of the specialists at Rekha Dental Clinic.",
@@ -65,15 +63,12 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title:
-      "Meet Our Dental Specialists | Rekha Dental Clinic Ghaziabad",
+    title: "Meet Our Dental Specialists | Rekha Dental Clinic Ghaziabad",
 
     description:
       "Learn about the experienced dental specialists leading Rekha Dental Clinic in Ghaziabad.",
 
-    images: [
-      `${CLOUDINARY_BASE}/rekha-dental/doctor/doctor1`,
-    ],
+    images: [`${CLOUDINARY_BASE}/rekha-dental/doctor/doctor1`],
   },
 
   robots: {
@@ -90,35 +85,67 @@ function page() {
         role="Director"
         specialization="Chief Dental Surgeon & Implantologist"
         experience="19+ Years of Practice"
-        clinic="Rekha Dental Clinic & Implant Center"
+        clinic="Rekha Dental"
         location="Ghaziabad, Uttar Pradesh"
         rating={5.0}
         reviews={1200}
-        description="Dr. Gaurav Saxena completed his BDS from DJ College of Dental Sciences & Research,
-         Modinagar in 2007 and MDS from the Institute of Dental Sciences & Technologies. With over 19 years of clinical experience, 
-         he specializes in root canal treatment, dental implants,
-          and crown & bridge procedures. Renowned 
-          for his calm and patient-friendly approach, Dr. Gaurav is also a distinguished member of the Indian Dental Association,
-           IAOMR, and ISOI. He has additionally received advanced training in Lasers and Esthetic Fillings from Germany. He has been invited to conduct one-day Zimmer Implantology courses in Vietnam and Bali, reflecting his expertise and recognition in the field of dental implants."
-        image={`${CLOUDINARY_BASE}/rekha-dental/doctor/doctor1`}
+        description={`
+          <p>
+            Dr. Gaurav Saxena completed his <strong>BDS</strong> from
+           <strong> DJ College of Dental Sciences & Research, Modinagar</strong> in 2007
+            and <strong>MDS</strong> from the
+            <strong>Institute of Dental Sciences & Technologies.</strong>
+          
+            With more than 19 years of clinical experience, he
+            specializes in Root Canal Treatment,
+            Dental Implants, and
+            Crown & Bridge Procedures.
+          
+            Renowned for his calm and patient-friendly approach,
+            Dr. Gaurav is also a distinguished member of the
+          <strong> Indian Dental Association (IDA),
+           IAOMR, and ISOI </strong>.
+          
+            He has additionally received advanced training in
+           Lasers and
+            Esthetic Fillings from <strong>Germany </strong>.
+          
+            He has been invited to conduct
+           one-day Zimmer Implantology courses in
+            <strong>Vietnam</strong> and implant course in <strong>Bali, Indonesia</strong>, reflecting his expertise
+            and international recognition in the field of
+            Dental Implants.
+          </p>
+          `}
+        image={`https://res.cloudinary.com/dygrzu3sm/image/upload/v1783688070/1000197520_ujhf4w.png`}
       />
       <SectionHeader
         tag="CREDENTIALS"
         title="Experience shaped by precision, trust, and patient care."
-        subtitle="Over 19 years of expertise in advanced dental treatments, implantology, and aesthetic dentistry."
+        subtitle="More than 19 years of expertise in advanced dental treatments, implantology, and esthetic dentistry."
       />
       <DoctorDetails data={doctorGauravDetails} />
       <DoctorHero
         name="Dr. Mamta Raghav Saxena"
-        role="Director"
+        role="Founder"
         specialization="Dental Implants & Cosmetic Dentistry"
         experience="16+ Years of Practice"
-        clinic="Rekha Dental, Laser & Implant Center"
+        clinic="Rekha Dental"
         location="Raj Nagar Extension, Ghaziabad"
         rating={5.0}
         reviews={1000}
-        description="Dr. Mamta Raghav Saxena is a highly experienced dentist and radiologist who completed her BDS from King George’s Medical College (KGMC), Lucknow in 2008 and MDS from Nair Government Hospital, Mumbai in 2013 with specialization in Oral Medicine and Radiology. With more than 16 years of clinical experience, she specializes in implant and cosmetic dentistry, along with diagnosis and management of oral lesions, ulcers, and precancerous conditions. She has also served as an Associate Professor at Government Dental College, Aurangabad and as a Senior Lecturer at ITS Dental College. Known for her calm and patient-friendly approach, Dr. Mamta is widely trusted for comprehensive and compassionate dental care."
-        image={`${CLOUDINARY_BASE}/rekha-dental/doctor/doctorMamta`}
+        description={`
+          <p>
+            Dr. Mamta Raghav Saxena is a highly experienced dentist and radiologist who completed her <strong>BDS</strong> from <strong>King George's Medical College (KGMC), Lucknow</strong> in 2008 and <strong>MDS</strong> from <strong>Nair Government Hospital, Mumbai</strong> in 2013 with specialization in Oral Medicine and Radiology.
+          
+            With more than 16 years of clinical experience, she specializes in Implant Dentistry, Cosmetic Dentistry, and the diagnosis and management of oral lesions, ulcers, and precancerous conditions.
+          
+            She has also served as an <strong>Associate Professor at Government Dental College, Aurangabad</strong> and as a <strong>Senior Lecturer at ITS Dental College</strong>.
+
+            Known for her and patient-friendly approach, Dr. Mamta is widely trusted for providing comprehensive, compassionate, and evidence-based dental care.
+          </p>
+          `}
+        image={`https://res.cloudinary.com/dygrzu3sm/image/upload/v1783688070/1000197500_embrft.png`}
       />
       <SectionHeader
         tag="EXPERTISE"

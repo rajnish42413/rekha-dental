@@ -130,7 +130,7 @@ export default async function Page({ params }: PageProps) {
       <section className="lg:py-20 py-10">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-16">
           <div className="col-span-2">
-            <p className="text-xs font-semibold tracking-[3px] text-[#CBA553] mb-4 uppercase">
+            <p className="text-sm font-extrabold tracking-[3px] text-yellow mb-4 uppercase">
               {service.overview.tag}
             </p>
             <p className="text-md text-[#2C2C2C] leading-relaxed font-header">
@@ -138,7 +138,7 @@ export default async function Page({ params }: PageProps) {
             </p>
           </div>
           <div className="border-l-2 border-[#CBA553]/40 pl-8">
-            <p className="text-xs font-semibold tracking-[3px] text-[#CBA553] mb-4 uppercase">
+            <p className="text-sm font-extrabold tracking-[3px] text-yellow mb-4 uppercase">
               {service.technology.tag}
             </p>
 
@@ -148,7 +148,7 @@ export default async function Page({ params }: PageProps) {
                   key={i}
                   className="flex items-center gap-3 text-md font-header text-[#2C2C2C]"
                 >
-                  <span className="text-[#CBA553]">
+                  <span className="text-yellow">
                     <TiTick />
                   </span>
                   {point}
@@ -227,7 +227,7 @@ export default async function Page({ params }: PageProps) {
                   />
                 </div>
                 <div className="lg:p-6 p-4">
-                  <p className="text-[#CBA553] text-sm mb-2 font-medium tracking-[2px]">
+                  <p className="text-yellow text-sm mb-2 font-extrabold tracking-[2px]">
                     {step.index}
                   </p>
                   <h4 className="font-header text-lg text-[#2C2C2C] mb-3">
@@ -254,7 +254,7 @@ export default async function Page({ params }: PageProps) {
   "
           >
             <div>
-              <p className="text-xs font-semibold tracking-[3px] text-[#CBA553] mb-4 uppercase">
+              <p className="text-xs font-extrabold tracking-[3px] text-yellow mb-4 uppercase">
                 Book Your Consultation
               </p>
 

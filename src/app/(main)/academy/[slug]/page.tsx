@@ -91,7 +91,7 @@ export default async function Page({ params }: PageProps) {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-12 lg:gap-16 items-start">
             <div className="col-span-2">
-              <p className="text-xs font-semibold tracking-[3px] text-[#CBA553] mb-4 uppercase">
+              <p className="text-sm font-extrabold tracking-[3px] text-yellow mb-4 uppercase">
                 {course.overview.tag}
               </p>
               <p className="text-md text-[#2C2C2C] leading-relaxed font-header">
@@ -100,7 +100,7 @@ export default async function Page({ params }: PageProps) {
             </div>
 
             <div className="border-l-2 border-[#CBA553]/40 pl-8">
-              <p className="text-xs font-semibold tracking-[3px] text-[#CBA553] mb-4 uppercase">
+              <p className="text-sm font-extrabold tracking-[3px] text-yellow mb-4 uppercase">
                 {course.curriculum.tag}
               </p>
               <ul className="space-y-4">
@@ -109,7 +109,7 @@ export default async function Page({ params }: PageProps) {
                     key={index}
                     className="flex items-center gap-3 text-md font-header text-[#2C2C2C]"
                   >
-                    <span className="text-[#CBA553]">
+                    <span className="text-yellow">
                       <TiTick />
                     </span>
                     {point}
@@ -205,7 +205,7 @@ export default async function Page({ params }: PageProps) {
                 bg-[#FCFAF6] rounded-2xl p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6 shadow-sm"
           >
             <div>
-              <p className="text-xs font-semibold tracking-[3px] text-[#CBA553] mb-4 uppercase">
+              <p className="text-sm font-extrabold tracking-[3px] text-yellow mb-4 uppercase">
                 Course Admission Open
               </p>
               <h4 className="font-header text-xl md:text-2xl text-[#2C2A27]">
@@ -299,7 +299,7 @@ export default async function Page({ params }: PageProps) {
                 key={index}
                 className="bg-[#F5F1EA] border border-[#E0D8CC] rounded-xl p-6 hover:-translate-y-1 transition-all duration-300"
               >
-                <p className="text-[#CBA553] text-sm mb-3 font-medium tracking-[2px]">
+                <p className="text-yellow text-sm mb-3 font-extrabold tracking-[2px]">
                   {(index + 1).toString().padStart(2, "0")}
                 </p>
 
