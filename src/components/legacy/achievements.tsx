@@ -2,9 +2,9 @@
 
 import dynamic from "next/dynamic";
 import { SwiperSlide } from "swiper/react";
-import { achievementsData} from "@/utils/constants";
 import { useJsEnabled } from "@/hooks/useJsEnabled";
 import LegacyCard from "./legacyCard";
+import { achievementsData } from "@/data/legacy";
 
 
 const CustomSwiper = dynamic(

@@ -1,7 +1,7 @@
 "use client";
 
+import { mediaData } from "@/data/legacy";
 import Image from "next/image";
-import { mediaData } from "@/utils/constants";
 
 function NewspaperCuttings() {
   return (

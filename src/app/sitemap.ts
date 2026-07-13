@@ -2,9 +2,10 @@ import { MetadataRoute } from "next";
 
 import { FRONTEND_URL } from "@/utils/endpoints";
 
-import { courseDetails, serviceDetails } from "@/utils/constants";
 
 import { client } from "@/sanity/lib/client";
+import { serviceDetails } from "@/data/service";
+import { courseDetails } from "@/data/academy";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticRoutes = [

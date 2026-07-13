@@ -79,27 +79,27 @@ export default function DoctorHero({
             {specialization}
           </p>
           <div className="mt-2 flex flex-wrap gap-3">
-  <div className="flex items-center gap-2 rounded-full border border-[#E8DCC8] bg-[#FCF8F2] px-4 py-2 shadow-sm transition-all  hover:shadow-md">
-    <FaAward className="text-yellow" size={15} />
-    <span className="text-sm font-medium text-[#4A4A4A]">
-      {experience}
-    </span>
-  </div>
+            <div className="flex items-center gap-2 rounded-full border border-[#E8DCC8] bg-[#FCF8F2] px-4 py-2 shadow-sm transition-all  hover:shadow-md">
+              <FaAward className="text-yellow" size={15} />
+              <span className="text-sm font-medium text-[#4A4A4A]">
+                {experience}
+              </span>
+            </div>
 
-  <div className="flex items-center gap-2 rounded-full border border-[#E8DCC8] bg-[#FCF8F2] px-4 py-2 shadow-sm transition-all  hover:shadow-md">
-    <FaCalendarAlt className="text-yellow" size={15} />
-    <span className="text-sm font-medium text-[#4A4A4A]">
-      {clinic}
-    </span>
-  </div>
+            <div className="flex items-center gap-2 rounded-full border border-[#E8DCC8] bg-[#FCF8F2] px-4 py-2 shadow-sm transition-all  hover:shadow-md">
+              <FaCalendarAlt className="text-yellow" size={15} />
+              <span className="text-sm font-medium text-[#4A4A4A]">
+                {clinic}
+              </span>
+            </div>
 
-  <div className="flex items-center gap-2 rounded-full border border-[#E8DCC8] bg-[#FCF8F2] px-4 py-2 shadow-sm transition-all  hover:shadow-md">
-    <FaMapMarkerAlt className="text-yellow" size={15} />
-    <span className="text-sm font-medium text-[#4A4A4A]">
-      {location}
-    </span>
-  </div>
-</div>
+            <div className="flex items-center gap-2 rounded-full border border-[#E8DCC8] bg-[#FCF8F2] px-4 py-2 shadow-sm transition-all  hover:shadow-md">
+              <FaMapMarkerAlt className="text-yellow" size={15} />
+              <span className="text-sm font-medium text-[#4A4A4A]">
+                {location}
+              </span>
+            </div>
+          </div>
           <div className="flex items-center gap-3 mt-2">
             <div className="flex gap-1 text-yellow">
               {Array.from({ length: 5 }).map((_, i) => (

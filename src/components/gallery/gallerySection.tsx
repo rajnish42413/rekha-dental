@@ -1,8 +1,8 @@
 "use client";
 
+import { galleryImages } from "@/data/gallery";
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";
-import { galleryImages } from "@/utils/constants";
 
 interface GalleryImageItem {
   id: number;

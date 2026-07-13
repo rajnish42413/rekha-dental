@@ -1,6 +1,7 @@
 import SectionHeader from "../general/sectionHeader";
-import { pillars } from "@/utils/constants";
+
 import PillarCard from "../general/pillarCard";
+import { pillars } from "@/data/landingPage";
 
 function Pillars() {
   return (

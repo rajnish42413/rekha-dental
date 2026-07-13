@@ -1,9 +1,9 @@
 import { notFound } from "next/navigation";
-import { centerDetails, centers } from "@/utils/constants";
 import SpecialtiesGrid from "@/components/appointment/specialitiesGrid";
 import Highlights from "@/components/appointment/highlights";
 import VisitCard from "@/components/appointment/visitCard";
 import SectionHeader from "@/components/general/sectionHeader";
+import { centerDetails, centers } from "@/data/appointment";
 
 interface Props {
   params: Promise<{

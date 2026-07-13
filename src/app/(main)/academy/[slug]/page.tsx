@@ -3,10 +3,10 @@ import { Metadata } from "next";
 import Banner from "@/components/general/generalBanner";
 import SectionHeader from "@/components/general/sectionHeader";
 import FAQ from "@/components/general/faq";
-import { courseDetails } from "@/utils/constants";
 import { FRONTEND_URL, WHATSAPP_NUMBER } from "@/utils/endpoints";
 import { TiTick } from "react-icons/ti";
 import { FaWhatsapp } from "react-icons/fa6";
+import { courseDetails } from "@/data/academy";
 
 interface PageProps {
   params: Promise<{ slug: string }>;

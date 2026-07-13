@@ -1,6 +1,7 @@
 import Link from "next/link";
 import SectionHeader from "../general/sectionHeader";
-import { exploreDentalServices } from "@/utils/constants";
+import { exploreDentalServices } from "@/data/landingPage";
+
 
 export default function ExploreDentalServices() {
   return (

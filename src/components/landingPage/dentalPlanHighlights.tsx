@@ -1,8 +1,9 @@
 import Link from "next/link";
 import SectionHeader from "../general/sectionHeader";
-import { dentalPlanHighlights } from "@/utils/constants";
+
 import { FiPercent, FiUsers } from "react-icons/fi";
 import { HiOutlineBadgeCheck } from "react-icons/hi";
+import { dentalPlanHighlights } from "@/data/landingPage";
 
 const iconMap: Record<number, React.ReactNode> = {
   1: <FiPercent className="w-5 h-5 text-[#2C2A27]" />,

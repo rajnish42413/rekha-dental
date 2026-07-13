@@ -2,7 +2,8 @@ import ReviewsSection from "@/components/doctor/reviewSection";
 import CtaAction from "@/components/landingPage/ctaAction";
 import GoogleReviews from "@/components/reviews/googleReviews";
 import ReviewPlatformSection from "@/components/reviews/platformCards";
-import { reviewsData } from "@/utils/constants";
+import { reviewsData } from "@/data/doctor";
+
 import { CLOUDINARY_BASE, FRONTEND_URL } from "@/utils/endpoints";
 import { Metadata } from "next";
 

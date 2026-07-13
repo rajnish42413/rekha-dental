@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import { serviceDetails } from "@/utils/constants";
 import Banner from "@/components/general/generalBanner";
 import SectionHeader from "@/components/general/sectionHeader";
 import FAQ from "@/components/general/faq";
@@ -8,6 +7,7 @@ import { TiTick } from "react-icons/ti";
 import { FRONTEND_URL } from "@/utils/endpoints";
 import { Metadata } from "next";
 import BookAppointmentButton from "@/components/general/bookAppointmentButton";
+import { serviceDetails } from "@/data/service";
 
 interface PageProps {
   params: Promise<{ slug: string }>;

@@ -1,5 +1,4 @@
-
-import { steps } from "@/utils/constants";
+import { steps } from "@/data/tourism";
 import SectionHeader from "../general/sectionHeader";
 
 export default function HowItWorksSection() {

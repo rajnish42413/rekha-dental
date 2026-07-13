@@ -8,6 +8,7 @@ import {
   FaFacebookF,
   // FaLinkedinIn,
   FaYoutube,
+  FaBriefcaseMedical,
 } from "react-icons/fa6";
 import { SiMagic } from "react-icons/si";
 
@@ -15,9 +16,7 @@ import { WHATSAPP_NUMBER } from "@/utils/endpoints";
 import { RxCross2 } from "react-icons/rx";
 import { MdOutlineKeyboardDoubleArrowUp } from "react-icons/md";
 
-const message = encodeURIComponent(
-  "Hi, I'm interested in your services."
-);
+const message = encodeURIComponent("Hi, I'm interested in your services.");
 
 const socials = [
   {
@@ -50,6 +49,12 @@ const socials = [
     color: "#CBA553",
     label: "YouTube",
   },
+  {
+    icon: FaBriefcaseMedical,
+    href: "https://www.practo.com/ghaziabad/clinic/rekha-dental-clinic-and-implant-center-nehru-nagar/doctors",
+    color: "#CBA553",
+    label: "Practo",
+  },
 ];
 
 export default function FloatingSocials() {
@@ -64,7 +69,7 @@ export default function FloatingSocials() {
             : "pointer-events-none opacity-0 translate-y-4"
         }`}
       >
-        {socials.map(({ icon: Icon, href,  label }) => (
+        {socials.map(({ icon: Icon, href, label }) => (
           <Link
             key={label}
             href={href}
@@ -75,10 +80,7 @@ export default function FloatingSocials() {
               {label}
             </span>
 
-            <div
-              className="flex h-12 w-12 items-center bg-yellow justify-center rounded-full shadow-lg transition-transform hover:scale-110"
-             
-            >
+            <div className="flex h-12 w-12 items-center bg-yellow justify-center rounded-full shadow-lg transition-transform hover:scale-110">
               <Icon className="text-white" size={22} />
             </div>
           </Link>
@@ -89,7 +91,7 @@ export default function FloatingSocials() {
           onClick={() => setOpen(!open)}
           className="flex  items-center text-lg justify-center   p-1 cursor-pointer   text-yellow transition hover:scale-105 active:scale-95"
         >
-          {open ? <RxCross2/> : <MdOutlineKeyboardDoubleArrowUp size={22}/>}
+          {open ? <RxCross2 /> : <MdOutlineKeyboardDoubleArrowUp size={22} />}
         </button>
 
         <Link

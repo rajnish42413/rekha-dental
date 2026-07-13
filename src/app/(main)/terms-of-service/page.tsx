@@ -1,6 +1,6 @@
 import DownloadTermsQR from "@/components/general/downloadQR";
 import SectionHeader from "@/components/general/sectionHeader";
-import { termsSections } from "@/utils/constants";
+import { termsSections } from "@/data/termsOfService";
 import { CLOUDINARY_BASE, FRONTEND_URL } from "@/utils/endpoints";
 import { Metadata } from "next";
 

@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { dentalCostComparison } from "@/utils/constants";
 import SectionHeader from "../general/sectionHeader";
 import GalleryTabs from "../gallery/galleryTabs";
 import GeneralButton from "../general/generalButton";
@@ -13,6 +12,7 @@ import {
 } from "@/utils/endpoints";
 import CalendlyModal from "../calendly/calendlyModal";
 import { useRouter, useSearchParams } from "next/navigation";
+import { dentalCostComparison } from "@/data/tourism";
 
 function calculateSavings(india: string, us: string) {
   const getMin = (value: string) => {

@@ -1,6 +1,7 @@
-import { academyActivities } from "@/utils/constants";
+
 import Image from "next/image";
 import SectionHeader from "../general/sectionHeader";
+import { academyActivities } from "@/data/academy";
 
 function ExtraImageSection() {
   return (

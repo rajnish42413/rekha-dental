@@ -1,7 +1,8 @@
 "use client";
 
+import { dentalHealthPlans } from "@/data/dentalPlans";
 import GalleryTabs from "../gallery/galleryTabs";
-import { dentalHealthPlans } from "@/utils/constants";
+
 import DentalPlanCard from "./dentalPlanCard";
 import OfferSection from "./offerSection";
 import { useSearchParams, useRouter } from "next/navigation";

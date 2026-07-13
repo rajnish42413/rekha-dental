@@ -4,10 +4,14 @@ import ReviewsSection from "@/components/doctor/reviewSection";
 import SectionHeader from "@/components/general/sectionHeader";
 import CtaAction from "@/components/landingPage/ctaAction";
 import {
+  doctorDetailsAbhinav,
+  doctorDetailsAzeem,
   doctorDetailsMamta,
+  doctorDetailsVarun,
   doctorGauravDetails,
   reviewsData,
-} from "@/utils/constants";
+} from "@/data/doctor";
+
 import { CLOUDINARY_BASE, FRONTEND_URL } from "@/utils/endpoints";
 import { Metadata } from "next";
 
@@ -105,11 +109,9 @@ function page() {
             Dr. Gaurav is also a distinguished member of the
           <strong> Indian Dental Association (IDA),
            IAOMR, and ISOI </strong>.
-          
             He has additionally received advanced training in
            Lasers and
             Esthetic Fillings from <strong>Germany </strong>.
-          
             He has been invited to conduct
            one-day Zimmer Implantology courses in
             <strong>Vietnam</strong> and implant course in <strong>Bali, Indonesia</strong>, reflecting his expertise
@@ -153,6 +155,74 @@ function page() {
         subtitle="Combining clinical expertise, academic excellence, and advanced diagnostic knowledge to deliver personalized treatment experiences."
       />
       <DoctorDetails data={doctorDetailsMamta} />
+      <DoctorHero
+        name="Dr. Varun Grover"
+        role="Consultant Orthodontist"
+        specialization="Orthodontics & Clear Aligners"
+        experience="20+ Years of Practice"
+        clinic="Rekha Dental"
+        location="Raj Nagar Extension, Ghaziabad"
+        rating={5.0}
+        reviews={1000}
+        description={`
+          <p>
+            Dr. Varun Grover completed his <strong>BDS</strong> from <strong>Bapuji Dental College, Davangere</strong> in 2002 and his <strong>MDS in Orthodontics</strong> from <strong>SDM College of Dental Sciences, Dharwad</strong>. With over <strong>20 years of experience</strong>, he is a renowned orthodontist and Chief Consultant for more than <strong>30 dental clinics across Delhi</strong>. His expertise includes conventional braces, self-ligating braces, lingual orthodontics, and clear aligners. A former faculty member and keynote speaker, Dr. Grover is dedicated to delivering advanced, personalized orthodontic care with exceptional clinical outcomes.
+          </p>
+        `}
+        image={`https://res.cloudinary.com/dygrzu3sm/image/upload/v1783939717/1000198350_nfop0g.jpg`}
+      />
+      <SectionHeader
+        tag="EXPERTISE"
+        title="Transforming smiles through advanced orthodontic care."
+        subtitle="Combining decades of clinical experience with modern orthodontic techniques to deliver comfortable, precise, and personalized smile transformations."
+      />
+      <DoctorDetails data={doctorDetailsVarun} />
+
+      <DoctorHero
+        name="Dr. Azeem Abbasi"
+        role="Consultant Implantologist"
+        specialization="Dental Implants & Full Mouth Rehabilitation"
+        experience="17+ Years of Practice"
+        clinic="Rekha Dental"
+        location="Raj Nagar Extension, Ghaziabad"
+        rating={5.0}
+        reviews={1000}
+        description={`
+    <p>
+      Dr. Azeem Abbasi graduated from the prestigious <strong>Maulana Azad Dental College, New Delhi</strong> and is a highly experienced Implantologist with over <strong>17 years of clinical practice</strong>. He completed his <strong>Maxi Course in Oral Implantology (AAID, USA)</strong> and earned an <strong>M.Sc. in Implantology from New York University</strong>. With advanced training in Digital Dentistry, Hard & Soft Tissue Regeneration, Zygomatic & Pterygoid Implants, and Full Mouth Rehabilitation, Dr. Abbasi is committed to delivering predictable, world-class implant solutions. He is also a Founder Member and Director of <strong>Delhi ISOI</strong> and actively mentors dentists through his Implantology training programs.
+    </p>
+  `}
+        image={`https://res.cloudinary.com/dygrzu3sm/image/upload/v1783939717/1000198347_msueil.jpg`}
+      />
+      <SectionHeader
+        tag="EXPERTISE"
+        title="Restoring smiles with advanced implant dentistry."
+        subtitle="Combining global training, modern surgical techniques, and extensive clinical experience to deliver long-lasting and natural-looking implant solutions."
+      />
+      <DoctorDetails data={doctorDetailsAzeem} />
+
+      <DoctorHero
+        name="Dr. Abhinav Singh"
+        role="Consultant Orthodontist"
+        specialization="Orthodontics & Clear Aligner Therapy"
+        experience="10+ Years of Practice"
+        clinic="Rekha Dental"
+        location="Raj Nagar Extension, Ghaziabad"
+        rating={5.0}
+        reviews={1000}
+        description={`
+    <p>
+      Dr. Abhinav Singh is a highly skilled Orthodontist with over <strong>10 years of clinical experience</strong> in correcting dental and facial irregularities. He completed his <strong>BDS</strong> from the <strong>Institute of Dental Sciences & Technologies, CCS University</strong> and earned his <strong>MDS in Orthodontics</strong> from the <strong>Coorg Institute of Dental Sciences, RGUHS, Bengaluru</strong>. His expertise includes clear aligners, Damon self-ligating braces, lingual orthodontics, surgical orthodontics, and multidisciplinary treatment planning, helping patients achieve healthy, confident smiles through modern orthodontic care.
+    </p>
+  `}
+        image={`https://res.cloudinary.com/dygrzu3sm/image/upload/v1783939717/1000198344_vfztzc.jpg`}
+      />
+      <SectionHeader
+        tag="EXPERTISE"
+        title="Delivering modern orthodontic solutions with precision."
+        subtitle="Combining advanced orthodontic techniques, digital treatment planning, and evidence-based care to create healthy, confident smiles for patients of all ages."
+      />
+      <DoctorDetails data={doctorDetailsAbhinav} />
       <ReviewsSection data={reviewsData} />
       <CtaAction />
     </div>

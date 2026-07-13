@@ -2,9 +2,9 @@
 
 import dynamic from "next/dynamic";
 import { SwiperSlide } from "swiper/react";
-import { dentalCampsData } from "@/utils/constants";
 import { useJsEnabled } from "@/hooks/useJsEnabled";
 import LegacyCard from "./legacyCard";
+import { dentalCampsData } from "@/data/legacy";
 
 
 const CustomSwiper = dynamic(
@@ -13,7 +13,7 @@ const CustomSwiper = dynamic(
 );
 
 function DentalCamps() {
-  const jsEnabled = useJsEnabled();
+  const jsEnabled = useJsEnabled(); 
 
   return (
     <section className=" py-10 lg:py-24 my-6">

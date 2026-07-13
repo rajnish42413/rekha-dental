@@ -2,9 +2,9 @@
 
 import dynamic from "next/dynamic";
 import { SwiperSlide } from "swiper/react";
-import { lecturesData } from "@/utils/constants";
 import { useJsEnabled } from "@/hooks/useJsEnabled";
 import LegacyCard from "./legacyCard";
+import { lecturesData } from "@/data/legacy";
 
 const CustomSwiper = dynamic(
   () => import("@/components/general/customSwiper"),

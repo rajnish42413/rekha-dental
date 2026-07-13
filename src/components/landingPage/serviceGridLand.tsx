@@ -1,8 +1,9 @@
 
-import { serviceCards } from "@/utils/constants";
+
 import ServiceCard from "../services/serviceCard";
 import SectionHeader from "../general/sectionHeader";
 import Link from "next/link";
+import { serviceCards } from "@/data/service";
 
 function ServiceGridLand() {
   return (

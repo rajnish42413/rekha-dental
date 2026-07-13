@@ -1,4 +1,5 @@
-import { serviceCards } from "@/utils/constants";
+
+import { serviceCards } from "@/data/service";
 import ServiceCard from "./serviceCard";
 
 

@@ -4,7 +4,6 @@ import { useEffect, useRef, useState } from "react";
 import { FaBars } from "react-icons/fa";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { menuLinks } from "@/utils/constants";
 import { FiPhone } from "react-icons/fi";
 import GeneralButton from "../general/generalButton";
 import MobileSidebar from "./mobileSidebar";
@@ -15,6 +14,7 @@ import {
 import Image from "next/image";
 import BookAppointmentButton from "../general/bookAppointmentButton";
 import CalendlyModal from "../calendly/calendlyModal";
+import { menuLinks } from "@/data/navbar";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);

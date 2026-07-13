@@ -2,7 +2,7 @@
 import { FaStar } from "react-icons/fa";
 import SectionHeader from "../general/sectionHeader";
 import { FiExternalLink } from "react-icons/fi";
-import { googleReviews } from "@/utils/constants";
+import { googleReviews } from "@/data/reviews";
 
 
 
