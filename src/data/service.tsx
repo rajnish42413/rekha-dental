@@ -127,8 +127,8 @@ export const serviceCards = [
       description: "Precision endodontic care focused on tooth preservation.",
       image: `${CLOUDINARY_BASE}/rekha-dental/services/service10/thumbnail`,
       discount: "10",
-      startingPrice: "5,990",
-      price: "6,656",
+      startingPrice: "6,990",
+      price: "7,656",
     },
   
     {
@@ -152,8 +152,8 @@ export const serviceCards = [
         "Smile-enhancing treatments designed for aesthetic excellence.",
       image: `${CLOUDINARY_BASE}/rekha-dental/services/service12/thumbnail`,
       discount: "25",
-      startingPrice: "5,490",
-      price: "7,320",
+      startingPrice: "7,999",
+      price: "8,999",
     },
   
     {
@@ -213,8 +213,8 @@ export const serviceCards = [
         "Custom-crafted dental crowns designed to restore damaged, weakened, or root canal treated teeth. From durable PFM crowns to premium ceramic and Emax restorations, our crowns blend strength, function, and natural aesthetics for long-lasting smile rehabilitation.",
       image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781857257/ChatGPT_Image_Jun_19_2026_01_45_07_PM_tilxyt.png`,
       discount: "25",
-      startingPrice: "4,500",
-      price: "6,000",
+      startingPrice: "5,000",
+      price: "7,000",
     },
     {
       id: 20,
@@ -261,11 +261,11 @@ export const serviceCards = [
         "Comprehensive dental care covering routine examinations, dental X-rays, emergency treatments, sensitivity management, preventive procedures, minor surgical care, and essential oral health services. Designed to address everyday dental concerns with timely diagnosis, comfort, and professional clinical care.",
       image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781860548/Gemini_Generated_Image_lhoye4lhoye4lhoy_v4ijx4.png`,
       discount: "10",
-      startingPrice: "300",
-      price: "333",
+      startingPrice: "500",
+      price: "550",
     },
   ];
-  export const serviceDetails = [
+export const serviceDetails = [
     {
       id: 1,
       slug: "immediate-implantology",
@@ -327,16 +327,20 @@ export const serviceCards = [
       ],
       treatments: [
         {
-          name: "Osstem Dio",
+          name: "Osstem Dio Implant",
           price: "₹32,990",
         },
         {
-          name: "Neodent Aqua Straumann Implant",
-          price: "₹34,990",
+          name: "Neodent Aqua Straumann / Neo Biotech",
+          price: "₹39,999",
         },
         {
-          name: "ZimVie BioHorizons Implant",
+          name: "Zimvie BioHorizons",
           price: "₹45,990",
+        },
+        {
+          name: "TSX Implant",
+          price: "₹65,990",
         },
         {
           name: "Bone Graft",
@@ -352,11 +356,11 @@ export const serviceCards = [
         },
         {
           name: "Piezo Use",
-          price: "₹4,990 per implant",
+          price: "₹4,990",
         },
         {
-          name: "Abutment (Milled & Custumised-Extra) ",
-          price: "Approx. ₹3,000 - ₹6,000",
+          name: "Abutment Cost (Milled & Customized)",
+          price: "Approx. ₹5,000 - ₹6,000",
         },
       ],
     },
@@ -481,16 +485,28 @@ export const serviceCards = [
       ],
       treatments: [
         {
-          name: "Pit & Fissure Sealant",
-          price: "₹1,499-₹1,999",
+          name: "Pulpectomy",
+          price: "₹3,500",
         },
         {
-          name: "Varnish",
-          price: "₹1999/-(Voco)",
+          name: "Filling / Crown",
+          price: "Extra Charges",
         },
         {
-          name: "Varnish",
-          price: "₹2499/-(Ivoclar)",
+          name: "Preventive Dentistry - Voco",
+          price: "₹1,999",
+        },
+        {
+          name: "Varnish - Ivoclar",
+          price: "₹2,499",
+        },
+        {
+          name: "Pit & Fissure Sealant - Basic",
+          price: "₹1,499",
+        },
+        {
+          name: "Pit & Fissure Sealant - Premium",
+          price: "₹1,999",
         },
       ],
     },
@@ -551,11 +567,11 @@ export const serviceCards = [
       ],
       treatments: [
         {
-          name: "Basic GIC Filling",
+          name: "Basic Restoration GIC Filling",
           price: "₹1,250",
         },
         {
-          name: "Premium GIC Filling",
+          name: "Premium Restoration GIC Filling",
           price: "₹1,800",
         },
         {
@@ -563,20 +579,36 @@ export const serviceCards = [
           price: "₹1,500",
         },
         {
-          name: "VOCO Premium Filling",
+          name: "VOCO Premium Composite Filling",
           price: "₹1,990",
         },
         {
-          name: "Ivoclar VIP Premium Filling",
+          name: "Ivoclar VIP Composite Filling",
           price: "₹2,490",
         },
         {
-          name: "Direct Composite Filling",
+          name: "Direct Composite Restoration",
           price: "₹3,500",
         },
         {
           name: "Class II Restoration Under Rubber Dam",
           price: "₹3,500",
+        },
+        {
+          name: "Metal Inlay / Onlay",
+          price: "₹3,500",
+        },
+        {
+          name: "Ceramic (Emax) Inlay / Onlay",
+          price: "Starts from ₹12,500",
+        },
+        {
+          name: "Direct",
+          price: "₹4500/- ₹5500/-  ₹6500/- (R-DAM)",
+        },
+        {
+          name: "Class 2",
+          price: "₹2000-₹4500/",
         },
       ],
     },
@@ -638,26 +670,29 @@ export const serviceCards = [
         },
       ],
       treatments: [
-  
         {
           name: "Pulpectomy",
-          price: "₹4,990",
+          price: "₹3,500",
         },
         {
-          name: "Laser Pulpectomy",
-          price: "₹6,990",
+          name: "Filling / Crown",
+          price: "Extra Charges",
         },
         {
-          name: "Pit & Fissure Sealant",
-          price: "₹1,499-₹1,999",
+          name: "Preventive Dentistry - Voco",
+          price: "₹1,999",
         },
         {
-          name: "Varnish",
-          price: "₹1999/-(Voco)",
+          name: "Varnish - Ivoclar",
+          price: "₹2,499",
         },
         {
-          name: "Varnish",
-          price: "₹2499/-(Ivoclar)",
+          name: "Pit & Fissure Sealant - Basic",
+          price: "₹1,499",
+        },
+        {
+          name: "Pit & Fissure Sealant - Premium",
+          price: "₹1,999",
         },
       ],
     },
@@ -751,15 +786,15 @@ export const serviceCards = [
         },
         {
           name: "Ceramic (Emax) Inlay / Onlay",
-          price: "₹9,500 - ₹12,500",
+          price: "Starts from ₹12,500",
         },
         {
           name: "Direct",
-          price: "₹3500/- I ₹4500/- I ₹5500/- (R-DAM)",
+          price: "₹4500/- ₹5500/-  ₹6500/- (R-DAM)",
         },
         {
-          name: "Calss 2 Or Under Rubber Dam",
-          price: "₹3500/",
+          name: "Class 2",
+          price: "₹2000-₹4500/",
         },
       ],
     },
@@ -897,36 +932,40 @@ export const serviceCards = [
       ],
       treatments: [
         {
-          name: "Osstem Dio",
+          name: "Osstem Dio Implant",
           price: "₹32,990",
         },
         {
-          name: "Neodent Aqua Straumann Implant",
-          price: "₹34,990",
+          name: "Neodent Aqua Straumann / Neo Biotech",
+          price: "₹39,999",
         },
         {
-          name: "ZimVie BioHorizons Implant",
+          name: "Zimvie BioHorizons",
           price: "₹45,990",
         },
         {
-          name: "Bone Grafting",
-          price: "₹3,990 - ₹7,990",
+          name: "TSX Implant",
+          price: "₹65,990",
         },
         {
-          name: "Densah Burs",
-          price: "₹4,990 - ₹6,990",
+          name: "Bone Graft",
+          price: "₹3,990 / ₹7,990",
         },
         {
-          name: "Colla Plug / Colla Tape",
-          price: "₹1,200 - ₹2,000",
+          name: "Densa Burs",
+          price: "₹4,990 / ₹6,990",
+        },
+        {
+          name: "Colla Plug / Tape",
+          price: "₹1,200 / ₹2,000",
         },
         {
           name: "Piezo Use",
-          price: "₹4,990 per implant",
+          price: "₹4,990",
         },
         {
-          name: "Abutment Cost (Milled & Custumised is Extra ",
-          price: "₹3,000 - ₹6,000",
+          name: "Abutment Cost (Milled & Customized)",
+          price: "Approx. ₹5,000 - ₹6,000",
         },
       ],
     },
@@ -987,24 +1026,52 @@ export const serviceCards = [
       ],
       treatments: [
         {
-          name: "SELF LIGATING CERAMIC",
-          price: "(P) ₹70000/-(VP) ₹90000/",
+          name: "Aligners (Invisalign)",
+          price: "Starting from ₹99,000",
         },
         {
-          name: " FIXED IN VISIBLE",
-          price: "₹7,000-₹8,000",
+          name: "Extra Premium",
+          price: "₹55,000",
         },
         {
-          name: "Extra Premium Braces",
-          price: "₹70,000 onwards",
+          name: "Self-Ligating Metal Braces",
+          price: "₹55,000 - ₹65,000",
         },
         {
-          name: "REMOVABLE(PLATE)-",
-          price: "₹4,500 onwards",
+          name: "Ceramic Braces",
+          price: "₹40,000 - ₹50,000",
         },
         {
-          name: "ALIGNERESS TYPE",
-          price: "₹6,000 onwards",
+          name: "Self-Ligating Ceramic Braces",
+          price: "₹70,000 (Premium) / ₹90,000 (VVIP)",
+        },
+        {
+          name: "Retainer Charges",
+          price: "As Applicable",
+        },
+        {
+          name: "Fixed Retainer",
+          price: "₹7,000 - ₹8,000",
+        },
+        {
+          name: "Removable Retainer (Plate)",
+          price: "₹4,500",
+        },
+        {
+          name: "Aligner Type",
+          price: "₹6,000",
+        },
+        {
+          name: "Extra Charges",
+          price: "As Applicable",
+        },
+        {
+          name: "Broken Bracket",
+          price: "1st & 2nd Bracket: Free | From 3rd: ₹1,500 per Bracket",
+        },
+        {
+          name: "Extraction / Scaling / Varnish / Bleaching",
+          price: "Charges Extra",
         },
       ],
     },
@@ -1066,37 +1133,49 @@ export const serviceCards = [
       ],
       treatments: [
         {
-          name: "Root Canal Treatment Starts from ",
-          price: "₹5,990",
-        },
-        {
-          name: "Basic RCT (Anterior)",
-          price: "₹5,999",
-        },
-        {
-          name: "Basic RCT (Posterior)",
-          price: "₹6,999",
-        },
-        {
-          name: "Consultant RCT (Anterior)",
-          price: "₹6,999",
-        },
-        {
-          name: "Consultant RCT (Posterior)",
-          price: "₹7,999",
-        },
-        {
-          name: "Laser RCT + Meta Pex RCT (Anterior)",
-          price: "₹9,999",
-        },
-        {
-          name: "Laser RCT + Meta Pex RCT (Posterior)",
-          price: "₹10,990",
+          name: "Starts from",
+          price: "₹6,990",
         },
         {
           name: "Re-RCT",
-          price: "₹6500/- +(₹2500/- + ₹3500/-) + ₹5500/- Crown ",
+          price: "₹10,500 + (₹6,500 / ₹7,500 / ₹5,500 Crown)",
         },
+        // {
+        //   name: "Root Canal Treatment Starts from ",
+        //   price: "₹6,990",
+        // },
+        // {
+        //   name: "Basic RCT (Anterior)",
+        //   price: "₹5,999",
+        // },
+        // {
+        //   name: "Basic RCT (Posterior)",
+        //   price: "₹6,999",
+        // },
+        // {
+        //   name:"Re-RCT",
+        //   price:"₹6,999"
+        // }
+        // {
+        //   name: "Consultant RCT (Anterior)",
+        //   price: "₹6,999",
+        // },
+        // {
+        //   name: "Consultant RCT (Posterior)",
+        //   price: "₹7,999",
+        // },
+        // {
+        //   name: "Laser RCT + Meta Pex RCT (Anterior)",
+        //   price: "₹9,999",
+        // },
+        // {
+        //   name: "Laser RCT + Meta Pex RCT (Posterior)",
+        //   price: "₹10,990",
+        // },
+        // {
+        //   name: "Re-RCT",
+        //   price: "₹6500/- +(₹2500/- + ₹3500/-) + ₹5500/- Crown ",
+        // },
       ],
     },
     {
@@ -1157,40 +1236,44 @@ export const serviceCards = [
       ],
       treatments: [
         {
-          name: "Anterior Mobile Tooth Extraction",
+          name: "Anterior Extraction - Mobile",
           price: "₹1,500",
         },
         {
-          name: "Anterior Normal Tooth Extraction",
-          price: "₹1,800-₹2,200",
+          name: "Anterior Extraction - Normal",
+          price: "₹1,800 - ₹2,200",
         },
         {
-          name: "Upper Surgical Extraction",
+          name: "Anterior Surgical Extraction - Upper",
           price: "₹5,000",
         },
         {
-          name: "Lower Surgical Extraction",
+          name: "Anterior Surgical Extraction - Lower",
           price: "₹6,000",
         },
         {
-          name: "Posterior Mobile Tooth Extraction",
+          name: "Posterior Extraction - Mobile",
           price: "₹1,500",
         },
         {
-          name: "Posterior Normal Tooth Extraction",
-          price: "₹1,800-₹2,200",
+          name: "Posterior Extraction - Normal",
+          price: "₹1,800 - ₹2,200",
         },
         {
-          name: "Posterior Upper Surgical Extraction",
+          name: "Posterior Surgical Extraction - Upper",
           price: "₹8,000",
         },
         {
-          name: "Posterior Lower Surgical Extraction",
+          name: "Posterior Surgical Extraction - Lower",
           price: "₹12,000",
         },
         {
-          name: "Posterior Implant Tooth Extraction",
-          price: "₹5,000-₹8,000",
+          name: "Wisdom Tooth Extraction",
+          price: "₹7,000 - ₹12,000",
+        },
+        {
+          name: "Implant Extraction",
+          price: "₹5,000 - ₹8,000",
         },
       ],
     },
@@ -1253,28 +1336,21 @@ export const serviceCards = [
       treatments: [
         {
           name: "Basic Teeth Bleaching",
-          price: "₹8000",
+          price: "₹7999",
         },
         {
           name: "1 Cycle Teeth Bleaching",
-          price: "₹8000",
+          price: "₹10000",
         },
         {
           name: "2 Cycle Teeth Bleaching",
-          price: "₹12000",
+          price: "₹14000",
         },
         {
           name: "Premium Laser Bleaching",
           price: "₹18000",
         },
-        {
-          name: "Direct Composite Veneer",
-          price: "₹5,490",
-        },
-        {
-          name: "Indirect Ceramic Veneer",
-          price: "₹15,990",
-        },
+       
       ],
     },
     {
@@ -1419,24 +1495,24 @@ export const serviceCards = [
       ],
       treatments: [
         {
-          name: "Laser Bio-Stimulation",
-          price: "₹1,499/-sitting",
+          name: "Perio Therapy",
+          price: "₹1,499 per Tooth",
         },
         {
-          name: "Laser Tooth Eruption",
-          price: "₹1,499-₹1,999",
+          name: "Quadrant Perio Therapy",
+          price: "₹3,000",
         },
         {
-          name: "Laser Root Canal Treatment",
-          price: "₹1000/-sitting",
+          name: "Bio Stimulation",
+          price: "₹5,000",
         },
         {
-          name: "Laser Periodontal Therapy (Per Quadrant)",
-          price: "₹3,000-₹5,000",
+          name: "Tooth Eruption",
+          price: "₹1,499 - ₹1,999 per Tooth",
         },
         {
-          name: "Periodontal Therapy",
-          price: "₹1,499/-tooth",
+          name: "Laser RCT",
+          price: "₹1,000 per Sitting",
         },
       ],
     },
@@ -1568,20 +1644,52 @@ export const serviceCards = [
       ],
       treatments: [
         {
+          name: "Aligners (Invisalign)",
+          price: "Starting from ₹99,000",
+        },
+        {
           name: "Extra Premium",
           price: "₹55,000",
         },
         {
-          name: "SELF LIGATING METAL",
-          price: "₹45000/-₹55000/-₹65000/-",
+          name: "Self-Ligating Metal Braces",
+          price: "₹55,000 - ₹65,000",
         },
         {
-          name: "CERAMIC",
-          price: "₹40,000-₹50,000",
+          name: "Ceramic Braces",
+          price: "₹40,000 - ₹50,000",
         },
         {
-          name: "Fixed Invisible Retainer",
+          name: "Self-Ligating Ceramic Braces",
+          price: "₹70,000 (Premium) / ₹90,000 (VVIP)",
+        },
+        {
+          name: "Retainer Charges",
+          price: "As Applicable",
+        },
+        {
+          name: "Fixed Retainer",
           price: "₹7,000 - ₹8,000",
+        },
+        {
+          name: "Removable Retainer (Plate)",
+          price: "₹4,500",
+        },
+        {
+          name: "Aligner Type",
+          price: "₹6,000",
+        },
+        {
+          name: "Extra Charges",
+          price: "As Applicable",
+        },
+        {
+          name: "Broken Bracket",
+          price: "1st & 2nd Bracket: Free | From 3rd: ₹1,500 per Bracket",
+        },
+        {
+          name: "Extraction / Scaling / Varnish / Bleaching",
+          price: "Charges Extra",
         },
       ],
     },
@@ -1709,37 +1817,41 @@ export const serviceCards = [
   
       treatments: [
         {
-          name: "Dental Implants",
-          price: "₹32,990 onwards",
+          name: "Osstem Dio Implant",
+          price: "₹32,990",
         },
         {
-          name: "Root Canal Treatment",
-          price: "₹5,990 onwards",
+          name: "Neodent Aqua Straumann / Neo Biotech",
+          price: "₹39,999",
         },
         {
-          name: "Dental Crowns",
-          price: "₹4,500 onwards",
-        },
-        // {
-        //   name: "Dental Bridges",
-        //   price: "₹4,500 per unit onwards",
-        // },
-        {
-          name: "Complete Dentures",
-          price: "₹40,000 onwards",
+          name: "Zimvie BioHorizons",
+          price: "₹45,990",
         },
         {
-          name: "Cast Partial Dentures",
-          price: "₹6,000 onwards",
+          name: "TSX Implant",
+          price: "₹65,990",
         },
         {
-          name: "Bone Grafting",
-          price: "₹3,990-₹7,990",
+          name: "Bone Graft",
+          price: "₹3,990 / ₹7,990",
         },
-        // {
-        //   name: "Smile Rehabilitation Plan",
-        //   price: "Custom Quote",
-        // },
+        {
+          name: "Densa Burs",
+          price: "₹4,990 / ₹6,990",
+        },
+        {
+          name: "Colla Plug / Tape",
+          price: "₹1,200 / ₹2,000",
+        },
+        {
+          name: "Piezo Use",
+          price: "₹4,990",
+        },
+        {
+          name: "Abutment Cost (Milled & Customized)",
+          price: "Approx. ₹5,000 - ₹6,000",
+        },
       ],
     },
     {
@@ -1798,33 +1910,36 @@ export const serviceCards = [
       },
       treatments: [
         {
-          name: "Metal Crown",
-          price: "₹4,500",
+          name: "Metal Crown - Basic Cap",
+          price: "₹5,000 - ₹6,000",
         },
         {
-          name: "Premium Robotic Digital Scan Crown",
-          price: "₹5,500",
+          name: "Metal Crown - Premium Robotic Digital Scan",
+          price: "₹6,000 (2–5 Yr Warranty)",
         },
         {
-          name: "PFM Crown",
-          price: "₹5,500",
-        },
-        { name: "PFM Premium Robotic Digital Scan", price: "₹6,500" },
-        {
-          name: "VVIP PFM Crown",
-          price: "₹7,500",
+          name: "PFM Crown - Basic Cap",
+          price: "₹5,500 (1 Yr Warranty)",
         },
         {
-          name: "All Ceramic Crown",
-          price: "₹10990/- Monolith, ₹12990/- (Emax Basic)",
+          name: "PFM Crown - Premium Robotic Digital Scan",
+          price: "₹6,500",
         },
         {
-          name: "All Cermaic Crown (Emax Premium)",
-          price: "₹15,990",
+          name: "PFM Crown - VVIP Premium",
+          price: "₹7,500 (5 Yrs Warranty)",
         },
         {
-          name: "All Cermaic Crown VVIP Premium",
-          price: "₹20,000",
+          name: "All Ceramic Crown - Monolith",
+          price: "₹10,990 - ₹12,990 (Emax Basic)",
+        },
+        {
+          name: "All Ceramic Crown - Premium",
+          price: "₹15,990 (Emax Premium - 5 Yrs Warranty)",
+        },
+        {
+          name: "All Ceramic Crown - VVIP Premium",
+          price: "₹20,000 (15 Yrs Warranty)",
         },
       ],
   
@@ -1910,24 +2025,52 @@ export const serviceCards = [
       },
       treatments: [
         {
-          name: "Direct Composite Veneer",
+          name: "Direct Veneer - Standard",
           price: "₹5,490",
         },
         {
-          name: "Premium Direct Composite Veneer",
-          price: "₹7,490",
+          name: "Direct Veneer - Premium",
+          price: "Starts from ₹7,490",
         },
         {
-          name: "VIP Direct Composite Veneer",
-          price: "₹9,490",
+          name: "Direct Veneer - Free Repairs",
+          price: "2 Repairs FOC within 6 Months",
         },
         {
-          name: "Indirect Ceramic Veneer",
-          price: "₹12,500",
+          name: "Direct Veneer - After 6 Months",
+          price: "20–30% Repair Charges",
         },
         {
-          name: "Premium Ceramic / Emax Veneer",
-          price: "₹15,500",
+          name: "Direct Veneer - Up to 3 Years",
+          price: "Repair Charges Applicable",
+        },
+        {
+          name: "Direct Veneer - After 3 Years",
+          price: "50% Repair Charges up to 5 Years",
+        },
+        {
+          name: "Indirect Veneer - Standard",
+          price: "₹12,500 (5 Years Warranty)",
+        },
+        {
+          name: "Indirect Veneer - Premium",
+          price: "₹15,000 (5 Years Warranty)",
+        },
+        {
+          name: "Indirect Veneer - Free Repairs",
+          price: "2 Repairs FOC within 6 Months",
+        },
+        {
+          name: "Indirect Veneer - After 6 Months",
+          price: "20–30% Repair Charges",
+        },
+        {
+          name: "Indirect Veneer - Up to 3 Years",
+          price: "Repair Charges Applicable",
+        },
+        {
+          name: "Indirect Veneer - After 3 Years",
+          price: "50% Repair Charges up to 5 Years",
         },
       ],
   
@@ -2038,28 +2181,28 @@ export const serviceCards = [
       ],
       treatments: [
         {
-          name: "Basic Occlusal Splint",
+          name: "Splint - Basic",
           price: "₹4,500",
         },
         {
-          name: "Premium Occlusal Splint",
-          price: "₹5,500",
-        },
-        {
-          name: "Basic Splint",
-          price: "₹4,500",
-        },
-        {
-          name: "Premium Splint",
+          name: "Splint - Premium",
           price: "₹5,000",
         },
         {
-          name: "PERIO PACK(GC COMPANY)-",
+          name: "Occlusal Splint - Basic",
+          price: "₹4,500",
+        },
+        {
+          name: "Occlusal Splint - Premium",
+          price: "₹5,500",
+        },
+        {
+          name: "Perio Pack (GC Company)",
           price: "₹1,200",
         },
         {
-          name: "PER SUTURE",
-          price: "₹800-₹1000",
+          name: "Per Suture",
+          price: "₹1,000",
         },
       ],
     },
@@ -2083,12 +2226,16 @@ export const serviceCards = [
           price: "₹6,000",
         },
         {
-          name: "RPD- Cast Partial Denture with Precision Attachment",
-          price: "₹13,000 onwards",
+          name: "RPD - Cast Partial Denture with Precision Attachment",
+          price: "Starting at ₹13,000",
         },
         {
           name: "Complete Denture",
-          price: "STARTING AT ₹40000/-₹60000/- ₹8000/-, *6000/- Extra For ivoclar Teeth",
+          price: "Starting at ₹40,000 - ₹60,000",
+        },
+        {
+          name: "Ivoclar Teeth Upgrade",
+          price: "₹6,000 Extra",
         },
       ],
   
@@ -2174,24 +2321,28 @@ export const serviceCards = [
       },
       treatments: [
         {
-          name: "IOPA",
-          price: "₹300",
+          name: "Eugenol Dressing (1st Sitting)",
+          price: "₹600",
         },
         {
-          name: "Eugenol Dressing",
-          price: "₹600/- First Sitting, ₹600/- Second Sitting Onwards",
+          name: "Eugenol Dressing (2nd Sitting Onwards)",
+          price: "₹400",
         },
         {
-          name: "Sharp Tooth Trimming",
+          name: "Single Sharp Tooth Trimming",
           price: "₹999",
         },
         {
-          name: "Sensitivity Test",
-          price: "₹500",
+          name: "More Than 2 Sharp Tooth Trimming",
+          price: "₹599 Each",
         },
         {
           name: "Local Anesthesia Test",
           price: "₹500",
+        },
+        {
+          name: "Sensitivity Test (Hot / Cold)",
+          price: "₹500 per Tooth",
         },
       ],
       technology: {
