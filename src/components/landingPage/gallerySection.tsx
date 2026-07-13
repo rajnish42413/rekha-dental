@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import SectionHeader from "../general/sectionHeader";
-import { galleryImages } from "@/utils/constants";
+import { galleryImages } from "@/data/gallery";
 
 const featuredImages = galleryImages.slice(0, 3);
 

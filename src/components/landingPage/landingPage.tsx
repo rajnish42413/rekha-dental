@@ -1,13 +1,6 @@
 // import HeroBanner from "./heroBanner";
 import StatsStrip from "../general/statsCard";
-import {
-  aboutStatsData,
-  heroBanners,
-  // heroBanners,
-  homeFaqs,
-  premiumDentalProcedures,
-  reviewsData,
-} from "@/utils/constants";
+
 import StorySection from "../about/storySection";
 import ServiceGridLand from "./serviceGridLand";
 import Pillars from "./pillars";
@@ -22,6 +15,9 @@ import FAQ from "../general/faq";
 import DentalPlanHighlights from "./dentalPlanHighlights";
 import PremiumProcedureSwiper from "./premiumProceduresSwiper";
 import HeroSwiper from "../general/heroSwiper";
+import { heroBanners } from "@/data/heroBanner";
+import { aboutStatsData, reviewsData } from "@/data/doctor";
+import { homeFaqs, premiumDentalProcedures } from "@/data/landingPage";
 
 function LandingPage() {
   return (

@@ -5,7 +5,8 @@ import StorySection from "@/components/about/storySection";
 import Banner from "@/components/general/generalBanner";
 import PillarCard from "@/components/general/pillarCard";
 import SectionHeader from "@/components/general/sectionHeader";
-import { accreditationsData, milestonesTimeline, ourCoreValues } from "@/utils/constants";
+import { accreditationsData, milestonesTimeline } from "@/data/about";
+import { ourCoreValues } from "@/data/dentalPlans";
 import { CLOUDINARY_BASE, FRONTEND_URL } from "@/utils/endpoints";
 import { Metadata } from "next";
 

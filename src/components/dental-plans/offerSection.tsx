@@ -1,4 +1,5 @@
-import { offers } from '@/utils/constants'
+
+import { offers } from '@/data/dentalPlans'
 import OfferCard from './offerCard'
 
 function OfferSection() {

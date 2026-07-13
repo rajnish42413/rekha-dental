@@ -1,7 +1,8 @@
 import CenterCard from "@/components/appointment/centerCard";
 import PillarCard from "@/components/general/pillarCard";
 import SectionHeader from "@/components/general/sectionHeader";
-import { appointmentSteps, centers } from "@/utils/constants";
+import { appointmentSteps, centers } from "@/data/appointment";
+
 
 function page() {
   return (

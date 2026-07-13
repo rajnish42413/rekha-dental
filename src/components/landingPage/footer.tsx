@@ -1,4 +1,5 @@
-import { contactInfo, footerLinks, socialIcons } from "@/utils/constants";
+
+import { contactInfo, footerLinks, socialIcons } from "@/data/footer";
 import Link from "next/link";
 
 export default function Footer() {

@@ -1,10 +1,7 @@
 import PillarCard from "@/components/general/pillarCard";
 import SectionHeader from "@/components/general/sectionHeader";
-import {
-  advancedDentalTechnologies,
-  patientFriendlyCare,
-  sterilizationProcess,
-} from "@/utils/constants";
+import { advancedDentalTechnologies, patientFriendlyCare, sterilizationProcess } from "@/data/dentalPlans";
+
 
 
 function page() {

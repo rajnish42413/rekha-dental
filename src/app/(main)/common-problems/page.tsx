@@ -1,7 +1,7 @@
 import FAQ from "@/components/general/faq";
 import SectionHeader from "@/components/general/sectionHeader";
 import ProblemCard from "@/components/problems/problemCard";
-import { commonDentalProblems, commonDentalProblemsFaq } from "@/utils/constants";
+import { commonDentalProblems, commonDentalProblemsFaq } from "@/data/dentalPlans";
 
 function page() {
   return (

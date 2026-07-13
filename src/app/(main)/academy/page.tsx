@@ -7,7 +7,7 @@ import FaqSections from "@/components/academy/faqSections";
 import HandsOnTrainingSection from "@/components/academy/trainingCards";
 import ReviewsSection from "@/components/doctor/reviewSection";
 import SectionHeader from "@/components/general/sectionHeader";
-import { alumniReviewsData } from "@/utils/constants";
+import { alumniReviewsData } from "@/data/academy";
 import { CLOUDINARY_BASE, FRONTEND_URL } from "@/utils/endpoints";
 import { Metadata } from "next";
 

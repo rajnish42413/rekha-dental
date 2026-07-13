@@ -2,7 +2,8 @@
 
 import Image from "next/image";
 import SectionHeader from "../general/sectionHeader";
-import { clinicJourneyData } from "@/utils/constants";
+import { clinicJourneyData } from "@/data/about";
+
 
 function OldClinic() {
   return (

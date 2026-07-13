@@ -1,8 +1,8 @@
 
-import React from 'react'
 import SectionHeader from '../general/sectionHeader'
 import FAQ from '../general/faq'
-import { academyFaqData } from '@/utils/constants'
+import { academyFaqData } from '@/data/academy'
+
 
 function FaqSections() {
   return (

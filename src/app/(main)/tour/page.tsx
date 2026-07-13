@@ -5,7 +5,7 @@ import PillarCard from "@/components/general/pillarCard";
 import SectionHeader from "@/components/general/sectionHeader";
 import DentalCostComparison from "@/components/tour/costComparison";
 import HowItWorksSection from "@/components/tour/howItWorksSection";
-import { medicalTourismBenefits, tourismFaqData, tourismReviews } from "@/utils/constants";
+import { medicalTourismBenefits, tourismFaqData, tourismReviews } from "@/data/tourism";
 import { CLOUDINARY_BASE, FRONTEND_URL } from "@/utils/endpoints";
 import { Metadata } from "next";
 

@@ -2,10 +2,10 @@
 
 import dynamic from "next/dynamic";
 import { SwiperSlide } from "swiper/react";
-import {  currentBatchData } from "@/utils/constants";
 import { useJsEnabled } from "@/hooks/useJsEnabled";
 import AlumniCard from "./alumniCard";
 import SectionHeader from "../general/sectionHeader";
+import { currentBatchData } from "@/data/academy";
 
 const CustomSwiper = dynamic(
   () => import("@/components/general/customSwiper"),

@@ -1,5 +1,5 @@
 import SectionHeader from "@/components/general/sectionHeader";
-import { privacySections } from "@/utils/constants";
+import { privacySections } from "@/data/privacy";
 import { CLOUDINARY_BASE, FRONTEND_URL } from "@/utils/endpoints";
 import { Metadata } from "next";
 

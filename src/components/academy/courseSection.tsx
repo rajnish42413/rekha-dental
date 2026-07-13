@@ -1,4 +1,5 @@
-import { academyCourses } from "@/utils/constants";
+
+import { academyCourses } from "@/data/academy";
 import SectionHeader from "../general/sectionHeader";
 
 import CourseCard from "./courseCard";
