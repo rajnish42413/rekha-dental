@@ -24,10 +24,7 @@ export const menuLinks = [
       label: "Gallery",
       href: "/gallery",
     },
-    {
-      label: "Reviews",
-      href: "/reviews",
-    },
+  
     {
       label: "Offers",
       href: "/dental-plans",
@@ -47,6 +44,10 @@ export const menuLinks = [
   // data/mobileMenu.ts
 
 export const extraMobileLinks = [
+  {
+    label: "Reviews",
+    href: "/reviews",
+  },
   {
     label: "Common Problems",
     href: "/common-problems",

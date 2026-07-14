@@ -21,7 +21,7 @@ export default function GeneralButton({
         text-white  duration-200
         text-sm
         px-6 
-        h-10 lg:h-10 
+        h-10 lg:h-10 font-semibold
         transition 
         active:scale-95
         ${className}

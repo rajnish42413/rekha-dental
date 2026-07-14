@@ -7,3 +7,6 @@ export const NEXT_PUBLIC_SANITY_DATASET="production"
 export const NEXT_PUBLIC_SANITY_PROJECT_ID="kk32u277"
 export const GA_MEASUREMENT_ID = "G-M7RXF4C7Q1";
 export const CLOUDINARY_BASE ="https://res.cloudinary.com/dygrzu3sm/image/upload/f_auto,q_auto";
+export const SPREADSHEET_ID= "1iyt1BWEPSE9a8v-EHLJ0XS9y0uXj9bCiSds4v3lQX0c"
+export const DEPLOYMENT_ID= "AKfycbwEyOhwZ4PrxD6mgeT2OlojqSvnn2jfUwEnad3sCHH8kd_CSpYSnPbKXStqeVe7Iiq9vA"
+export const ENQUIRY_DEPLOYMENT_API="https://script.google.com/macros/s/AKfycbwEyOhwZ4PrxD6mgeT2OlojqSvnn2jfUwEnad3sCHH8kd_CSpYSnPbKXStqeVe7Iiq9vA/exec"

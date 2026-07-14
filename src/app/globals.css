@@ -146,3 +146,17 @@
 .hero-swiper .swiper-pagination-bullet-active {
   background: #cba553 !important;
 }
+
+.enquiry-modal .ant-modal-content {
+  background: #fdfbf7;
+  padding: 0;
+  border-radius: 2rem;
+  border: 1px solid #ddd3c8;
+  overflow: hidden;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+
+.enquiry-modal .ant-modal-close {
+  top: 18px;
+  right: 18px;
+}
