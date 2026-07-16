@@ -1,7 +1,7 @@
 
 interface SectionHeaderProps {
     tag?: string; 
-    title: string;
+    title?: string;
     subtitle?: string;
     align?: "left" | "center";
   }

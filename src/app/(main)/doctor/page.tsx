@@ -103,7 +103,7 @@ function page() {
             With more than 19 years of clinical experience, he
             specializes in Root Canal Treatment,
             Dental Implants, and
-            Crown & Bridge Procedures.
+            Crown & Bridge Procedures. He has been conducting implant and laser courses across Delhi NCR and different states across India.
           
             Renowned for his calm and patient-friendly approach,
             Dr. Gaurav is also a distinguished member of the
@@ -112,8 +112,8 @@ function page() {
             He has additionally received advanced training in
            Lasers and
             Esthetic Fillings from <strong>Germany </strong>.
-            He has been invited to conduct
-           one-day Zimmer Implantology courses in
+            He attended
+           one-day Zimmer Implantology course in
             <strong>Vietnam</strong> and implant course in <strong>Bali, Indonesia</strong>, reflecting his expertise
             and international recognition in the field of
             Dental Implants.

@@ -122,10 +122,10 @@ export default async function Page({ params }: PageProps) {
     <div className="bg-[#EAE4DB]">
       <Banner
         imageSrc={service.hero.image}
-        tag="TREATMENT"
+        tag=""
         title={service.hero.title}
         subtitle={service.hero.subtitle}
-        overlayColor="bg-[#0f3d3e]/60"
+        overlayColor=""
       />
       <section className="lg:py-20 py-10">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-16">
@@ -141,7 +141,6 @@ export default async function Page({ params }: PageProps) {
             <p className="text-sm font-extrabold tracking-[3px] text-yellow mb-4 uppercase">
               {service.technology.tag}
             </p>
-
             <ul className="space-y-4">
               {service.technology.points.map((point, i) => (
                 <li
@@ -158,11 +157,9 @@ export default async function Page({ params }: PageProps) {
           </div>
         </div>
       </section>
-
       <section className="lg:pb-20 pb-10">
         <div className="max-w-7xl mx-auto px-6">
           <SectionHeader tag="PRICING" title="Treatment Pricing" />
-
           <div className="mt-10 overflow-hidden rounded-xl border border-[#D8CFC2] bg-[#F5F1EA] shadow-sm">
             <div className="grid grid-cols-[1fr_auto] bg-brand text-white">
               <div className="px-6 py-4 text-sm tracking-[2px] uppercase font-semibold">
@@ -184,8 +181,6 @@ export default async function Page({ params }: PageProps) {
           }`}
               >
                 <div className="px-4 md:px-6 py-5 flex  gap-2 md:gap-3">
-                  {/* <div className="w-2 h-2 rounded-full bg-[#CBA553]" /> */}
-
                   <span className="text-[#2C2C2C] text-sm md:text-md font-header">
                     {treatment.name}
                   </span>

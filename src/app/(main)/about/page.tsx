@@ -77,8 +77,8 @@ function page() {
       <Banner
         imageSrc={`https://res.cloudinary.com/dygrzu3sm/image/upload/v1781084168/rekha-dental/academy-new/academy-new4.jpg`}
         tag="REKHA DENTAL CLINIC"
-        title="A practice built, slowly on purpose."
-        subtitle="Nineteen years of refining the same idea — that the finest dental work disappears."
+        title="Personalized Dental Care"
+        subtitle="Trusted by thousands of smiles, backed by years of clinical excellence."
         highlightText=""
       />
       <StorySection
@@ -98,9 +98,9 @@ function page() {
           `${CLOUDINARY_BASE}/rekha-dental/events/event9`,
         ]}
         tag="OUR STORY"
-        title="A quiet rebellion against rushed dentistry."
+        title="A Legacy of Trusted Dental Care"
         paragraphs={[
-          "For more than 19 years, Rekha Dental has been redefining the dental experience through expert care, advanced technology, and a commitment to patient comfort. From a single clinic to two modern centers, our journey has been guided by one goal — delivering dentistry that patients can trust with complete confidence.",
+          "For over 19 years, Rekha Dental has been providing advanced digital dental care with a focus on quality, comfort, and honesty. What started as a single clinic has grown into two modern centers trusted by thousands of patients.",
           "Our team of specialists provides comprehensive dental solutions in a calm, welcoming environment designed to put patients at ease. While we have expanded over the years, our philosophy remains unchanged: every patient deserves personalized attention, uncompromising quality, and a smile they can be proud of.",
         ]}
       />

@@ -93,10 +93,10 @@ function page() {
       <StorySection
         images={[`${CLOUDINARY_BASE}/rekha-dental/events/event1`,`${CLOUDINARY_BASE}/rekha-dental/events/event2`]}
         tag="WHAT IS DENTAL TOURISM"
-        title="A passport to better dentistry — for less."
+        title="A passport to a healthier smile."
         paragraphs={[
-          "Dental tourism is the practice of traveling abroad to receive dental treatment of equal or higher quality at a fraction of the home-country cost. India has become the global capital of dental tourism — combining internationally credentialed specialists, world-class facilities, and pricing that makes complex restorations accessible.",
-          "At Rekha Dental Clinic, we've refined the experience for the discerning international patient.",
+          "At Rekha Dental Clinic, we make world-class dental care accessible through our comprehensive dental tourism program. From your first online consultation to your final follow-up, our team manages every detail with personalized treatment plans, transparent pricing, travel assistance, and dedicated support, ensuring a smooth and stress-free experience.",
+          "Using advanced technologies such as digital dentistry, CBCT imaging, robotic scanning, and laser treatments, our experienced specialists deliver precise, safe, and high-quality care. Whether you need dental implants, veneers, smile makeovers, or full-mouth rehabilitation, we combine clinical excellence with exceptional value—helping you return home with a healthier, more confident smile and lasting memories of India.",
         ]}
       />
       <div className="lg:mt-20 mt-10 grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3 lg:mx-10 mx-6">

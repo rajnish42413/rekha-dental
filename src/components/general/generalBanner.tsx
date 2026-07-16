@@ -19,14 +19,14 @@ function Banner({
 }: BannerProps) {
   return (
     <section className="w-full">
-      <div className="relative w-full min-h-[50vh] sm:min-h-[60vh] lg:min-h-[85vh] overflow-hidden">
+      <div className="relative w-full min-h-[40vh] sm:min-h-[50vh] lg:min-h-[85vh] overflow-hidden">
         <Image
           src={imageSrc}
           alt={title}
           fill
           priority
           sizes="100vw"
-          className="object-cover animate-zoomSlow"
+          className="object-fill animate-zoomSlow"
         />
         <div className={`absolute inset-0 ${overlayColor}`} />
         <div className="absolute inset-0 flex items-center">

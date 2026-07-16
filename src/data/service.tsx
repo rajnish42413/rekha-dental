@@ -8,7 +8,7 @@ export const serviceCards = [
       title: "Immediate Implantology",
       slug: "immediate-implantology",
       description: "Same-day implants with surgical precision.",
-      image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781613968/old-implant_llbay6.png`,
+      image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784048756/implant-new_s0vfep.png`,
       discount: "10",
       startingPrice: "32,990",
       price: "36,990",
@@ -270,9 +270,9 @@ export const serviceDetails = [
       id: 1,
       slug: "immediate-implantology",
       hero: {
-        title: "Immediate Implantology",
-        subtitle: "Same-day implants with surgical precision.",
-        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781613968/old-implant_llbay6.png`,
+        title: "",
+        subtitle: "",
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784179395/1000198950_uwz7cx.png`,
       },
       overview: {
         tag: "OVERVIEW",
@@ -368,9 +368,9 @@ export const serviceDetails = [
       id: 2,
       slug: "digital-robotic-scanning",
       hero: {
-        title: "Digital Robotic Scanning",
-        subtitle: "AI-guided 3D scans for sub-millimetric care.",
-        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781600169/robotic_zqztvx.png`,
+        title: "",
+        subtitle: "",
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784181688/Gemini_Generated_Image_d468ldd468ldd468_pxcakf.png`,
       },
       overview: {
         tag: "OVERVIEW",
@@ -432,9 +432,9 @@ export const serviceDetails = [
       id: 3,
       slug: "preventive-ages-0-13",
       hero: {
-        title: "Preventive Dentistry",
-        subtitle: "For ages 0-13 & 14-15",
-        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781614234/preventive-pit_mdjbzb.png`,
+        title: "",
+        subtitle: "",
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784180913/Gemini_Generated_Image_a8uttma8uttma8ut_uvm79x.png`,
       },
       overview: {
         tag: "OVERVIEW",
@@ -514,9 +514,9 @@ export const serviceDetails = [
       id: 4,
       slug: "general-restorative",
       hero: {
-        title: "General and Restorative",
-        subtitle: "Hygiene, fillings, crowns meticulously done.",
-        image: `${CLOUDINARY_BASE}/rekha-dental/services/service4/thumbnail`,
+        title: "",
+        subtitle: "",
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784181538/Gemini_Generated_Image_rnwq8jrnwq8jrnwq_jkkh1a.png`,
       },
       overview: {
         tag: "OVERVIEW",
@@ -616,9 +616,9 @@ export const serviceDetails = [
       id: 5,
       slug: "pediatric-dentistry",
       hero: {
-        title: "Pediatric Dentistry",
-        subtitle: "Compassionate dental care tailored for children.",
-        image: `${CLOUDINARY_BASE}/rekha-dental/services/service5/thumbnail`,
+        title: "",
+        subtitle: "",
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784181160/Gemini_Generated_Image_37a48y37a48y37a4_tcezgl.png`,
       },
       overview: {
         tag: "OVERVIEW",
@@ -700,9 +700,9 @@ export const serviceDetails = [
       id: 6,
       slug: "dental-fillings",
       hero: {
-        title: "Dental Fillings",
-        subtitle: "Natural-looking restorations for healthy smiles.",
-        image: `${CLOUDINARY_BASE}/rekha-dental/services/service6/thumbnail`,
+        title: "",
+        subtitle: "",
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784182000/Gemini_Generated_Image_cwklnbcwklnbcwkl_pf00ln.png`,
       },
       overview: {
         tag: "OVERVIEW",
@@ -1586,9 +1586,9 @@ export const serviceDetails = [
       id: 16,
       slug: "clear-aligners",
       hero: {
-        title: "Clear Aligners",
-        subtitle: "Straighten your smile discreetly.",
-        image: `${CLOUDINARY_BASE}/rekha-dental/services/service16/thumbnail`,
+        title: "",
+        subtitle: "",
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784180067/1000198953_s7cpne.png`,
       },
       overview: {
         tag: "OVERVIEW",

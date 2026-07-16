@@ -22,6 +22,12 @@ export const heroBanners = [
       alt: "Dental Banner 4",
       slug:"/contact"
     },
+    {
+      image:
+        "https://res.cloudinary.com/dygrzu3sm/image/upload/v1784179205/1000198967_fttbov.png",
+      alt: "Dental Banner 5",
+      slug:"/services"
+    },
   ];
   
   

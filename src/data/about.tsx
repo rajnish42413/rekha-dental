@@ -11,58 +11,69 @@ export const milestonesTimeline = {
         year: "2007",
         title: "The Beginning",
         description:
-          "Rekha Dental Clinic was established in Ghaziabad with a vision to provide ethical, patient-focused, and modern dental care for families across the city.",
-  
+          "Rekha Dental Clinic was founded with a vision to make quality dental care accessible through compassion, integrity, and clinical excellence.",
+    
         image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline1`,
       },
-  
+    
       {
         id: "2",
         year: "2010",
-        title: "Advanced Dental Care",
+        title: "Digital X-Ray",
         description:
-          "The clinic expanded its services to include advanced restorative and cosmetic dentistry with a strong focus on precision and long-term patient care.",
-  
+          "Digital X-ray technology was introduced, enabling faster diagnostics, lower radiation exposure, and more accurate treatment planning.",
+    
         image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline2`,
       },
-  
+    
       {
         id: "3",
-        year: "2013",
-        title: "Specialized Expertise",
+        year: "2012",
+        title: "Implants & Full Mouth Rehabilitation",
         description:
-          "With experienced specialists joining the practice, Rekha Dental Clinic strengthened its expertise in oral medicine, radiology, root canal treatments, and smile restoration.",
-  
+          "Dental implant placement and full mouth rehabilitation services were introduced, providing advanced solutions for restoring smiles and oral function.",
+    
         image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline3`,
       },
-  
+    
       {
         id: "4",
-        year: "2016",
-        title: "Implant And Laser Dentistry",
+        year: "2013",
+        title: "Rotary Endodontics",
         description:
-          "The clinic introduced modern implantology and laser dental procedures, offering minimally invasive treatments with faster healing and greater comfort.",
+          "Modern rotary endodontic technology was adopted to deliver faster, more precise, and comfortable root canal treatments.",
+    
         image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline4`,
       },
-  
+    
       {
         id: "5",
-        year: "2020",
-        title: "Technology Expansion",
+        year: "2017",
+        title: "Laser Dentistry",
         description:
-          "Digital diagnostics, advanced imaging systems, and modern treatment protocols were integrated to deliver safer, faster, and more accurate dental solutions.",
-  
+          "Dental laser technology was introduced, allowing minimally invasive procedures with improved comfort, precision, and quicker recovery.",
+    
         image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline5`,
       },
-  
+    
       {
         id: "6",
-        year: "2025",
-        title: "A Trusted Name in Ghaziabad",
+        year: "2020–2022",
+        title: "Digital Dentistry",
         description:
-          "Today, Rekha Dental Clinic continues to serve patients across Ghaziabad with comprehensive dental care, compassionate treatment, and a commitment to clinical excellence.",
-  
+          "The clinic expanded its digital capabilities with CBCT imaging in 2020 and embraced digital dentistry in 2022, enhancing diagnosis, treatment planning, and patient outcomes.",
+    
         image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline6`,
+      },
+    
+      {
+        id: "7",
+        year: "Present",
+        title: "Our Promise",
+        description:
+          "By combining modern dental technology with a personal touch, Rekha Dental Clinic continues to build lasting relationships with patients and families. Every day, we work toward one purpose: bringing healthier smiles, greater confidence, and better quality of life to our community—one patient at a time.",
+    
+        image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline7`,
       },
     ],
   };

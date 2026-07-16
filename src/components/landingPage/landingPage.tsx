@@ -18,6 +18,7 @@ import HeroSwiper from "../general/heroSwiper";
 import { heroBanners } from "@/data/heroBanner";
 import { aboutStatsData, reviewsData } from "@/data/doctor";
 import { homeFaqs, premiumDentalProcedures } from "@/data/landingPage";
+import DoctorSection from "./doctorSection";
 
 function LandingPage() {
   return (
@@ -67,6 +68,7 @@ function LandingPage() {
         <PremiumProcedureSwiper procedures={premiumDentalProcedures} />
       </div>
       <ServiceGridLand />
+      <DoctorSection/>
       <GallerySection />
       <ReviewsSection data={reviewsData} />
       <Pillars />
