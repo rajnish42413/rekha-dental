@@ -83,7 +83,7 @@ function Page() {
         imageSrc={`${CLOUDINARY_BASE}/rekha-dental/banner`}
         tag="TREATMENTS"
         title="A complete practice, performed by specialists."
-        subtitle="Each service is led by a doctor whose career is devoted to that discipline."
+        subtitle="Each treatment is led by a doctor whose career is devoted to that discipline."
         highlightText=""
       />
       <ServiceGrid />

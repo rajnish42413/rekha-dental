@@ -8,7 +8,7 @@ export default function ExploreDentalServices() {
     <section className=" py-10 lg:py-16">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <SectionHeader
-          tag="OUR SERVICES"
+          tag="TREATMENTS"
           title="How can we help you today?"
           subtitle="Explore personalized dental treatments designed to restore comfort, improve oral health, and enhance your smile."
         />
