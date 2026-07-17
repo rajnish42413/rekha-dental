@@ -9,7 +9,7 @@ function ServiceGridLand() {
   return (
     <section className="bg-[#EAE4DB] py-10 lg:py-24">
       <SectionHeader
-        tag="SIGNATURE SERVICES"
+        tag="SIGNATURE TREATMENTS"
         title="Treatments crafted with patience and precision."
         subtitle="From same-day implants to the gentlest first visits, our specialists offer the full breadth of modern dentistry under one roof."
       />
