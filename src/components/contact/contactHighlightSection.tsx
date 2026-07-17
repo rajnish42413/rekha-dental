@@ -29,7 +29,7 @@ import SectionHeader from "../general/sectionHeader";
       id: 3,
       icon: <EnvironmentOutlined />,
       title: "Visit Us",
-      description: ["Rekha Dental Clinic, Ghaziabad"],
+      description: ["Rekha Dental"],
     },
   ];
   

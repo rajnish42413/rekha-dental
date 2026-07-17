@@ -15,10 +15,7 @@ interface ProblemCardProps {
   index?: number;
 }
 
-export default function ProblemCard({
-  problem,
-  index,
-}: ProblemCardProps) {
+export default function ProblemCard({ problem, index }: ProblemCardProps) {
   return (
     <div
       className="
@@ -35,7 +32,7 @@ export default function ProblemCard({
         hover:-translate-y-2
       "
     >
-      <Link href={`/services/${problem.serviceSlug}`}>
+      <Link href={`/treatments/${problem.serviceSlug}`}>
         <div className="relative w-full h-[220px] overflow-hidden cursor-pointer">
           <Image
             src={problem.image}
@@ -70,8 +67,8 @@ export default function ProblemCard({
           </h3>
 
           <div className="grid grid-cols-2 gap-3 mb-5">
-  <div
-    className="
+            <div
+              className="
       border
       border-[#DCCEB9]
       rounded-xl
@@ -83,13 +80,13 @@ export default function ProblemCard({
       justify-center
       text-center
     "
-  >
-    <p className="text-xs text-yellow font-extrabold uppercase tracking-wide">
-      Medical Term
-    </p>
+            >
+              <p className="text-xs text-yellow font-extrabold uppercase tracking-wide">
+                Medical Term
+              </p>
 
-    <p
-      className="
+              <p
+                className="
         text-sm
         font-semibold
         text-[#2C2C2C]
@@ -97,13 +94,13 @@ export default function ProblemCard({
         leading-tight
         line-clamp-2
       "
-    >
-      {problem.medicalTerm}
-    </p>
-  </div>
+              >
+                {problem.medicalTerm}
+              </p>
+            </div>
 
-  <div
-    className="
+            <div
+              className="
       border
       border-[#DCCEB9]
       rounded-xl
@@ -115,16 +112,16 @@ export default function ProblemCard({
       justify-center
       text-center
     "
-  >
-    <p className="text-xs text-yellow font-extrabold uppercase tracking-wide">
-      Symptoms
-    </p>
+            >
+              <p className="text-xs text-yellow font-extrabold uppercase tracking-wide">
+                Symptoms
+              </p>
 
-    <p className="text-sm font-semibold text-[#2C2C2C] mt-1">
-      {problem.symptoms.length}
-    </p>
-  </div>
-</div>
+              <p className="text-sm font-semibold text-[#2C2C2C] mt-1">
+                {problem.symptoms.length}
+              </p>
+            </div>
+          </div>
 
           <div className="border border-[#DCCEB9] rounded-xl p-4">
             <p className="text-xs uppercase tracking-wide text-yellow font-extrabold mb-3">
@@ -143,20 +140,17 @@ export default function ProblemCard({
               ))}
             </ul>
           </div>
-
           <div className="mt-5 border border-[#DCCEB9] rounded-xl p-4">
             <p className="text-xs uppercase tracking-wide text-yellow font-extrabold mb-2">
               Recommended Treatment
             </p>
-
             <p className="text-sm text-[#666] line-clamp-3">
               {problem.treatment}
             </p>
           </div>
         </div>
-
         <Link
-          href={`/services/${problem.serviceSlug}`}
+          href={`/treatments/${problem.serviceSlug}`}
           className="
             mt-5
             bg-brand

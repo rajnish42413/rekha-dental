@@ -14,7 +14,7 @@ import {
       content: (
         <>
           <p className="uppercase font-semibold">
-            Rekha Dental Clinic Ghaziabad
+            Rekha Dental
           </p>
     
           <p className="mt-2">
@@ -25,7 +25,7 @@ import {
           </p>
     
           <p className="mt-5 font-semibold">
-            REKHA DENTAL CLINIC LASER AND IMPLANT CENTER
+            REKHA DENTAL
           </p>
     
           <p className="mt-2">
@@ -78,9 +78,11 @@ import {
       <section className="h-full bg-[#F5F1EA] p-6 md:p-6 lg:p-10">
         <div className="flex h-full flex-col justify-between">
           <div>
-            <p className="mb-3 text-xs font-extrabold uppercase tracking-[0.3em] text-yellow">
-              Contact Information
-            </p>
+          <div className="inline-flex mb-4 items-center gap-2 bg-emerald-500/10 px-3 py-1.5 rounded-full border border-emerald-500/20">
+          <p className="uppercase tracking-[2px] text-xs font-black text-emerald-600 lg:text-sm ">
+            CONTACT INFORMATION
+          </p>
+        </div>
             <div className="mt-10 grid grid-cols-1 gap-5">
               {infoCards.map((item) => (
                 <div

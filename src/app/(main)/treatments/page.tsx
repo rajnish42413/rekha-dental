@@ -7,10 +7,10 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
   title:
-    "Dental Treatments & Services | Rekha Dental Clinic Ghaziabad",
+    "Dental Treatments & Services | Rekha Dental",
 
   description:
-    "Explore advanced dental treatments at Rekha Dental Clinic including dental implants, smile makeovers, cosmetic dentistry, root canal treatment, orthodontics, oral surgery, and preventive dental care in Ghaziabad.",
+    "Explore advanced dental treatments at Rekha Dental including dental implants, smile makeovers, cosmetic dentistry, root canal treatment, orthodontics, oral surgery, and preventive dental care in Ghaziabad.",
 
   keywords: [
     "dental treatments",
@@ -24,23 +24,23 @@ export const metadata: Metadata = {
     "teeth whitening",
     "preventive dental care",
     "best dental clinic Ghaziabad",
-    "Rekha Dental Clinic",
+    "Rekha Dental",
   ],
 
   alternates: {
-    canonical: `${FRONTEND_URL}/services`,
+    canonical: `${FRONTEND_URL}/treatments`,
   },
 
   openGraph: {
     title:
-      "Dental Treatments & Services | Rekha Dental Clinic Ghaziabad",
+      "Dental Treatments & Services | Rekha Dental",
 
     description:
-      "Discover precision-driven dental treatments led by experienced specialists at Rekha Dental Clinic in Ghaziabad.",
+      "Discover precision-driven dental treatments led by experienced specialists at Rekha Dental.",
 
-    url: `${FRONTEND_URL}/services`,
+    url: `${FRONTEND_URL}/treatments`,
 
-    siteName: "Rekha Dental Clinic",
+    siteName: "Rekha Dental",
 
     type: "website",
 
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
         url: `${CLOUDINARY_BASE}/rekha-dental/banner`,
         width: 1200,
         height: 630,
-        alt: "Dental Treatments at Rekha Dental Clinic",
+        alt: "Dental Treatments at Rekha Dental",
       },
     ],
   },
@@ -60,10 +60,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
 
     title:
-      "Dental Treatments & Services | Rekha Dental Clinic Ghaziabad",
+      "Dental Treatments & Services | Rekha Dental",
 
     description:
-      "Explore advanced cosmetic, restorative, implant, and preventive dental treatments at Rekha Dental Clinic.",
+      "Explore advanced cosmetic, restorative, implant, and preventive dental treatments at Rekha Dental.",
 
     images: [
       `${CLOUDINARY_BASE}/rekha-dental/banner`,

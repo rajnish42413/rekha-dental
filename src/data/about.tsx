@@ -11,58 +11,68 @@ export const milestonesTimeline = {
         year: "2007",
         title: "The Beginning",
         description:
-          "Rekha Dental Clinic was established in Ghaziabad with a vision to provide ethical, patient-focused, and modern dental care for families across the city.",
-  
+          "Rekha Dental was founded with a vision to make quality dental care accessible through compassion, integrity, and clinical excellence.",
+    
         image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline1`,
       },
-  
+    
       {
         id: "2",
         year: "2010",
-        title: "Advanced Dental Care",
+        title: "Digital X-Ray",
         description:
-          "The clinic expanded its services to include advanced restorative and cosmetic dentistry with a strong focus on precision and long-term patient care.",
-  
-        image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline2`,
+          "Digital X-ray technology was introduced, enabling faster diagnostics, lower radiation exposure, and more accurate treatment planning.",
+    
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784281495/ChatGPT_Image_Jul_17_2026_03_13_25_PM_juseoh.png`,
       },
-  
+    
       {
         id: "3",
-        year: "2013",
-        title: "Specialized Expertise",
+        year: "2012",
+        title: "Implants & Full Mouth Rehabilitation",
         description:
-          "With experienced specialists joining the practice, Rekha Dental Clinic strengthened its expertise in oral medicine, radiology, root canal treatments, and smile restoration.",
-  
-        image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline3`,
-      },
-  
-      {
-        id: "4",
-        year: "2016",
-        title: "Implant And Laser Dentistry",
-        description:
-          "The clinic introduced modern implantology and laser dental procedures, offering minimally invasive treatments with faster healing and greater comfort.",
-        image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline4`,
-      },
-  
-      {
-        id: "5",
-        year: "2020",
-        title: "Technology Expansion",
-        description:
-          "Digital diagnostics, advanced imaging systems, and modern treatment protocols were integrated to deliver safer, faster, and more accurate dental solutions.",
-  
+          "Dental implant placement and full mouth rehabilitation services were introduced, providing advanced solutions for restoring smiles and oral function.",
+    
         image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline5`,
       },
-  
+    
+      {
+        id: "4",
+        year: "2013",
+        title: "Rotary Endodontics",
+        description:
+          "Modern rotary endodontic technology was adopted to deliver faster, more precise, and comfortable root canal treatments.",
+    
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784283535/ChatGPT_Image_Jul_17_2026_03_48_34_PM_zi8oks.png`,
+      },
+    
+      {
+        id: "5",
+        year: "2017",
+        title: "Laser Dentistry",
+        description:
+          "Dental laser technology was introduced, allowing minimally invasive procedures with improved comfort, precision, and quicker recovery.",
+    
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781084416/rekha-dental/gallery/technology-2.jpg`,
+      },
+    
       {
         id: "6",
-        year: "2025",
-        title: "A Trusted Name in Ghaziabad",
+        year: "2020–2022",
+        title: "Digital Dentistry",
         description:
-          "Today, Rekha Dental Clinic continues to serve patients across Ghaziabad with comprehensive dental care, compassionate treatment, and a commitment to clinical excellence.",
-  
-        image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline6`,
+          "The clinic expanded its digital capabilities with CBCT imaging in 2020 and embraced digital dentistry in 2022, enhancing diagnosis, treatment planning, and patient outcomes.",
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784281651/ChatGPT_Image_Jul_17_2026_03_16_53_PM_dw4dpp.png`,
+      },
+    
+      {
+        id: "7",
+        year: "Present",
+        title: "Our Promise",
+        description:
+          "By combining modern dental technology with a personal touch, Rekha Dental continues to build lasting relationships with patients and families. Every day, we work toward one purpose: bringing healthier smiles, greater confidence, and better quality of life to our community—one patient at a time.",
+    
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784276404/20260707_125918_owp7ak.jpg`,
       },
     ],
   };

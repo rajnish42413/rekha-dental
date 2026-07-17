@@ -5,6 +5,7 @@ import { SwiperSlide } from "swiper/react";
 import { useJsEnabled } from "@/hooks/useJsEnabled";
 import LegacyCard from "./legacyCard";
 import { lecturesData } from "@/data/legacy";
+import SectionHeader from "../general/sectionHeader";
 
 const CustomSwiper = dynamic(
   () => import("@/components/general/customSwiper"),
@@ -17,17 +18,8 @@ function Lectures() {
   return (
     <section className=" py-10 lg:py-24 my-6">
       <div className="mx-4 lg:mx-10">
-        <div className="mx-auto max-w-4xl text-center">
-          <p className="mb-5 text-md font-extrabold uppercase tracking-[5px] text-yellow">
-            LECTURES & WORKSHOPS
-          </p>
-
-          <h2 className="font-header text-2xl leading-tight text-[#2C2C2C] md:text-5xl">
-            Sharing knowledge,
-            <br />
-            shaping future clinicians.
-          </h2>
-        </div>
+        <SectionHeader tag=" LECTURES & WORKSHOPS" title=" Sharing knowledge, shaping future clinicians."/>
+     
 
         <div className="lg:mt-10 mt-6 px-1 lg:px-3">
           {!jsEnabled ? (

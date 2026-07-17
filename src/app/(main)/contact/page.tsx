@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
 
   title:
-    "Contact Rekha Dental Clinic | Book Dental Appointment in Ghaziabad",
+    "Contact Rekha Dental | Book Dental Appointment in Ghaziabad",
 
   description:
-    "Get in touch with Rekha Dental Clinic in Ghaziabad for dental consultations, smile makeovers, implants, cosmetic dentistry, and advanced oral care treatments. Visit our clinic locations or book an appointment today.",
+    "Get in touch with Rekha Dental in Ghaziabad for dental consultations, smile makeovers, implants, cosmetic dentistry, and advanced oral care treatments. Visit our clinic locations or book an appointment today.",
 
   keywords: [
-    "contact Rekha Dental Clinic",
+    "contact Rekha Dental",
     "dentist in Ghaziabad",
     "dental clinic contact",
     "book dental appointment",
@@ -32,14 +32,14 @@ export const metadata: Metadata = {
 
   openGraph: {
     title:
-      "Contact Rekha Dental Clinic | Book Dental Appointment in Ghaziabad",
+      "Contact Rekha Dental | Book Dental Appointment in Ghaziabad",
 
     description:
-      "Connect with Rekha Dental Clinic for expert dental care, consultations, smile enhancement, implants, and advanced treatments in Ghaziabad.",
+      "Connect with Rekha Dental for expert dental care, consultations, smile enhancement, implants, and advanced treatments in Ghaziabad.",
 
     url: `${FRONTEND_URL}/contact`,
 
-    siteName: "Rekha Dental Clinic",
+    siteName: "Rekha Dental",
 
     type: "website",
 
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
         url: `${CLOUDINARY_BASE}/rekha-dental/aboutBanner`,
         width: 1200,
         height: 630,
-        alt: "Contact Rekha Dental Clinic",
+        alt: "Contact Rekha Dental",
       },
     ],
   },
@@ -59,10 +59,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
 
     title:
-      "Contact Rekha Dental Clinic | Book Dental Appointment in Ghaziabad",
+      "Contact Rekha Dental | Book Dental Appointment in Ghaziabad",
 
     description:
-      "Reach out to Rekha Dental Clinic for premium dental care, consultations, and modern oral healthcare solutions.",
+      "Reach out to Rekha Dental for premium dental care, consultations, and modern oral healthcare solutions.",
 
     images: [
       `${CLOUDINARY_BASE}/rekha-dental/aboutBanner`,

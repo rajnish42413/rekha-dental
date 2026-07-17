@@ -7,7 +7,7 @@ export const footerLinks = [
     {
       title: "Quick Links",
       links: [
-        { label: "Services", href: "/services" },
+        { label: "Treatments", href: "/treatments" },
         { label: "Our Team", href: "/doctor" },
         { label: "Dental Tourism", href: "/tour" },
         { label: "Academy", href: "/academy" },
@@ -21,7 +21,7 @@ export const footerLinks = [
       links: [
         { label: "About Us", href: "/about" },
         { label: "Contact Us", href: "/contact" },
-        { label: "Appointment", href: "/appointment" },
+        { label: "Our Centers", href: "/dentist-near-me" },
         { label: "Blogs", href: "/blogs" },
         { label: "Reviews", href: "/reviews" },
         { label: "Our Legacy", href: "/legacy" },

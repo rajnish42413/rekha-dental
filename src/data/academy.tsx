@@ -800,7 +800,7 @@ export const academyCourses = [
   export const aluminiData = [
     {
       id: 1,
-      image: `${CLOUDINARY_BASE}/rekha-dental/events/event1`,
+      image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784276423/20260408_155000_u6uqjl.jpg`,
       title: "Annual Alumni Meet 2025",
       description:
         "Graduates and faculty reunited for an evening of networking, memories, and discussions about the future of modern dentistry.",

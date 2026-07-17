@@ -29,7 +29,7 @@ export default function ServiceCard({
      `}
     >
       <Link
-        href={`/services/${slug}`}
+        href={`/treatments/${slug}`}
         className="block relative w-full lg:h-[260px] h-[200px] overflow-hidden rounded-t-xl"
       >
         {/* {discount && (

@@ -159,4 +159,4 @@ export const postInstructionData= [
         "Schedule your next routine clinical cleaning in 6 months to maintain optimal periodontal wellness."
       ]
     }
-  ]
+]

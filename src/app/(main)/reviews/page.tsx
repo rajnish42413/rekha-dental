@@ -10,13 +10,13 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
 
-  title: "Patient Reviews | Rekha Dental Clinic Ghaziabad",
+  title: "Patient Reviews | Rekha Dental ",
 
   description:
-    "Read verified patient reviews and experiences at Rekha Dental Clinic, Ghaziabad. Discover why patients trust our specialists for cosmetic dentistry, implants, smile makeovers, and advanced dental care.",
+    "Read verified patient reviews and experiences at Rekha Dental. Discover why patients trust our specialists for cosmetic dentistry, implants, smile makeovers, and advanced dental care.",
 
   keywords: [
-    "Rekha Dental Clinic reviews",
+    "Rekha Dental reviews",
     "patient testimonials",
     "dentist reviews Ghaziabad",
     "best dental clinic reviews",
@@ -33,14 +33,14 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Patient Reviews | Rekha Dental Clinic Ghaziabad",
+    title: "Patient Reviews | Rekha Dental ",
 
     description:
-      "Explore real patient experiences, verified testimonials, and trusted dental care reviews from Rekha Dental Clinic.",
+      "Explore real patient experiences, verified testimonials, and trusted dental care reviews from Rekha Dental.",
 
     url: `${FRONTEND_URL}/reviews`,
 
-    siteName: "Rekha Dental Clinic",
+    siteName: "Rekha Dental",
 
     type: "website",
 
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
         url: `${CLOUDINARY_BASE}/rekha-dental/aboutBanner`,
         width: 1200,
         height: 630,
-        alt: "Patient Reviews - Rekha Dental Clinic",
+        alt: "Patient Reviews - Rekha Dental",
       },
     ],
   },
@@ -59,10 +59,10 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title: "Patient Reviews | Rekha Dental Clinic Ghaziabad",
+    title: "Patient Reviews | Rekha Dental",
 
     description:
-      "Read trusted patient reviews and testimonials from Rekha Dental Clinic in Ghaziabad.",
+      "Read trusted patient reviews and testimonials from Rekha Dental",
 
     images: [`${CLOUDINARY_BASE}/rekha-dental/aboutBanner`],
   },

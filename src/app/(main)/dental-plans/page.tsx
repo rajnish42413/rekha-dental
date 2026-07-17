@@ -10,7 +10,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
 
-  title: "Dental Membership Plans | Rekha Dental Clinic Ghaziabad",
+  title: "Dental Membership Plans | Rekha Dental",
 
   description:
     "Explore Rekha Dental Membership Plans designed to make quality dental care more affordable. Enjoy consultations, X-rays, preventive treatments, exclusive discounts, and family benefits.",
@@ -35,14 +35,14 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Dental Membership Plans | Rekha Dental Clinic Ghaziabad",
+    title: "Dental Membership Plans | Rekha Dental",
 
     description:
       "Unlock exclusive dental benefits with Rekha Dental Membership Plans. Save on consultations, diagnostics, preventive care, and advanced dental treatments.",
 
     url: `${FRONTEND_URL}/dental-plans`,
 
-    siteName: "Rekha Dental Clinic",
+    siteName: "Rekha Dental ",
 
     type: "website",
 
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title: "Dental Membership Plans | Rekha Dental Clinic",
+    title: "Dental Membership Plans | Rekha Dental",
 
     description:
       "Affordable dental membership plans with consultations, X-rays, treatment discounts, and family benefits.",

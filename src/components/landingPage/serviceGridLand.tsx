@@ -34,7 +34,7 @@ function ServiceGridLand() {
       </div>
       <div className="mt-10 flex justify-center">
         <Link
-          href="/services"
+          href="/treatments"
           className="flex h-12 items-center justify-center border
     border-[#1F3D2B] px-10 text-center text-sm uppercase tracking-wide
     text-[#1F3D2B] transition-all duration-200 hover:bg-[#1F3D2B]

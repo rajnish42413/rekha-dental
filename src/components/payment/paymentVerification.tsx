@@ -21,7 +21,7 @@ export default function PaymentVerificationClient() {
   };
 
   const handleWhatsAppRedirect = () => {
-    const message = encodeURIComponent(`Hello Rekha Dental Clinic,
+    const message = encodeURIComponent(`Hello Rekha Dental,
 
 I have booked an appointment.
 

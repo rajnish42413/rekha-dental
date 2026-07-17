@@ -5,13 +5,13 @@ export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
 
   title:
-    "Rekha Dental Clinic | Luxury Dental Care in Ghaziabad",
+    "Rekha Dental | Luxury Dental Care in Ghaziabad",
 
   description:
-    "Rekha Dental Clinic in Ghaziabad offers advanced dental implants, cosmetic dentistry, smile makeovers, root canal treatment, and precision-driven oral healthcare with a calm, patient-first experience.",
+    "Rekha Dental in Ghaziabad offers advanced dental implants, cosmetic dentistry, smile makeovers, root canal treatment, and precision-driven oral healthcare with a calm, patient-first experience.",
 
   keywords: [
-    "Rekha Dental Clinic",
+    "Rekha Dental ",
     "dentist in Ghaziabad",
     "best dental clinic Ghaziabad",
     "cosmetic dentistry",
@@ -31,14 +31,14 @@ export const metadata: Metadata = {
 
   openGraph: {
     title:
-      "Rekha Dental Clinic | Luxury Dental Care in Ghaziabad",
+      "Rekha Dental | Luxury Dental Care in Ghaziabad",
 
     description:
-      "Experience precision dentistry, advanced treatments, and compassionate patient care at Rekha Dental Clinic.",
+      "Experience precision dentistry, advanced treatments, and compassionate patient care at Rekha Dental.",
 
     url: `${FRONTEND_URL}`,
 
-    siteName: "Rekha Dental Clinic",
+    siteName: "Rekha Dental",
 
     type: "website",
 
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
         url: `${CLOUDINARY_BASE}/rekha-dental/banner`,
         width: 1200,
         height: 630,
-        alt: "Rekha Dental Clinic Homepage",
+        alt: "Rekha Dental Homepage",
       },
     ],
   },
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
 
     title:
-      "Rekha Dental Clinic | Luxury Dental Care in Ghaziabad",
+      "Rekha Dental | Luxury Dental Care in Ghaziabad",
 
     description:
       "Advanced dental care, smile makeovers, implants, and patient-first dentistry in Ghaziabad.",

@@ -164,95 +164,95 @@ export const dentalHealthPlans = [
       title: "Premium Implants",
       offer: "Up to 25% OFF",
       icon: FaTeeth,
-      slug:"/services/dental-implants"
+      slug:"/treatments/dental-implants"
     },
     {
       title: "Kids Cavity Prevention",
       description: "Varnish & Pit and Fissure Sealants",
       offer: "Up to 30% OFF",
       icon: FaChild,
-      slug:"/services/preventive-ages-0-13"
+      slug:"/treatments/preventive-ages-0-13"
     },
     {
       title: "Braces",
       offer: "Up to 30% OFF",
       icon: MdOutlineAlignHorizontalCenter,
-      slug:"/services/clear-aligners"
+      slug:"/treatments/clear-aligners"
     },
     {
       title: "Premium Aligners",
       offer: "Up to 30% OFF",
       icon: TbDental,
-      slug:"/services/clear-aligners"
+      slug:"/treatments/clear-aligners"
     },
     {
       title: "Veneers",
       offer: "Up to 25% OFF",
       icon: FaStar,
-      slug:"/services/dental-veneers"
+      slug:"/treatments/dental-veneers"
     },
     {
       title: "Smile Designing",
       offer: "Up to 25% OFF",
       icon: FaSmile,
-      slug:"/services/cosmetic-dentistry"
+      slug:"/treatments/cosmetic-dentistry"
     },
     {
       title: "Premium Full Ceramic Crowns",
       offer: "Up to 25% OFF",
       icon: GiCrownedHeart,
-      slug:"/services/dental-crowns"
+      slug:"/treatments/dental-crowns"
     },
     {
       title: "Pulpectomy",
       price: "₹4,990",
       description: "Up to 2 sittings",
       icon: GiTooth,
-      slug:"/services/pediatric-dentistry"
+      slug:"/treatments/pediatric-dentistry"
     },
     {
       title: "Laser Pulpectomy",
       price: "₹6,990",
       icon: TbDentalBroken,
-      slug:"/services/pediatric-dentistry"
+      slug:"/treatments/pediatric-dentistry"
     },
     {
       title: "Basic RCT (Anterior)",
       price: "₹5,999",
       icon: GiTooth,
-      slug:"/services/root-canal-treatment"
+      slug:"/treatments/root-canal-treatment"
     },
     {
       title: "Basic RCT (Posterior)",
       price: "₹6,999",
       icon: GiTooth,
-      slug:"/services/root-canal-treatment"
+      slug:"/treatments/root-canal-treatment"
     },
     {
       title: "Consultant RCT (Anterior)",
       price: "₹6,999",
       description: "Rotary File + Advanced Technology",
       icon: MdHealthAndSafety,
-      slug:"/services/root-canal-treatment"
+      slug:"/treatments/root-canal-treatment"
     },
     {
       title: "Consultant RCT (Posterior)",
       price: "₹7,999",
       description: "Rotary File + Advanced Technology",
       icon: MdHealthAndSafety,
-      slug:"/services/root-canal-treatment"
+      slug:"/treatments/root-canal-treatment"
     },
     {
       title: "Laser RCT + Meta Pex RCT (Anterior)",
       price: "₹9,999",
       icon: GiMedicines,
-      slug:"/services/root-canal-treatment"
+      slug:"/treatments/root-canal-treatment"
     },
     {
       title: "Laser RCT + Meta Pex RCT (Posterior)",
       price: "₹10,990",
       icon: GiMedicines,
-      slug:"/services/root-canal-treatment"
+      slug:"/treatments/root-canal-treatment"
     },
     // {
     //   title: "Laser RCT + Meta Pex RCT",

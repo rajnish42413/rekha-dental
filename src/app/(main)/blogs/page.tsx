@@ -19,10 +19,10 @@ interface BlogsPageProps {
 export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
 
-  title: "Dental Blogs & Oral Care Insights | Rekha Dental Clinic Ghaziabad",
+  title: "Dental Blogs & Oral Care Insights | Rekha Dental",
 
   description:
-    "Explore expert dental blogs from Rekha Dental Clinic covering oral hygiene, cosmetic dentistry, dental implants, smile makeovers, root canals, and modern dental treatments in Ghaziabad.",
+    "Explore expert dental blogs from Rekha Dental  covering oral hygiene, cosmetic dentistry, dental implants, smile makeovers, root canals, and modern dental treatments in Ghaziabad.",
 
   keywords: [
     "dental blogs",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     "oral hygiene",
     "teeth whitening",
     "dental health articles",
-    "Rekha Dental Clinic blogs",
+    "Rekha Dental blogs",
   ],
 
   alternates: {
@@ -44,14 +44,14 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Dental Blogs & Oral Care Insights | Rekha Dental Clinic Ghaziabad",
+    title: "Dental Blogs & Oral Care Insights | Rekha Dental",
 
     description:
-      "Read expert insights on oral health, cosmetic dentistry, smile makeovers, implants, and modern dental care from Rekha Dental Clinic.",
+      "Read expert insights on oral health, cosmetic dentistry, smile makeovers, implants, and modern dental care from Rekha Dental.",
 
     url: `${FRONTEND_URL}/blogs`,
 
-    siteName: "Rekha Dental Clinic",
+    siteName: "Rekha Dental",
 
     type: "website",
 
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
         url: `${CLOUDINARY_BASE}/rekha-dental/aboutBanner`,
         width: 1200,
         height: 630,
-        alt: "Rekha Dental Clinic Blogs",
+        alt: "Rekha Dental Blogs",
       },
     ],
   },
@@ -70,10 +70,10 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title: "Dental Blogs & Oral Care Insights | Rekha Dental Clinic Ghaziabad",
+    title: "Dental Blogs & Oral Care Insights | Rekha Dental",
 
     description:
-      "Discover modern dental care insights, oral hygiene advice, and cosmetic dentistry knowledge from Rekha Dental Clinic.",
+      "Discover modern dental care insights, oral hygiene advice, and cosmetic dentistry knowledge from Rekha Dental.",
 
     images: [`${CLOUDINARY_BASE}/rekha-dental/aboutBanner`],
   },
@@ -130,7 +130,7 @@ export default async function BlogsPage({ searchParams }: BlogsPageProps) {
               We&apos;re preparing educational articles covering oral health,
               cosmetic dentistry, dental implants, smile makeovers, and
               preventive dental care. Check back soon for expert guidance from
-              Rekha Dental Clinic.
+              Rekha Dental.
             </p>
 
             <Link

@@ -61,7 +61,7 @@ export const blogType = defineType({
       name: "author",
       title: "Author",
       type: "string",
-      initialValue: "Rekha Dental Clinic",
+      initialValue: "Rekha Dental",
     }),
 
     // CATEGORY

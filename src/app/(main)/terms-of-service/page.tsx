@@ -7,15 +7,15 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
 
-  title: "Terms of Service | Rekha Dental Clinic Ghaziabad",
+  title: "Terms of Service | Rekha Dental",
 
   description:
-    "Review the Terms of Service for Rekha Dental Clinic to understand the conditions, responsibilities, appointment policies, and guidelines associated with using our website and dental care services.",
+    "Review the Terms of Service for Rekha Dental to understand the conditions, responsibilities, appointment policies, and guidelines associated with using our website and dental care services.",
 
   keywords: [
     "terms of service",
     "terms and conditions",
-    "Rekha Dental Clinic",
+    "Rekha Dental",
     "dental clinic policies",
     "appointment policies",
     "website terms",
@@ -30,14 +30,14 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Terms of Service | Rekha Dental Clinic Ghaziabad",
+    title: "Terms of Service | Rekha Dental",
 
     description:
-      "Understand the policies, responsibilities, and conditions related to Rekha Dental Clinic’s website and services.",
+      "Understand the policies, responsibilities, and conditions related to Rekha Dental's website and services.",
 
     url: `${FRONTEND_URL}/terms-of-service`,
 
-    siteName: "Rekha Dental Clinic",
+    siteName: "Rekha Dental",
 
     type: "website",
 
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
         url: `${CLOUDINARY_BASE}/rekha-dental/aboutBanner`,
         width: 1200,
         height: 630,
-        alt: "Terms of Service - Rekha Dental Clinic",
+        alt: "Terms of Service - Rekha Dental",
       },
     ],
   },
@@ -56,10 +56,10 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title: "Terms of Service | Rekha Dental Clinic Ghaziabad",
+    title: "Terms of Service | Rekha Dental",
 
     description:
-      "Read the service terms, appointment guidelines, and policies of Rekha Dental Clinic.",
+      "Read the service terms, appointment guidelines, and policies of Rekha Dental.",
 
     images: [`${CLOUDINARY_BASE}/rekha-dental/aboutBanner`],
   },

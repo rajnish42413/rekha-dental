@@ -46,7 +46,7 @@ export const metadata: Metadata = {
 
     url: `${FRONTEND_URL}/academy`,
 
-    siteName: "Rekha Dental Clinic",
+    siteName: "Rekha Dental",
 
     type: "website",
 
@@ -91,6 +91,11 @@ function page() {
       <StorySection
         images={[
           `${CLOUDINARY_BASE}/rekha-dental/academyBanner`,
+          "https://res.cloudinary.com/dygrzu3sm/image/upload/v1784275462/20220612_181627_u40mlv.jpg",
+          "https://res.cloudinary.com/dygrzu3sm/image/upload/v1784275466/FB_IMG_1579334789332_b3incl.jpg",
+          "https://res.cloudinary.com/dygrzu3sm/image/upload/v1784275463/20220728_100639_krz0gk.jpg",
+          "https://res.cloudinary.com/dygrzu3sm/image/upload/v1784275461/20230109_181653_s1zm89.jpg",
+          "https://res.cloudinary.com/dygrzu3sm/image/upload/v1784275461/IMG20210929144112_f4wb74.jpg",
           // `${CLOUDINARY_BASE}/rekha-dental/academy/academy1`,
           `${CLOUDINARY_BASE}/rekha-dental/current/current3`,
           `${CLOUDINARY_BASE}/rekha-dental/current/current4`,

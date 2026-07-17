@@ -23,7 +23,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "/legacy",
     "/privacy-policy",
     "/reviews",
-    "/services",
+    "/treatments",
     "/terms-of-service",
     "/tour",
   ];
@@ -42,7 +42,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const servicePages = serviceDetails.map(
     (service) => ({
-      url: `${FRONTEND_URL}/services/${service.slug}`,
+      url: `${FRONTEND_URL}/treatments/${service.slug}`,
 
       lastModified: new Date(),
 

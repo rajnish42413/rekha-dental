@@ -4,7 +4,7 @@ import SectionHeader from "../general/sectionHeader";
 
 const clinicLocations = [
   {
-    title: "Rekha Dental Clinic Ghaziabad",
+    title: "Rekha Dental",
     address:
       "House No 622, First Floor, Satyam Enclave, New Kotgaon, Opp Rakesh Marg, Kotgaon, Kotgaon Village, Daulatpura, Ghaziabad, Uttar Pradesh 201001",
 
@@ -13,7 +13,7 @@ const clinicLocations = [
 
   {
     title:
-      "Rekha Dental Clinic Laser and Implant Center",
+      "Rekha Dental",
     address:
       "A-007 Raj Nagar Residency, Near KW Delhi 6 Mall, Ghukna, Vikas Nagar, Raj Nagar Extension, Ghaziabad, Uttar Pradesh 201017",
 
