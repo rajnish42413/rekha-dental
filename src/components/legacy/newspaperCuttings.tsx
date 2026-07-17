@@ -2,22 +2,13 @@
 
 import { mediaData } from "@/data/legacy";
 import Image from "next/image";
+import SectionHeader from "../general/sectionHeader";
 
 function NewspaperCuttings() {
   return (
     <section className=" py-10 lg:py-16">
       <div className="mx-4 lg:mx-10">
-        <div className="mx-auto max-w-4xl text-center">
-          <p className="mb-5 text-md font-extrabold uppercase tracking-[5px] text-yellow">
-            MEDIA COVERAGE
-          </p>
-
-          <h2 className="font-header text-2xl leading-tight text-[#2C2C2C] md:text-5xl">
-            Featured across
-            <br />
-            newspapers and publications.
-          </h2>
-        </div>
+        <SectionHeader tag="MEDIA COVERAGE" title="Featured across newspapers and publications."/>
         <div className="mt-8 lg:mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {mediaData.map((item) => (
             <div

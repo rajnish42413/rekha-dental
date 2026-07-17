@@ -363,6 +363,110 @@ export const serviceDetails = [
           price: "Approx. ₹5,000 - ₹6,000",
         },
       ],
+
+      whyChoose: {
+        tag: "WHY IMMEDIATE IMPLANTOLOGY",
+        title: "Why patients choose same-day implants.",
+        points: [
+          {
+            title: "Immediate Smile Restoration",
+            description:
+              "Walk out with a functional temporary tooth on the same day in suitable cases, eliminating the need to remain without a tooth."
+          },
+          {
+            title: "Preserves Jaw Bone",
+            description:
+              "Immediate implant placement helps reduce bone shrinkage that naturally occurs after tooth extraction."
+          },
+          {
+            title: "Fewer Surgical Visits",
+            description:
+              "By combining extraction and implant placement into one procedure, overall treatment time and appointments are reduced."
+          },
+          {
+            title: "Natural Look & Feel",
+            description:
+              "Custom-designed restorations blend seamlessly with your surrounding teeth for optimal aesthetics."
+          }
+        ]
+      },
+      candidate: {
+        tag: "IS IT RIGHT FOR YOU?",
+        title: "Who is a good candidate?",
+        description:
+          "Immediate implantology is ideal for patients with healthy gums, sufficient jaw bone, and teeth that require extraction due to damage, trauma, or decay. Every patient undergoes a comprehensive clinical examination and CBCT scan before confirming eligibility.",
+        points: [
+          "Single missing tooth",
+          "Broken or fractured tooth",
+          "Hopeless tooth requiring extraction",
+          "Multiple missing teeth",
+          "Patients seeking faster treatment"
+        ]
+      },
+      benefits: {
+        tag: "BENEFITS",
+        title: "More than replacing a missing tooth.",
+        items: [
+          "Maintains facial structure",
+          "Prevents adjacent teeth from shifting",
+          "Restores chewing efficiency",
+          "Improves speech",
+          "Natural appearance",
+          "Long-lasting solution",
+          "Supports healthy jaw bone",
+          "Boosts confidence"
+        ]
+      },
+      recovery: {
+        tag: "RECOVERY",
+        title: "Healing with confidence.",
+        description:
+          "Most patients resume normal daily activities within 24–48 hours. Detailed aftercare instructions, medications, and scheduled follow-up visits ensure smooth healing and successful implant integration.",
+        points: [
+          "Minimal post-operative discomfort",
+          "Soft diet for initial healing",
+          "Regular follow-up appointments",
+          "Professional oral hygiene guidance",
+          "Long-term implant maintenance"
+        ]
+      },
+      whyClinic: {
+        tag: "WHY REKHA DENTAL",
+        title: "Experience that inspires confidence.",
+        points: [
+          {
+            title: "Experienced Implant Team",
+            description:
+              "Our implant specialists have successfully restored countless smiles using evidence-based treatment protocols."
+          },
+          {
+            title: "Digital Planning",
+            description:
+              "Every implant is digitally planned for precision, safety, and predictable outcomes."
+          },
+          {
+            title: "Premium Implant Systems",
+            description:
+              "We use internationally trusted implant brands known for long-term performance and reliability."
+          },
+          {
+            title: "Patient-Centered Care",
+            description:
+              "From consultation to final restoration, every step is personalized around your comfort and goals."
+          }
+        ]
+      },
+      aftercare: {
+        tag: "AFTERCARE",
+        title: "Looking after your new implant.",
+        tips: [
+          "Brush twice daily",
+          "Use interdental cleaning aids",
+          "Avoid smoking during healing",
+          "Attend regular dental checkups",
+          "Professional cleaning every 6 months"
+        ]
+      }
     },
     {
       id: 2,
@@ -427,6 +531,114 @@ export const serviceDetails = [
         },
        
       ],
+      whyChoose: {
+        tag: "WHY DIGITAL ROBOTIC SCANNING",
+        title: "Precision that transforms your dental experience.",
+        points: [
+          {
+            title: "Highly Accurate Digital Impressions",
+            description:
+              "Advanced intraoral scanners capture every detail of your teeth and gums with exceptional precision, reducing the chances of errors and remakes.",
+          },
+          {
+            title: "No Messy Impression Materials",
+            description:
+              "Enjoy a comfortable scanning experience without traditional impression trays or unpleasant impression paste, making treatment easier for patients of all ages.",
+          },
+          {
+            title: "Faster Diagnosis & Treatment",
+            description:
+              "Digital scans are available instantly, allowing our dentists to evaluate your oral condition and begin treatment planning without unnecessary delays.",
+          },
+          {
+            title: "Predictable Treatment Outcomes",
+            description:
+              "Robotic-assisted digital workflows enable more precise restorations, aligners, crowns, and implants for improved fit, comfort, and long-term success.",
+          },
+        ],
+      },
+      
+      candidate: {
+        tag: "IS IT RIGHT FOR YOU?",
+        title: "Who can benefit from digital robotic scanning?",
+        description:
+          "Digital robotic scanning is suitable for almost every dental patient. Whether you're planning cosmetic dentistry, implants, orthodontics, crowns, or routine restorative care, digital impressions provide a faster, more comfortable, and highly accurate foundation for treatment.",
+        points: [
+          "Patients requiring crowns or bridges",
+          "Dental implant treatment planning",
+          "Clear aligner and orthodontic patients",
+          "Smile makeover and cosmetic dentistry",
+          "Patients uncomfortable with traditional impressions",
+        ],
+      },
+      
+      benefits: {
+        tag: "BENEFITS",
+        title: "Smarter technology for better dental care.",
+        items: [
+          "Comfortable, gag-free scanning",
+          "Highly accurate digital impressions",
+          "Faster treatment planning",
+          "Better-fitting restorations",
+          "Reduced chairside time",
+          "Instant 3D visualization",
+          "Improved patient communication",
+          "Enhanced treatment precision",
+        ],
+      },
+      
+      recovery: {
+        tag: "RECOVERY",
+        title: "No downtime. No discomfort.",
+        description:
+          "Digital robotic scanning is completely non-invasive and requires no recovery period. Patients can immediately resume their daily activities after the scan while our team begins digitally planning the next stage of treatment.",
+        points: [
+          "No anesthesia required",
+          "Completely pain-free procedure",
+          "Resume normal activities immediately",
+          "No post-scan restrictions",
+          "Immediate digital treatment planning",
+        ],
+      },
+      
+      whyClinic: {
+        tag: "WHY REKHA DENTAL",
+        title: "Digital precision backed by clinical expertise.",
+        points: [
+          {
+            title: "Advanced Digital Workflow",
+            description:
+              "Our clinic utilizes modern intraoral scanning technology to deliver highly accurate digital impressions for a wide range of dental procedures.",
+          },
+          {
+            title: "Experienced Clinical Team",
+            description:
+              "Our dentists combine years of clinical expertise with advanced digital technology to achieve precise and predictable treatment outcomes.",
+          },
+          {
+            title: "Improved Patient Comfort",
+            description:
+              "We replace uncomfortable conventional impressions with quick, clean, and patient-friendly digital scanning whenever possible.",
+          },
+          {
+            title: "Comprehensive Treatment Planning",
+            description:
+              "Digital scans integrate seamlessly into implant, orthodontic, cosmetic, and restorative workflows, ensuring personalized care from diagnosis to final results.",
+          },
+        ],
+      },
+      
+      aftercare: {
+        tag: "AFTERCARE",
+        title: "Simple after your digital scan.",
+        tips: [
+          "Resume eating and drinking immediately",
+          "Maintain your regular oral hygiene routine",
+          "Follow your personalized treatment plan",
+          "Attend scheduled consultation appointments",
+          "Keep routine dental check-ups for ongoing care",
+        ],
+      },
     },
     {
       id: 3,
@@ -509,6 +721,114 @@ export const serviceDetails = [
           price: "₹1,999",
         },
       ],
+      whyChoose: {
+        tag: "WHY PREVENTIVE DENTISTRY",
+        title: "Protect your smile before problems begin.",
+        points: [
+          {
+            title: "Early Detection of Dental Issues",
+            description:
+              "Routine dental examinations help identify cavities, gum disease, enamel wear, and other oral health concerns before they become painful or require complex treatment.",
+          },
+          {
+            title: "Professional Cleaning",
+            description:
+              "Regular scaling and polishing remove plaque and tartar that cannot be eliminated through daily brushing, reducing the risk of decay and gum disease.",
+          },
+          {
+            title: "Long-Term Cost Savings",
+            description:
+              "Preventive care minimizes the need for extensive restorative procedures by addressing problems early, helping you maintain healthier teeth with lower treatment costs.",
+          },
+          {
+            title: "Healthier Smile for Life",
+            description:
+              "Consistent preventive care supports strong teeth, healthy gums, fresh breath, and long-lasting oral health at every stage of life.",
+          },
+        ],
+      },
+      
+      candidate: {
+        tag: "IS IT RIGHT FOR YOU?",
+        title: "Who should consider preventive dentistry?",
+        description:
+          "Preventive dentistry is recommended for everyone—from young children to older adults. Regular dental check-ups and cleanings play a vital role in maintaining oral health and preventing future dental complications.",
+        points: [
+          "Children and teenagers",
+          "Adults seeking long-term oral health",
+          "Patients prone to cavities or gum disease",
+          "Individuals with braces or dental restorations",
+          "Anyone looking to prevent future dental problems",
+        ],
+      },
+      
+      benefits: {
+        tag: "BENEFITS",
+        title: "Healthy habits. Lifelong smiles.",
+        items: [
+          "Prevents tooth decay",
+          "Reduces risk of gum disease",
+          "Removes plaque and tartar buildup",
+          "Maintains fresh breath",
+          "Protects natural teeth longer",
+          "Detects problems early",
+          "Reduces future treatment costs",
+          "Promotes overall oral wellness",
+        ],
+      },
+      
+      recovery: {
+        tag: "RECOVERY",
+        title: "Simple care with no downtime.",
+        description:
+          "Most preventive dental procedures, including examinations, professional cleanings, fluoride applications, and dental sealants, require little to no recovery time. Patients can return to their daily routine immediately after treatment.",
+        points: [
+          "Resume normal activities immediately",
+          "Minimal or no discomfort",
+          "Follow recommended oral hygiene routine",
+          "Avoid staining foods briefly after polishing if advised",
+          "Schedule regular six-month dental visits",
+        ],
+      },
+      
+      whyClinic: {
+        tag: "WHY REKHA DENTAL",
+        title: "Preventive care built around your smile.",
+        points: [
+          {
+            title: "Comprehensive Oral Examinations",
+            description:
+              "Our dentists perform thorough evaluations to identify potential concerns early and create personalized preventive care plans.",
+          },
+          {
+            title: "Modern Diagnostic Technology",
+            description:
+              "We utilize advanced digital imaging and diagnostic tools to detect dental issues accurately and at their earliest stages.",
+          },
+          {
+            title: "Gentle & Comfortable Care",
+            description:
+              "Our experienced team ensures every preventive visit is comfortable, informative, and focused on your long-term oral health.",
+          },
+          {
+            title: "Personalized Prevention Plans",
+            description:
+              "We provide tailored recommendations for home care, diet, and follow-up visits to help you maintain a healthy smile for years to come.",
+          },
+        ],
+      },
+      
+      aftercare: {
+        tag: "AFTERCARE",
+        title: "Keep your smile healthy every day.",
+        tips: [
+          "Brush twice daily using fluoride toothpaste",
+          "Floss or use interdental cleaners every day",
+          "Limit sugary foods and acidic beverages",
+          "Visit your dentist every six months",
+          "Follow personalized oral hygiene recommendations",
+        ],
+      },
     },
     {
       id: 4,
@@ -611,6 +931,115 @@ export const serviceDetails = [
           price: "₹2000-₹4500/",
         },
       ],
+
+      whyChoose: {
+        tag: "WHY GENERAL & RESTORATIVE DENTISTRY",
+        title: "Restore the health, function, and beauty of your smile.",
+        points: [
+          {
+            title: "Comprehensive Tooth Restoration",
+            description:
+              "From cavities and chipped teeth to worn or damaged restorations, our treatments are designed to restore the strength, function, and natural appearance of your teeth.",
+          },
+          {
+            title: "Preserve Your Natural Teeth",
+            description:
+              "Our conservative treatment approach focuses on saving as much healthy tooth structure as possible while providing durable and long-lasting restorations.",
+          },
+          {
+            title: "Natural-Looking Results",
+            description:
+              "Using tooth-colored materials and advanced restorative techniques, we create restorations that blend seamlessly with your natural smile.",
+          },
+          {
+            title: "Improved Comfort & Function",
+            description:
+              "Restorative treatments help eliminate pain, improve chewing efficiency, and restore confidence in your everyday smile.",
+          },
+        ],
+      },
+      
+      candidate: {
+        tag: "IS IT RIGHT FOR YOU?",
+        title: "Who can benefit from restorative dentistry?",
+        description:
+          "General and restorative dentistry is suitable for patients experiencing tooth decay, damaged teeth, worn restorations, or missing tooth structure. Early treatment helps preserve oral health while preventing more complex dental problems in the future.",
+        points: [
+          "Patients with cavities or tooth decay",
+          "Chipped, cracked, or broken teeth",
+          "Worn or damaged dental fillings",
+          "Teeth affected by daily wear and tear",
+          "Anyone looking to restore oral function and aesthetics",
+        ],
+      },
+      
+      benefits: {
+        tag: "BENEFITS",
+        title: "Healthy teeth. Stronger smiles.",
+        items: [
+          "Restores damaged teeth",
+          "Relieves pain and sensitivity",
+          "Improves chewing function",
+          "Natural-looking restorations",
+          "Preserves healthy tooth structure",
+          "Prevents further dental damage",
+          "Enhances smile aesthetics",
+          "Supports long-term oral health",
+        ],
+      },
+      
+      recovery: {
+        tag: "RECOVERY",
+        title: "Quick recovery with lasting comfort.",
+        description:
+          "Recovery depends on the type of restorative procedure performed, but most patients experience little to no downtime. Mild sensitivity may occur temporarily and usually resolves within a few days while your restored tooth adapts comfortably.",
+        points: [
+          "Resume daily activities immediately",
+          "Temporary sensitivity may occur",
+          "Avoid very hard foods if advised",
+          "Maintain excellent oral hygiene",
+          "Attend follow-up visits when recommended",
+        ],
+      },
+      
+      whyClinic: {
+        tag: "WHY REKHA DENTAL",
+        title: "Personalized restorative care you can trust.",
+        points: [
+          {
+            title: "Experienced Restorative Dentists",
+            description:
+              "Our skilled dental team provides personalized restorative treatments focused on preserving your natural teeth and delivering long-lasting results.",
+          },
+          {
+            title: "Advanced Materials & Techniques",
+            description:
+              "We use modern tooth-colored restorative materials and precise clinical techniques to achieve durable, aesthetic, and functional outcomes.",
+          },
+          {
+            title: "Comprehensive Treatment Planning",
+            description:
+              "Every treatment plan is tailored to your oral health needs, ensuring the most appropriate and minimally invasive solution.",
+          },
+          {
+            title: "Comfort-Focused Experience",
+            description:
+              "From diagnosis to completion, we prioritize your comfort through gentle care, modern technology, and clear communication at every stage.",
+          },
+        ],
+      },
+      
+      aftercare: {
+        tag: "AFTERCARE",
+        title: "Protect your restored smile.",
+        tips: [
+          "Brush twice daily with fluoride toothpaste",
+          "Floss regularly to maintain healthy gums",
+          "Avoid chewing hard objects like ice or pens",
+          "Schedule routine dental check-ups and cleanings",
+          "Report any persistent discomfort or sensitivity promptly",
+        ],
+      },
     },
     {
       id: 5,
@@ -695,6 +1124,115 @@ export const serviceDetails = [
           price: "₹1,999",
         },
       ],
+
+      whyChoose: {
+        tag: "WHY PEDIATRIC DENTISTRY",
+        title: "Building healthy smiles from the very first tooth.",
+        points: [
+          {
+            title: "Child-Friendly Dental Care",
+            description:
+              "Our gentle and compassionate approach helps children feel comfortable during every visit, creating positive dental experiences that encourage lifelong oral health habits.",
+          },
+          {
+            title: "Early Prevention & Diagnosis",
+            description:
+              "Regular dental check-ups allow us to detect cavities, bite issues, and developmental concerns early, reducing the need for extensive treatment later.",
+          },
+          {
+            title: "Healthy Growth & Development",
+            description:
+              "We monitor the growth of your child's teeth and jaws to ensure proper development while guiding parents on maintaining excellent oral hygiene at home.",
+          },
+          {
+            title: "Personalized Care for Every Age",
+            description:
+              "From infants to teenagers, every child receives age-appropriate preventive, restorative, and educational dental care tailored to their individual needs.",
+          },
+        ],
+      },
+      
+      candidate: {
+        tag: "IS IT RIGHT FOR YOUR CHILD?",
+        title: "Who should visit a pediatric dentist?",
+        description:
+          "Pediatric dentistry is recommended for children from infancy through adolescence. Whether it's your child's first dental visit, preventive care, cavity treatment, or monitoring developing teeth, our team provides specialized care in a comfortable environment.",
+        points: [
+          "Infants and toddlers for first dental visits",
+          "Children requiring routine check-ups and cleanings",
+          "Kids with cavities or tooth sensitivity",
+          "Children needing fluoride or dental sealants",
+          "Teenagers requiring ongoing preventive dental care",
+        ],
+      },
+      
+      benefits: {
+        tag: "BENEFITS",
+        title: "Creating confident smiles for every stage of childhood.",
+        items: [
+          "Prevents cavities and tooth decay",
+          "Encourages healthy oral hygiene habits",
+          "Monitors proper tooth development",
+          "Reduces dental anxiety",
+          "Protects developing permanent teeth",
+          "Supports healthy speech and chewing",
+          "Early detection of orthodontic concerns",
+          "Promotes lifelong oral health",
+        ],
+      },
+      
+      recovery: {
+        tag: "RECOVERY",
+        title: "Gentle care with a quick return to play.",
+        description:
+          "Most pediatric dental procedures involve little to no recovery time. Children can usually return to their normal routine immediately after preventive treatments, while restorative procedures may require only minimal post-treatment care.",
+        points: [
+          "Most treatments require no downtime",
+          "Mild sensitivity resolves quickly if present",
+          "Soft foods may be recommended after certain procedures",
+          "Maintain regular brushing and flossing",
+          "Attend scheduled follow-up and preventive visits",
+        ],
+      },
+      
+      whyClinic: {
+        tag: "WHY REKHA DENTAL",
+        title: "A caring environment where little smiles feel safe.",
+        points: [
+          {
+            title: "Gentle & Experienced Team",
+            description:
+              "Our dental professionals understand children's unique needs and provide compassionate care that helps every child feel relaxed and confident.",
+          },
+          {
+            title: "Kid-Friendly Atmosphere",
+            description:
+              "We create a welcoming environment designed to reduce fear and make every dental visit enjoyable for children and reassuring for parents.",
+          },
+          {
+            title: "Focus on Prevention",
+            description:
+              "Our emphasis on preventive dentistry helps children develop healthy habits while protecting their teeth from future dental problems.",
+          },
+          {
+            title: "Parental Guidance & Education",
+            description:
+              "We work closely with parents by providing practical advice on nutrition, oral hygiene, teething, and healthy dental habits to support lifelong oral health.",
+          },
+        ],
+      },
+      
+      aftercare: {
+        tag: "AFTERCARE",
+        title: "Helping your child maintain a healthy smile.",
+        tips: [
+          "Supervise brushing twice daily with fluoride toothpaste",
+          "Limit sugary snacks and drinks",
+          "Encourage daily flossing where appropriate",
+          "Schedule routine dental check-ups every six months",
+          "Contact us if your child experiences pain, swelling, or dental injury",
+        ],
+      },
     },
     {
       id: 6,
@@ -797,6 +1335,115 @@ export const serviceDetails = [
           price: "₹2000-₹4500/",
         },
       ],
+
+      whyChoose: {
+        tag: "WHY DENTAL FILLINGS",
+        title: "Restore your tooth before minor damage becomes a major problem.",
+        points: [
+          {
+            title: "Stops Tooth Decay Early",
+            description:
+              "Dental fillings remove decayed tooth structure and seal the cavity, preventing bacteria from spreading deeper into the tooth and causing further damage.",
+          },
+          {
+            title: "Natural-Looking Restorations",
+            description:
+              "We use high-quality tooth-colored composite fillings that blend seamlessly with your natural teeth, preserving the beauty of your smile.",
+          },
+          {
+            title: "Preserves Natural Tooth Structure",
+            description:
+              "Modern filling techniques require minimal removal of healthy tooth material, allowing us to restore strength while conserving your natural tooth.",
+          },
+          {
+            title: "Quick & Comfortable Treatment",
+            description:
+              "Most fillings are completed in a single visit using advanced techniques that ensure a comfortable experience with minimal discomfort.",
+          },
+        ],
+      },
+      
+      candidate: {
+        tag: "IS IT RIGHT FOR YOU?",
+        title: "Who may need a dental filling?",
+        description:
+          "Dental fillings are recommended for patients with cavities, minor tooth fractures, worn enamel, or damaged old fillings. Early treatment helps preserve your natural tooth and prevents the need for more extensive procedures like root canal treatment or crowns.",
+        points: [
+          "Patients with tooth decay or cavities",
+          "Chipped or cracked teeth",
+          "Worn-down teeth from grinding",
+          "Broken or leaking old fillings",
+          "People experiencing mild tooth sensitivity",
+        ],
+      },
+      
+      benefits: {
+        tag: "BENEFITS",
+        title: "A simple solution with lasting protection.",
+        items: [
+          "Stops the progression of tooth decay",
+          "Restores tooth strength and function",
+          "Natural tooth-colored appearance",
+          "Preserves healthy tooth structure",
+          "Relieves sensitivity and discomfort",
+          "Quick single-visit procedure",
+          "Durable and long-lasting results",
+          "Prevents more complex treatments",
+        ],
+      },
+      
+      recovery: {
+        tag: "RECOVERY",
+        title: "Fast recovery with minimal interruption.",
+        description:
+          "Most patients return to their normal routine immediately after receiving a dental filling. Mild sensitivity to hot, cold, or pressure may occur for a few days but usually resolves on its own.",
+        points: [
+          "Resume normal activities immediately",
+          "Avoid chewing until numbness wears off",
+          "Temporary sensitivity is normal",
+          "Avoid extremely hard or sticky foods for the first 24 hours if advised",
+          "Maintain good oral hygiene for long-lasting results",
+        ],
+      },
+      
+      whyClinic: {
+        tag: "WHY REKHA DENTAL",
+        title: "Precision restorations for healthier smiles.",
+        points: [
+          {
+            title: "High-Quality Tooth-Colored Fillings",
+            description:
+              "We use premium composite materials that closely match your natural teeth, providing restorations that are both durable and aesthetically pleasing.",
+          },
+          {
+            title: "Minimally Invasive Dentistry",
+            description:
+              "Our conservative approach removes only the decayed portion of the tooth while preserving as much healthy structure as possible.",
+          },
+          {
+            title: "Advanced Diagnostic Technology",
+            description:
+              "Digital diagnostics help us detect cavities accurately and provide timely treatment before they become more serious.",
+          },
+          {
+            title: "Comfort-Focused Care",
+            description:
+              "Our experienced team ensures every filling procedure is gentle, efficient, and designed to keep you comfortable throughout your visit.",
+          },
+        ],
+      },
+      
+      aftercare: {
+        tag: "AFTERCARE",
+        title: "Keep your filling strong for years to come.",
+        tips: [
+          "Brush twice daily using fluoride toothpaste",
+          "Floss daily to prevent decay around the filling",
+          "Limit sugary foods and beverages",
+          "Avoid chewing hard objects like ice or pens",
+          "Visit your dentist regularly for routine check-ups and professional cleanings",
+        ],
+      },
     },
     {
       id: 7,
@@ -873,6 +1520,115 @@ export const serviceDetails = [
         //   price: "₹15,990 per unit",
         // },
       ],
+
+      whyChoose: {
+        tag: "WHY DENTAL BRIDGES",
+        title: "Restore your smile with a fixed and natural-looking solution.",
+        points: [
+          {
+            title: "Replace Missing Teeth",
+            description:
+              "Dental bridges effectively fill the gap left by one or more missing teeth, restoring both the appearance and function of your smile.",
+          },
+          {
+            title: "Restore Chewing & Speech",
+            description:
+              "Missing teeth can make eating and speaking difficult. A custom dental bridge helps you chew comfortably and speak clearly with confidence.",
+          },
+          {
+            title: "Prevent Teeth from Shifting",
+            description:
+              "A bridge helps maintain proper alignment by preventing neighboring teeth from drifting into the empty space, reducing future bite problems.",
+          },
+          {
+            title: "Natural Aesthetics & Durability",
+            description:
+              "Crafted from high-quality ceramic or porcelain materials, dental bridges are designed to closely match your natural teeth while providing long-lasting strength.",
+          },
+        ],
+      },
+      
+      candidate: {
+        tag: "IS IT RIGHT FOR YOU?",
+        title: "Who is a good candidate for dental bridges?",
+        description:
+          "Dental bridges are ideal for patients who have one or more missing teeth and healthy adjacent teeth to support the restoration. They offer an excellent fixed alternative for restoring your smile without removable dentures.",
+        points: [
+          "Patients with one or more missing teeth",
+          "Individuals with healthy adjacent teeth",
+          "People seeking a fixed tooth replacement",
+          "Patients wanting to restore chewing ability",
+          "Anyone looking for a natural-looking smile restoration",
+        ],
+      },
+      
+      benefits: {
+        tag: "BENEFITS",
+        title: "Restore confidence with every smile.",
+        items: [
+          "Replaces missing teeth",
+          "Restores natural chewing ability",
+          "Improves speech clarity",
+          "Prevents teeth from shifting",
+          "Maintains facial appearance",
+          "Natural-looking aesthetics",
+          "Long-lasting restoration",
+          "Boosts confidence and comfort",
+        ],
+      },
+      
+      recovery: {
+        tag: "RECOVERY",
+        title: "A smooth transition to your new smile.",
+        description:
+          "Most patients adapt to their new dental bridge within a few days. Mild sensitivity is normal initially, but as your mouth adjusts, the bridge feels comfortable and functions much like natural teeth.",
+        points: [
+          "Resume normal activities the same day",
+          "Temporary sensitivity is normal",
+          "Begin with softer foods if needed",
+          "Practice excellent oral hygiene",
+          "Attend follow-up appointments for adjustments",
+        ],
+      },
+      
+      whyClinic: {
+        tag: "WHY REKHA DENTAL",
+        title: "Precision-crafted bridges for lasting smiles.",
+        points: [
+          {
+            title: "Customized Smile Design",
+            description:
+              "Every dental bridge is individually designed to match the color, shape, and size of your natural teeth for seamless aesthetics.",
+          },
+          {
+            title: "Advanced Digital Dentistry",
+            description:
+              "We utilize modern digital scanning and precise treatment planning to ensure accurate fit, optimal comfort, and long-lasting results.",
+          },
+          {
+            title: "Premium Restorative Materials",
+            description:
+              "Our bridges are fabricated using high-quality ceramic and porcelain materials that combine durability with natural beauty.",
+          },
+          {
+            title: "Comprehensive Patient Care",
+            description:
+              "From consultation to final placement and follow-up, our experienced team ensures every step of your treatment is comfortable and personalized.",
+          },
+        ],
+      },
+      
+      aftercare: {
+        tag: "AFTERCARE",
+        title: "Maintain your bridge for years to come.",
+        tips: [
+          "Brush twice daily with fluoride toothpaste",
+          "Clean underneath the bridge using floss threaders or interdental brushes",
+          "Avoid chewing excessively hard foods",
+          "Schedule regular professional dental cleanings",
+          "Visit your dentist promptly if your bridge feels loose or uncomfortable",
+        ],
+      },
     },
     {
       id: 8,
@@ -968,6 +1724,115 @@ export const serviceDetails = [
           price: "Approx. ₹5,000 - ₹6,000",
         },
       ],
+
+      whyChoose: {
+        tag: "WHY DENTAL IMPLANTS",
+        title: "The closest replacement to your natural teeth.",
+        points: [
+          {
+            title: "Permanent Tooth Replacement",
+            description:
+              "Dental implants provide a long-lasting solution for missing teeth by replacing both the tooth root and crown, restoring function and aesthetics with exceptional stability.",
+          },
+          {
+            title: "Preserves Jaw Bone Health",
+            description:
+              "Unlike traditional dentures or bridges, implants stimulate the jawbone, helping prevent bone loss and preserving your natural facial structure over time.",
+          },
+          {
+            title: "Natural Look & Feel",
+            description:
+              "Custom-crafted implant crowns are designed to blend seamlessly with your existing teeth, giving you a smile that looks, feels, and functions naturally.",
+          },
+          {
+            title: "Eat, Speak & Smile with Confidence",
+            description:
+              "Implants remain securely fixed in place, allowing you to enjoy your favorite foods, speak clearly, and smile confidently without worrying about movement or discomfort.",
+          },
+        ],
+      },
+      
+      candidate: {
+        tag: "IS IT RIGHT FOR YOU?",
+        title: "Who is a good candidate for dental implants?",
+        description:
+          "Dental implants are suitable for most healthy adults with one or more missing teeth. During your consultation, we evaluate your oral health, jawbone quality, and overall medical condition to determine whether implant treatment is the right choice for you.",
+        points: [
+          "Patients missing one or multiple teeth",
+          "Individuals with healthy gums",
+          "People with adequate jawbone or eligible for bone grafting",
+          "Patients looking for a permanent alternative to dentures",
+          "Anyone seeking improved function and aesthetics",
+        ],
+      },
+      
+      benefits: {
+        tag: "BENEFITS",
+        title: "A long-term investment in your smile.",
+        items: [
+          "Permanent tooth replacement",
+          "Preserves jawbone and facial structure",
+          "Natural appearance and function",
+          "Improves chewing efficiency",
+          "Restores clear speech",
+          "Does not affect adjacent healthy teeth",
+          "Highly durable and long-lasting",
+          "Boosts confidence and quality of life",
+        ],
+      },
+      
+      recovery: {
+        tag: "RECOVERY",
+        title: "A carefully guided healing journey.",
+        description:
+          "Following implant placement, mild swelling or discomfort is normal for a few days. The implant gradually integrates with the jawbone through a natural healing process called osseointegration, creating a strong and stable foundation for your new tooth.",
+        points: [
+          "Mild swelling and discomfort for a few days",
+          "Follow prescribed medications and care instructions",
+          "Soft diet during the initial healing phase",
+          "Regular follow-up visits to monitor healing",
+          "Complete bone integration typically takes 3–6 months",
+        ],
+      },
+      
+      whyClinic: {
+        tag: "WHY REKHA DENTAL",
+        title: "Advanced implant care with precision and expertise.",
+        points: [
+          {
+            title: "Experienced Implant Specialists",
+            description:
+              "Our skilled implant team combines clinical expertise with meticulous planning to deliver safe, predictable, and long-lasting implant treatments.",
+          },
+          {
+            title: "Digital Planning & Guided Surgery",
+            description:
+              "Using advanced CBCT imaging and digital treatment planning, we precisely position every implant for optimal function, aesthetics, and long-term success.",
+          },
+          {
+            title: "Premium Implant Systems",
+            description:
+              "We use internationally recognized implant systems known for their exceptional quality, biocompatibility, and long-term reliability.",
+          },
+          {
+            title: "Comprehensive Care Under One Roof",
+            description:
+              "From consultation and implant placement to the final crown and follow-up care, every step of your treatment is completed with personalized attention in a modern clinical environment.",
+          },
+        ],
+      },
+      
+      aftercare: {
+        tag: "AFTERCARE",
+        title: "Protect your implant for lifelong success.",
+        tips: [
+          "Brush and floss around the implant every day",
+          "Avoid smoking during the healing period",
+          "Follow a soft diet immediately after surgery",
+          "Attend all scheduled follow-up appointments",
+          "Visit your dentist regularly for professional implant maintenance",
+        ],
+      },
     },
     {
       id: 9,
@@ -1074,6 +1939,115 @@ export const serviceDetails = [
           price: "Charges Extra",
         },
       ],
+
+      whyChoose: {
+        tag: "WHY ORTHODONTIC TREATMENT",
+        title: "Achieve a healthier, straighter, and more confident smile.",
+        points: [
+          {
+            title: "Corrects Teeth Alignment",
+            description:
+              "Orthodontic treatment gradually moves crooked, crowded, or spaced teeth into their ideal positions, improving both appearance and overall oral function.",
+          },
+          {
+            title: "Improves Bite Function",
+            description:
+              "By correcting bite problems such as overbite, underbite, crossbite, and open bite, orthodontic treatment enhances chewing efficiency and reduces unnecessary stress on the jaw.",
+          },
+          {
+            title: "Supports Better Oral Health",
+            description:
+              "Straight teeth are easier to brush and floss, reducing plaque buildup and lowering the risk of cavities, gum disease, and other oral health issues.",
+          },
+          {
+            title: "Enhances Confidence",
+            description:
+              "A beautifully aligned smile can significantly improve self-esteem, making you feel more confident in both personal and professional interactions.",
+          },
+        ],
+      },
+      
+      candidate: {
+        tag: "IS IT RIGHT FOR YOU?",
+        title: "Who can benefit from orthodontic treatment?",
+        description:
+          "Orthodontic treatment is suitable for children, teenagers, and adults who want to improve the alignment of their teeth or correct bite irregularities. Our specialists evaluate your smile and recommend the most appropriate treatment plan based on your individual needs.",
+        points: [
+          "Crowded or overlapping teeth",
+          "Gaps between teeth",
+          "Overbite, underbite, or crossbite",
+          "Crooked or rotated teeth",
+          "Children, teens, and adults seeking smile correction",
+        ],
+      },
+      
+      benefits: {
+        tag: "BENEFITS",
+        title: "More than just a beautiful smile.",
+        items: [
+          "Straighter, more attractive teeth",
+          "Improved bite and chewing function",
+          "Better oral hygiene",
+          "Reduced risk of tooth wear",
+          "Lower chance of gum disease",
+          "Improved speech in certain cases",
+          "Greater self-confidence",
+          "Long-term oral health benefits",
+        ],
+      },
+      
+      recovery: {
+        tag: "RECOVERY",
+        title: "A smooth journey toward your ideal smile.",
+        description:
+          "Orthodontic treatment requires regular adjustments rather than recovery from surgery. Mild discomfort may occur after braces are fitted or adjusted, but it usually subsides within a few days as your teeth gradually move into their new positions.",
+        points: [
+          "Mild soreness after adjustments is normal",
+          "Continue normal daily activities",
+          "Maintain excellent oral hygiene",
+          "Attend regular adjustment appointments",
+          "Wear retainers as instructed after treatment completion",
+        ],
+      },
+      
+      whyClinic: {
+        tag: "WHY REKHA DENTAL",
+        title: "Personalized orthodontic care with lasting results.",
+        points: [
+          {
+            title: "Comprehensive Smile Assessment",
+            description:
+              "Every orthodontic journey begins with a detailed clinical evaluation and digital imaging to create a personalized treatment plan tailored to your smile.",
+          },
+          {
+            title: "Modern Orthodontic Solutions",
+            description:
+              "We offer advanced orthodontic treatments, including metal braces, ceramic braces, and clear aligners, to suit different lifestyles and treatment goals.",
+          },
+          {
+            title: "Precision-Driven Treatment",
+            description:
+              "Using digital technology and evidence-based techniques, we carefully monitor tooth movement to achieve predictable, efficient, and long-lasting results.",
+          },
+          {
+            title: "Patient-Centered Care",
+            description:
+              "From your first consultation to the final retainer, our team is committed to providing comfortable treatment, clear communication, and exceptional support throughout your smile transformation.",
+          },
+        ],
+      },
+      
+      aftercare: {
+        tag: "AFTERCARE",
+        title: "Protect your beautifully aligned smile.",
+        tips: [
+          "Brush and floss thoroughly around braces or aligners",
+          "Avoid hard, sticky, or chewy foods if wearing braces",
+          "Wear your retainers exactly as prescribed",
+          "Attend all scheduled orthodontic follow-up visits",
+          "Maintain regular dental cleanings and oral hygiene",
+        ],
+      },
     },
     {
       id: 10,
@@ -1177,6 +2151,114 @@ export const serviceDetails = [
         //   price: "₹6500/- +(₹2500/- + ₹3500/-) + ₹5500/- Crown ",
         // },
       ],
+      whyChoose: {
+        tag: "WHY ROOT CANAL TREATMENT",
+        title: "Save your natural tooth and eliminate pain.",
+        points: [
+          {
+            title: "Preserves Your Natural Tooth",
+            description:
+              "Root canal treatment removes infected pulp while preserving your natural tooth, helping you avoid extraction and maintain your natural bite.",
+          },
+          {
+            title: "Relieves Tooth Pain",
+            description:
+              "By eliminating the source of infection inside the tooth, root canal treatment provides lasting relief from severe pain, sensitivity, and discomfort.",
+          },
+          {
+            title: "Prevents Infection from Spreading",
+            description:
+              "Treating the infected tooth early helps prevent bacteria from spreading to surrounding teeth, gums, and jawbone, reducing the risk of further complications.",
+          },
+          {
+            title: "Restores Strength & Function",
+            description:
+              "After treatment, the tooth is restored with a filling or crown, allowing you to chew comfortably while maintaining the appearance of your natural smile.",
+          },
+        ],
+      },
+      
+      candidate: {
+        tag: "IS IT RIGHT FOR YOU?",
+        title: "Who may need root canal treatment?",
+        description:
+          "Root canal treatment is recommended when the inner pulp of a tooth becomes infected or inflamed due to deep decay, trauma, repeated dental procedures, or cracks. Our dentists carefully evaluate each tooth to determine whether root canal therapy is the best option for preserving it.",
+        points: [
+          "Persistent toothache or severe pain",
+          "Sensitivity to hot or cold that lingers",
+          "Swollen or tender gums near a tooth",
+          "Deep cavities or dental infection",
+          "Cracked, fractured, or injured teeth",
+        ],
+      },
+      
+      benefits: {
+        tag: "BENEFITS",
+        title: "Protect your natural tooth for years to come.",
+        items: [
+          "Eliminates tooth infection",
+          "Relieves pain and sensitivity",
+          "Saves your natural tooth",
+          "Prevents tooth extraction",
+          "Restores normal chewing function",
+          "Maintains natural smile aesthetics",
+          "Stops infection from spreading",
+          "Long-lasting treatment results",
+        ],
+      },
+      
+      recovery: {
+        tag: "RECOVERY",
+        title: "Comfortable healing with expert follow-up.",
+        description:
+          "Most patients experience only mild tenderness for a few days after root canal treatment, which can usually be managed with prescribed or over-the-counter medication. Once the permanent restoration is placed, the treated tooth functions much like a healthy natural tooth.",
+        points: [
+          "Mild tenderness is normal for a few days",
+          "Take medications exactly as prescribed",
+          "Avoid chewing on the treated tooth until fully restored",
+          "Return for your permanent crown if recommended",
+          "Maintain regular dental check-ups and oral hygiene",
+        ],
+      },
+      
+      whyClinic: {
+        tag: "WHY REKHA DENTAL",
+        title: "Advanced endodontic care with patient comfort in mind.",
+        points: [
+          {
+            title: "Precise Digital Diagnosis",
+            description:
+              "We use advanced digital imaging to accurately diagnose infected teeth and develop a precise treatment plan for predictable outcomes.",
+          },
+          {
+            title: "Modern Pain-Free Techniques",
+            description:
+              "Our advanced anesthesia protocols and modern endodontic techniques make root canal treatment comfortable and significantly less stressful than many patients expect.",
+          },
+          {
+            title: "Experienced Dental Team",
+            description:
+              "Our skilled clinicians perform root canal procedures with meticulous attention to detail, preserving as much healthy tooth structure as possible.",
+          },
+          {
+            title: "Comprehensive Tooth Restoration",
+            description:
+              "Following root canal treatment, we restore your tooth with high-quality fillings or custom crowns to ensure strength, function, and long-term durability.",
+          },
+        ],
+      },
+      
+      aftercare: {
+        tag: "AFTERCARE",
+        title: "Ensure long-term success after your root canal.",
+        tips: [
+          "Brush and floss gently around the treated tooth",
+          "Avoid hard or sticky foods until your permanent restoration is placed",
+          "Take prescribed medications as directed",
+          "Attend all follow-up appointments",
+          "Maintain regular dental cleanings and check-ups",
+        ],
+      },
     },
     {
       id: 11,
@@ -1276,6 +2358,115 @@ export const serviceDetails = [
           price: "₹5,000 - ₹8,000",
         },
       ],
+
+      whyChoose: {
+        tag: "WHY TOOTH REMOVAL",
+        title: "Safe, gentle extractions for better oral health.",
+        points: [
+          {
+            title: "Relieves Pain & Infection",
+            description:
+              "When a tooth is severely damaged or infected beyond repair, extraction removes the source of pain and helps prevent the infection from spreading to surrounding teeth and gums.",
+          },
+          {
+            title: "Protects Your Oral Health",
+            description:
+              "Removing problematic teeth such as impacted wisdom teeth, fractured teeth, or severely decayed teeth helps preserve the health of adjacent teeth and supporting bone.",
+          },
+          {
+            title: "Supports Future Dental Treatment",
+            description:
+              "Tooth removal may be necessary before orthodontic treatment, dental implants, or dentures, creating the ideal foundation for long-term oral rehabilitation.",
+          },
+          {
+            title: "Comfortable & Minimally Invasive",
+            description:
+              "Using modern techniques, digital diagnostics, and effective anesthesia, we perform tooth extractions as comfortably and efficiently as possible.",
+          },
+        ],
+      },
+      
+      candidate: {
+        tag: "IS IT RIGHT FOR YOU?",
+        title: "Who may need a tooth extraction?",
+        description:
+          "Tooth removal is recommended only when a tooth cannot be restored or when retaining it may compromise your oral health. Our dentists always evaluate conservative treatment options before recommending an extraction.",
+        points: [
+          "Severely decayed or damaged teeth",
+          "Impacted wisdom teeth",
+          "Advanced gum disease causing loose teeth",
+          "Overcrowded teeth before orthodontic treatment",
+          "Broken or infected teeth beyond repair",
+        ],
+      },
+      
+      benefits: {
+        tag: "BENEFITS",
+        title: "Removing problem teeth for a healthier smile.",
+        items: [
+          "Eliminates pain and infection",
+          "Prevents damage to nearby teeth",
+          "Supports healthy gum healing",
+          "Creates space for orthodontic treatment",
+          "Prepares for implants or dentures",
+          "Protects overall oral health",
+          "Improves comfort while eating",
+          "Reduces future dental complications",
+        ],
+      },
+      
+      recovery: {
+        tag: "RECOVERY",
+        title: "Smooth healing with expert post-operative care.",
+        description:
+          "Most patients recover comfortably within a few days after a routine tooth extraction. Following our post-operative instructions helps minimize swelling, promotes proper healing, and reduces the risk of complications such as dry socket.",
+        points: [
+          "Bite on gauze to control bleeding",
+          "Apply ice packs to reduce swelling",
+          "Eat soft foods during initial healing",
+          "Avoid smoking and drinking through a straw",
+          "Follow all prescribed medications and review appointments",
+        ],
+      },
+      
+      whyClinic: {
+        tag: "WHY REKHA DENTAL",
+        title: "Gentle extractions with a focus on your comfort.",
+        points: [
+          {
+            title: "Experienced Dental Surgeons",
+            description:
+              "Our skilled clinicians perform routine and surgical tooth extractions with precision, prioritizing patient safety and comfort at every stage.",
+          },
+          {
+            title: "Advanced Digital Diagnosis",
+            description:
+              "Digital X-rays and clinical evaluation help us accurately assess tooth position, surrounding bone, and nearby structures before treatment.",
+          },
+          {
+            title: "Comfort-Focused Care",
+            description:
+              "We use modern anesthesia techniques and minimally invasive procedures to ensure a stress-free and comfortable extraction experience.",
+          },
+          {
+            title: "Complete Tooth Replacement Solutions",
+            description:
+              "If a tooth requires extraction, we also provide comprehensive replacement options, including dental implants, bridges, and dentures, to restore your smile.",
+          },
+        ],
+      },
+      
+      aftercare: {
+        tag: "AFTERCARE",
+        title: "Support faster healing after your extraction.",
+        tips: [
+          "Avoid rinsing vigorously for the first 24 hours",
+          "Stick to soft, cool foods during initial healing",
+          "Brush carefully around the extraction site",
+          "Avoid strenuous physical activity for the first day",
+          "Contact your dentist if bleeding, swelling, or pain persists",
+        ],
+      },
     },
     {
       id: 12,
@@ -1352,6 +2543,114 @@ export const serviceDetails = [
         },
        
       ],
+      whyChoose: {
+        tag: "WHY COSMETIC DENTISTRY",
+        title: "Enhance your smile with confidence and precision.",
+        points: [
+          {
+            title: "Personalized Smile Makeovers",
+            description:
+              "Every smile is unique. Our cosmetic treatments are carefully tailored to your facial features, dental structure, and aesthetic goals for naturally beautiful results.",
+          },
+          {
+            title: "Natural-Looking Enhancements",
+            description:
+              "Using advanced materials and modern techniques, we create seamless restorations and smile improvements that blend perfectly with your natural teeth.",
+          },
+          {
+            title: "Improves More Than Appearance",
+            description:
+              "Cosmetic dentistry not only enhances your smile but can also improve tooth shape, symmetry, alignment, and overall confidence in everyday interactions.",
+          },
+          {
+            title: "Minimally Invasive Solutions",
+            description:
+              "Many cosmetic procedures require little to no removal of healthy tooth structure, providing beautiful results while preserving your natural teeth.",
+          },
+        ],
+      },
+      
+      candidate: {
+        tag: "IS IT RIGHT FOR YOU?",
+        title: "Who can benefit from cosmetic dentistry?",
+        description:
+          "Cosmetic dentistry is ideal for anyone looking to improve the appearance of their smile. Whether you have stained, chipped, uneven, worn, or slightly misaligned teeth, our customized treatment plans help you achieve a healthier and more attractive smile.",
+        points: [
+          "Discolored or stained teeth",
+          "Chipped or worn teeth",
+          "Small gaps between teeth",
+          "Uneven or irregularly shaped teeth",
+          "Anyone seeking a smile makeover",
+        ],
+      },
+      
+      benefits: {
+        tag: "BENEFITS",
+        title: "A beautiful smile that leaves a lasting impression.",
+        items: [
+          "Enhances smile aesthetics",
+          "Boosts self-confidence",
+          "Creates a more youthful appearance",
+          "Improves tooth shape and symmetry",
+          "Natural-looking results",
+          "Personalized treatment options",
+          "Long-lasting cosmetic improvements",
+          "Supports better overall oral confidence",
+        ],
+      },
+      
+      recovery: {
+        tag: "RECOVERY",
+        title: "Minimal downtime. Maximum confidence.",
+        description:
+          "Recovery varies depending on the cosmetic procedure performed, but most treatments involve little to no downtime. Our team provides personalized aftercare instructions to ensure optimal healing and long-lasting aesthetic results.",
+        points: [
+          "Resume daily activities shortly after most treatments",
+          "Follow personalized aftercare instructions",
+          "Temporary sensitivity may occur after certain procedures",
+          "Maintain excellent oral hygiene",
+          "Attend scheduled review appointments",
+        ],
+      },
+      
+      whyClinic: {
+        tag: "WHY REKHA DENTAL",
+        title: "Creating smiles that look as good as they feel.",
+        points: [
+          {
+            title: "Comprehensive Smile Assessment",
+            description:
+              "We carefully evaluate your facial profile, smile line, tooth proportions, and oral health to design a treatment plan that complements your natural appearance.",
+          },
+          {
+            title: "Advanced Digital Smile Planning",
+            description:
+              "Using modern digital technology, we visualize and plan every detail before treatment begins, ensuring predictable and aesthetically pleasing outcomes.",
+          },
+          {
+            title: "Premium Cosmetic Materials",
+            description:
+              "We use high-quality ceramics, composite materials, and internationally trusted products to deliver durable, lifelike, and beautiful smile transformations.",
+          },
+          {
+            title: "Patient-Centered Experience",
+            description:
+              "From consultation to final results, our team prioritizes your comfort, preferences, and satisfaction, ensuring every smile makeover is uniquely yours.",
+          },
+        ],
+      },
+      
+      aftercare: {
+        tag: "AFTERCARE",
+        title: "Keep your smile looking its best.",
+        tips: [
+          "Brush and floss daily to maintain your results",
+          "Limit foods and drinks that may stain your teeth",
+          "Avoid biting hard objects that could damage restorations",
+          "Schedule regular dental cleanings and examinations",
+          "Follow your dentist's maintenance recommendations for long-lasting results",
+        ],
+      },
     },
     {
       id: 13,
@@ -1435,6 +2734,114 @@ export const serviceDetails = [
           price: "₹990",
         },
       ],
+      whyChoose: {
+        tag: "WHY TEETH CLEANING & SCALING",
+        title: "Professional care for healthier teeth and gums.",
+        points: [
+          {
+            title: "Removes Plaque & Tartar",
+            description:
+              "Professional scaling eliminates hardened tartar and plaque deposits that regular brushing and flossing cannot remove, helping protect your teeth and gums.",
+          },
+          {
+            title: "Prevents Gum Disease",
+            description:
+              "Routine teeth cleaning helps prevent gingivitis and periodontal disease by reducing harmful bacteria and inflammation around the gums.",
+          },
+          {
+            title: "Freshens Breath Naturally",
+            description:
+              "By removing bacteria, food debris, and plaque buildup, professional cleaning significantly improves oral freshness and reduces persistent bad breath.",
+          },
+          {
+            title: "Maintains a Bright, Healthy Smile",
+            description:
+              "Scaling and polishing remove surface stains caused by tea, coffee, and other foods, leaving your teeth cleaner, smoother, and naturally brighter.",
+          },
+        ],
+      },
+      
+      candidate: {
+        tag: "IS IT RIGHT FOR YOU?",
+        title: "Who should get professional teeth cleaning?",
+        description:
+          "Professional teeth cleaning is recommended for everyone, regardless of age. Regular scaling helps maintain healthy gums, prevents dental disease, and supports long-term oral health, especially for patients with plaque buildup or early signs of gum disease.",
+        points: [
+          "Patients with plaque or tartar buildup",
+          "People experiencing bleeding gums",
+          "Individuals with persistent bad breath",
+          "Patients with early gum disease",
+          "Anyone due for routine preventive dental care",
+        ],
+      },
+      
+      benefits: {
+        tag: "BENEFITS",
+        title: "A cleaner smile starts with healthier gums.",
+        items: [
+          "Removes plaque and tartar",
+          "Prevents gum disease",
+          "Reduces bad breath",
+          "Removes surface stains",
+          "Promotes healthier gums",
+          "Protects natural teeth",
+          "Improves overall oral hygiene",
+          "Supports long-term dental health",
+        ],
+      },
+      
+      recovery: {
+        tag: "RECOVERY",
+        title: "Quick treatment with little to no downtime.",
+        description:
+          "Most patients can resume their normal routine immediately after scaling and polishing. Mild tooth sensitivity or slight gum tenderness may occur temporarily but usually subsides within a day or two.",
+        points: [
+          "Resume normal activities immediately",
+          "Temporary sensitivity is normal",
+          "Avoid very hot or cold foods if sensitive",
+          "Continue regular brushing and flossing",
+          "Schedule routine cleaning every six months",
+        ],
+      },
+      
+      whyClinic: {
+        tag: "WHY REKHA DENTAL",
+        title: "Gentle professional cleaning for lasting oral health.",
+        points: [
+          {
+            title: "Advanced Ultrasonic Scaling",
+            description:
+              "We use modern ultrasonic scaling technology to remove plaque and tartar efficiently while ensuring maximum comfort throughout the procedure.",
+          },
+          {
+            title: "Experienced Dental Professionals",
+            description:
+              "Our skilled team provides gentle, thorough cleanings tailored to your oral health needs, helping maintain healthy teeth and gums.",
+          },
+          {
+            title: "Personalized Preventive Care",
+            description:
+              "Every cleaning appointment includes a comprehensive oral health assessment and personalized guidance to help you maintain excellent oral hygiene at home.",
+          },
+          {
+            title: "Comfort-Focused Experience",
+            description:
+              "Our patient-friendly approach, modern equipment, and relaxing environment make routine dental cleanings comfortable for patients of all ages.",
+          },
+        ],
+      },
+      
+      aftercare: {
+        tag: "AFTERCARE",
+        title: "Maintain your freshly cleaned smile.",
+        tips: [
+          "Brush twice daily with fluoride toothpaste",
+          "Floss or use interdental cleaners every day",
+          "Limit sugary foods and staining beverages",
+          "Drink plenty of water to maintain oral freshness",
+          "Visit your dentist every six months for professional cleaning",
+        ],
+      },
     },
     {
       id: 14,
@@ -1515,6 +2922,114 @@ export const serviceDetails = [
           price: "₹1,000 per Sitting",
         },
       ],
+      whyChoose: {
+        tag: "WHY LASER DENTAL TREATMENT",
+        title: "Advanced, precise care with greater comfort.",
+        points: [
+          {
+            title: "Minimally Invasive Treatment",
+            description:
+              "Dental lasers target only the affected tissue with exceptional precision, preserving healthy surrounding structures while reducing the need for conventional surgical techniques.",
+          },
+          {
+            title: "Less Pain & Faster Healing",
+            description:
+              "Laser dentistry minimizes bleeding, swelling, and post-operative discomfort, allowing most patients to recover faster and return to their normal routine sooner.",
+          },
+          {
+            title: "Enhanced Precision",
+            description:
+              "Laser technology enables highly accurate treatment for both soft and hard tissue procedures, delivering predictable clinical outcomes with improved patient comfort.",
+          },
+          {
+            title: "Reduced Risk of Infection",
+            description:
+              "The laser naturally disinfects the treatment area during the procedure, helping reduce bacterial contamination and promoting a cleaner healing environment.",
+          },
+        ],
+      },
+      
+      candidate: {
+        tag: "IS IT RIGHT FOR YOU?",
+        title: "Who can benefit from laser dentistry?",
+        description:
+          "Laser dental treatment is suitable for patients requiring soft tissue procedures, gum disease treatment, cosmetic gum contouring, cavity management, or other minimally invasive dental procedures. During your consultation, our dentists will determine whether laser technology is the most appropriate treatment option for your needs.",
+        points: [
+          "Patients with gum disease",
+          "Individuals requiring gum contouring",
+          "Patients needing minimally invasive soft tissue procedures",
+          "People seeking quicker healing and reduced discomfort",
+          "Anyone looking for advanced, precision-based dental care",
+        ],
+      },
+      
+      benefits: {
+        tag: "BENEFITS",
+        title: "Modern technology for a better dental experience.",
+        items: [
+          "Minimally invasive procedures",
+          "Less pain and discomfort",
+          "Reduced bleeding and swelling",
+          "Faster healing and recovery",
+          "Greater treatment precision",
+          "Lower risk of infection",
+          "Often requires less anesthesia",
+          "Improved patient comfort",
+        ],
+      },
+      
+      recovery: {
+        tag: "RECOVERY",
+        title: "Heal comfortably with minimal downtime.",
+        description:
+          "Recovery following laser dental treatment is typically faster than conventional procedures. Most patients experience minimal discomfort and can resume normal daily activities shortly after treatment while following simple post-operative instructions.",
+        points: [
+          "Resume most daily activities quickly",
+          "Minimal swelling or bleeding",
+          "Follow prescribed oral hygiene instructions",
+          "Avoid irritating foods if recommended",
+          "Attend follow-up appointments for optimal healing",
+        ],
+      },
+      
+      whyClinic: {
+        tag: "WHY REKHA DENTAL",
+        title: "Experience advanced laser dentistry with confidence.",
+        points: [
+          {
+            title: "Modern Laser Technology",
+            description:
+              "Our clinic utilizes advanced dental laser systems that provide precise, minimally invasive treatment with enhanced patient comfort and predictable outcomes.",
+          },
+          {
+            title: "Experienced Clinical Team",
+            description:
+              "Our dentists are trained in laser-assisted procedures and carefully customize every treatment to achieve safe, effective, and long-lasting results.",
+          },
+          {
+            title: "Patient-Centered Comfort",
+            description:
+              "Laser dentistry often reduces the need for sutures, minimizes discomfort, and creates a more relaxed treatment experience for patients of all ages.",
+          },
+          {
+            title: "Comprehensive Digital Care",
+            description:
+              "From diagnosis to treatment planning and follow-up, we combine modern technology with personalized care to ensure the highest standard of dental treatment.",
+          },
+        ],
+      },
+      
+      aftercare: {
+        tag: "AFTERCARE",
+        title: "Support optimal healing after laser treatment.",
+        tips: [
+          "Maintain gentle brushing around the treated area",
+          "Follow all prescribed medications and care instructions",
+          "Avoid spicy, hot, or hard foods if advised",
+          "Keep the treated area clean to promote healing",
+          "Attend scheduled follow-up appointments to monitor recovery",
+        ],
+      },
     },
     {
       id: 15,
@@ -1581,6 +3096,115 @@ export const serviceDetails = [
           price: "₹5,000",
         },
       ],
+
+      whyChoose: {
+        tag: "WHY TOOTH JEWELLERY",
+        title: "Add a subtle sparkle to your smile.",
+        points: [
+          {
+            title: "Instant Smile Enhancement",
+            description:
+              "Tooth jewellery is a quick and stylish cosmetic procedure that adds a touch of elegance to your smile without altering your natural teeth.",
+          },
+          {
+            title: "Non-Invasive & Reversible",
+            description:
+              "The jewel is bonded directly onto the tooth surface without drilling or removing enamel, making the procedure completely safe and reversible.",
+          },
+          {
+            title: "Quick & Comfortable Procedure",
+            description:
+              "The treatment is completed in a single appointment and is entirely painless, allowing you to leave the clinic with a sparkling new smile in minutes.",
+          },
+          {
+            title: "Personalized Style",
+            description:
+              "Choose from a variety of premium crystals and decorative designs to create a smile that reflects your unique personality and style.",
+          },
+        ],
+      },
+      
+      candidate: {
+        tag: "IS IT RIGHT FOR YOU?",
+        title: "Who can get tooth jewellery?",
+        description:
+          "Tooth jewellery is suitable for individuals with healthy natural teeth who want to enhance their smile with a fashionable yet subtle cosmetic accessory. A dental examination ensures the selected tooth is healthy before the jewellery is placed.",
+        points: [
+          "Adults and teenagers with healthy teeth",
+          "People looking for a cosmetic smile enhancement",
+          "Individuals with good oral hygiene",
+          "Patients without active cavities or gum disease",
+          "Anyone wanting a temporary yet stylish smile accessory",
+        ],
+      },
+      
+      benefits: {
+        tag: "BENEFITS",
+        title: "A fashionable smile with no compromise.",
+        items: [
+          "Enhances smile aesthetics",
+          "No drilling or injections required",
+          "Preserves natural tooth enamel",
+          "Quick single-visit procedure",
+          "Completely painless treatment",
+          "Removable without damaging the tooth",
+          "Customizable designs and crystals",
+          "Boosts confidence and personal style",
+        ],
+      },
+      
+      recovery: {
+        tag: "RECOVERY",
+        title: "Instant results with no downtime.",
+        description:
+          "Since tooth jewellery is a non-invasive cosmetic procedure, there is virtually no recovery period. Patients can return to their daily routine immediately while following a few simple care instructions to ensure long-lasting adhesion.",
+        points: [
+          "Resume normal activities immediately",
+          "Avoid hard or sticky foods for the first 24 hours",
+          "Do not touch or play with the jewellery",
+          "Maintain excellent oral hygiene",
+          "Attend routine dental check-ups",
+        ],
+      },
+      
+      whyClinic: {
+        tag: "WHY REKHA DENTAL",
+        title: "Premium smile accessories applied with precision.",
+        points: [
+          {
+            title: "Safe Cosmetic Bonding",
+            description:
+              "We use professional dental bonding materials that securely attach the jewellery without harming your natural tooth structure.",
+          },
+          {
+            title: "Premium Quality Jewellery",
+            description:
+              "Our collection features high-quality crystals and decorative tooth jewellery designed to provide lasting sparkle and comfort.",
+          },
+          {
+            title: "Expert Cosmetic Dentists",
+            description:
+              "Our experienced dental team ensures precise placement for optimal aesthetics, durability, and a natural-looking finish.",
+          },
+          {
+            title: "Comfortable & Personalized Experience",
+            description:
+              "From selecting the perfect design to the final placement, we provide personalized guidance to help you achieve the smile you envision.",
+          },
+        ],
+      },
+      
+      aftercare: {
+        tag: "AFTERCARE",
+        title: "Keep your sparkle shining.",
+        tips: [
+          "Brush gently around the jewellery twice daily",
+          "Avoid biting directly on hard foods or ice",
+          "Limit sticky foods during the first 24 hours",
+          "Maintain regular professional dental cleanings",
+          "Visit your dentist if the jewellery becomes loose or detached",
+        ],
+      },
     },
     {
       id: 16,
@@ -1692,6 +3316,115 @@ export const serviceDetails = [
           price: "Charges Extra",
         },
       ],
+
+      whyChoose: {
+        tag: "WHY CLEAR ALIGNERS",
+        title: "Straighten your teeth with comfort and confidence.",
+        points: [
+          {
+            title: "Virtually Invisible Treatment",
+            description:
+              "Clear aligners are made from transparent, medical-grade material, allowing you to straighten your teeth discreetly without the appearance of traditional braces.",
+          },
+          {
+            title: "Comfortable & Removable",
+            description:
+              "Unlike fixed braces, aligners can be removed while eating, brushing, and flossing, making oral hygiene easier and allowing you to enjoy your favorite foods.",
+          },
+          {
+            title: "Precise Digital Treatment Planning",
+            description:
+              "Using advanced 3D digital scanning and treatment planning, every aligner is custom-designed to gradually move your teeth into their ideal position with predictable results.",
+          },
+          {
+            title: "Fewer Clinic Visits",
+            description:
+              "Clear aligners typically require fewer adjustment appointments than conventional braces, making treatment more convenient for busy lifestyles.",
+          },
+        ],
+      },
+      
+      candidate: {
+        tag: "IS IT RIGHT FOR YOU?",
+        title: "Who is a good candidate for clear aligners?",
+        description:
+          "Clear aligners are ideal for teenagers and adults with mild to moderate orthodontic concerns who want a discreet alternative to braces. During your consultation, our orthodontic team will assess your smile and determine whether aligners are the best treatment option for you.",
+        points: [
+          "Crowded or overlapping teeth",
+          "Gaps between teeth",
+          "Mild to moderate bite correction",
+          "Teenagers and adults seeking discreet treatment",
+          "Patients looking for a removable alternative to braces",
+        ],
+      },
+      aftercare: {
+        tag: "AFTERCARE",
+        title: "Keep your aligners and smile in great shape.",
+        tips: [
+          "Wear your aligners for at least 20–22 hours every day",
+          "Clean your aligners daily using a soft brush and lukewarm water",
+          "Brush and floss before reinserting your aligners",
+          "Store aligners in their protective case when not in use",
+          "Wear your retainers as prescribed after treatment completion",
+        ],
+      },
+      benefits: {
+        tag: "BENEFITS",
+        title: "A modern way to achieve your perfect smile.",
+        items: [
+          "Nearly invisible appearance",
+          "Comfortable custom-fit aligners",
+          "Removable for eating and cleaning",
+          "Improved oral hygiene during treatment",
+          "No dietary restrictions",
+          "Fewer orthodontic appointments",
+          "Predictable digital treatment planning",
+          "Confident smile throughout treatment",
+        ],
+      },
+      
+      recovery: {
+        tag: "RECOVERY",
+        title: "Easy adaptation with everyday comfort.",
+        description:
+          "There is no recovery period with clear aligners. Mild pressure or soreness may be experienced for a day or two when switching to a new set of aligners, which indicates your teeth are moving as planned.",
+        points: [
+          "Wear aligners for 20–22 hours daily",
+          "Mild pressure after changing aligners is normal",
+          "Remove aligners while eating and drinking (except water)",
+          "Clean aligners regularly to maintain hygiene",
+          "Attend scheduled progress appointments",
+        ],
+      },
+      
+      whyClinic: {
+        tag: "WHY REKHA DENTAL",
+        title: "Advanced clear aligner treatment tailored to your smile.",
+        points: [
+          {
+            title: "Digital Smile Planning",
+            description:
+              "Our advanced intraoral scanning and 3D treatment planning allow you to visualize your smile transformation before treatment even begins.",
+          },
+          {
+            title: "Personalized Orthodontic Care",
+            description:
+              "Every aligner treatment plan is customized to your dental structure, bite, and aesthetic goals for precise and predictable tooth movement.",
+          },
+          {
+            title: "Premium Aligner Systems",
+            description:
+              "We use high-quality clear aligner systems that combine comfort, durability, and accuracy to deliver exceptional treatment outcomes.",
+          },
+          {
+            title: "Continuous Clinical Support",
+            description:
+              "Our experienced team monitors your progress throughout treatment, making timely adjustments and ensuring your smile develops exactly as planned.",
+          },
+        ],
+      },
+      
+    
     },
     {
       id: 17,
@@ -1753,6 +3486,114 @@ export const serviceDetails = [
             "Yes, patients often experience less discomfort and faster healing compared to traditional techniques.",
         },
       ],
+      whyChoose: {
+        tag: "WHY MINIMALLY INVASIVE DENTISTRY",
+        title: "Advanced care that preserves your natural smile.",
+        points: [
+          {
+            title: "Maximum Tooth Preservation",
+            description:
+              "Our minimally invasive approach focuses on treating dental problems while preserving as much healthy tooth structure as possible, promoting stronger and longer-lasting natural teeth.",
+          },
+          {
+            title: "Greater Comfort During Treatment",
+            description:
+              "Modern techniques and precision instruments reduce discomfort, minimize trauma to surrounding tissues, and often require less anesthesia than conventional procedures.",
+          },
+          {
+            title: "Faster Healing & Recovery",
+            description:
+              "Because less healthy tissue is affected, patients typically experience reduced swelling, minimal post-treatment discomfort, and a quicker return to their daily routine.",
+          },
+          {
+            title: "Precision with Advanced Technology",
+            description:
+              "Digital imaging, magnification, laser-assisted procedures, and modern restorative techniques allow us to deliver highly accurate treatment with predictable long-term results.",
+          },
+        ],
+      },
+      
+      candidate: {
+        tag: "IS IT RIGHT FOR YOU?",
+        title: "Who can benefit from minimally invasive dentistry?",
+        description:
+          "Minimally invasive dentistry is suitable for patients seeking conservative, modern dental care. Whether treating cavities, replacing restorations, managing gum conditions, or enhancing aesthetics, this approach prioritizes preserving healthy teeth while delivering exceptional clinical outcomes.",
+        points: [
+          "Patients with early tooth decay",
+          "Individuals requiring restorative treatment",
+          "Patients seeking cosmetic improvements",
+          "People with gum-related concerns",
+          "Anyone looking for conservative, modern dental care",
+        ],
+      },
+      
+      benefits: {
+        tag: "BENEFITS",
+        title: "Gentle dentistry with long-lasting results.",
+        items: [
+          "Preserves natural tooth structure",
+          "Less discomfort during treatment",
+          "Faster healing and recovery",
+          "Reduced bleeding and swelling",
+          "Greater treatment precision",
+          "Lower risk of complications",
+          "Natural-looking restorations",
+          "Long-term oral health preservation",
+        ],
+      },
+      
+      recovery: {
+        tag: "RECOVERY",
+        title: "Recover faster with less discomfort.",
+        description:
+          "Since minimally invasive procedures involve less trauma to teeth and surrounding tissues, recovery is generally quicker and more comfortable. Most patients return to their normal activities shortly after treatment while experiencing minimal post-operative discomfort.",
+        points: [
+          "Minimal post-treatment discomfort",
+          "Faster return to daily activities",
+          "Reduced swelling and bleeding",
+          "Follow personalized aftercare instructions",
+          "Attend scheduled review appointments",
+        ],
+      },
+      
+      whyClinic: {
+        tag: "WHY REKHA DENTAL",
+        title: "Technology-driven dentistry with a conservative approach.",
+        points: [
+          {
+            title: "Advanced Digital Technology",
+            description:
+              "We integrate CBCT imaging, digital scanners, laser technology, and precision-guided treatment planning to deliver accurate, minimally invasive dental care.",
+          },
+          {
+            title: "Conservative Treatment Philosophy",
+            description:
+              "Our priority is always to preserve healthy teeth and tissues whenever possible, ensuring durable results while minimizing unnecessary intervention.",
+          },
+          {
+            title: "Experienced Clinical Team",
+            description:
+              "Our dentists combine extensive clinical expertise with modern techniques to provide safe, precise, and patient-focused treatment across all dental specialties.",
+          },
+          {
+            title: "Comprehensive Modern Dentistry",
+            description:
+              "From diagnosis to treatment and follow-up care, every stage is supported by advanced technology, ensuring exceptional comfort, efficiency, and predictable outcomes.",
+          },
+        ],
+      },
+      
+      aftercare: {
+        tag: "AFTERCARE",
+        title: "Maintain the benefits of conservative dental care.",
+        tips: [
+          "Brush twice daily using fluoride toothpaste",
+          "Floss regularly to keep gums healthy",
+          "Follow your personalized oral care instructions",
+          "Attend regular dental check-ups and professional cleanings",
+          "Seek prompt dental care if you notice any discomfort or changes",
+        ],
+      },
     },
     {
       id: 18,
@@ -1800,6 +3641,114 @@ export const serviceDetails = [
               "Advanced restorative procedures are performed to achieve a healthy, confident smile.",
             image: `${CLOUDINARY_BASE}/rekha-dental/services/service18/process3`,
           },
+        ],
+       
+      },
+      whyChoose: {
+        tag: "WHY FULL MOUTH REHABILITATION",
+        title: "A complete transformation for your smile and oral health.",
+        points: [
+          {
+            title: "Comprehensive Smile Restoration",
+            description:
+              "Full mouth rehabilitation combines multiple restorative and cosmetic treatments to rebuild damaged, worn, or missing teeth, restoring both function and aesthetics.",
+          },
+          {
+            title: "Personalized Treatment Planning",
+            description:
+              "Every rehabilitation plan is uniquely designed after a comprehensive evaluation of your teeth, gums, jaw joints, and bite to deliver predictable, long-lasting results.",
+          },
+          {
+            title: "Improves Function & Comfort",
+            description:
+              "By correcting bite alignment, replacing missing teeth, and restoring damaged teeth, full mouth rehabilitation helps you chew comfortably, speak clearly, and smile with confidence.",
+          },
+          {
+            title: "Long-Term Oral Health",
+            description:
+              "Beyond improving appearance, rehabilitation restores balance to your bite, protects remaining natural teeth, and supports healthier gums and jaw function for years to come.",
+          },
+        ],
+      },
+      
+      candidate: {
+        tag: "IS IT RIGHT FOR YOU?",
+        title: "Who can benefit from full mouth rehabilitation?",
+        description:
+          "Full mouth rehabilitation is ideal for patients with multiple dental concerns that cannot be addressed by a single treatment. Our dentists develop a customized treatment plan that restores oral health, function, and smile aesthetics based on your individual needs.",
+        points: [
+          "Multiple missing or damaged teeth",
+          "Severely worn or broken teeth",
+          "Patients with bite or jaw problems",
+          "Individuals with extensive dental restorations",
+          "Anyone seeking complete smile restoration",
+        ],
+      },
+      
+      benefits: {
+        tag: "BENEFITS",
+        title: "Restore health, function, and confidence.",
+        items: [
+          "Complete smile transformation",
+          "Restores comfortable chewing",
+          "Improves speech and bite alignment",
+          "Replaces missing and damaged teeth",
+          "Enhances facial appearance",
+          "Supports long-term oral health",
+          "Customized comprehensive treatment",
+          "Boosts confidence and quality of life",
+        ],
+      },
+      
+      recovery: {
+        tag: "RECOVERY",
+        title: "A guided journey toward lasting results.",
+        description:
+          "Recovery depends on the combination of procedures included in your rehabilitation plan. Our team carefully schedules every stage of treatment, provides personalized aftercare guidance, and closely monitors your progress to ensure comfortable healing and long-term success.",
+        points: [
+          "Recovery varies based on individual treatments",
+          "Attend scheduled review appointments",
+          "Follow personalized dietary recommendations",
+          "Maintain excellent oral hygiene throughout treatment",
+          "Complete every treatment stage for optimal results",
+        ],
+      },
+      
+      whyClinic: {
+        tag: "WHY REKHA DENTAL",
+        title: "Comprehensive expertise for complete smile restoration.",
+        points: [
+          {
+            title: "Multidisciplinary Dental Care",
+            description:
+              "Our team combines expertise in implants, prosthodontics, cosmetic dentistry, endodontics, and restorative care to provide comprehensive full mouth rehabilitation under one roof.",
+          },
+          {
+            title: "Advanced Digital Planning",
+            description:
+              "Using CBCT imaging, digital scans, and smile design technology, we carefully plan every stage of your treatment for exceptional precision and predictable outcomes.",
+          },
+          {
+            title: "Personalized Treatment Approach",
+            description:
+              "No two smiles are alike. Every rehabilitation plan is customized to restore optimal function, aesthetics, and long-term oral health according to your unique needs.",
+          },
+          {
+            title: "Premium Materials & Modern Technology",
+            description:
+              "We use internationally trusted materials and advanced dental technology to create durable, natural-looking restorations that stand the test of time.",
+          },
+        ],
+      },
+      aftercare: {
+        tag: "AFTERCARE",
+        title: "Protect your newly restored smile.",
+        tips: [
+          "Brush and floss diligently every day",
+          "Attend regular follow-up and maintenance appointments",
+          "Wear any prescribed night guard or retainer if advised",
+          "Avoid chewing excessively hard foods on new restorations",
+          "Schedule professional cleanings every six months to maintain long-term results",
         ],
       },
       faqs: [
@@ -1968,6 +3917,115 @@ export const serviceDetails = [
             "Yes. Modern ceramic, Zirconia, and Emax crowns are carefully shade-matched to blend naturally with surrounding teeth.",
         },
       ],
+
+      whyChoose: {
+        tag: "WHY DENTAL CROWNS",
+        title: "Strengthen, protect, and restore your natural smile.",
+        points: [
+          {
+            title: "Protects Damaged Teeth",
+            description:
+              "Dental crowns completely cover weakened, cracked, or heavily restored teeth, protecting them from further damage while restoring their natural strength and function.",
+          },
+          {
+            title: "Natural Appearance",
+            description:
+              "Custom-made crowns are carefully designed to match the color, shape, and size of your natural teeth, creating a seamless and aesthetically pleasing smile.",
+          },
+          {
+            title: "Restores Function",
+            description:
+              "Whether after a root canal treatment or due to severe tooth wear, crowns restore your ability to chew, bite, and speak comfortably without compromising your smile.",
+          },
+          {
+            title: "Long-Lasting Solution",
+            description:
+              "Made from durable, high-quality materials such as ceramic or zirconia, dental crowns provide reliable protection and can last for many years with proper care.",
+          },
+        ],
+      },
+      
+      candidate: {
+        tag: "IS IT RIGHT FOR YOU?",
+        title: "Who may need a dental crown?",
+        description:
+          "Dental crowns are recommended for patients with weakened, broken, heavily filled, or root canal-treated teeth. They are also used to restore dental implants or improve the appearance of misshapen and discolored teeth.",
+        points: [
+          "Teeth weakened by large cavities",
+          "Cracked, broken, or worn-down teeth",
+          "Teeth treated with root canal therapy",
+          "Dental implant restorations",
+          "Patients seeking aesthetic smile improvement",
+        ],
+      },
+      
+      benefits: {
+        tag: "BENEFITS",
+        title: "Protect your teeth while restoring confidence.",
+        items: [
+          "Strengthens weakened teeth",
+          "Restores natural appearance",
+          "Improves chewing efficiency",
+          "Protects against future fractures",
+          "Long-lasting and durable solution",
+          "Comfortable custom fit",
+          "Supports dental implants",
+          "Enhances smile aesthetics",
+        ],
+      },
+      
+      recovery: {
+        tag: "RECOVERY",
+        title: "Quick adjustment with lasting comfort.",
+        description:
+          "Most patients adapt to their new dental crown within a few days. Mild sensitivity may occur initially but usually resolves quickly as your bite adjusts. Once permanently cemented, your crown functions much like a natural tooth.",
+        points: [
+          "Resume daily activities immediately",
+          "Temporary sensitivity is normal",
+          "Avoid very hard or sticky foods for the first 24 hours",
+          "Maintain excellent oral hygiene",
+          "Attend follow-up visits if bite adjustments are needed",
+        ],
+      },
+      
+      whyClinic: {
+        tag: "WHY REKHA DENTAL",
+        title: "Precision-crafted crowns designed to last.",
+        points: [
+          {
+            title: "Advanced Digital Dentistry",
+            description:
+              "Using digital scanning and precise treatment planning, we create accurately fitting crowns that provide exceptional comfort, function, and aesthetics.",
+          },
+          {
+            title: "Premium Crown Materials",
+            description:
+              "We offer high-quality ceramic, zirconia, and other advanced restorative materials chosen for their durability, strength, and natural appearance.",
+          },
+          {
+            title: "Experienced Restorative Dentists",
+            description:
+              "Our skilled clinicians carefully evaluate every tooth and customize each crown to restore optimal function while preserving as much healthy tooth structure as possible.",
+          },
+          {
+            title: "Comprehensive Smile Restoration",
+            description:
+              "From diagnosis to final placement, every step is performed with precision and attention to detail, ensuring beautiful, long-lasting results.",
+          },
+        ],
+      },
+      
+      aftercare: {
+        tag: "AFTERCARE",
+        title: "Maintain your crown for years to come.",
+        tips: [
+          "Brush twice daily with fluoride toothpaste",
+          "Floss carefully around the crown every day",
+          "Avoid chewing hard objects such as ice or pens",
+          "Visit your dentist regularly for professional check-ups",
+          "Report any looseness, discomfort, or damage promptly",
+        ],
+      },
     },
     {
       id: 20,
@@ -2099,6 +4157,114 @@ export const serviceDetails = [
             "Yes. Veneers are commonly used to correct gaps, chips, worn edges, discoloration, and minor alignment concerns.",
         },
       ],
+      whyChoose: {
+        tag: "WHY DENTAL VENEERS",
+        title: "Transform your smile with beautifully crafted veneers.",
+        points: [
+          {
+            title: "Instant Smile Enhancement",
+            description:
+              "Dental veneers dramatically improve the appearance of stained, chipped, uneven, or misshapen teeth, creating a naturally attractive and confident smile.",
+          },
+          {
+            title: "Natural-Looking Results",
+            description:
+              "Custom-designed porcelain or composite veneers are carefully crafted to match your facial features and natural teeth, delivering a seamless and lifelike appearance.",
+          },
+          {
+            title: "Minimally Invasive Treatment",
+            description:
+              "Veneers require minimal preparation of the tooth surface while preserving most of your natural tooth structure, making them a conservative cosmetic solution.",
+          },
+          {
+            title: "Long-Lasting Beauty",
+            description:
+              "Made from premium, stain-resistant materials, dental veneers provide exceptional durability and maintain their brilliance for many years with proper care.",
+          },
+        ],
+      },
+      
+      candidate: {
+        tag: "IS IT RIGHT FOR YOU?",
+        title: "Who is a good candidate for dental veneers?",
+        description:
+          "Dental veneers are ideal for patients looking to improve the appearance of their smile. They effectively address cosmetic concerns such as discoloration, chipped teeth, minor gaps, uneven shapes, and mild misalignment while preserving natural tooth structure.",
+        points: [
+          "Discolored or stained teeth",
+          "Chipped or cracked front teeth",
+          "Small gaps between teeth",
+          "Misshapen or uneven teeth",
+          "Patients seeking a complete smile makeover",
+        ],
+      },
+      
+      benefits: {
+        tag: "BENEFITS",
+        title: "A flawless smile that looks naturally yours.",
+        items: [
+          "Enhances smile aesthetics",
+          "Covers stains and discoloration",
+          "Corrects chipped and uneven teeth",
+          "Closes minor gaps",
+          "Natural-looking appearance",
+          "Stain-resistant porcelain options",
+          "Long-lasting cosmetic solution",
+          "Boosts confidence and self-esteem",
+        ],
+      },
+      
+      recovery: {
+        tag: "RECOVERY",
+        title: "Minimal downtime, immediate confidence.",
+        description:
+          "Most patients experience little to no recovery after veneer placement. Mild sensitivity may occur temporarily, but you can typically return to your normal routine immediately while enjoying your newly enhanced smile.",
+        points: [
+          "Resume daily activities immediately",
+          "Temporary sensitivity may occur",
+          "Avoid biting directly into very hard foods initially",
+          "Maintain excellent oral hygiene",
+          "Attend routine dental check-ups for long-term care",
+        ],
+      },
+      
+      whyClinic: {
+        tag: "WHY REKHA DENTAL",
+        title: "Creating naturally beautiful smiles with precision.",
+        points: [
+          {
+            title: "Personalized Smile Design",
+            description:
+              "Every veneer is individually designed to complement your facial features, smile line, and natural tooth proportions for a balanced and harmonious appearance.",
+          },
+          {
+            title: "Advanced Digital Planning",
+            description:
+              "Using modern digital scanning and smile planning technology, we carefully visualize and customize every detail before treatment begins.",
+          },
+          {
+            title: "Premium Porcelain & Composite Materials",
+            description:
+              "We use high-quality veneer materials known for their strength, durability, and natural translucency to achieve lifelike, long-lasting results.",
+          },
+          {
+            title: "Experienced Cosmetic Dentists",
+            description:
+              "Our cosmetic dentistry team combines artistic precision with advanced clinical expertise to deliver smile transformations that are both beautiful and functional.",
+          },
+        ],
+      },
+      
+      aftercare: {
+        tag: "AFTERCARE",
+        title: "Keep your veneers looking beautiful.",
+        tips: [
+          "Brush twice daily with a soft-bristled toothbrush",
+          "Floss carefully around your veneers every day",
+          "Avoid biting hard objects like ice or pens",
+          "Limit staining foods and beverages when possible",
+          "Visit your dentist regularly for professional cleanings and check-ups",
+        ],
+      },
     },
     {
       id: 21,
@@ -2205,6 +4371,115 @@ export const serviceDetails = [
           price: "₹1,000",
         },
       ],
+
+      whyChoose: {
+        tag: "WHY DENTAL SPLINTS",
+        title: "Protect your teeth, relieve jaw pain, and restore comfort.",
+        points: [
+          {
+            title: "Prevents Tooth Wear",
+            description:
+              "Dental splints create a protective barrier between your upper and lower teeth, reducing damage caused by teeth grinding (bruxism) and clenching during sleep.",
+          },
+          {
+            title: "Relieves Jaw Pain & Tension",
+            description:
+              "Custom-made splints help relax the jaw muscles, reducing discomfort associated with TMJ disorders, jaw stiffness, headaches, and facial muscle fatigue.",
+          },
+          {
+            title: "Custom-Fit for Maximum Comfort",
+            description:
+              "Each splint is digitally designed and precisely fabricated to fit your bite, ensuring excellent comfort, stability, and effective protection throughout the night.",
+          },
+          {
+            title: "Supports Long-Term Oral Health",
+            description:
+              "By minimizing excessive pressure on teeth and jaw joints, dental splints help preserve restorations, prevent fractures, and reduce future dental complications.",
+          },
+        ],
+      },
+      
+      candidate: {
+        tag: "IS IT RIGHT FOR YOU?",
+        title: "Who can benefit from a dental splint?",
+        description:
+          "Dental splints are recommended for patients who grind or clench their teeth, experience jaw pain, suffer from TMJ disorders, or show signs of excessive tooth wear. A comprehensive examination helps determine the most suitable splint for your condition.",
+        points: [
+          "Patients who grind or clench their teeth",
+          "Individuals with TMJ (jaw joint) disorders",
+          "People experiencing jaw pain or stiffness",
+          "Patients with worn, cracked, or sensitive teeth",
+          "Individuals suffering from morning headaches due to bruxism",
+        ],
+      },
+      
+      benefits: {
+        tag: "BENEFITS",
+        title: "Comfortable protection for healthier teeth and jaws.",
+        items: [
+          "Prevents tooth grinding damage",
+          "Relieves jaw pain and muscle tension",
+          "Protects crowns, veneers, and fillings",
+          "Reduces headaches caused by clenching",
+          "Improves TMJ comfort",
+          "Custom-fit for maximum comfort",
+          "Promotes restful sleep",
+          "Preserves long-term oral health",
+        ],
+      },
+      
+      recovery: {
+        tag: "RECOVERY",
+        title: "Easy adaptation with lasting relief.",
+        description:
+          "Most patients adapt to wearing a dental splint within a few nights. Mild pressure or awareness is normal initially, but the appliance soon becomes comfortable while effectively protecting your teeth and relaxing your jaw muscles.",
+        points: [
+          "Gradually adapt over a few nights",
+          "Wear the splint exactly as prescribed",
+          "Clean the appliance daily",
+          "Store it safely when not in use",
+          "Attend periodic reviews to monitor fit and effectiveness",
+        ],
+      },
+      
+      whyClinic: {
+        tag: "WHY REKHA DENTAL",
+        title: "Precision-made splints for lasting comfort.",
+        points: [
+          {
+            title: "Comprehensive TMJ Evaluation",
+            description:
+              "Our dentists carefully assess your bite, jaw movement, and symptoms to accurately diagnose grinding, clenching, or TMJ-related conditions before treatment.",
+          },
+          {
+            title: "Digital Precision Fit",
+            description:
+              "Using advanced digital scanning and precise fabrication techniques, we create custom dental splints that fit comfortably and function effectively.",
+          },
+          {
+            title: "Personalized Treatment Plans",
+            description:
+              "Every patient receives an individually tailored treatment plan based on their symptoms, lifestyle, and long-term oral health goals.",
+          },
+          {
+            title: "Ongoing Support & Monitoring",
+            description:
+              "Regular follow-up appointments ensure your splint continues to fit properly, relieve symptoms, and protect your teeth over time.",
+          },
+        ],
+      },
+      
+      aftercare: {
+        tag: "AFTERCARE",
+        title: "Keep your dental splint in excellent condition.",
+        tips: [
+          "Clean your splint daily with a soft toothbrush and mild soap",
+          "Store it in its protective case when not in use",
+          "Avoid exposing the splint to hot water or heat",
+          "Bring your splint to regular dental check-ups for evaluation",
+          "Replace the appliance if it becomes worn or damaged as advised by your dentist",
+        ],
+      },
     },
     {
       id: 22,
@@ -2303,6 +4578,114 @@ export const serviceDetails = [
             "Most patients regain significant chewing function after adapting to their dentures, allowing them to enjoy a wide variety of foods comfortably.",
         },
       ],
+      whyChoose: {
+        tag: "WHY DENTURES",
+        title: "Restore your smile, confidence, and everyday comfort.",
+        points: [
+          {
+            title: "Replace Multiple Missing Teeth",
+            description:
+              "Dentures provide an effective solution for replacing several or all missing teeth, restoring your ability to eat, speak, and smile with greater confidence.",
+          },
+          {
+            title: "Custom-Made for a Natural Fit",
+            description:
+              "Every denture is individually designed to match your facial features, gum contours, and bite, ensuring a comfortable fit and a natural-looking smile.",
+          },
+          {
+            title: "Improves Facial Support",
+            description:
+              "Missing teeth can cause the cheeks and lips to lose support. Dentures help restore facial fullness, creating a more youthful appearance.",
+          },
+          {
+            title: "Affordable Smile Restoration",
+            description:
+              "Whether you need partial or complete dentures, they offer a reliable and cost-effective way to restore oral function and improve your quality of life.",
+          },
+        ],
+      },
+      
+      candidate: {
+        tag: "IS IT RIGHT FOR YOU?",
+        title: "Who can benefit from dentures?",
+        description:
+          "Dentures are ideal for patients who have lost multiple or all of their natural teeth due to decay, gum disease, trauma, or age-related changes. Our team carefully evaluates your oral health and recommends the most suitable denture option for your lifestyle and needs.",
+        points: [
+          "Patients missing multiple teeth",
+          "Individuals with complete tooth loss",
+          "People seeking a removable tooth replacement",
+          "Patients not suitable for implant treatment",
+          "Anyone looking for an affordable smile restoration",
+        ],
+      },
+      
+      benefits: {
+        tag: "BENEFITS",
+        title: "A complete smile with renewed confidence.",
+        items: [
+          "Replaces multiple or all missing teeth",
+          "Improves chewing and speech",
+          "Restores facial appearance",
+          "Custom-made for comfort",
+          "Enhances smile aesthetics",
+          "Easy to maintain and clean",
+          "Cost-effective tooth replacement",
+          "Improves confidence and quality of life",
+        ],
+      },
+      
+      recovery: {
+        tag: "RECOVERY",
+        title: "Comfortable adjustment with expert guidance.",
+        description:
+          "It may take a few days or weeks to fully adapt to your new dentures. Mild soreness, increased saliva, or slight changes in speech are normal during the adjustment period and improve as your mouth becomes accustomed to the appliance.",
+        points: [
+          "Start with soft foods during the adjustment period",
+          "Practice speaking to adapt more quickly",
+          "Wear dentures as instructed by your dentist",
+          "Attend follow-up visits for adjustments if needed",
+          "Maintain excellent oral and denture hygiene",
+        ],
+      },
+      
+      whyClinic: {
+        tag: "WHY REKHA DENTAL",
+        title: "Comfortable dentures designed for everyday living.",
+        points: [
+          {
+            title: "Personalized Denture Design",
+            description:
+              "We carefully customize every denture to complement your facial profile, bite, and smile, ensuring a natural appearance and comfortable fit.",
+          },
+          {
+            title: "Advanced Digital Impressions",
+            description:
+              "Our modern digital workflow enables accurate impressions and precise denture fabrication, improving comfort, stability, and overall fit.",
+          },
+          {
+            title: "High-Quality Materials",
+            description:
+              "We use durable, premium denture materials that offer excellent aesthetics, long-lasting performance, and comfortable daily wear.",
+          },
+          {
+            title: "Comprehensive Patient Care",
+            description:
+              "From consultation and denture fabrication to fittings and long-term maintenance, our team provides personalized care at every stage of your treatment.",
+          },
+        ],
+      },
+      
+      aftercare: {
+        tag: "AFTERCARE",
+        title: "Keep your dentures comfortable and long-lasting.",
+        tips: [
+          "Clean your dentures thoroughly every day using a denture brush",
+          "Remove dentures before sleeping unless advised otherwise",
+          "Store dentures in clean water or denture solution when not in use",
+          "Maintain regular dental check-ups to assess fit and oral health",
+          "Visit your dentist if your dentures become loose, damaged, or uncomfortable",
+        ],
+      },
     },
     {
       id: 23,
@@ -2410,5 +4793,113 @@ export const serviceDetails = [
             "Yes. General dental care includes the assessment and management of dental pain, infections, trauma, and other urgent oral health concerns.",
         },
       ],
+      whyChoose: {
+        tag: "WHY GENERAL DENTAL PROCEDURES",
+        title: "Essential dental care for everyday oral health.",
+        points: [
+          {
+            title: "Early Diagnosis & Prompt Care",
+            description:
+              "Our general dental procedures help identify and manage common dental concerns before they progress into more complex conditions, ensuring timely and effective treatment."
+          },
+          {
+            title: "Relieves Pain & Discomfort",
+            description:
+              "From temporary dressings and sensitivity evaluation to sharp tooth adjustments, our treatments are designed to provide quick relief while protecting your oral health."
+          },
+          {
+            title: "Minimally Invasive Approach",
+            description:
+              "We focus on conservative dental care, preserving healthy tooth structure while providing safe, comfortable, and effective treatment for routine dental problems."
+          },
+          {
+            title: "Comprehensive Dental Assessment",
+            description:
+              "Every procedure is supported by a thorough clinical examination, allowing our dentists to recommend the most appropriate treatment for your individual needs."
+          }
+        ]
+      },
+      
+      candidate: {
+        tag: "IS IT RIGHT FOR YOU?",
+        title: "Who can benefit from general dental procedures?",
+        description:
+          "General dental procedures are suitable for patients experiencing minor dental discomfort, tooth sensitivity, sharp or broken teeth, or those requiring routine diagnostic and emergency dental care. These treatments often serve as the first step toward maintaining long-term oral health.",
+        points: [
+          "Patients with tooth pain or discomfort",
+          "Individuals experiencing tooth sensitivity",
+          "Broken or sharp teeth causing irritation",
+          "Patients requiring temporary dental dressings",
+          "Anyone seeking routine dental evaluation"
+        ]
+      },
+      
+      benefits: {
+        tag: "BENEFITS",
+        title: "Simple treatments that protect your smile.",
+        items: [
+          "Provides quick pain relief",
+          "Early diagnosis of dental problems",
+          "Prevents further tooth damage",
+          "Comfortable chairside procedures",
+          "Conservative treatment approach",
+          "Improves day-to-day oral comfort",
+          "Supports long-term dental health",
+          "Reduces the need for complex treatments"
+        ]
+      },
+      
+      recovery: {
+        tag: "RECOVERY",
+        title: "Fast treatment with little to no downtime.",
+        description:
+          "Most general dental procedures are completed within a single visit and require minimal recovery. Patients can usually resume normal daily activities immediately while following any personalized instructions provided by the dentist.",
+        points: [
+          "Return to normal activities immediately",
+          "Follow your dentist's care instructions",
+          "Take prescribed medication if required",
+          "Maintain good oral hygiene",
+          "Attend follow-up appointments if advised"
+        ]
+      },
+      
+      whyClinic: {
+        tag: "WHY REKHA DENTAL",
+        title: "Comprehensive care for every dental concern.",
+        points: [
+          {
+            title: "Experienced General Dentists",
+            description:
+              "Our skilled dental team provides accurate diagnosis and effective treatment for a wide range of routine dental concerns with a patient-first approach."
+          },
+          {
+            title: "Modern Diagnostic Technology",
+            description:
+              "Digital imaging and advanced diagnostic tools enable us to identify problems early and recommend the most appropriate treatment."
+          },
+          {
+            title: "Comfort-Focused Care",
+            description:
+              "Whether it's a simple adjustment or emergency pain management, we ensure every procedure is performed gently and comfortably."
+          },
+          {
+            title: "Personalized Treatment Plans",
+            description:
+              "We believe every patient is unique. Our dentists carefully explain your condition and recommend treatment options tailored to your oral health needs."
+          }
+        ]
+      },
+      
+      aftercare: {
+        tag: "AFTERCARE",
+        title: "Maintain your oral health after treatment.",
+        tips: [
+          "Brush twice daily using fluoride toothpaste",
+          "Follow all post-treatment instructions carefully",
+          "Avoid hard foods if your dentist advises",
+          "Report persistent pain or swelling promptly",
+          "Visit your dentist regularly for preventive check-ups"
+        ]
+      },
     },
   ];

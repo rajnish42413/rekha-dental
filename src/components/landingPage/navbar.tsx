@@ -79,7 +79,7 @@ export default function Navbar() {
           <Link href="/">
             <Image
               src="/assets/logoChanged1.png"
-              alt="Rekha Dental Clinic"
+              alt="Rekha Dental"
               width={180}
               height={70}
               priority

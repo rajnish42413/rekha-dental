@@ -17,7 +17,7 @@ export const googleReviews = [
       reviewer_picture_url:
         "https://lh3.googleusercontent.com/a/ACg8ocKFitYG-K2GLCdXiCKhyIypKlzINrO1QEK4lDHpzZEb6zJSWw=s120-c-rp-mo-br100",
       rating: 5,
-      text: "I had a great experience at Rekha Dental Clinic.",
+      text: "I had a great experience at Rekha Dental.",
       published_at: 1778846531,
       url: "https://www.google.com/search?q=rekha+dental+clinic+reviews",
     },
@@ -28,7 +28,7 @@ export const googleReviews = [
       reviewer_picture_url:
         "https://lh3.googleusercontent.com/a-/ALV-UjX5Xv4nldD45cdj13cofVKXrIZ682VVdiipOqURPYH4pznGYa6OYQ=s120-c-rp-mo-br100",
       rating: 5,
-      text: "The doctors are highly experienced, and the treatment was smooth, painless, and very comfortable. I would definitely recommend Rekha Dental Clinic for quality dental care.",
+      text: "The doctors are highly experienced, and the treatment was smooth, painless, and very comfortable. I would definitely recommend Rekha Dental for quality dental care.",
       published_at: 1777708800,
       url: "https://www.google.com/search?q=rekha+dental+clinic+reviews",
     },

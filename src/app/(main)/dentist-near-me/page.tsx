@@ -8,7 +8,7 @@ function page() {
   return (
     <div className="pt-10">
       <SectionHeader
-        tag="Appointments"
+        tag="Our Centers"
         title="Reserve your visit"
         subtitle="Choose the nearest Rekha Dental centre, explore its specialties, and book a private consultation in minutes."
       />

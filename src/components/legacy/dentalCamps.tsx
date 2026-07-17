@@ -5,6 +5,7 @@ import { SwiperSlide } from "swiper/react";
 import { useJsEnabled } from "@/hooks/useJsEnabled";
 import LegacyCard from "./legacyCard";
 import { dentalCampsData } from "@/data/legacy";
+import SectionHeader from "../general/sectionHeader";
 
 
 const CustomSwiper = dynamic(
@@ -18,16 +19,8 @@ function DentalCamps() {
   return (
     <section className=" py-10 lg:py-24 my-6">
       <div className="mx-4 lg:mx-10">
-      <div className="mx-auto max-w-4xl text-center">
-  <p className="mb-5 text-md font-extrabold uppercase tracking-[5px] text-yellow">
-    DENTAL CAMPS & OUTREACH
-  </p>
-
-  <h2 className="font-header text-2xl leading-tight text-[#2C2C2C] md:text-5xl">
-    Promoting oral health
-   
-  </h2>
-</div>
+        <SectionHeader tag="DENTAL CAMPS & OUTREACH" title=" Promoting oral health"/>
+    
         <div className="lg:mt-10 mt-6 px-1 lg:px-3">
           {!jsEnabled ? (
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-3">

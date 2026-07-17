@@ -30,7 +30,7 @@ export default function CenterCard({ center, index }: CenterCardProps) {
       hover:-translate-y-2
     "
     >
-      <Link href={`/centers/${center.slug}`}>
+      <Link href={`/dentist-near-me/${center.slug}`}>
         <div className="relative h-[260px] overflow-hidden rounded-t-lg">
           <Image
             src={center.image}
@@ -57,7 +57,6 @@ export default function CenterCard({ center, index }: CenterCardProps) {
       <div className="mx-4 grid gap-3">
         <div className="flex items-start gap-3 rounded-xl border border-[#DCCEB9] p-4">
           <FaMapMarkerAlt className="mt-1 text-brand shrink-0" size={18} />
-
           <p className="text-sm text-[#2C2C2C] line-clamp-2">
             {center.address}
           </p>
@@ -82,7 +81,7 @@ export default function CenterCard({ center, index }: CenterCardProps) {
           </a>
         </div>
         <Link
-          href={`/appointment/${center.slug}`}
+          href={`/dentist-near-me/${center.slug}`}
           className="
             bg-brand
             hover:bg-[#093528] transition-all

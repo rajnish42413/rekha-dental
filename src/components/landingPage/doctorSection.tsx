@@ -25,7 +25,7 @@ function DoctorSection() {
         tag="OUR EXPERT DENTISTS"
         title="Meet the specialists behind your radiant smile"
       />
-      <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-6">
+      <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-6">
         {typedDoctors.map((doctor) => (
           <DoctorCard key={doctor.slug} doctor={doctor} />
         ))}

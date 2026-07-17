@@ -11,7 +11,7 @@ export const milestonesTimeline = {
         year: "2007",
         title: "The Beginning",
         description:
-          "Rekha Dental Clinic was founded with a vision to make quality dental care accessible through compassion, integrity, and clinical excellence.",
+          "Rekha Dental was founded with a vision to make quality dental care accessible through compassion, integrity, and clinical excellence.",
     
         image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline1`,
       },
@@ -23,7 +23,7 @@ export const milestonesTimeline = {
         description:
           "Digital X-ray technology was introduced, enabling faster diagnostics, lower radiation exposure, and more accurate treatment planning.",
     
-        image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline2`,
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784281495/ChatGPT_Image_Jul_17_2026_03_13_25_PM_juseoh.png`,
       },
     
       {
@@ -33,7 +33,7 @@ export const milestonesTimeline = {
         description:
           "Dental implant placement and full mouth rehabilitation services were introduced, providing advanced solutions for restoring smiles and oral function.",
     
-        image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline3`,
+        image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline5`,
       },
     
       {
@@ -43,7 +43,7 @@ export const milestonesTimeline = {
         description:
           "Modern rotary endodontic technology was adopted to deliver faster, more precise, and comfortable root canal treatments.",
     
-        image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline4`,
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784283535/ChatGPT_Image_Jul_17_2026_03_48_34_PM_zi8oks.png`,
       },
     
       {
@@ -53,7 +53,7 @@ export const milestonesTimeline = {
         description:
           "Dental laser technology was introduced, allowing minimally invasive procedures with improved comfort, precision, and quicker recovery.",
     
-        image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline5`,
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781084416/rekha-dental/gallery/technology-2.jpg`,
       },
     
       {
@@ -62,8 +62,7 @@ export const milestonesTimeline = {
         title: "Digital Dentistry",
         description:
           "The clinic expanded its digital capabilities with CBCT imaging in 2020 and embraced digital dentistry in 2022, enhancing diagnosis, treatment planning, and patient outcomes.",
-    
-        image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline6`,
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784281651/ChatGPT_Image_Jul_17_2026_03_16_53_PM_dw4dpp.png`,
       },
     
       {
@@ -71,9 +70,9 @@ export const milestonesTimeline = {
         year: "Present",
         title: "Our Promise",
         description:
-          "By combining modern dental technology with a personal touch, Rekha Dental Clinic continues to build lasting relationships with patients and families. Every day, we work toward one purpose: bringing healthier smiles, greater confidence, and better quality of life to our community—one patient at a time.",
+          "By combining modern dental technology with a personal touch, Rekha Dental continues to build lasting relationships with patients and families. Every day, we work toward one purpose: bringing healthier smiles, greater confidence, and better quality of life to our community—one patient at a time.",
     
-        image: `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline7`,
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784276404/20260707_125918_owp7ak.jpg`,
       },
     ],
   };

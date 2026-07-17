@@ -27,7 +27,7 @@ export async function generateMetadata({
 
   if (!blog) {
     return {
-      title: "Blog Not Found | Rekha Dental Clinic",
+      title: "Blog Not Found | Rekha Dental",
 
       description:
         "The requested dental blog could not be found.",
@@ -41,7 +41,7 @@ export async function generateMetadata({
 
   const title =
     blog.seoTitle ||
-    `${blog.title} | Rekha Dental Clinic`;
+    `${blog.title} | Rekha Dental`;
 
   const description =
     blog.seoDescription || blog.excerpt;
@@ -70,7 +70,7 @@ export async function generateMetadata({
       "smile makeover",
       "dental implants",
       "root canal treatment",
-      "Rekha Dental Clinic",
+      "Rekha Dental",
     ],
 
     alternates: {
@@ -84,7 +84,7 @@ export async function generateMetadata({
 
       url: `${FRONTEND_URL}/blogs/${slug}`,
 
-      siteName: "Rekha Dental Clinic",
+      siteName: "Rekha Dental",
 
       type: "article",
 

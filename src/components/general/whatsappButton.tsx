@@ -16,7 +16,7 @@ import { WHATSAPP_NUMBER } from "@/utils/endpoints";
 import { RxCross2 } from "react-icons/rx";
 import { MdOutlineKeyboardDoubleArrowUp } from "react-icons/md";
 
-const message = encodeURIComponent("Hi, I'm interested in your services.");
+const message = encodeURIComponent("Hi, I'm interested in your treatments.");
 
 const socials = [
   {

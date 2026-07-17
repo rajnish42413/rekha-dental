@@ -46,27 +46,22 @@ const DoctorCard: React.FC<DoctorCardProps> = ({ doctor }) => {
         <p className="text-[11px] tracking-[2px] uppercase font-extrabold text-yellow mb-3">
           {title}
         </p>
-
         <h3 className="font-header text-xl font-semibold text-[#2C2C2C] leading-tight ">
           {name}
         </h3>
       </div>
-
-     
-
       <div className="flex justify-between items-center px-6 py-4">
-      
-          <div className="">
-            <BookAppointmentButton />
-          </div>
-          <Link
+        <div className="">
+          <BookAppointmentButton />
+        </div>
+        <Link
           href={whatsappLink}
           target="_blank"
           className="w-10 h-10 rounded-lg bg-brand text-white flex items-center justify-center"
         >
           <FaWhatsapp className="text-xl" />
         </Link>
-        </div>
+      </div>
     </div>
   );
 };

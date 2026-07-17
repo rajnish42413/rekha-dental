@@ -41,7 +41,7 @@ export default function BookAppointmentButton({
   }, []);
 
   return (
-    <div ref={dropdownRef} className="relative ">
+    <div ref={dropdownRef} className="relative w-full">
       <button
         type="button"
         onClick={(e) => {

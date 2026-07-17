@@ -10,13 +10,13 @@ export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
 
   title:
-    "Professional Legacy | Rekha Dental Clinic Ghaziabad",
+    "Professional Legacy | Rekha Dental",
 
   description:
-    "Explore the professional journey of Rekha Dental Clinic through achievements, dental camps, academic lectures, workshops, community outreach programs, and media recognition.",
+    "Explore the professional journey of Rekha Dental  through achievements, dental camps, academic lectures, workshops, community outreach programs, and media recognition.",
 
   keywords: [
-    "Rekha Dental Clinic",
+    "Rekha Dental",
     "Dr Gaurav Saxena",
     "Dental Camps",
     "Dental Workshops",
@@ -36,14 +36,14 @@ export const metadata: Metadata = {
 
   openGraph: {
     title:
-      "Professional Legacy | Rekha Dental Clinic Ghaziabad",
+      "Professional Legacy | Rekha Dental",
 
     description:
       "A journey of excellence through dental education, international collaborations, community service, achievements, and professional milestones.",
 
     url: `${FRONTEND_URL}/legacy`,
 
-    siteName: "Rekha Dental Clinic",
+    siteName: "Rekha Dental",
 
     type: "website",
 
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
         url: `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp4`,
         width: 1200,
         height: 630,
-        alt: "Professional Legacy - Rekha Dental Clinic",
+        alt: "Professional Legacy - Rekha Dental",
       },
     ],
   },
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
 
     title:
-      "Professional Legacy | Rekha Dental Clinic Ghaziabad",
+      "Professional Legacy | Rekha Dental",
 
     description:
       "Discover the achievements, outreach programs, lectures, and milestones that define Rekha Dental's legacy.",

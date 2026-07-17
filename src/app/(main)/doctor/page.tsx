@@ -18,10 +18,10 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
 
-  title: "Meet Our Dental Specialists | Rekha Dental Clinic Ghaziabad",
+  title: "Meet Our Dental Specialists | Rekha Dental ",
 
   description:
-    "Meet Dr. Gaurav Saxena and Dr. Mamta Raghav Saxena at Rekha Dental Clinic, Ghaziabad. Experienced specialists in dental implants, cosmetic dentistry, root canal treatment, oral medicine, and precision-driven patient care.",
+    "Meet Dr. Gaurav Saxena and Dr. Mamta Raghav Saxena at Rekha Dental, Ghaziabad. Experienced specialists in dental implants, cosmetic dentistry, root canal treatment, oral medicine, and precision-driven patient care.",
 
   keywords: [
     "Dr Gaurav Saxena",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     "root canal specialist",
     "oral medicine specialist",
     "dental implant doctor",
-    "Rekha Dental Clinic doctors",
+    "Rekha Dental doctors",
     "best dentist in Ghaziabad",
   ],
 
@@ -41,14 +41,14 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Meet Our Dental Specialists | Rekha Dental Clinic Ghaziabad",
+    title: "Meet Our Dental Specialists | Rekha Dental",
 
     description:
-      "Explore the expertise, experience, and patient-first approach of the specialists at Rekha Dental Clinic.",
+      "Explore the expertise, experience, and patient-first approach of the specialists at Rekha Dental.",
 
     url: `${FRONTEND_URL}/doctor`,
 
-    siteName: "Rekha Dental Clinic",
+    siteName: "Rekha Dental",
 
     type: "website",
 
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
         url: `${CLOUDINARY_BASE}/rekha-dental/doctor/doctor1`,
         width: 1200,
         height: 630,
-        alt: "Doctors at Rekha Dental Clinic",
+        alt: "Doctors at Rekha Dental",
       },
     ],
   },
@@ -67,10 +67,10 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title: "Meet Our Dental Specialists | Rekha Dental Clinic Ghaziabad",
+    title: "Meet Our Dental Specialists | Rekha Dental",
 
     description:
-      "Learn about the experienced dental specialists leading Rekha Dental Clinic in Ghaziabad.",
+      "Learn about the experienced dental specialists leading Rekha Dental.",
 
     images: [`${CLOUDINARY_BASE}/rekha-dental/doctor/doctor1`],
   },

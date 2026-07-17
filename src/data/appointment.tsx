@@ -9,7 +9,7 @@ export const appointmentSteps = [
       number: "01",
       title: "Choose a Centre",
       description:
-        "Select the Rekha Dental clinic location that's most convenient for your visit.",
+        "Select the Rekha Dental location that's most convenient for your visit.",
       icon: <FaMapMarkerAlt />,
     },
     {
@@ -35,9 +35,9 @@ export const appointmentSteps = [
       id: 1,
       slug: "ghaziabad",
       city: "Ghaziabad",
-      name: "Rekha Dental Clinic Ghaziabad",
+      name: "Rekha Dental",
       image:
-      `${CLOUDINARY_BASE}/rekha-dental/clinic/clinic3`,
+      `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784275326/20260714_170427_ccuqwu.jpg`,
       description:
         "Comprehensive dental care with advanced technology, experienced specialists, and personalized treatment plans.",
       address:
@@ -49,7 +49,7 @@ export const appointmentSteps = [
       id: 2,
       slug: "raj-nagar",
       city: "Raj Nagar Extension",
-      name: "Rekha Dental Clinic Laser & Implant Center",
+      name: "Rekha Dental",
       image:
       `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline1`,
       description:

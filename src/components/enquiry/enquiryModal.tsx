@@ -110,7 +110,7 @@ export default function EnquiryModal({ isOpen, onClose }: EnquiryModalProps) {
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
             <PremiumInput
               label="Full Name *"
-              placeholder="John Doe"
+              placeholder="Shreyash"
               error={errors.name?.message}
               {...register("name", { required: "Name is required" })}
             />
@@ -129,16 +129,14 @@ export default function EnquiryModal({ isOpen, onClose }: EnquiryModalProps) {
                   },
                 })}
               />
-
               <PremiumInput
                 label="Email Address"
-                placeholder="john@example.com"
+                placeholder="shreyash@gmail.com"
                 type="email"
                 error={errors.email?.message}
                 {...register("email", {required:"Email is required"})}
               />
             </div>
-
             <PremiumInput
               label="Required Service"
               placeholder="e.g., Dental Checkup, Teeth Whitening"

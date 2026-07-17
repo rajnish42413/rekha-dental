@@ -35,24 +35,25 @@ function LandingPage() {
           // `${CLOUDINARY_BASE}/rekha-dental/academy/academy1`,
           `${CLOUDINARY_BASE}/rekha-dental/current/current3`,
           `${CLOUDINARY_BASE}/rekha-dental/current/current4`,
-          `${CLOUDINARY_BASE}/rekha-dental/timeline/timeline4`,
+         "https://res.cloudinary.com/dygrzu3sm/image/upload/v1784275463/20220728_100639_krz0gk.jpg",
           `${CLOUDINARY_BASE}/rekha-dental/smiles/smile3`,
           `${CLOUDINARY_BASE}/rekha-dental/smiles/smile4`,
           // `${CLOUDINARY_BASE}/rekha-dental/smiles/smile5`,
-          `${CLOUDINARY_BASE}/rekha-dental/events/event1`,
+          // `${CLOUDINARY_BASE}/rekha-dental/events/event1`,
           `${CLOUDINARY_BASE}/rekha-dental/events/event2`,
           `${CLOUDINARY_BASE}/rekha-dental/events/event3`,
           `${CLOUDINARY_BASE}/rekha-dental/events/event4`,
           `${CLOUDINARY_BASE}/rekha-dental/events/event5`,
           `${CLOUDINARY_BASE}/rekha-dental/events/event6`,
           `${CLOUDINARY_BASE}/rekha-dental/events/event7`,
+          "https://res.cloudinary.com/dygrzu3sm/image/upload/v1784275466/FB_IMG_1579334789332_b3incl.jpg",
           // `${CLOUDINARY_BASE}/rekha-dental/events/event8`,
           `${CLOUDINARY_BASE}/rekha-dental/events/event9`,
         ]}
-        tag="REKHA DENTAL CLINIC"
+        tag="REKHA DENTAL"
         title="Where precision dentistry meets human care."
         paragraphs={[
-          "Every consultation at Rekha Dental Clinic is designed to feel unhurried, personal, and deeply considered. We believe exceptional dentistry begins with listening before treatment.",
+          "Every consultation at Rekha Dental is designed to feel unhurried, personal, and deeply considered. We believe exceptional dentistry begins with listening before treatment.",
 
           "From preventive care to complete smile rehabilitation, our team combines modern clinical expertise with a calm, refined patient experience built around comfort, trust, and long-term relationships.",
         ]}

@@ -106,7 +106,7 @@ export default function HeroBanner() {
             </div>
 
             <Link
-              href="/services"
+              href="/treatments"
               className="border text-center px-6 py-3 text-sm tracking-wide
     cursor-pointer transition-all duration-200 active:scale-95 font-semibold"
             >

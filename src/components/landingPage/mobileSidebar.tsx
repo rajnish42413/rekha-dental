@@ -41,7 +41,7 @@ export default function MobileSidebar({
         <div className="flex justify-between items-center">
           <Link href="/" onClick={onClose}>
             <span className="font-header tracking-widest uppercase text-lg text-[#2d2d2d]">
-              Rekha Dental Clinic
+              Rekha Dental
             </span>
           </Link>
 

@@ -5,18 +5,21 @@ import PillarCard from "@/components/general/pillarCard";
 import SectionHeader from "@/components/general/sectionHeader";
 import DentalCostComparison from "@/components/tour/costComparison";
 import HowItWorksSection from "@/components/tour/howItWorksSection";
-import { medicalTourismBenefits, tourismFaqData, tourismReviews } from "@/data/tourism";
+import {
+  medicalTourismBenefits,
+  tourismFaqData,
+  tourismReviews,
+} from "@/data/tourism";
 import { CLOUDINARY_BASE, FRONTEND_URL } from "@/utils/endpoints";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
 
-  title:
-    "Dental Tourism in India | Rekha Dental Clinic Ghaziabad",
+  title: "Dental Tourism in India | Rekha Dental",
 
   description:
-    "Discover premium dental tourism services at Rekha Dental Clinic in India. International patients trust our specialists for affordable dental implants, smile makeovers, cosmetic dentistry, and advanced restorative treatments with world-class care.",
+    "Discover premium dental tourism services at Rekha Dental in India. International patients trust our specialists for affordable dental implants, smile makeovers, cosmetic dentistry, and advanced restorative treatments with world-class care.",
 
   keywords: [
     "dental tourism India",
@@ -27,7 +30,7 @@ export const metadata: Metadata = {
     "international dental patients",
     "smile makeover India",
     "dentist in Ghaziabad",
-    "Rekha Dental Clinic",
+    "Rekha Dental",
     "advanced dental care India",
     "dental vacation India",
     "world-class dentistry",
@@ -38,15 +41,14 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title:
-      "Dental Tourism in India | Rekha Dental Clinic Ghaziabad",
+    title: "Dental Tourism in India | Rekha Dental",
 
     description:
       "Experience world-class dental care in India with internationally trusted specialists, transparent pricing, and premium patient experiences.",
 
     url: `${FRONTEND_URL}/tour`,
 
-    siteName: "Rekha Dental Clinic",
+    siteName: "Rekha Dental",
 
     type: "website",
 
@@ -57,7 +59,7 @@ export const metadata: Metadata = {
         url: `${CLOUDINARY_BASE}/rekha-dental/tourism`,
         width: 1200,
         height: 630,
-        alt: "Dental Tourism at Rekha Dental Clinic",
+        alt: "Dental Tourism at Rekha Dental",
       },
     ],
   },
@@ -65,15 +67,12 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title:
-      "Dental Tourism in India | Rekha Dental Clinic Ghaziabad",
+    title: "Dental Tourism in India | Rekha Dental",
 
     description:
       "Explore affordable, precision-driven dental treatments in India trusted by international patients worldwide.",
 
-    images: [
-      `${CLOUDINARY_BASE}/rekha-dental/tourism`,
-    ],
+    images: [`${CLOUDINARY_BASE}/rekha-dental/tourism`],
   },
 
   robots: {
@@ -91,11 +90,15 @@ function page() {
         subtitle="Premium materials, world-trained clinicians, transparent pricing — refined into a single destination."
       />
       <StorySection
-        images={[`${CLOUDINARY_BASE}/rekha-dental/events/event1`,`${CLOUDINARY_BASE}/rekha-dental/events/event2`]}
+        images={[
+          `${CLOUDINARY_BASE}/rekha-dental/events/event2`,
+          "https://res.cloudinary.com/dygrzu3sm/image/upload/v1784276404/20260707_125918_owp7ak.jpg",
+         
+        ]}
         tag="WHAT IS DENTAL TOURISM"
         title="A passport to a healthier smile."
         paragraphs={[
-          "At Rekha Dental Clinic, we make world-class dental care accessible through our comprehensive dental tourism program. From your first online consultation to your final follow-up, our team manages every detail with personalized treatment plans, transparent pricing, travel assistance, and dedicated support, ensuring a smooth and stress-free experience.",
+          "At Rekha Dental, we make world-class dental care accessible through our comprehensive dental tourism program. From your first online consultation to your final follow-up, our team manages every detail with personalized treatment plans, transparent pricing, travel assistance, and dedicated support, ensuring a smooth and stress-free experience.",
           "Using advanced technologies such as digital dentistry, CBCT imaging, robotic scanning, and laser treatments, our experienced specialists deliver precise, safe, and high-quality care. Whether you need dental implants, veneers, smile makeovers, or full-mouth rehabilitation, we combine clinical excellence with exceptional value—helping you return home with a healthier, more confident smile and lasting memories of India.",
         ]}
       />

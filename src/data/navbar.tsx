@@ -4,8 +4,8 @@ export const menuLinks = [
       href: "/about",
     },
     {
-      label: "Services",
-      href: "/services",
+      label: "Treatments",
+      href: "/treatments",
     },
     {
       label: "Our Team",

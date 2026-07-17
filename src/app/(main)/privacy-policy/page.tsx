@@ -8,14 +8,14 @@ export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
 
   title:
-    "Privacy Policy | Rekha Dental Clinic Ghaziabad",
+    "Privacy Policy | Rekha Dental",
 
   description:
-    "Read the Privacy Policy of Rekha Dental Clinic to understand how we collect, use, protect, and manage patient and visitor information across our website and clinical services.",
+    "Read the Privacy Policy of Rekha Dental to understand how we collect, use, protect, and manage patient and visitor information across our website and clinical services.",
 
   keywords: [
     "privacy policy",
-    "Rekha Dental Clinic",
+    "Rekha Dental ",
     "patient privacy",
     "data protection",
     "medical privacy policy",
@@ -32,14 +32,14 @@ export const metadata: Metadata = {
 
   openGraph: {
     title:
-      "Privacy Policy | Rekha Dental Clinic Ghaziabad",
+      "Privacy Policy | Rekha Dental",
 
     description:
-      "Learn how Rekha Dental Clinic safeguards patient and website visitor information with responsible privacy and data protection practices.",
+      "Learn how Rekha Dental safeguards patient and website visitor information with responsible privacy and data protection practices.",
 
     url: `${FRONTEND_URL}/privacy-policy`,
 
-    siteName: "Rekha Dental Clinic",
+    siteName: "Rekha Dental",
 
     type: "website",
 
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
         url: `${CLOUDINARY_BASE}/rekha-dental/aboutBanner`,
         width: 1200,
         height: 630,
-        alt: "Rekha Dental Clinic Privacy Policy",
+        alt: "Rekha Dental",
       },
     ],
   },
@@ -59,10 +59,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
 
     title:
-      "Privacy Policy | Rekha Dental Clinic Ghaziabad",
+      "Privacy Policy | Rekha Dental",
 
     description:
-      "Understand how Rekha Dental Clinic collects, protects, and manages user and patient information responsibly.",
+      "Understand how Rekha Dental collects, protects, and manages user and patient information responsibly.",
 
     images: [
       `${CLOUDINARY_BASE}/rekha-dental/aboutBanner`,

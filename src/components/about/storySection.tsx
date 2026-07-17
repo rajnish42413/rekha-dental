@@ -43,9 +43,11 @@ export default function StorySection({
           className={`max-w-xl transform transition-all duration-1400 delay-200 ease-[cubic-bezier(0.22,1,0.36,1)]
         `}
         >
-          <p className="text-md lg:text-lg tracking-[3px] text-yellow font-extrabold lg:mb-6 mb-2 uppercase">
+           <div className="inline-flex mb-4 items-center gap-2 bg-emerald-500/10 px-3 py-1.5 rounded-full border border-emerald-500/20">
+          <p className="uppercase tracking-[2px] text-xs font-black text-emerald-600 lg:text-sm ">
             {tag}
           </p>
+        </div>
 
           <h2 className="font-header text-2xl lg:text-4xl leading-tight text-[#2C2C2C] mb-6">
             {title}

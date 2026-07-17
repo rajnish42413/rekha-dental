@@ -16,7 +16,7 @@ export default function ExploreDentalServices() {
           {exploreDentalServices.map((service) => (
             <Link
               key={service.id}
-              href={`/services/${service.slug}`}
+              href={`/treatments/${service.slug}`}
               className="
                 group
                 bg-[#FCFAF6]
