@@ -1240,7 +1240,7 @@ export const serviceDetails = [
       hero: {
         title: "",
         subtitle: "",
-        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784182000/Gemini_Generated_Image_cwklnbcwklnbcwkl_pf00ln.png`,
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784287326/1000199650_yroke4.png`,
       },
       overview: {
         tag: "OVERVIEW",
@@ -1449,10 +1449,10 @@ export const serviceDetails = [
       id: 7,
       slug: "dental-bridges",
       hero: {
-        title: "Dental Bridges",
+        title: "",
         subtitle:
-          "Durable tooth replacement solutions for function and aesthetics.",
-        image: `${CLOUDINARY_BASE}/rekha-dental/services/service7/thumbnail`,
+          "",
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784287325/1000199665_bmc43t.png`,
       },
       overview: {
         tag: "OVERVIEW",
@@ -1634,9 +1634,9 @@ export const serviceDetails = [
       id: 8,
       slug: "dental-implants",
       hero: {
-        title: "Dental Implants",
-        subtitle: "Advanced implant procedures for permanent tooth replacement.",
-        image: `${CLOUDINARY_BASE}/rekha-dental/services/service8/thumbnail`,
+        title: "",
+        subtitle: "",
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784179395/1000198950_uwz7cx.png`,
       },
       overview: {
         tag: "OVERVIEW",
@@ -1838,9 +1838,9 @@ export const serviceDetails = [
       id: 9,
       slug: "orthodontic-treatment",
       hero: {
-        title: "Orthodontic Treatment",
-        subtitle: "Modern alignment solutions for beautifully straight teeth.",
-        image: `${CLOUDINARY_BASE}/rekha-dental/services/service9/thumbnail`,
+        title: "",
+        subtitle: "",
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784287324/1000199656_wsqjeq.png`,
       },
       overview: {
         tag: "OVERVIEW",
@@ -2053,9 +2053,9 @@ export const serviceDetails = [
       id: 10,
       slug: "root-canal-treatment",
       hero: {
-        title: "Root Canal Treatment",
-        subtitle: "Precision endodontic care focused on tooth preservation.",
-        image: `${CLOUDINARY_BASE}/rekha-dental/services/service10/thumbnail`,
+        title: "",
+        subtitle: "",
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784287324/1000199662_lww5tl.png`,
       },
       overview: {
         tag: "OVERVIEW",
@@ -2264,9 +2264,9 @@ export const serviceDetails = [
       id: 11,
       slug: "tooth-removal",
       hero: {
-        title: "Tooth Removal",
-        subtitle: "Safe and comfortable extraction procedures.",
-        image: `${CLOUDINARY_BASE}/rekha-dental/services/service11/thumbnail`,
+        title: "",
+        subtitle: "",
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784287333/1000199644_mjvwv1.png`,
       },
       overview: {
         tag: "OVERVIEW",
@@ -2472,9 +2472,9 @@ export const serviceDetails = [
       id: 12,
       slug: "cosmetic-dentistry",
       hero: {
-        title: "Cosmetic Dentistry",
-        subtitle: "Smile-enhancing treatments designed for excellence.",
-        image: `${CLOUDINARY_BASE}/rekha-dental/services/service12/thumbnail`,
+        title: "",
+        subtitle: "",
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784287325/1000199653_weq8dl.png`,
       },
       overview: {
         tag: "OVERVIEW",
@@ -2656,9 +2656,9 @@ export const serviceDetails = [
       id: 13,
       slug: "teeth-cleaning-scaling",
       hero: {
-        title: "Teeth Cleaning & Scaling",
-        subtitle: "Professional scaling and polishing for hygiene.",
-        image: `${CLOUDINARY_BASE}/rekha-dental/services/service13/thumbnail`,
+        title: "",
+        subtitle: "",
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784287326/1000199668_mujees.png`,
       },
       overview: {
         tag: "OVERVIEW",
@@ -2847,9 +2847,9 @@ export const serviceDetails = [
       id: 14,
       slug: "laser-dental-treatment",
       hero: {
-        title: "Laser Dental Treatment",
-        subtitle: "Minimally invasive laser procedures.",
-        image: `${CLOUDINARY_BASE}/rekha-dental/services/service14/thumbnail`,
+        title: "",
+        subtitle: "",
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784287324/1000199659_uvjakx.png`,
       },
       overview: {
         tag: "OVERVIEW",
@@ -3035,9 +3035,9 @@ export const serviceDetails = [
       id: 15,
       slug: "tooth-jewellery",
       hero: {
-        title: "Tooth Jewellery",
-        subtitle: "Add a sparkle to your smile.",
-        image: `${CLOUDINARY_BASE}/rekha-dental/services/service15/thumbnail`,
+        title: "",
+        subtitle: "",
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784287322/1000199638_o48iez.png`,
       },
       overview: {
         tag: "OVERVIEW",
@@ -3430,8 +3430,8 @@ export const serviceDetails = [
       id: 17,
       slug: "minimally-invasive-technology",
       hero: {
-        title: "Minimally Invasive Technology",
-        subtitle: "Preserving more of your natural smile.",
+        title: "",
+        subtitle: "",
         image: `${CLOUDINARY_BASE}/rekha-dental/services/service17/thumbnail`,
       },
       overview: {
@@ -3599,9 +3599,9 @@ export const serviceDetails = [
       id: 18,
       slug: "full-mouth-rehabilitation",
       hero: {
-        title: "Full Mouth Rehabilitation",
-        subtitle: "Complete restoration of oral function and aesthetics.",
-        image: `${CLOUDINARY_BASE}/rekha-dental/services/service18/thumbnail`,
+        title: "",
+        subtitle: "",
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784287325/1000199637_te72pv.png`,
       },
       overview: {
         tag: "OVERVIEW",
@@ -3807,9 +3807,9 @@ export const serviceDetails = [
       id: 19,
       slug: "dental-crowns",
       hero: {
-        title: "Dental Crowns",
+        title: "",
         subtitle: "Strength, protection, and natural aesthetics restored.",
-        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781857257/ChatGPT_Image_Jun_19_2026_01_45_07_PM_tilxyt.png`,
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784287325/1000199629_bbcbvk.png`,
       },
   
       overview: {
@@ -4031,9 +4031,9 @@ export const serviceDetails = [
       id: 20,
       slug: "dental-veneers",
       hero: {
-        title: "Dental Veneers",
-        subtitle: "Transform imperfections into a naturally radiant smile.",
-        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781858744/ChatGPT_Image_Jun_19_2026_02_13_50_PM_i6r1dk.png`,
+        title: "",
+        subtitle: "",
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784287327/1000199647_edtfa9.png`,
       },
   
       overview: {
@@ -4270,9 +4270,9 @@ export const serviceDetails = [
       id: 21,
       slug: "dental-splints",
       hero: {
-        title: "Dental Splints",
-        subtitle: "Protect your teeth, relieve jaw strain, and restore comfort.",
-        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781859345/Gemini_Generated_Image_sk6bask6bask6bas_uuyrxz.png`,
+        title: "",
+        subtitle: "",
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784287333/1000199641_tx5i2i.png`,
       },
   
       overview: {
@@ -4485,9 +4485,9 @@ export const serviceDetails = [
       id: 22,
       slug: "dentures",
       hero: {
-        title: "Dentures",
-        subtitle: "Restore confidence, comfort, and the ability to smile freely.",
-        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781859910/Gemini_Generated_Image_fmvfgqfmvfgqfmvf_dvceiq.png`,
+        title: "",
+        subtitle: "",
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784287323/1000199626_xcqeew.png`,
       },
   
       overview: {
@@ -4692,9 +4692,9 @@ export const serviceDetails = [
       slug: "general-dental-procedures",
   
       hero: {
-        title: "General Dental Procedures",
-        subtitle: "Essential dental care for everyday oral health needs.",
-        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781860548/Gemini_Generated_Image_lhoye4lhoye4lhoy_v4ijx4.png`,
+        title: "",
+        subtitle: "",
+        image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784287322/1000199632_awn7hf.png`,
       },
   
       overview: {
