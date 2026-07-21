@@ -12,21 +12,21 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
-  title: "About Rekha Dental | Luxury Dental Care in Ghaziabad",
+  title: "About Rekha Dental | Best Dental Clinic in Ghaziabad",
   description:
-    "Discover Rekha Dental's philosophy of refined, patient-first dentistry in Ghaziabad. Over 19 years of precision-driven dental care, advanced treatments, and calm clinical experiences.",
+    "Learn about Rekha Dental, a trusted dental clinic in Ghaziabad with over 19 years of experience in dental implants, cosmetic dentistry, root canal treatment, and patient-first dental care.",
 
   keywords: [
+    "about Rekha Dental",
+    "dental clinic Raj Nagar Extension",
+    "dentist Raj Nagar Extension",
+    "best dentist Kotgaon",
+    "trusted dentist Ghaziabad",
+    "family dentist Raj Nagar Extension",
+    "oral healthcare Ghaziabad",
+    "cosmetic dentistry Raj Nagar Extension",
+    "implant dentist Raj Nagar Extension",
     "Rekha Dental",
-    "dentist in Ghaziabad",
-    "dental clinic in Ghaziabad",
-    "cosmetic dentistry",
-    "luxury dental clinic",
-    "dental implants Ghaziabad",
-    "root canal treatment",
-    "oral healthcare",
-    "dental specialists",
-    "Raj Nagar Extension dentist",
   ],
 
   alternates: {
@@ -34,11 +34,10 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "About Rekha Dental | Luxury Dental Care in Ghaziabad",
+    title: "About Rekha Dental | Best Dental Clinic in Ghaziabad",
 
     description:
-      "A calm, precision-focused dental practice built on thoughtful care, advanced treatments, and patient trust.",
-
+      "Learn about Rekha Dental, a trusted dental clinic in Ghaziabad with over 19 years of experience in dental implants, cosmetic dentistry, root canal treatment, and patient-first dental care.",
     url: `${FRONTEND_URL}/about`,
 
     siteName: "Rekha Dental ",
@@ -49,7 +48,7 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: `${CLOUDINARY_BASE}/rekha-dental/aboutBanner`,
+        url: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781084168/rekha-dental/academy-new/academy-new4.jpg`,
         width: 1200,
         height: 630,
         alt: "Rekha Dental About Page",
@@ -59,10 +58,12 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "About Rekha Dental | Luxury Dental Care in Ghaziabad",
+    title: "About Rekha Dental | Best Dental Clinic in Ghaziabad",
     description:
-      "Explore the philosophy, story, and patient-first approach behind Rekha Dental.",
-    images: [`${CLOUDINARY_BASE}/rekha-dental/aboutBanner`],
+      "Learn about Rekha Dental, a trusted dental clinic in Ghaziabad with over 19 years of experience in dental implants, cosmetic dentistry, root canal treatment, and patient-first dental care.",
+    images: [
+      `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781084168/rekha-dental/academy-new/academy-new4.jpg`,
+    ],
   },
 
   robots: {

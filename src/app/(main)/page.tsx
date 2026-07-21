@@ -1,28 +1,26 @@
-import LandingPage from "@/components/landingPage/landingPage"
+import LandingPage from "@/components/landingPage/landingPage";
 import { CLOUDINARY_BASE, FRONTEND_URL } from "@/utils/endpoints";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
 
   title:
-    "Rekha Dental | Luxury Dental Care in Ghaziabad",
+    "Best Dental Clinic in Ghaziabad | Dental Implants, RCT & Smile Makeover | Rekha Dental",
 
   description:
-    "Rekha Dental in Ghaziabad offers advanced dental implants, cosmetic dentistry, smile makeovers, root canal treatment, and precision-driven oral healthcare with a calm, patient-first experience.",
-
+    "Looking for the best dental clinic in Ghaziabad? Rekha Dental offers dental implants, root canal treatment, smile makeovers, braces, aligners, cosmetic dentistry, and family dental care with advanced technology.",
   keywords: [
-    "Rekha Dental ",
-    "dentist in Ghaziabad",
-    "best dental clinic Ghaziabad",
-    "cosmetic dentistry",
-    "dental implants",
-    "root canal treatment",
-    "smile makeover",
-    "oral healthcare",
-    "dental specialists",
-    "Raj Nagar Extension dentist",
-    "luxury dental clinic",
-    "advanced dental care",
+    "best dental clinic in Raj Nagar Extension",
+    "best dentist in Raj Nagar Extension",
+    "dental clinic in Raj Nagar Extension",
+    "dentist in Raj Nagar Extension Ghaziabad",
+    "best dentist in Kotgaon",
+    "dental clinic in Kotgaon",
+    "dentist near Kotgaon",
+    "dental implants Raj Nagar Extension",
+    "root canal treatment Raj Nagar Extension",
+    "cosmetic dentist Raj Nagar Extension",
+    "Rekha Dental",
   ],
 
   alternates: {
@@ -31,10 +29,10 @@ export const metadata: Metadata = {
 
   openGraph: {
     title:
-      "Rekha Dental | Luxury Dental Care in Ghaziabad",
+      "Best Dental Clinic in Ghaziabad | Dental Implants, RCT & Smile Makeover | Rekha Dental",
 
     description:
-      "Experience precision dentistry, advanced treatments, and compassionate patient care at Rekha Dental.",
+      "Looking for the best dental clinic in Ghaziabad? Rekha Dental offers dental implants, root canal treatment, smile makeovers, braces, aligners, cosmetic dentistry, and family dental care with advanced technology.",
 
     url: `${FRONTEND_URL}`,
 
@@ -58,14 +56,11 @@ export const metadata: Metadata = {
     card: "summary_large_image",
 
     title:
-      "Rekha Dental | Luxury Dental Care in Ghaziabad",
+      "Best Dental Clinic in Ghaziabad | Dental Implants, RCT & Smile Makeover | Rekha Dental",
 
     description:
-      "Advanced dental care, smile makeovers, implants, and patient-first dentistry in Ghaziabad.",
-
-    images: [
-      `${CLOUDINARY_BASE}/rekha-dental/banner`,
-    ],
+      "Looking for the best dental clinic in Ghaziabad? Rekha Dental offers dental implants, root canal treatment, smile makeovers, braces, aligners, cosmetic dentistry, and family dental care with advanced technology.",
+    images: [`${CLOUDINARY_BASE}/rekha-dental/banner`],
   },
 
   robots: {
@@ -75,8 +70,10 @@ export const metadata: Metadata = {
 };
 function page() {
   return (
-    <div><LandingPage/></div>
-  )
+    <div>
+      <LandingPage />
+    </div>
+  );
 }
 
-export default page
+export default page;
