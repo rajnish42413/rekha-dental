@@ -1,16 +1,14 @@
 import GallerySection from "@/components/gallery/gallerySection";
 import GalleryHeroSection from "@/components/gallery/sectionHeader";
-import { CLOUDINARY_BASE, FRONTEND_URL } from "@/utils/endpoints";
+import {  FRONTEND_URL } from "@/utils/endpoints";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
 
-  title:
-    "Dental Clinic Gallery | Rekha Dental Ghaziabad",
+  title:"Dental Clinic Gallery | Rekha Dental Ghaziabad",
 
-  description:
-    "Explore the Rekha Dental gallery featuring modern treatment spaces, smile transformations, advanced dental procedures, academy sessions, and patient-focused clinical care in Ghaziabad.",
-
+  description:"Take a look inside Rekha Dental Clinic in Ghaziabad. Explore our modern clinic, advanced equipment, treatment results, and patient experience.",
+   
   keywords: [
     "Rekha Dental gallery",
     "dental clinic photos",
@@ -29,12 +27,9 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title:
-      "Dental Clinic Gallery | Rekha Dental",
+    title:"Dental Clinic Gallery | Rekha Dental Ghaziabad",
 
-    description:
-      "Discover treatment spaces, advanced dental care, smile transformations, and academy moments at Rekha Dental .",
-
+    description:"Take a look inside Rekha Dental Clinic in Ghaziabad. Explore our modern clinic, advanced equipment, treatment results, and patient experience.",
     url: `${FRONTEND_URL}/gallery`,
 
     siteName: "Rekha Dental",
@@ -45,7 +40,7 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: `${CLOUDINARY_BASE}/rekha-dental/aboutBanner`,
+        url: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784275216/20260202_165005_gqw0fw.jpg`,
         width: 1200,
         height: 630,
         alt: "Rekha Dental Gallery",
@@ -56,14 +51,12 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title:
-      "Dental Clinic Gallery | Rekha Dental ",
+    title:"Dental Clinic Gallery | Rekha Dental Ghaziabad",
 
-    description:
-      "Browse the gallery of Rekha Dental  showcasing treatments, clinic spaces, academy sessions, and patient care experiences.",
+    description:"Take a look inside Rekha Dental Clinic in Ghaziabad. Explore our modern clinic, advanced equipment, treatment results, and patient experience.",
 
     images: [
-      `${CLOUDINARY_BASE}/rekha-dental/aboutBanner`,
+      `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784275216/20260202_165005_gqw0fw.jpg`,
     ],
   },
 

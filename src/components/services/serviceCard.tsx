@@ -64,7 +64,7 @@ export default function ServiceCard({
         </p>
       </div>
       <div className="px-6 pb-6">
-        <div className="flex justify-between  items-center">
+        <div className="flex justify-between items-center">
           <div className=" flex items-center gap-3 pr-2">
             <div>
               <p className="text-[11px] uppercase tracking-wide text-yellow font-extrabold">

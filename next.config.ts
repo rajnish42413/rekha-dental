@@ -46,7 +46,7 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: "/treatments/dental-implants-ghaziabad",
+        source: "/treatments/dental-implant-ghaziabad",
         destination: "/treatments/dental-implants",
         permanent: true,
       },

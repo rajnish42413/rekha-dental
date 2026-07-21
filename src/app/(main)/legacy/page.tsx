@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "Professional Legacy | Rekha Dental",
 
   description:
-    "Explore the professional journey of Rekha Dental  through achievements, dental camps, academic lectures, workshops, community outreach programs, and media recognition.",
+    "Explore the professional journey of Rekha Dental through achievements, dental camps, academic lectures, workshops, community outreach programs, and media recognition.",
 
   keywords: [
     "Rekha Dental",
