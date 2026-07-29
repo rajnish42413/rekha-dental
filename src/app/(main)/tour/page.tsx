@@ -16,24 +16,26 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
 
-  title: "Dental Tourism in India | Rekha Dental",
+  title:
+    "Dental Tourism in India | Affordable Dental Treatment for International Patients | Rekha Dental",
 
   description:
-    "Discover premium dental tourism services at Rekha Dental in India. International patients trust our specialists for affordable dental implants, smile makeovers, cosmetic dentistry, and advanced restorative treatments with world-class care.",
+    "Choose Rekha Dental for affordable dental tourism in India. We provide dental implants, smile makeovers, root canal treatment, cosmetic dentistry, and complete support for international patients with world-class care in Ghaziabad.",
 
   keywords: [
-    "dental tourism India",
-    "medical tourism India",
-    "affordable dental treatment",
-    "dental implants India",
-    "cosmetic dentistry India",
-    "international dental patients",
+    "dental tourism in India",
+    "dental tourism in Ghaziabad",
+    "international dental patients India",
+    "affordable dental treatment India",
+    "best dental clinic for international patients",
+    "dental implants in India",
     "smile makeover India",
-    "dentist in Ghaziabad",
+    "cosmetic dentistry India",
+    "root canal treatment India",
+    "full mouth rehabilitation India",
+    "dental clinic in Ghaziabad",
+    "best dentist in Ghaziabad",
     "Rekha Dental",
-    "advanced dental care India",
-    "dental vacation India",
-    "world-class dentistry",
   ],
 
   alternates: {
@@ -41,10 +43,11 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Dental Tourism in India | Rekha Dental",
+    title:
+      "Dental Tourism in India | Affordable Dental Treatment for International Patients | Rekha Dental",
 
     description:
-      "Experience world-class dental care in India with internationally trusted specialists, transparent pricing, and premium patient experiences.",
+      "Choose Rekha Dental for affordable dental tourism in India. We provide dental implants, smile makeovers, root canal treatment, cosmetic dentistry, and complete support for international patients with world-class care in Ghaziabad.",
 
     url: `${FRONTEND_URL}/tour`,
 
@@ -56,10 +59,10 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: `${CLOUDINARY_BASE}/rekha-dental/tourism`,
+        url: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781084168/rekha-dental/academy-new/academy-new4.jpg`,
         width: 1200,
         height: 630,
-        alt: "Dental Tourism at Rekha Dental",
+        alt: "Dental Tourism in India | Rekha Dental",
       },
     ],
   },
@@ -67,12 +70,15 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title: "Dental Tourism in India | Rekha Dental",
+    title:
+      "Dental Tourism in India | Affordable Dental Treatment for International Patients | Rekha Dental",
 
     description:
-      "Explore affordable, precision-driven dental treatments in India trusted by international patients worldwide.",
+      "Choose Rekha Dental for affordable dental tourism in India. We provide dental implants, smile makeovers, root canal treatment, cosmetic dentistry, and complete support for international patients with world-class care in Ghaziabad.",
 
-    images: [`${CLOUDINARY_BASE}/rekha-dental/tourism`],
+    images: [
+      `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781084168/rekha-dental/academy-new/academy-new4.jpg`,
+    ],
   },
 
   robots: {

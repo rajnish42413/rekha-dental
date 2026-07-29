@@ -37,11 +37,8 @@ export async function generateMetadata({
 
   return {
     metadataBase: new URL(FRONTEND_URL),
-
     title: `${course.hero.title} | Rekha Dental Academy`,
-
     description: course.hero.subtitle || course.overview.description,
-
     alternates: {
       canonical: `${FRONTEND_URL}/academy/${course.slug}`,
     },
@@ -98,7 +95,6 @@ export default async function Page({ params }: PageProps) {
                 {course.overview.description}
               </p>
             </div>
-
             <div className="border-l-2 border-[#CBA553]/40 pl-8">
               <p className="text-sm font-extrabold tracking-[3px] text-yellow mb-4 uppercase">
                 {course.curriculum.tag}
@@ -120,86 +116,87 @@ export default async function Page({ params }: PageProps) {
           </div>
 
           <section className="lg:pb-20 pb-10 mt-16">
-  <div className="max-w-7xl mx-auto px-6">
-    <SectionHeader tag="PRICING" title="Course Pricing" />
-    <div className="hidden md:block mt-10 overflow-hidden rounded-xl border border-[#D8CFC2] bg-[#F5F1EA] shadow-sm">
-      <div className="grid grid-cols-[1fr_180px_140px] bg-brand text-white">
-        <div className="px-6 py-4 text-sm tracking-[2px] uppercase font-semibold">
-          Course
-        </div>
+            <div className="max-w-7xl mx-auto px-6">
+              <SectionHeader tag="PRICING" title="Course Pricing" />
+              <div className="hidden md:block mt-10 overflow-hidden rounded-xl border border-[#D8CFC2] bg-[#F5F1EA] shadow-sm">
+                <div className="grid grid-cols-[1fr_180px_140px] bg-brand text-white">
+                  <div className="px-6 py-4 text-sm tracking-[2px] uppercase font-semibold">
+                    Course
+                  </div>
 
-        <div className="px-6 py-4 text-sm tracking-[2px] uppercase font-semibold text-center">
-          Duration
-        </div>
+                  <div className="px-6 py-4 text-sm tracking-[2px] uppercase font-semibold text-center">
+                    Duration
+                  </div>
 
-        <div className="px-6 py-4 text-sm tracking-[2px] uppercase font-semibold text-right">
-          Fees
-        </div>
-      </div>
+                  <div className="px-6 py-4 text-sm tracking-[2px] uppercase font-semibold text-right">
+                    Fees
+                  </div>
+                </div>
 
-      {course.courses?.map((item, index) => (
-        <div
-          key={index}
-          className={`grid grid-cols-[1fr_180px_140px] items-center hover:bg-[#EFE8DD]
+                {course.courses?.map((item, index) => (
+                  <div
+                    key={index}
+                    className={`grid grid-cols-[1fr_180px_140px] items-center hover:bg-[#EFE8DD]
           ${
             index !== course.courses.length - 1
               ? "border-b border-[#E2D9CE]"
               : ""
           }`}
-        >
-          <div className="px-6 py-5 font-header text-[#2C2C2C]">
-            {item.name}
-          </div>
+                  >
+                    <div className="px-6 py-5 font-header text-[#2C2C2C]">
+                      {item.name}
+                    </div>
 
-          <div className="px-6 py-5 text-center text-[#6B6B6B]">
-            {item.duration}
-          </div>
+                    <div className="px-6 py-5 text-center text-[#6B6B6B]">
+                      {item.duration}
+                    </div>
 
-          <div className="px-6 py-5 text-right font-semibold text-[#0f3d3e]">
-            ₹{Number(item.price).toLocaleString("en-IN")}
-          </div>
-        </div>
-      ))}
-    </div>
-    <div className="md:hidden mt-8 space-y-4">
-      {course.courses?.map((item, index) => (
-        <div
-          key={index}
-          className="rounded-xl border border-[#D8CFC2] bg-[#F5F1EA] p-5 shadow-sm"
-        >
-          <h3 className="font-header text-[#2C2C2C] text-base">
-            {item.name}
-          </h3>
+                    <div className="px-6 py-5 text-right font-semibold text-[#0f3d3e]">
+                      ₹{Number(item.price).toLocaleString("en-IN")}
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div className="md:hidden mt-8 space-y-4">
+                {course.courses?.map((item, index) => (
+                  <div
+                    key={index}
+                    className="rounded-xl border border-[#D8CFC2] bg-[#F5F1EA] p-5 shadow-sm"
+                  >
+                    <h3 className="font-header text-[#2C2C2C] text-base">
+                      {item.name}
+                    </h3>
 
-          <div className="mt-4 flex items-center justify-between border-t border-[#E2D9CE] pt-4">
-            <div>
-              <p className="text-xs uppercase tracking-[2px] text-[#8B8175]">
-                Duration
-              </p>
-              <p className="mt-1 text-sm text-[#4B4B4B]">
-                {item.duration}
+                    <div className="mt-4 flex items-center justify-between border-t border-[#E2D9CE] pt-4">
+                      <div>
+                        <p className="text-xs uppercase tracking-[2px] text-[#8B8175]">
+                          Duration
+                        </p>
+                        <p className="mt-1 text-sm text-[#4B4B4B]">
+                          {item.duration}
+                        </p>
+                      </div>
+
+                      <div className="text-right">
+                        <p className="text-xs uppercase tracking-[2px] text-[#8B8175]">
+                          Fees
+                        </p>
+                        <p className="mt-1 font-semibold text-[#0f3d3e]">
+                          ₹{Number(item.price).toLocaleString("en-IN")}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              <p className="mt-4 text-sm text-[#6B6B6B] italic">
+                * Course fees are indicative and may vary based on modules,
+                hands-on sessions, and clinical exposure included in the
+                program.
               </p>
             </div>
-
-            <div className="text-right">
-              <p className="text-xs uppercase tracking-[2px] text-[#8B8175]">
-                Fees
-              </p>
-              <p className="mt-1 font-semibold text-[#0f3d3e]">
-                ₹{Number(item.price).toLocaleString("en-IN")}
-              </p>
-            </div>
-          </div>
-        </div>
-      ))}
-    </div>
-
-    <p className="mt-4 text-sm text-[#6B6B6B] italic">
-      * Course fees are indicative and may vary based on modules,
-      hands-on sessions, and clinical exposure included in the program.
-    </p>
-  </div>
-</section>
+          </section>
           <div
             className="mt-12 border border-[#E8DED0]
                 bg-[#FCFAF6] rounded-2xl p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6 shadow-sm"
@@ -240,7 +237,7 @@ export default async function Page({ params }: PageProps) {
             </div>
 
             <div className="mt-12 relative ">
-              <div className="absolute left-5 top-0 bottom-8 w-[2px]  bg-[#D3C4B2]" />
+              <div className="absolute left-5 top-0 bottom-8 w-0.5  bg-[#D3C4B2]" />
 
               {course.details.map((detail, index) => (
                 <div key={index} className="relative flex gap-4 md:gap-8 pb-8">
@@ -264,7 +261,7 @@ export default async function Page({ params }: PageProps) {
                   <div
                     className="
                 flex-1
-                rounded-[24px]
+                rounded-3xl
                 border border-[#E8DED0]
                 bg-[#FCFAF6]
                 p-6 md:p-8

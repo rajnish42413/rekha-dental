@@ -1,8 +1,75 @@
 import PillarCard from "@/components/general/pillarCard";
 import SectionHeader from "@/components/general/sectionHeader";
 import { advancedDentalTechnologies, patientFriendlyCare, sterilizationProcess } from "@/data/dentalPlans";
+import { FRONTEND_URL } from "@/utils/endpoints";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  metadataBase: new URL(FRONTEND_URL),
 
+  title: "Patient Safety & Sterilization | Rekha Dental",
+
+  description:
+    "Learn about Rekha Dental's strict sterilization, infection control protocols, and commitment to patient safety.",
+
+  keywords: [
+    "patient safety",
+    "dental sterilization",
+    "infection control",
+    "safe dental clinic",
+    "sterilization protocol",
+    "dental hygiene",
+    "COVID safety",
+    "Rekha Dental",
+    "safe dentistry",
+    "dentist Ghaziabad",
+  ],
+
+  alternates: {
+    canonical: `${FRONTEND_URL}/patient-safety`,
+  },
+
+  openGraph: {
+    title: "Patient Safety & Sterilization | Rekha Dental",
+
+    description:
+      "Learn about Rekha Dental's strict sterilization, infection control protocols, and commitment to patient safety.",
+     url: `${FRONTEND_URL}/patient-safety`,
+
+    siteName: "Rekha Dental",
+
+    type: "website",
+
+    locale: "en_US",
+
+    images: [
+      {
+        url: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781084168/rekha-dental/academy-new/academy-new4.jpg`,
+        width: 1200,
+        height: 630,
+        alt: "Patient Safety & Sterilization | Rekha Dental",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+
+    title: "Patient Safety & Sterilization | Rekha Dental",
+
+    description:
+      "Learn about Rekha Dental's strict sterilization, infection control protocols, and commitment to patient safety.",
+  
+    images: [
+      `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781084168/rekha-dental/academy-new/academy-new4.jpg`,
+    ],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 
 function page() {
   return (

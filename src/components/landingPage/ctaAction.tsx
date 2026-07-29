@@ -61,7 +61,7 @@ function CtaAction() {
         text-left text-sm text-[#1F2A24]
         hover:bg-[#F5F1EA] transition-colors cursor-pointer"
               >
-                Raj Nagar Center
+                Raj Nagar Ext.
               </button>
 
               <button

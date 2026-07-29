@@ -1,7 +1,7 @@
 import DownloadTermsQR from "@/components/general/downloadQR";
 import SectionHeader from "@/components/general/sectionHeader";
 import { termsSections } from "@/data/termsOfService";
-import { CLOUDINARY_BASE, FRONTEND_URL } from "@/utils/endpoints";
+import { FRONTEND_URL } from "@/utils/endpoints";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -10,19 +10,19 @@ export const metadata: Metadata = {
   title: "Terms of Service | Rekha Dental",
 
   description:
-    "Review the Terms of Service for Rekha Dental to understand the conditions, responsibilities, appointment policies, and guidelines associated with using our website and dental care services.",
+    "Read the terms and conditions governing the use of Rekha Dental's website, appointments, and dental services.",
 
   keywords: [
     "terms of service",
-    "terms and conditions",
-    "Rekha Dental",
-    "dental clinic policies",
-    "appointment policies",
     "website terms",
-    "clinic service terms",
-    "patient responsibilities",
-    "healthcare terms",
-    "dental treatment guidelines",
+    "dental clinic policy",
+    "appointment terms",
+    "patient agreement",
+    "Rekha Dental",
+    "service conditions",
+    "website usage",
+    "legal policy",
+    "dental services",
   ],
 
   alternates: {
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: "Terms of Service | Rekha Dental",
 
     description:
-      "Understand the policies, responsibilities, and conditions related to Rekha Dental's website and services.",
+      "Read the terms and conditions governing the use of Rekha Dental's website, appointments, and dental services.",
 
     url: `${FRONTEND_URL}/terms-of-service`,
 
@@ -45,10 +45,10 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: `${CLOUDINARY_BASE}/rekha-dental/aboutBanner`,
+        url: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781084168/rekha-dental/academy-new/academy-new4.jpg`,
         width: 1200,
         height: 630,
-        alt: "Terms of Service - Rekha Dental",
+        alt: "Terms of Service | Rekha Dental",
       },
     ],
   },
@@ -59,9 +59,11 @@ export const metadata: Metadata = {
     title: "Terms of Service | Rekha Dental",
 
     description:
-      "Read the service terms, appointment guidelines, and policies of Rekha Dental.",
+      "Read the terms and conditions governing the use of Rekha Dental's website, appointments, and dental services.",
 
-    images: [`${CLOUDINARY_BASE}/rekha-dental/aboutBanner`],
+    images: [
+      `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781084168/rekha-dental/academy-new/academy-new4.jpg`,
+    ],
   },
 
   robots: {

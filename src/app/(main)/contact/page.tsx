@@ -8,20 +8,19 @@ export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
 
   title: "Contact Rekha Dental | Book Dentist Appointment in Ghaziabad",
-
   description:
     "Book an appointment with Rekha Dental in Ghaziabad. Contact our experienced dentists for dental implants, root canal treatment, smile makeover, and routine dental care.",
   keywords: [
     "contact Rekha Dental",
-    "dentist Raj Nagar Extension",
-    "dental clinic Kotgaon",
-    "book dentist appointment",
+    "dental appointment",
+    "dentist Ghaziabad",
+    "book dentist",
+    "dental clinic contact",
+    "Raj Nagar Extension dentist",
+    "dental consultation",
+    "best dental clinic",
+    "Rekha Dental location",
     "dentist near me",
-    "best dentist Ghaziabad",
-    "emergency dentist",
-    "appointment booking",
-    "Raj Nagar Extension dental clinic",
-    "Kotgaon dentist",
   ],
 
   alternates: {
@@ -30,7 +29,6 @@ export const metadata: Metadata = {
 
   openGraph: {
     title: "Contact Rekha Dental | Book Dentist Appointment in Ghaziabad",
-
     description:
       "Book an appointment with Rekha Dental in Ghaziabad. Contact our experienced dentists for dental implants, root canal treatment, smile makeover, and routine dental care.",
 
@@ -56,7 +54,6 @@ export const metadata: Metadata = {
     card: "summary_large_image",
 
     title: "Contact Rekha Dental | Book Dentist Appointment in Ghaziabad",
-
     description:
       "Book an appointment with Rekha Dental in Ghaziabad. Contact our experienced dentists for dental implants, root canal treatment, smile makeover, and routine dental care.",
 

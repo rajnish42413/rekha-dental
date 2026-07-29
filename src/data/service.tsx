@@ -205,8 +205,8 @@ export const serviceCards = [
   },
 
   {
-    id: 19,
-    index: "19",
+    id: 18,
+    index: "18",
     title: "Dental Crowns",
     slug: "dental-crowns",
     description:
@@ -217,8 +217,8 @@ export const serviceCards = [
     price: "7,000",
   },
   {
-    id: 20,
-    index: "20",
+    id: 19,
+    index: "19",
     title: "Dental Veneers",
     slug: "dental-veneers",
     description:
@@ -229,8 +229,8 @@ export const serviceCards = [
     price: "7490",
   },
   {
-    id: 21,
-    index: "21",
+    id: 20,
+    index: "20",
     title: "Dental Splints",
     slug: "dental-splints",
     description:
@@ -241,8 +241,8 @@ export const serviceCards = [
     price: "5,000",
   },
   {
-    id: 22,
-    index: "22",
+    id: 21,
+    index: "21",
     title: "Dentures",
     slug: "dentures",
     description:
@@ -253,8 +253,8 @@ export const serviceCards = [
     price: "6,667",
   },
   {
-    id: 23,
-    index: "23",
+    id: 22,
+    index: "22",
     title: "General Dental Procedures",
     slug: "general-dental-procedures",
     description:
@@ -271,7 +271,7 @@ export const serviceDetails = [
     slug: "immediate-implantology",
 
     seo: {
-      title: "Dental Implants in Ghaziabad | Implant Specialist | Rekha Dental",
+      title: "Immediate Implantology in Ghaziabad | Implant Specialist | Rekha Dental",
       description:
         "Restore missing teeth with advanced dental implants in Ghaziabad. Rekha Dental provides safe, long-lasting implant solutions using modern technology and personalized care.",
       keywords: [
@@ -490,7 +490,7 @@ export const serviceDetails = [
     id: 2,
     slug: "digital-robotic-scanning",
     seo: {
-      title: "Digital Intraoral Scanning in Ghaziabad | 3D Dental Scans | Rekha Dental",
+      title: "Digital Robotic Scanning in Ghaziabad | 3D Dental Scans | Rekha Dental",
       description:
         "Experience comfortable, accurate digital intraoral scanning at Rekha Dental in Ghaziabad. Our advanced 3D scanning technology eliminates messy impressions and ensures precise diagnosis and treatment planning.",
       keywords: [
@@ -677,6 +677,23 @@ export const serviceDetails = [
   {
     id: 3,
     slug: "preventive-ages-0-13",
+    seo: {
+      title: "Preventive Dentistry in Ghaziabad | Dental Checkups | Rekha Dental",
+      description:
+        "Protect your oral health with preventive dentistry in Ghaziabad. Rekha Dental offers routine dental checkups, professional teeth cleaning, fluoride treatments, and early cavity detection to keep your smile healthy.",
+      keywords: [
+        "preventive dentistry Raj Nagar Extension",
+        "dental checkup Ghaziabad",
+        "teeth cleaning Kotgaon",
+        "oral health checkup",
+        "fluoride treatment",
+        "dental scaling and polishing",
+        "cavity prevention",
+        "gum disease prevention",
+        "family dentist Ghaziabad",
+        "Rekha Dental",
+      ],
+    },
     hero: {
       title: "",
       subtitle: "",
@@ -867,6 +884,23 @@ export const serviceDetails = [
   {
     id: 4,
     slug: "general-restorative",
+    seo: {
+      title: "General & Restorative Dentistry in Ghaziabad | Rekha Dental",
+      description:
+        "Restore your oral health with comprehensive general and restorative dentistry in Ghaziabad. Rekha Dental offers tooth-colored fillings, crowns, bridges, cavity treatment, and personalized dental care for lasting oral health.",
+      keywords: [
+        "general dentist Raj Nagar Extension",
+        "restorative dentistry Ghaziabad",
+        "tooth filling Kotgaon",
+        "dental crowns",
+        "dental bridges",
+        "cavity treatment",
+        "tooth restoration",
+        "family dentist Ghaziabad",
+        "tooth-colored fillings",
+        "Rekha Dental",
+      ],
+    },
     hero: {
       title: "",
       subtitle: "",
@@ -1078,6 +1112,23 @@ export const serviceDetails = [
   {
     id: 5,
     slug: "pediatric-dentistry",
+    seo: {
+      title: "Pediatric Dentist in Ghaziabad | Kids Dental Care | Rekha Dental",
+      description:
+        "Compassionate pediatric dental care in Ghaziabad for infants, children, and teenagers. Rekha Dental provides preventive, restorative, and emergency dental treatments in a child-friendly environment.",
+      keywords: [
+        "pediatric dentist Raj Nagar Extension",
+        "kids dentist Kotgaon",
+        "children dental clinic",
+        "family dentist Ghaziabad",
+        "baby teeth treatment",
+        "child dentist",
+        "preventive dentistry",
+        "kids dental care",
+        "oral care for children",
+        "Rekha Dental",
+      ],
+    },
     hero: {
       title: "",
       subtitle: "",
@@ -1271,6 +1322,23 @@ export const serviceDetails = [
   {
     id: 6,
     slug: "dental-fillings",
+    seo: {
+      title: "Dental Fillings in Ghaziabad | Cavity Treatment | Rekha Dental",
+      description:
+        "Repair cavities and restore damaged teeth with high-quality dental fillings in Ghaziabad. Rekha Dental offers durable, natural-looking tooth-colored fillings for long-lasting oral health.",
+      keywords: [
+        "dental fillings Raj Nagar Extension",
+        "cavity treatment Ghaziabad",
+        "tooth filling Kotgaon",
+        "composite fillings",
+        "tooth-colored fillings",
+        "cavity dentist Ghaziabad",
+        "decayed tooth treatment",
+        "dental restoration",
+        "best dentist for fillings",
+        "Rekha Dental",
+      ],
+    },
     hero: {
       title: "",
       subtitle: "",
@@ -1482,6 +1550,23 @@ export const serviceDetails = [
   {
     id: 7,
     slug: "dental-bridges",
+    seo: {
+      title: "Dental Bridges in Ghaziabad | Missing Teeth Replacement | Rekha Dental",
+      description:
+        "Replace missing teeth with durable and natural-looking dental bridges in Ghaziabad. Rekha Dental provides customized bridge treatments to restore your smile, chewing ability, and confidence.",
+      keywords: [
+        "dental bridges Raj Nagar Extension",
+        "tooth bridge Ghaziabad",
+        "missing teeth replacement",
+        "bridge dentist Kotgaon",
+        "fixed dental bridge",
+        "prosthetic teeth",
+        "restore missing teeth",
+        "best dental bridge clinic",
+        "bridge treatment Ghaziabad",
+        "Rekha Dental",
+      ],
+    },
     hero: {
       title: "",
       subtitle: "",
@@ -1666,6 +1751,23 @@ export const serviceDetails = [
   {
     id: 8,
     slug: "dental-implants",
+    seo: {
+      title: "Dental Implants in Ghaziabad | Implant Specialist | Rekha Dental",
+      description:
+        "Restore missing teeth with advanced dental implants in Ghaziabad. Rekha Dental provides safe, long-lasting implant solutions using modern technology and personalized care.",
+      keywords: [
+        "dental implants Raj Nagar Extension",
+        "implant dentist Raj Nagar Extension",
+        "implant clinic Kotgaon",
+        "tooth replacement Ghaziabad",
+        "single tooth implant",
+        "full mouth implants",
+        "implant specialist Ghaziabad",
+        "best implant dentist",
+        "missing teeth treatment",
+        "Rekha Dental",
+      ],
+    },
     hero: {
       title: "",
       subtitle: "",
@@ -1870,6 +1972,23 @@ export const serviceDetails = [
   {
     id: 9,
     slug: "orthodontic-treatment",
+    seo: {
+      title: "Orthodontic Treatment in Ghaziabad | Braces & Aligners | Rekha Dental",
+      description:
+        "Achieve a straighter, healthier smile with orthodontic treatment in Ghaziabad. Rekha Dental offers clear aligners, metal braces, ceramic braces, and personalized orthodontic care for children, teens, and adults.",
+      keywords: [
+        "orthodontic treatment Raj Nagar Extension",
+        "orthodontist Ghaziabad",
+        "braces treatment Kotgaon",
+        "clear aligners Ghaziabad",
+        "invisible braces",
+        "ceramic braces",
+        "metal braces",
+        "teeth alignment",
+        "smile correction",
+        "Rekha Dental",
+      ],
+    },
     hero: {
       title: "",
       subtitle: "",
@@ -2085,6 +2204,23 @@ export const serviceDetails = [
   {
     id: 10,
     slug: "root-canal-treatment",
+    seo: {
+      title: "Root Canal Treatment in Ghaziabad | RCT Specialist | Rekha Dental",
+      description:
+        "Looking for painless root canal treatment in Ghaziabad? Rekha Dental offers advanced RCT procedures to save damaged teeth with precision and comfort.",
+      keywords: [
+        "root canal treatment Raj Nagar Extension",
+        "RCT specialist Ghaziabad",
+        "tooth pain treatment",
+        "dentist Kotgaon",
+        "endodontist Raj Nagar Extension",
+        "best RCT dentist",
+        "painless root canal",
+        "infected tooth treatment",
+        "emergency dentist",
+        "Rekha Dental",
+      ],
+    },
     hero: {
       title: "",
       subtitle: "",
@@ -2296,6 +2432,23 @@ export const serviceDetails = [
   {
     id: 11,
     slug: "tooth-removal",
+    seo: {
+      title: "Tooth Removal in Ghaziabad | Tooth Extraction | Rekha Dental",
+      description:
+        "Need a tooth extraction in Ghaziabad? Rekha Dental provides safe, painless tooth removal for damaged, infected, impacted, and wisdom teeth using advanced techniques for a comfortable experience.",
+      keywords: [
+        "tooth removal Raj Nagar Extension",
+        "tooth extraction Ghaziabad",
+        "wisdom tooth removal",
+        "infected tooth extraction",
+        "impacted tooth treatment",
+        "emergency tooth extraction",
+        "dentist Kotgaon",
+        "painless tooth extraction",
+        "oral surgeon Ghaziabad",
+        "Rekha Dental",
+      ],
+    },
     hero: {
       title: "",
       subtitle: "",
@@ -2504,6 +2657,23 @@ export const serviceDetails = [
   {
     id: 12,
     slug: "cosmetic-dentistry",
+    seo: {
+      title: "Smile Makeover in Ghaziabad | Cosmetic Dentist | Rekha Dental",
+      description:
+        "Transform your smile with customized smile makeover treatments in Ghaziabad including veneers, whitening, bonding, and cosmetic dentistry.",
+      keywords: [
+        "smile makeover Raj Nagar Extension",
+        "cosmetic dentist Raj Nagar Extension",
+        "veneers",
+        "teeth whitening",
+        "smile design Ghaziabad",
+        "esthetic dentist",
+        "Hollywood smile",
+        "best cosmetic dentist",
+        "dental veneers",
+        "Rekha Dental",
+      ],
+    },
     hero: {
       title: "",
       subtitle: "",
@@ -2687,6 +2857,23 @@ export const serviceDetails = [
   {
     id: 13,
     slug: "teeth-cleaning-scaling",
+    seo: {
+      title: "Teeth Cleaning & Scaling in Ghaziabad | Professional Dental Cleaning | Rekha Dental",
+      description:
+        "Maintain healthy teeth and gums with professional teeth cleaning and scaling in Ghaziabad. Rekha Dental removes plaque, tartar, and stains to help prevent cavities, gum disease, and bad breath.",
+      keywords: [
+        "teeth cleaning Raj Nagar Extension",
+        "dental scaling Ghaziabad",
+        "professional teeth cleaning",
+        "plaque removal",
+        "tartar removal",
+        "gum cleaning Kotgaon",
+        "scaling and polishing",
+        "gum disease prevention",
+        "bad breath treatment",
+        "Rekha Dental",
+      ],
+    },
     hero: {
       title: "",
       subtitle: "",
@@ -2878,6 +3065,23 @@ export const serviceDetails = [
   {
     id: 14,
     slug: "laser-dental-treatment",
+    seo: {
+      title: "Laser Dental Treatment in Ghaziabad | Advanced Laser Dentistry | Rekha Dental",
+      description:
+        "Experience minimally invasive laser dental treatment in Ghaziabad at Rekha Dental. Our advanced laser dentistry provides precise, comfortable care for gum treatments, soft tissue procedures, and faster healing.",
+      keywords: [
+        "laser dental treatment Raj Nagar Extension",
+        "laser dentistry Ghaziabad",
+        "laser dentist Kotgaon",
+        "painless dental treatment",
+        "gum laser treatment",
+        "soft tissue laser dentistry",
+        "advanced dental technology",
+        "minimally invasive dentistry",
+        "laser dental clinic",
+        "Rekha Dental",
+      ],
+    },
     hero: {
       title: "",
       subtitle: "",
@@ -3066,6 +3270,23 @@ export const serviceDetails = [
   {
     id: 15,
     slug: "tooth-jewellery",
+    seo: {
+      title: "Tooth Jewellery in Ghaziabad | Tooth Gems | Rekha Dental",
+      description:
+        "Enhance your smile with stylish tooth jewellery in Ghaziabad. Rekha Dental offers safe, painless tooth gem application using high-quality materials for a sparkling and fashionable smile.",
+      keywords: [
+        "tooth jewellery Raj Nagar Extension",
+        "tooth gems Ghaziabad",
+        "dental jewellery Kotgaon",
+        "tooth crystal",
+        "smile accessories",
+        "cosmetic dental jewellery",
+        "tooth gem application",
+        "fashion tooth gems",
+        "cosmetic dentist Ghaziabad",
+        "Rekha Dental",
+      ],
+    },
     hero: {
       title: "",
       subtitle: "",
@@ -3241,6 +3462,28 @@ export const serviceDetails = [
   {
     id: 16,
     slug: "clear-aligners",
+    seo: {
+      title: "Clear Aligners & Braces Treatment in Ghaziabad | Orthodontist | Rekha Dental",
+      description:
+        "Achieve a perfectly aligned smile with clear aligners and braces treatment in Ghaziabad. Rekha Dental offers personalized orthodontic care, including invisible aligners, metal braces, and ceramic braces for patients of all ages.",
+      keywords: [
+        "clear aligners Raj Nagar Extension",
+        "invisible braces Ghaziabad",
+        "aligners Kotgaon",
+        "braces Raj Nagar Extension",
+        "orthodontist Ghaziabad",
+        "ceramic braces",
+        "metal braces",
+        "teeth straightening",
+        "teeth alignment",
+        "best orthodontist Ghaziabad",
+        "adult braces",
+        "crooked teeth treatment",
+        "orthodontic clinic",
+        "smile correction",
+        "Rekha Dental",
+      ],
+    },
     hero: {
       title: "",
       subtitle: "",
@@ -3456,178 +3699,27 @@ export const serviceDetails = [
       ],
     },
   },
+
   {
     id: 17,
-    slug: "minimally-invasive-technology",
-    hero: {
-      title: "",
-      subtitle: "",
-      image: `${CLOUDINARY_BASE}/rekha-dental/services/service17/thumbnail`,
-    },
-    overview: {
-      tag: "OVERVIEW",
-      description:
-        "Minimally invasive dentistry focuses on preserving healthy tooth structure while delivering highly effective treatment outcomes. Using advanced diagnostic tools, digital imaging, magnification systems, and precision instruments, we can detect and treat dental concerns at their earliest stages. This approach reduces discomfort, minimizes tissue removal, shortens recovery time, and improves long-term oral health. Patients benefit from gentler procedures that prioritize conservation of natural teeth while maintaining exceptional treatment precision and aesthetics.",
-    },
-    technology: {
-      tag: "TECHNOLOGY",
-      points: [
-        "Digital intraoral scanning",
-        "Microscope-assisted dentistry",
-        "Advanced diagnostic imaging",
-      ],
-    },
-    process: {
-      tag: "THE PROCESS",
-      title: "Precision with preservation.",
-      steps: [
-        {
-          index: "01",
-          title: "Digital Assessment",
-          description:
-            "Comprehensive digital scanning identifies issues with exceptional accuracy.",
-          image: `${CLOUDINARY_BASE}/rekha-dental/services/service17/process1`,
-        },
-        {
-          index: "02",
-          title: "Treatment Planning",
-          description:
-            "Customized treatment plans are developed using advanced digital tools.",
-          image: `${CLOUDINARY_BASE}/rekha-dental/services/service17/process2`,
-        },
-        {
-          index: "03",
-          title: "Precision Treatment",
-          description:
-            "Targeted procedures preserve healthy tissue while addressing concerns effectively.",
-          image: `${CLOUDINARY_BASE}/rekha-dental/services/service17/process3`,
-        },
-      ],
-    },
-    faqs: [
-      {
-        question: "What is minimally invasive dentistry?",
-        answer:
-          "It is an approach that aims to preserve as much healthy tooth structure as possible while providing effective treatment.",
-      },
-      {
-        question: "Is recovery faster with minimally invasive procedures?",
-        answer:
-          "Yes, patients often experience less discomfort and faster healing compared to traditional techniques.",
-      },
-    ],
-    whyChoose: {
-      tag: "WHY MINIMALLY INVASIVE DENTISTRY",
-      title: "Advanced care that preserves your natural smile.",
-      points: [
-        {
-          title: "Maximum Tooth Preservation",
-          description:
-            "Our minimally invasive approach focuses on treating dental problems while preserving as much healthy tooth structure as possible, promoting stronger and longer-lasting natural teeth.",
-        },
-        {
-          title: "Greater Comfort During Treatment",
-          description:
-            "Modern techniques and precision instruments reduce discomfort, minimize trauma to surrounding tissues, and often require less anesthesia than conventional procedures.",
-        },
-        {
-          title: "Faster Healing & Recovery",
-          description:
-            "Because less healthy tissue is affected, patients typically experience reduced swelling, minimal post-treatment discomfort, and a quicker return to their daily routine.",
-        },
-        {
-          title: "Precision with Advanced Technology",
-          description:
-            "Digital imaging, magnification, laser-assisted procedures, and modern restorative techniques allow us to deliver highly accurate treatment with predictable long-term results.",
-        },
-      ],
-    },
-
-    candidate: {
-      tag: "IS IT RIGHT FOR YOU?",
-      title: "Who can benefit from minimally invasive dentistry?",
-      description:
-        "Minimally invasive dentistry is suitable for patients seeking conservative, modern dental care. Whether treating cavities, replacing restorations, managing gum conditions, or enhancing aesthetics, this approach prioritizes preserving healthy teeth while delivering exceptional clinical outcomes.",
-      points: [
-        "Patients with early tooth decay",
-        "Individuals requiring restorative treatment",
-        "Patients seeking cosmetic improvements",
-        "People with gum-related concerns",
-        "Anyone looking for conservative, modern dental care",
-      ],
-    },
-
-    benefits: {
-      tag: "BENEFITS",
-      title: "Gentle dentistry with long-lasting results.",
-      items: [
-        "Preserves natural tooth structure",
-        "Less discomfort during treatment",
-        "Faster healing and recovery",
-        "Reduced bleeding and swelling",
-        "Greater treatment precision",
-        "Lower risk of complications",
-        "Natural-looking restorations",
-        "Long-term oral health preservation",
-      ],
-    },
-
-    recovery: {
-      tag: "RECOVERY",
-      title: "Recover faster with less discomfort.",
-      description:
-        "Since minimally invasive procedures involve less trauma to teeth and surrounding tissues, recovery is generally quicker and more comfortable. Most patients return to their normal activities shortly after treatment while experiencing minimal post-operative discomfort.",
-      points: [
-        "Minimal post-treatment discomfort",
-        "Faster return to daily activities",
-        "Reduced swelling and bleeding",
-        "Follow personalized aftercare instructions",
-        "Attend scheduled review appointments",
-      ],
-    },
-
-    whyClinic: {
-      tag: "WHY REKHA DENTAL",
-      title: "Technology-driven dentistry with a conservative approach.",
-      points: [
-        {
-          title: "Advanced Digital Technology",
-          description:
-            "We integrate CBCT imaging, digital scanners, laser technology, and precision-guided treatment planning to deliver accurate, minimally invasive dental care.",
-        },
-        {
-          title: "Conservative Treatment Philosophy",
-          description:
-            "Our priority is always to preserve healthy teeth and tissues whenever possible, ensuring durable results while minimizing unnecessary intervention.",
-        },
-        {
-          title: "Experienced Clinical Team",
-          description:
-            "Our dentists combine extensive clinical expertise with modern techniques to provide safe, precise, and patient-focused treatment across all dental specialties.",
-        },
-        {
-          title: "Comprehensive Modern Dentistry",
-          description:
-            "From diagnosis to treatment and follow-up care, every stage is supported by advanced technology, ensuring exceptional comfort, efficiency, and predictable outcomes.",
-        },
-      ],
-    },
-
-    aftercare: {
-      tag: "AFTERCARE",
-      title: "Maintain the benefits of conservative dental care.",
-      tips: [
-        "Brush twice daily using fluoride toothpaste",
-        "Floss regularly to keep gums healthy",
-        "Follow your personalized oral care instructions",
-        "Attend regular dental check-ups and professional cleanings",
-        "Seek prompt dental care if you notice any discomfort or changes",
-      ],
-    },
-  },
-  {
-    id: 18,
     slug: "full-mouth-rehabilitation",
+    seo: {
+      title: "Full Mouth Rehabilitation in Ghaziabad | Smile Restoration | Rekha Dental",
+      description:
+        "Restore your oral health and confidence with full mouth rehabilitation in Ghaziabad. Rekha Dental provides personalized treatment plans combining crowns, bridges, implants, veneers, and restorative dentistry for complete smile transformation.",
+      keywords: [
+        "full mouth rehabilitation Raj Nagar Extension",
+        "full mouth reconstruction Ghaziabad",
+        "smile restoration",
+        "full mouth restoration",
+        "dental rehabilitation Kotgaon",
+        "complex dental treatment",
+        "multiple missing teeth treatment",
+        "full mouth makeover",
+        "restorative dentist Ghaziabad",
+        "Rekha Dental",
+      ],
+    },
     hero: {
       title: "",
       subtitle: "",
@@ -3833,8 +3925,25 @@ export const serviceDetails = [
     ],
   },
   {
-    id: 19,
+    id: 18,
     slug: "dental-crowns",
+    seo: {
+      title: "Dental Crowns in Ghaziabad | Tooth Caps | Rekha Dental",
+      description:
+        "Restore damaged or weakened teeth with high-quality dental crowns in Ghaziabad. Rekha Dental offers durable, natural-looking tooth caps that improve strength, function, and the appearance of your smile.",
+      keywords: [
+        "dental crowns Raj Nagar Extension",
+        "tooth cap Ghaziabad",
+        "ceramic crowns",
+        "zirconia crowns",
+        "dental crown treatment Kotgaon",
+        "broken tooth restoration",
+        "tooth crown dentist",
+        "natural-looking dental crowns",
+        "restorative dentistry Ghaziabad",
+        "Rekha Dental",
+      ],
+    },
     hero: {
       title: "",
       subtitle: "Strength, protection, and natural aesthetics restored.",
@@ -4056,8 +4165,25 @@ export const serviceDetails = [
     },
   },
   {
-    id: 20,
+    id: 19,
     slug: "dental-veneers",
+    seo: {
+      title: "Dental Veneers in Ghaziabad | Porcelain & Composite Veneers | Rekha Dental",
+      description:
+        "Transform your smile with custom dental veneers in Ghaziabad. Rekha Dental offers porcelain and composite veneers to correct chipped, stained, uneven, or gapped teeth for a natural-looking smile.",
+      keywords: [
+        "dental veneers Raj Nagar Extension",
+        "porcelain veneers Ghaziabad",
+        "composite veneers",
+        "cosmetic dentist Kotgaon",
+        "smile makeover",
+        "chipped teeth treatment",
+        "teeth gap correction",
+        "esthetic dentistry",
+        "best veneers dentist",
+        "Rekha Dental",
+      ],
+    },
     hero: {
       title: "",
       subtitle: "",
@@ -4294,8 +4420,25 @@ export const serviceDetails = [
     },
   },
   {
-    id: 21,
+    id: 20,
     slug: "dental-splints",
+    seo: {
+      title: "Dental Splints in Ghaziabad | Teeth Grinding Treatment | Rekha Dental",
+      description:
+        "Protect your teeth from grinding and jaw discomfort with custom dental splints in Ghaziabad. Rekha Dental provides high-quality night guards and splints for TMJ disorders, bruxism, and bite protection.",
+      keywords: [
+        "dental splints Raj Nagar Extension",
+        "night guard Ghaziabad",
+        "teeth grinding treatment",
+        "bruxism treatment",
+        "TMJ splint Kotgaon",
+        "jaw pain treatment",
+        "occlusal splint",
+        "bite guard",
+        "custom dental splints",
+        "Rekha Dental",
+      ],
+    },
     hero: {
       title: "",
       subtitle: "",
@@ -4509,8 +4652,25 @@ export const serviceDetails = [
     },
   },
   {
-    id: 22,
+    id: 21,
     slug: "dentures",
+    seo: {
+      title: "Dentures in Ghaziabad | Complete & Partial Dentures | Rekha Dental",
+      description:
+        "Replace missing teeth with comfortable, natural-looking dentures in Ghaziabad. Rekha Dental offers complete and partial dentures customized to restore your smile, speech, and chewing ability.",
+      keywords: [
+        "dentures Raj Nagar Extension",
+        "complete dentures Ghaziabad",
+        "partial dentures Kotgaon",
+        "false teeth",
+        "removable dentures",
+        "missing teeth replacement",
+        "denture clinic Ghaziabad",
+        "custom dentures",
+        "prosthetic teeth",
+        "Rekha Dental",
+      ],
+    },
     hero: {
       title: "",
       subtitle: "",
@@ -4715,8 +4875,25 @@ export const serviceDetails = [
     },
   },
   {
-    id: 23,
+    id: 22,
     slug: "general-dental-procedures",
+    seo: {
+      title: "General Dental Procedures in Ghaziabad | Family Dentist | Rekha Dental",
+      description:
+        "Get comprehensive general dental care in Ghaziabad at Rekha Dental. We offer routine checkups, fillings, cleanings, extractions, preventive care, and personalized treatments to help you maintain a healthy smile.",
+      keywords: [
+        "general dental procedures Raj Nagar Extension",
+        "general dentist Ghaziabad",
+        "family dentist Kotgaon",
+        "routine dental checkup",
+        "preventive dental care",
+        "oral health treatment",
+        "dental clinic Ghaziabad",
+        "comprehensive dental care",
+        "best dentist Ghaziabad",
+        "Rekha Dental",
+      ],
+    },
 
     hero: {
       title: "",

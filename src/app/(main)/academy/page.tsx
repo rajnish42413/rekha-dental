@@ -14,23 +14,22 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
 
-  title:
-    "Rekha Dental Academy | Advanced Clinical Dental Training in Ghaziabad",
+  title: "Rekha Dental Academy | Dental Education & Training",
 
   description:
-    "Join Rekha Dental Academy for hands-on clinical dental training programs led by experienced mentors. Learn advanced restorative, implant, and patient-care techniques through real-world case exposure in Ghaziabad.",
+    "Explore Rekha Dental Academy for clinical learning, professional dental education, workshops, and advanced dentistry training.",
 
   keywords: [
     "Rekha Dental Academy",
-    "dental academy in Ghaziabad",
-    "clinical dental training",
-    "hands-on dental courses",
+    "dental academy Ghaziabad",
+    "dental training",
+    "dentistry courses",
+    "clinical education",
+    "dental workshops",
     "implant training",
-    "cosmetic dentistry training",
-    "dental workshops India",
-    "advanced dental education",
-    "dentist mentorship program",
-    "live patient dental training",
+    "dentist education",
+    "dental professionals",
+    "advanced dentistry",
   ],
 
   alternates: {
@@ -38,12 +37,10 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title:
-      "Rekha Dental Academy | Advanced Clinical Dental Training in Ghaziabad",
+    title: "Rekha Dental Academy | Dental Education & Training",
 
     description:
-      "Hands-on dental education focused on live patient cases, mentorship, and modern clinical excellence.",
-
+      "Explore Rekha Dental Academy for clinical learning, professional dental education, workshops, and advanced dentistry training.",
     url: `${FRONTEND_URL}/academy`,
 
     siteName: "Rekha Dental",
@@ -64,16 +61,11 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-
-    title:
-      "Rekha Dental Academy | Advanced Clinical Dental Training in Ghaziabad",
-
+    title: "Rekha Dental Academy | Dental Education & Training",
     description:
-      "Explore hands-on clinical dental education programs guided by experienced mentors and live patient training.",
-
+      "Explore Rekha Dental Academy for clinical learning, professional dental education, workshops, and advanced dentistry training.",
     images: [`${CLOUDINARY_BASE}/rekha-dental/academyBanner`],
   },
-
   robots: {
     index: true,
     follow: true,
@@ -113,10 +105,9 @@ function page() {
         title="An atelier, not a classroom."
         paragraphs={[
           "Rekha Dental Academy was founded on a single belief — that exceptional dentistry cannot be taught in slides alone. Our programs are built around live patient cases, small mentor-led cohorts, and the same protocols our specialists use every day in clinic.",
-          
         ]}
       />
-      <ExtraImageSection/>
+      <ExtraImageSection />
       <AcademyCoursesSection />
       <AlumniSection />
       <HandsOnTrainingSection />

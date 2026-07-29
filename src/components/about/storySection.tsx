@@ -20,13 +20,13 @@ export default function StorySection({
     <section className="bg-[#EAE4DB] pt-10 lg:pt-16 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-8 lg:gap-16 justify-center ">
         <div
-          className={`relative  h-[250px] lg:h-[400px]  rounded-2xl group overflow-hidden transform transition-all duration-1400 ease-[cubic-bezier(0.22,1,0.36,1)]
+          className={`relative  h-[250px] lg:h-[400px] rounded-2xl group overflow-hidden transform transition-all duration-1400 ease-[cubic-bezier(0.22,1,0.36,1)]
         `}
         >
           <SingleSlideSwiper>
             {images.map((image, index) => (
               <SwiperSlide key={index}>
-                <div className="relative w-full h-[250px] md:h-[300px] lg:h-[400px]">
+                <div className="relative w-full h-[250px] md:h-[300px] lg:h-[400px]  ">
                   <Image
                     src={image}
                     alt={`${title}-${index}`}
@@ -49,9 +49,9 @@ export default function StorySection({
           </p>
         </div>
 
-          <h2 className="font-header text-2xl lg:text-4xl leading-tight text-[#2C2C2C] mb-6">
+          <h1 className="font-header text-2xl lg:text-4xl leading-tight font-semibold text-[#2C2C2C] mb-6">
             {title}
-          </h2>
+          </h1>
 
           <div className="space-y-4 text-[#6B6B6B] text-sm md:text-base  leading-relaxed">
             {paragraphs.map((text, i) => (

@@ -19,24 +19,21 @@ interface BlogsPageProps {
 export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
 
-  title: "Dental Blogs & Oral Care Insights | Rekha Dental",
+  title: "Dental Health Blog | Oral Care Tips by Rekha Dental",
 
-  description:
-    "Explore expert dental blogs from Rekha Dental  covering oral hygiene, cosmetic dentistry, dental implants, smile makeovers, root canals, and modern dental treatments in Ghaziabad.",
-
+  description:"Read expert blogs on oral health, dental treatments, cosmetic dentistry, implants, braces, and preventive care from Rekha Dental.",
+  
   keywords: [
-    "dental blogs",
-    "oral caretips ",
-    "dentist in Ghaziabad",
-    "dental clinic Ghaziabad",
-    "cosmetic dentistry",
-    "dental implants",
-    "root canal treatment",
-    "smile makeover",
-    "oral hygiene",
-    "teeth whitening",
-    "dental health articles",
-    "Rekha Dental blogs",
+  "dental blog",
+"oral health tips",
+"dental care",
+"best dentist Ghaziabad",
+"teeth cleaning",
+"oral hygiene",
+"dental implants",
+"root canal",
+"cosmetic dentistry",
+"Rekha Dental blog"
   ],
 
   alternates: {
@@ -44,11 +41,10 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Dental Blogs & Oral Care Insights | Rekha Dental",
+    title: "Dental Health Blog | Oral Care Tips by Rekha Dental",
 
-    description:
-      "Read expert insights on oral health, cosmetic dentistry, smile makeovers, implants, and modern dental care from Rekha Dental.",
-
+    description:"Read expert blogs on oral health, dental treatments, cosmetic dentistry, implants, braces, and preventive care from Rekha Dental.",
+   
     url: `${FRONTEND_URL}/blogs`,
 
     siteName: "Rekha Dental",
@@ -70,11 +66,10 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title: "Dental Blogs & Oral Care Insights | Rekha Dental",
+    title: "Dental Health Blog | Oral Care Tips by Rekha Dental",
 
-    description:
-      "Discover modern dental care insights, oral hygiene advice, and cosmetic dentistry knowledge from Rekha Dental.",
-
+    description:"Read expert blogs on oral health, dental treatments, cosmetic dentistry, implants, braces, and preventive care from Rekha Dental.",
+   
     images: [`${CLOUDINARY_BASE}/rekha-dental/aboutBanner`],
   },
 

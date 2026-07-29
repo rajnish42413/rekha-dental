@@ -2,10 +2,12 @@ import { MetadataRoute } from "next";
 
 import { FRONTEND_URL } from "@/utils/endpoints";
 
-
 import { client } from "@/sanity/lib/client";
 import { serviceDetails } from "@/data/service";
 import { courseDetails } from "@/data/academy";
+import { centers } from "@/data/appointment";
+
+const LAST_MODIFIED = new Date();
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticRoutes = [
@@ -15,78 +17,68 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "/blogs",
     "/common-problems",
     "/contact",
+    "/dentist-near-me",
     "/doctor",
     "/dental-plans",
     "/gallery",
+    "/legacy",
     "/patient-safety",
     "/payment",
-    "/legacy",
+    "/post-instruction",
     "/privacy-policy",
     "/reviews",
-    "/treatments",
     "/terms-of-service",
     "/tour",
+    "/treatments",
+    "/warranty",
   ];
 
-  const staticPages = staticRoutes.map(
-    (route) => ({
-      url: `${FRONTEND_URL}${route}`,
+  const staticPages: MetadataRoute.Sitemap = staticRoutes.map((route) => ({
+    url: `${FRONTEND_URL}${route}`,
+    lastModified: LAST_MODIFIED,
+    changeFrequency: "monthly",
+    priority: route === "" ? 1 : 0.9,
+  }));
 
-      lastModified: new Date(),
+  const servicePages: MetadataRoute.Sitemap = serviceDetails.map((service) => ({
+    url: `${FRONTEND_URL}/treatments/${service.slug}`,
+    lastModified: LAST_MODIFIED,
+    changeFrequency: "monthly",
+    priority: 0.8,
+  }));
 
-      changeFrequency: "weekly" as const,
+  const coursePages: MetadataRoute.Sitemap = courseDetails.map((course) => ({
+    url: `${FRONTEND_URL}/academy/${course.slug}`,
+    lastModified: LAST_MODIFIED,
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
 
-      priority: route === "" ? 1 : 0.8,
-    })
-  );
+  const centerPages: MetadataRoute.Sitemap = centers.map((center) => ({
+    url: `${FRONTEND_URL}/dentist-near-me/${center.slug}`,
+    lastModified: LAST_MODIFIED,
+    changeFrequency: "monthly",
+    priority: 0.8,
+  }));
 
-  const servicePages = serviceDetails.map(
-    (service) => ({
-      url: `${FRONTEND_URL}/treatments/${service.slug}`,
-
-      lastModified: new Date(),
-
-      changeFrequency: "monthly" as const,
-
-      priority: 0.7,
-    })
-  );
-  const coursePages = courseDetails.map(
-    (course) => ({
-      url: `${FRONTEND_URL}/academy/${course.slug}`,
-  
-      lastModified: new Date(),
-  
-      changeFrequency: "monthly" as const,
-  
-      priority: 0.7,
-    })
-  );
-
-  const blogs = await client.fetch(`
+  const blogs: { slug: { current: string } }[] = await client.fetch(`
     *[_type == "blog"]{
       slug
     }
   `);
 
-  const blogPages = blogs.map(
-    (blog: {
-      slug: { current: string };
-    }) => ({
-      url: `${FRONTEND_URL}/blogs/${blog.slug.current}`,
-
-      lastModified: new Date(),
-
-      changeFrequency: "weekly" as const,
-
-      priority: 0.7,
-    })
-  );
+  const blogPages: MetadataRoute.Sitemap = blogs.map((blog) => ({
+    url: `${FRONTEND_URL}/blogs/${blog.slug.current}`,
+    lastModified: LAST_MODIFIED,
+    changeFrequency: "weekly",
+    priority: 0.7,
+  }));
 
   return [
     ...staticPages,
     ...servicePages,
+    ...coursePages,
+    ...centerPages,
     ...blogPages,
-    ...coursePages
   ];
 }

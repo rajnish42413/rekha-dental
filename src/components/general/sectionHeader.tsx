@@ -27,9 +27,9 @@ export default function SectionHeader({
         </div>
       )}
       {title && (
-        <h2 className="font-header text-3xl md:text-4xl lg:text-5xl font-semibold text-[#2c2c2c] tracking-tight leading-[1.15] max-w-2xl mt-2">
+        <h1 className="font-header text-3xl md:text-4xl lg:text-5xl font-semibold text-[#2c2c2c] tracking-tight leading-[1.15] max-w-2xl mt-2">
           {title}
-        </h2>
+        </h1>
       )}
       {subtitle && (
         <p className={`text-base md:text-lg text-[#555555] max-w-2xl leading-relaxed mt-2 ${isCenter ? 'mx-auto' : ''}`}>

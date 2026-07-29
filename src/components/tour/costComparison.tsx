@@ -274,7 +274,7 @@ export default function DentalCostComparison() {
         hover:bg-[#F5F1EA]
         transition-colors cursor-pointer"
                     >
-                      Raj Nagar Center
+                      Raj Nagar Ext.
                     </button>
 
                     <button

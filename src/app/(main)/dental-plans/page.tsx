@@ -10,24 +10,21 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
 
-  title: "Dental Membership Plans | Rekha Dental",
+  title: "Dental Care Plans | Affordable Smile Membership",
 
   description:
-    "Explore Rekha Dental Membership Plans designed to make quality dental care more affordable. Enjoy consultations, X-rays, preventive treatments, exclusive discounts, and family benefits.",
-
+    "Discover affordable dental care plans designed to keep your smile healthy with preventive treatments and exclusive benefits.",
   keywords: [
-    "dental membership plans",
-    "dental health plans",
-    "Rekha Dental membership",
-    "dental subscription plan",
+    "dental plans",
+    "dental membership",
+    "dental packages",
+    "preventive dentistry",
     "family dental plan",
-    "preventive dental care",
-    "dental discounts",
-    "dental consultation package",
-    "dental clinic membership",
-    "dentist membership Ghaziabad",
-    "oral health plan",
-    "dental care savings",
+    "oral care plan",
+    "Rekha Dental",
+    "dental clinic Ghaziabad",
+    "affordable dentist",
+    "annual dental plan",
   ],
 
   alternates: {
@@ -35,10 +32,10 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Dental Membership Plans | Rekha Dental",
+    title: "Dental Care Plans | Affordable Smile Membership",
 
     description:
-      "Unlock exclusive dental benefits with Rekha Dental Membership Plans. Save on consultations, diagnostics, preventive care, and advanced dental treatments.",
+      "Discover affordable dental care plans designed to keep your smile healthy with preventive treatments and exclusive benefits.",
 
     url: `${FRONTEND_URL}/dental-plans`,
 
@@ -61,10 +58,10 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title: "Dental Membership Plans | Rekha Dental",
+    title: "Dental Care Plans | Affordable Smile Membership",
 
     description:
-      "Affordable dental membership plans with consultations, X-rays, treatment discounts, and family benefits.",
+      "Discover affordable dental care plans designed to keep your smile healthy with preventive treatments and exclusive benefits.",
 
     images: [`${CLOUDINARY_BASE}/rekha-dental/banner`],
   },
@@ -82,7 +79,7 @@ function page() {
         title="Smart savings. Better oral health."
         subtitle="Choose a membership plan and explore offers with exclusive benefits, discounts, and priority dental care."
       />
-      <PlansOffersContainer/>
+      <PlansOffersContainer />
       <SectionHeader
         tag="WHY CHOOSE REKHA DENTAL"
         title="Trusted care for every smile."

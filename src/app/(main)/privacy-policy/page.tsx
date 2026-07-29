@@ -1,29 +1,28 @@
 import SectionHeader from "@/components/general/sectionHeader";
 import { privacySections } from "@/data/privacy";
-import { CLOUDINARY_BASE, FRONTEND_URL } from "@/utils/endpoints";
+import { FRONTEND_URL } from "@/utils/endpoints";
 import { Metadata } from "next";
 
 
 export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
 
-  title:
-    "Privacy Policy | Rekha Dental",
+  title: "Privacy Policy | Rekha Dental",
 
   description:
-    "Read the Privacy Policy of Rekha Dental to understand how we collect, use, protect, and manage patient and visitor information across our website and clinical services.",
+    "Read Rekha Dental's privacy policy to understand how we collect, use, and protect your personal information.",
 
   keywords: [
     "privacy policy",
-    "Rekha Dental ",
     "patient privacy",
-    "data protection",
-    "medical privacy policy",
     "website privacy",
-    "dental clinic privacy policy",
-    "healthcare data protection",
-    "clinic information policy",
-    "privacy practices",
+    "data protection",
+    "Rekha Dental",
+    "medical privacy",
+    "HIPAA",
+    "privacy terms",
+    "dental clinic",
+    "user information",
   ],
 
   alternates: {
@@ -31,11 +30,10 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title:
-      "Privacy Policy | Rekha Dental",
+    title: "Privacy Policy | Rekha Dental",
 
     description:
-      "Learn how Rekha Dental safeguards patient and website visitor information with responsible privacy and data protection practices.",
+      "Read Rekha Dental's privacy policy to understand how we collect, use, and protect your personal information.",
 
     url: `${FRONTEND_URL}/privacy-policy`,
 
@@ -47,10 +45,10 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: `${CLOUDINARY_BASE}/rekha-dental/aboutBanner`,
+        url: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781084168/rekha-dental/academy-new/academy-new4.jpg`,
         width: 1200,
         height: 630,
-        alt: "Rekha Dental",
+        alt: "Privacy Policy | Rekha Dental",
       },
     ],
   },
@@ -58,14 +56,13 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title:
-      "Privacy Policy | Rekha Dental",
+    title: "Privacy Policy | Rekha Dental",
 
     description:
-      "Understand how Rekha Dental collects, protects, and manages user and patient information responsibly.",
+      "Read Rekha Dental's privacy policy to understand how we collect, use, and protect your personal information.",
 
     images: [
-      `${CLOUDINARY_BASE}/rekha-dental/aboutBanner`,
+      `https://res.cloudinary.com/dygrzu3sm/image/upload/v1781084168/rekha-dental/academy-new/academy-new4.jpg`,
     ],
   },
 
