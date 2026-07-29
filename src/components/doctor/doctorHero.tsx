@@ -137,7 +137,7 @@ export default function DoctorHero({
                     className="w-full border-b border-[#E5DDD0] px-4 cursor-pointer py-3 text-left text-sm text-[#1F2A24]
           hover:bg-[#F5F1EA] transition-colors"
                   >
-                    Raj Nagar Center
+                    Raj Nagar Ext.
                   </button>
 
                   <button

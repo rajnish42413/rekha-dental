@@ -7,10 +7,9 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
   title:
-   "Dental Treatments in Ghaziabad | Implants, RCT, Braces & Cosmetic Dentistry",
-
+    "Dental Treatments in Ghaziabad | Implants, RCT, Braces & Cosmetic Dentistry",
   description:
-   "Explore advanced dental treatments at Rekha Dental including dental implants, root canal treatment, braces, aligners, smile makeover, teeth whitening, and pediatric dentistry in Ghaziabad.",
+    "Explore advanced dental treatments at Rekha Dental including dental implants, root canal treatment, braces, aligners, smile makeover, teeth whitening, and pediatric dentistry in Ghaziabad.",
   keywords: [
     "dental treatments",
     "dental services Ghaziabad",
@@ -33,17 +32,12 @@ export const metadata: Metadata = {
   openGraph: {
     title:
       "Dental Treatments in Ghaziabad | Implants, RCT, Braces & Cosmetic Dentistry",
-
-    description:"Explore advanced dental treatments at Rekha Dental including dental implants, root canal treatment, braces, aligners, smile makeover, teeth whitening, and pediatric dentistry in Ghaziabad.",
-
+    description:
+      "Explore advanced dental treatments at Rekha Dental including dental implants, root canal treatment, braces, aligners, smile makeover, teeth whitening, and pediatric dentistry in Ghaziabad.",
     url: `${FRONTEND_URL}/treatments`,
-
     siteName: "Rekha Dental",
-
     type: "website",
-
     locale: "en_US",
-
     images: [
       {
         url: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784276404/20260707_125918_owp7ak.jpg`,
@@ -58,9 +52,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
 
     title:
-    "Dental Treatments in Ghaziabad | Implants, RCT, Braces & Cosmetic Dentistry",
+      "Dental Treatments in Ghaziabad | Implants, RCT, Braces & Cosmetic Dentistry",
 
-    description:"Explore advanced dental treatments at Rekha Dental including dental implants, root canal treatment, braces, aligners, smile makeover, teeth whitening, and pediatric dentistry in Ghaziabad.",
+    description:
+      "Explore advanced dental treatments at Rekha Dental including dental implants, root canal treatment, braces, aligners, smile makeover, teeth whitening, and pediatric dentistry in Ghaziabad.",
 
     images: [
       `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784276404/20260707_125918_owp7ak.jpg`,

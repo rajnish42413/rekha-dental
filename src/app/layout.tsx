@@ -34,9 +34,23 @@ export const cormorant = Cormorant({
 });
 
 export const metadata: Metadata = {
-  title: "Rekha Dental | Premium Dental Care in Greater Noida",
+  title:
+    "Best Dental Clinic in Ghaziabad | Dental Implants, RCT & Smile Makeover | Rekha Dental",
   description:
-    "Expert dental care, cosmetic dentistry, implants, and smile transformations at Rekha Dental.",
+    "Looking for the best dental clinic in Ghaziabad? Rekha Dental offers dental implants, root canal treatment, smile makeovers, braces, aligners, cosmetic dentistry, and family dental care with advanced technology.",
+  keywords: [
+    "best dental clinic in Raj Nagar Extension",
+    "best dentist in Raj Nagar Extension",
+    "dental clinic in Raj Nagar Extension",
+    "dentist in Raj Nagar Extension Ghaziabad",
+    "best dentist in Kotgaon",
+    "dental clinic in Kotgaon",
+    "dentist near Kotgaon",
+    "dental implants Raj Nagar Extension",
+    "root canal treatment Raj Nagar Extension",
+    "cosmetic dentist Raj Nagar Extension",
+    "Rekha Dental",
+  ],
 };
 
 export default function RootLayout({

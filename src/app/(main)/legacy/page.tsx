@@ -9,25 +9,21 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
 
-  title:
-    "Professional Legacy | Rekha Dental",
+  title: "Our Legacy | Trusted Dental Excellence Since 2005",
 
   description:
-    "Explore the professional journey of Rekha Dental through achievements, dental camps, academic lectures, workshops, community outreach programs, and media recognition.",
-
+    "Explore Rekha Dental's journey of trusted dentistry, innovation, and patient care built over nearly two decades.",
   keywords: [
-    "Rekha Dental",
-    "Dr Gaurav Saxena",
-    "Dental Camps",
-    "Dental Workshops",
-    "Dental Lectures",
-    "Dental Achievements",
-    "Dental Education",
-    "Community Outreach",
-    "Dentist Ghaziabad",
-    "Dental Academy",
-    "Media Coverage",
-    "Professional Legacy",
+    "Rekha Dental history",
+    "dental excellence",
+    "trusted dentist",
+    "legacy",
+    "best dental clinic",
+    "patient care",
+    "advanced dentistry",
+    "Ghaziabad dentist",
+    "family dentistry",
+    "oral healthcare",
   ],
 
   alternates: {
@@ -35,12 +31,10 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title:
-      "Professional Legacy | Rekha Dental",
+    title: "Our Legacy | Trusted Dental Excellence Since 2005",
 
     description:
-      "A journey of excellence through dental education, international collaborations, community service, achievements, and professional milestones.",
-
+      "Explore Rekha Dental's journey of trusted dentistry, innovation, and patient care built over nearly two decades.",
     url: `${FRONTEND_URL}/legacy`,
 
     siteName: "Rekha Dental",
@@ -62,15 +56,12 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title:
-      "Professional Legacy | Rekha Dental",
+    title: "Our Legacy | Trusted Dental Excellence Since 2005",
 
     description:
-      "Discover the achievements, outreach programs, lectures, and milestones that define Rekha Dental's legacy.",
+      "Explore Rekha Dental's journey of trusted dentistry, innovation, and patient care built over nearly two decades.",
 
-    images: [
-      `${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp4`,
-    ],
+    images: [`${CLOUDINARY_BASE}/rekha-dental/dental-camps/camp4`],
   },
 
   robots: {
@@ -91,8 +82,8 @@ function page() {
       />
       <DentalCamps />
       <Achievements />
-      <Lectures/>
-      <NewspaperCuttings/>
+      <Lectures />
+      <NewspaperCuttings />
     </div>
   );
 }

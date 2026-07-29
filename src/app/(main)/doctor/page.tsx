@@ -18,22 +18,21 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   metadataBase: new URL(FRONTEND_URL),
 
-  title: "Meet Our Dental Specialists | Rekha Dental ",
+  title: "Meet Our Dental Specialists | Rekha Dental",
 
   description:
-    "Meet Dr. Gaurav Saxena and Dr. Mamta Raghav Saxena at Rekha Dental, Ghaziabad. Experienced specialists in dental implants, cosmetic dentistry, root canal treatment, oral medicine, and precision-driven patient care.",
-
+    "Meet the experienced dental specialists at Rekha Dental committed to providing advanced, personalized, and compassionate dental care.",
   keywords: [
-    "Dr Gaurav Saxena",
-    "Dr Mamta Raghav Saxena",
-    "dentist in Ghaziabad",
-    "implantologist Ghaziabad",
+    "dental specialists",
+    "best dentist Ghaziabad",
     "cosmetic dentist",
-    "root canal specialist",
-    "oral medicine specialist",
-    "dental implant doctor",
+    "implant dentist",
+    "endodontist",
+    "orthodontist",
+    "oral surgeon",
+    "experienced dentist",
     "Rekha Dental doctors",
-    "best dentist in Ghaziabad",
+    "dentist Raj Nagar Extension",
   ],
 
   alternates: {
@@ -44,8 +43,8 @@ export const metadata: Metadata = {
     title: "Meet Our Dental Specialists | Rekha Dental",
 
     description:
-      "Explore the expertise, experience, and patient-first approach of the specialists at Rekha Dental.",
-
+      "Meet the experienced dental specialists at Rekha Dental committed to providing advanced, personalized, and compassionate dental care.",
+   
     url: `${FRONTEND_URL}/doctor`,
 
     siteName: "Rekha Dental",
@@ -70,8 +69,7 @@ export const metadata: Metadata = {
     title: "Meet Our Dental Specialists | Rekha Dental",
 
     description:
-      "Learn about the experienced dental specialists leading Rekha Dental.",
-
+      "Meet the experienced dental specialists at Rekha Dental committed to providing advanced, personalized, and compassionate dental care.",
     images: [`${CLOUDINARY_BASE}/rekha-dental/doctor/doctor1`],
   },
 

@@ -15,18 +15,17 @@ export const metadata: Metadata = {
   title: "About Rekha Dental | Best Dental Clinic in Ghaziabad",
   description:
     "Learn about Rekha Dental, a trusted dental clinic in Ghaziabad with over 19 years of experience in dental implants, cosmetic dentistry, root canal treatment, and patient-first dental care.",
-
   keywords: [
-    "about Rekha Dental",
-    "dental clinic Raj Nagar Extension",
-    "dentist Raj Nagar Extension",
-    "best dentist Kotgaon",
-    "trusted dentist Ghaziabad",
-    "family dentist Raj Nagar Extension",
-    "oral healthcare Ghaziabad",
-    "cosmetic dentistry Raj Nagar Extension",
-    "implant dentist Raj Nagar Extension",
     "Rekha Dental",
+    "about Rekha Dental",
+    "dentist in Ghaziabad",
+    "dental clinic Ghaziabad",
+    "best dentist Ghaziabad",
+    "Raj Nagar Extension dentist",
+    "cosmetic dentistry",
+    "family dental clinic",
+    "luxury dental clinic",
+    "advanced dentistry",
   ],
 
   alternates: {

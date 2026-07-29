@@ -30,10 +30,10 @@ export const metadata: Metadata = {
 
   openGraph: {
     title:
-      "Appointment Payment Verification | Rekha Dental",
+    "Appointment Payment Verification | Rekha Dental",
 
-    description:
-      "Verify your appointment booking payment securely with Rekha Dental.",
+  description:
+    "Securely verify your appointment booking payment with Rekha Dental. Submit your payment details to confirm your dental consultation or treatment appointment.",
 
     url: `${FRONTEND_URL}/payment`,
 
@@ -55,12 +55,12 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-
     title:
-      "Appointment Payment Verification | Rekha Dental",
+    "Appointment Payment Verification | Rekha Dental",
 
-    description:
-      "Securely confirm your appointment payment with Rekha Dental",
+  description:
+    "Securely verify your appointment booking payment with Rekha Dental. Submit your payment details to confirm your dental consultation or treatment appointment.",
+
 
     images: [
       `${CLOUDINARY_BASE}/rekha-dental/banner`,
