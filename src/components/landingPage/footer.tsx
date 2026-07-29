@@ -82,7 +82,7 @@ export default function Footer() {
         className="mt-16 pt-8 border-t border-zinc-200 max-w-7xl mx-auto flex flex-col
       md:flex-row justify-between items-center text-[11px] tracking-widest uppercase text-white"
       >
-        <p>© 2026 Rekha Dental.</p>
+        <p>© 2026 Rekha Dental</p>
         <div className="mt-4 md:mt-0 flex items-center gap-4"></div>
       </div>
     </footer>
