@@ -56,7 +56,7 @@ function LandingPage() {
         paragraphs={[
           "Rekha Dental, Ghaziabad – Raj Nagar Extension, is a quality dental clinic offering affordable treatment, conveniently located at Raj Nagar Residency. We offer painless treatments including Laser RCT, Implants, Aligners, Braces, and Full Mouth Rehabilitation. We specialize in teeth straightening using Invisalign® and braces by Invisalign-certified Orthodontists.",
         
-          "Our highly experienced specialists provide natural-looking, permanent, fixed teeth with dental implants. We also offer laser dentistry, teeth whitening, veneers, and smile makeover treatments. Rekha Dental Clinics follow 10X safety protocols and sterilization standards, provide child dental care and cavity protection, and are your one destination for all dental problems."
+          "Our highly experienced specialists provide natural-looking, permanent, fixed teeth with dental implants. We also offer laser dentistry, teeth whitening, veneers, and smile makeover treatments. We follow 10X safety protocols and sterilization standards, provide child dental care and cavity protection, and are your one destination for all dental problems."
         ]}
       />
       <ExploreDentalServices />
