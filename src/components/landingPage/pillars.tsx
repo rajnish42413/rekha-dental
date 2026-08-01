@@ -1,7 +1,9 @@
+"use client";
+
 import SectionHeader from "../general/sectionHeader";
 
 import PillarCard from "../general/pillarCard";
-import { pillars } from "@/data/landingPage";
+import { pillars } from "@/data/landingPagePillars";
 
 function Pillars() {
   return (

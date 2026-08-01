@@ -1,12 +1,11 @@
 import StorySection from "@/components/about/storySection";
 import ReviewsSection from "@/components/doctor/reviewSection";
 import FAQ from "@/components/general/faq";
-import PillarCard from "@/components/general/pillarCard";
 import SectionHeader from "@/components/general/sectionHeader";
 import DentalCostComparison from "@/components/tour/costComparison";
 import HowItWorksSection from "@/components/tour/howItWorksSection";
+import MedicalTourismBenefitsGrid from "@/components/tour/medicalTourismBenefitsGrid";
 import {
-  medicalTourismBenefits,
   tourismFaqData,
   tourismReviews,
 } from "@/data/tourism";
@@ -108,17 +107,7 @@ function page() {
           "Using advanced technologies such as digital dentistry, CBCT imaging, robotic scanning, and laser treatments, our experienced specialists deliver precise, safe, and high-quality care. Whether you need dental implants, veneers, smile makeovers, or full-mouth rehabilitation, we combine clinical excellence with exceptional value—helping you return home with a healthier, more confident smile and lasting memories of India.",
         ]}
       />
-      <div className="lg:mt-20 mt-10 grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3 lg:mx-10 mx-6">
-        {medicalTourismBenefits.map((item) => (
-          <PillarCard
-            key={item.id}
-            title={item.title}
-            description={item.description}
-            icon={item.icon}
-            number={item.number}
-          />
-        ))}
-      </div>
+      <MedicalTourismBenefitsGrid />
       <DentalCostComparison />
       <HowItWorksSection />
       <ReviewsSection
