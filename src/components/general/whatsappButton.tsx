@@ -21,13 +21,13 @@ const message = encodeURIComponent("Hi, I'm interested in your treatments.");
 const socials = [
   {
     icon: FaFacebookF,
-    href: "https://www.facebook.com/profile.php?id=61590839840757",
+    href: "https://www.facebook.com/share/1EGPBCvWCz/",
     color: "#CBA553",
     label: "Facebook",
   },
   {
     icon: FaInstagram,
-    href: "https://www.instagram.com/rekha_dental_/",
+    href: "https://www.instagram.com/rekhadentalgzb?igsh=eWJndjRibDl1bXcx",
     color: "#CBA553",
     label: "Instagram",
   },

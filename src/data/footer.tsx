@@ -46,12 +46,12 @@ export const footerLinks = [
   export const socialIcons = [
     {
       icon: <FaFacebookF />,
-      url: "https://www.facebook.com/profile.php?id=61590839840757",
+      url: "https://www.facebook.com/share/1EGPBCvWCz/",
       label: "Facebook",
     },
     {
       icon: <FaInstagram />,
-      url: "https://www.instagram.com/rekha_dental_/",
+      url: "https://www.instagram.com/rekhadentalgzb?igsh=eWJndjRibDl1bXcx",
       label: "Instagram",
     },
     {
