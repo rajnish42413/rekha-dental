@@ -3,7 +3,7 @@ import Image from "next/image";
 interface BannerProps {
   imageSrc: string;
   tag?: string;
-  title: string;
+  title?: string;
   subtitle?: string;
   highlightText?: string;
   overlayColor?: string;
@@ -24,7 +24,7 @@ function Banner({
       <div className="relative w-full min-h-[40vh] sm:min-h-[50vh] lg:min-h-[85vh] overflow-hidden">
         <Image
           src={imageSrc}
-          alt={title}
+          alt={title?? "Banner"}
           fill
           priority
           sizes="100vw"

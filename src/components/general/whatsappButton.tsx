@@ -89,7 +89,7 @@ export default function FloatingSocials() {
       <div className="flex flex-col items-center gap-3">
         <button
           onClick={() => setOpen(!open)}
-          className="flex  items-center text-lg justify-center   p-1 cursor-pointer   text-yellow transition hover:scale-105 active:scale-95"
+          className="flex  items-center text-lg justify-center  p-1 cursor-pointer text-yellow transition hover:scale-105 active:scale-95"
         >
           {open ? <RxCross2 /> : <MdOutlineKeyboardDoubleArrowUp size={22} />}
         </button>

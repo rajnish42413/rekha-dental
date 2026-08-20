@@ -138,11 +138,11 @@ export default async function SingleBlogPage({ params }: PageProps) {
     <article className="bg-[#F7F3EC]">
       <Banner
         imageSrc={urlFor(blog.thumbnail).url()}
-        tag={blog.category}
-        title={blog.title}
-        subtitle={blog.excerpt}
+        // tag={blog.category}
+        // title={blog.title}
+        // subtitle={blog.excerpt}
         overlayColor="bg-black/50"
-        objectFill={true}
+        // objectFill={true}
       />
       <section className="relative z-10 -mt-24 pb-24">
         <div className="mx-auto max-w-5xl px-4">
@@ -169,6 +169,30 @@ export default async function SingleBlogPage({ params }: PageProps) {
               <span className="text-yellow">•</span>
               <span className="flex items-center gap-1 text-yellow font-extrabold text-md"><MdOutlineWatchLater size={16}/>{blog.readingTime}</span>
             </div>
+
+            {blog.category && (
+          <div className="inline-flex  mt-6  items-center gap-2 rounded-full border border-emerald-500/20 bg-emerald-500/10 px-3 py-1.5">
+            <span className="text-xs font-extrabold uppercase tracking-[2px] text-emerald-600">
+              {blog.category}
+            </span>
+          </div>
+        )}
+        <h1 className=" font-header
+            
+              text-3xl mt-5
+              leading-tight
+              text-[#1E1E1E]
+              md:text-5xl">
+          {blog.title}
+        </h1>
+        {blog.excerpt && (
+          <p className="mt-6  
+              lg:text-md text-sm
+              leading-loose
+              text-[#4E4B47]">
+            {blog.excerpt}
+          </p>
+        )}
             <div className="pt-4">
               <PortableText
                 value={blog.content}
