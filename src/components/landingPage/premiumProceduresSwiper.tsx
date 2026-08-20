@@ -115,6 +115,7 @@ export default function PremiumProcedureSwiper({
     active:scale-95
     transition-all
   "
+    aria-label="Previous slide"
 >
   <TiArrowLeft size={24} />
 </button>
@@ -143,6 +144,7 @@ export default function PremiumProcedureSwiper({
     active:scale-95
     transition-all cursor-pointer
   "
+  aria-label="Next slide"
 >
   <TiArrowRight size={24} />
 </button>

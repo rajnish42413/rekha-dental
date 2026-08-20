@@ -54,6 +54,7 @@ export default function HeroSwiper({ slides }: HeroSwiperProps) {
     src={slide.image}
     alt={slide.alt || `Banner ${index + 1}`}
     fill
+    fetchPriority="high"
     priority={index === 0}
     className="object-fill"
   />

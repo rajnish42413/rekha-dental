@@ -46,11 +46,6 @@ const DoctorCard: React.FC<DoctorCardProps> = ({ doctor }) => {
         {name}
       </h3>
     </div>
-    
-    {/* 
-      Note: Removed 'z-50' wrapper here because 'relative' with z-indices 
-      is now handled gracefully at the card level and button level.
-    */}
     <div className="flex justify-between items-center px-6 py-4">
       <div>
         <BookAppointmentButton />
@@ -58,6 +53,7 @@ const DoctorCard: React.FC<DoctorCardProps> = ({ doctor }) => {
       <Link
         href={whatsappLink}
         target="_blank"
+        aria-label="Contact Rekha Dental on WhatsApp"
         className="w-10 h-10 rounded-lg bg-brand text-white flex items-center justify-center"
       >
         <FaWhatsapp className="text-xl" />

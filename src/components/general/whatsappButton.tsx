@@ -88,7 +88,7 @@ export default function FloatingSocials() {
       </div>
       <div className="flex flex-col items-center gap-3">
         <button
-          onClick={() => setOpen(!open)}
+          onClick={() => setOpen(!open)} aria-label="More Buttons"
           className="flex  items-center text-lg justify-center  p-1 cursor-pointer text-yellow transition hover:scale-105 active:scale-95"
         >
           {open ? <RxCross2 /> : <MdOutlineKeyboardDoubleArrowUp size={22} />}

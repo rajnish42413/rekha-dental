@@ -178,7 +178,6 @@ export default async function SingleBlogPage({ params }: PageProps) {
           </div>
         )}
         <h1 className=" font-header
-            
               text-3xl mt-5
               leading-tight
               text-[#1E1E1E]
