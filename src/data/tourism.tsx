@@ -257,7 +257,7 @@ export const dentalCostComparison = [
     {
       question: "Why choose India for dental treatment?",
       answer:
-        "India offers internationally trained dentists, advanced technology, and significantly lower treatment costs compared to many Western countries — without compromising on quality or safety.",
+        "India offers exceptionally trained dentists, advanced technology, and significantly lower treatment costs compared to many Western countries — without compromising on quality or safety.",
     },
     {
       question: "How much can I save with dental tourism?",

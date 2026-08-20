@@ -1,5 +1,3 @@
-
-
 import Image from "next/image";
 
 interface MilestoneItem {
@@ -10,52 +8,33 @@ interface MilestoneItem {
   image: string;
 }
 
-export default function MilestoneCard({
-  item,
-  isLeft,
-}: {
+interface MilestoneCardProps {
   item: MilestoneItem;
-  isLeft: boolean;
-}) {
+}
 
-
+export default function MilestoneCard({ item }: MilestoneCardProps) {
   return (
-    <div
-      className={`relative mb-16 flex ${
-        isLeft ? "justify-start" : "justify-end"
-      }`}
-    >
-      <div className=" absolute left-1/2 -translate-x-1/2
-    h-4 w-4 rounded-full
-    border-4 border-[#DDD2C2]
-    bg-[#B88A44]
-    " />
-      <div
-        className={`w-full md:w-[45%] bg-[#F5F1EA] border border-[#E0D8CC] p-6 rounded-lg group transform transition-all duration-1400 ease-[cubic-bezier(0.22,1,0.36,1)]
-     `}
-      >
-        <div className="relative w-full h-[200px] mb-5 overflow-hidden rounded-lg">
-          <Image
-            src={item.image}
-            alt={item.title}
-            fill
-            sizes="(max-width: 768px) 100vw, 45vw"
-            className="object-cover transition-transform duration-2000 ease-out group-hover:scale-110"
-          />
-        </div>
-
-        <p className="text-yellow font-extrabold font-header text-lg mb-2">
+    <article className="group rounded-lg border border-[#DED5C8] bg-[#F5F1EA] p-4 transition-all duration-500 hover:-translate-y-1 hover:shadow-lg sm:p-5">
+      <div className="relative h-[200px] w-full overflow-hidden rounded-lg sm:h-[220px] lg:h-[240px]">
+        <Image
+          src={item.image}
+          alt={item.title}
+          fill
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+        />
+      </div>
+      <div className="px-1 pb-2 pt-6">
+        <p className="font-header text-base font-bold tracking-wide text-[#B88A44] sm:text-lg">
           {item.year}
         </p>
-
-        <h4 className="font-header text-lg text-[#2C2C2C] mb-2">
+        <h3 className="mt-3 font-header text-xl leading-tight text-[#2C2C2C] sm:text-2xl">
           {item.title}
-        </h4>
-
-        <p className="text-sm text-[#6B6B6B] leading-relaxed">
+        </h3>
+        <p className="mt-3 text-sm leading-6 text-[#6B6B6B] sm:text-[15px] sm:leading-7">
           {item.description}
         </p>
       </div>
-    </div>
+    </article>
   );
 }

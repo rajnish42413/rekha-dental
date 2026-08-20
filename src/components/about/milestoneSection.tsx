@@ -1,5 +1,3 @@
-
-
 import SectionHeader from "@/components/general/sectionHeader";
 import MilestoneCard from "./milestoneCard";
 
@@ -24,16 +22,12 @@ export default function MilestonesSection({
 }: MilestonesProps) {
   return (
     <section className="bg-[#EAE4DB] py-10 lg:py-20">
-      <div className="max-w-5xl mx-auto px-6">
+      <div className="mx-auto max-w-6xl px-6">
         <SectionHeader tag={tag} title={title} />
-        <div className="relative mt-6 lg:mt-16">
-          <div className="absolute left-1/2 -translate-x-1/2 w-px h-full bg-[#E0D8CC]" />
-          {items.map((item, index) => (
-            <MilestoneCard
-              key={item.id}
-              item={item}
-              isLeft={index % 2 === 0}
-            />
+
+        <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2 lg:mt-14 lg:grid-cols-2 lg:gap-7">
+          {items.map((item) => (
+            <MilestoneCard key={item.id} item={item} />
           ))}
         </div>
       </div>

@@ -3,7 +3,6 @@ import FAQ from "@/components/general/faq";
 import PillarCard from "@/components/general/pillarCard";
 import SectionHeader from "@/components/general/sectionHeader";
 import { dentalPlanFaqs, whyChooseRekhaDental } from "@/data/dentalPlans";
-
 import { CLOUDINARY_BASE, FRONTEND_URL } from "@/utils/endpoints";
 import { Metadata } from "next";
 

@@ -102,6 +102,7 @@ export default async function Page({ params }: PageProps) {
         title={service.hero.title}
         subtitle={service.hero.subtitle}
         overlayColor=""
+        objectFill={true}
       />
       <ServiceOverview
         overview={service.overview}

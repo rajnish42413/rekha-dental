@@ -11,9 +11,9 @@ export const dentalHealthPlans = [
       slug: "membership-499",
       title: "Dental Membership 499",
       price: 499,
-      originalValue: 1300,
+      originalValue: 2499,
       planType:"BASIC",
-      savings: 801,
+      savings: 2000,
       description: "Basic preventive dental care package for individuals.",
   
       benefits: [
@@ -33,7 +33,7 @@ export const dentalHealthPlans = [
         },
         {
           title: "Complimentary Polishing",
-          value: "Worth ₹700",
+          value: "50% Off",
         },
         {
           title: "Treatment Voucher",
@@ -51,10 +51,10 @@ export const dentalHealthPlans = [
       slug: "membership-999",
       title: "Dental Membership 999",
       price: 999,
-      originalValue: 2500,
+      originalValue: 5999,
       planType:"STANDARD",
-      savings: 1500,
-       description:
+      savings: 5000,
+      description:
         "Enhanced membership plan with family benefits and preventive care.",
   
       benefits: [
@@ -82,7 +82,7 @@ export const dentalHealthPlans = [
         },
         {
           title: "Complimentary Polishing",
-          value: "Worth ₹700",
+          value: "50% Off",
         },
         {
           title: "Treatment Voucher",
@@ -109,9 +109,9 @@ export const dentalHealthPlans = [
       slug: "membership-1499",
       title: "Dental Membership 1499",
       price: 1499,
-      originalValue: 4500,
+      originalValue: 7699,
       planType:"PREMIUM",
-      savings: 3000,
+      savings: 6200,
        description:
         "Comprehensive family-focused membership with maximum savings.",
   
@@ -655,7 +655,7 @@ export const dentalHealthPlans = [
       number: "04",
       title: "Continuous Infection Control",
       description:
-        "Our team follows internationally accepted infection-control protocols, including PPE usage, hand hygiene, and regular compliance checks.",
+        "Our team maintains strict infection-control standards, with comprehensive hygiene practices, appropriate PPE usage, and routine safety checks to ensure a clean and safe environment for every patient.",
       icon: <FaUserShield />,
     },
   ];

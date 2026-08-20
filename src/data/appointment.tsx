@@ -42,8 +42,9 @@ export const appointmentSteps = [
         "Comprehensive dental care with advanced technology, experienced specialists, and personalized treatment plans.",
       address:
         "House No. 622, First Floor, Satyam Enclave, New Kotgaon, Ghaziabad, Uttar Pradesh 201001",
-      timings: "Mon – Sat • 10:00 AM – 2:00 PM & 5:00 PM – 7:00 PM\nSun • 10:00 AM – 2:00 PM",
+      timings: "Mon – Sat • 9:30 AM – 2:30 PM & 5:00 PM – 8:00 PM\nSun • 9:30 AM – 2:30 PM",
       phone: "+91-8130-406-405",
+      href:"https://maps.app.goo.gl/HiVTSks8ATLy4rMy5"
     },
     {
       id: 2,
@@ -56,8 +57,9 @@ export const appointmentSteps = [
         "Dedicated center for dental implants, smile makeovers, cosmetic dentistry, and advanced laser treatments.",
       address:
         "A-007, Raj Nagar Residency, Near KW Delhi 6 Mall, Ghukna, Raj Nagar Extension, Ghaziabad, Uttar Pradesh 201017",
-      timings: "Mon – Sat • 10:00 AM – 2:00 PM & 5:00 PM – 7:00 PM\nSun • 10:00 AM – 2:00 PM",
+      timings: "Mon – Sat • 9:30 AM – 2:30 PM & 5:00 PM – 8:00 PM\nSun • 9:30 AM – 2:30 PM",
       phone: "+91-8130-406-405",
+      href:"https://maps.app.goo.gl/uYcdauD5jVtN1bEp6",
     },
   ];
   

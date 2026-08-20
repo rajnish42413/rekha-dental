@@ -77,6 +77,7 @@ function Page() {
         title="A complete practice, performed by specialists."
         subtitle="Each treatment is led by a doctor whose career is devoted to that discipline."
         highlightText=""
+        objectFill={true}
       />
       <ServiceGrid />
       <CtaAction />

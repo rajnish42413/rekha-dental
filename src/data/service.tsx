@@ -465,7 +465,7 @@ export const serviceDetails = [
         {
           title: "Premium Implant Systems",
           description:
-            "We use internationally trusted implant brands known for long-term performance and reliability.",
+            "We use trusted implant brands known for long-term performance and reliability.",
         },
         {
           title: "Patient-Centered Care",
@@ -1947,7 +1947,7 @@ export const serviceDetails = [
         {
           title: "Premium Implant Systems",
           description:
-            "We use internationally recognized implant systems known for their exceptional quality, biocompatibility, and long-term reliability.",
+            "We use premium implant systems known for their exceptional quality, biocompatibility, and long-term reliability.",
         },
         {
           title: "Comprehensive Care Under One Roof",
@@ -2832,7 +2832,7 @@ export const serviceDetails = [
         {
           title: "Premium Cosmetic Materials",
           description:
-            "We use high-quality ceramics, composite materials, and internationally trusted products to deliver durable, lifelike, and beautiful smile transformations.",
+            "We use high-quality ceramics, composite materials, and trusted products to deliver durable, lifelike, and beautiful smile transformations.",
         },
         {
           title: "Patient-Centered Experience",
@@ -3857,7 +3857,7 @@ export const serviceDetails = [
         {
           title: "Premium Materials & Modern Technology",
           description:
-            "We use internationally trusted materials and advanced dental technology to create durable, natural-looking restorations that stand the test of time.",
+            "We use trusted materials and advanced dental technology to create durable, natural-looking restorations that stand the test of time.",
         },
       ],
     },

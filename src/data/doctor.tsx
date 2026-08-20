@@ -48,7 +48,7 @@ export const aboutStatsData = [
       "BDS — King George’s Medical College (KGMC), Lucknow",
       "MDS — Nair Government Hospital, Mumbai",
       "Specialization in Smile & Esthetic Dentistry",
-      "16+ Years of Clinical Experience",
+      "19+ Years of Clinical Experience",
     ],
   
     languages: ["English", "Hindi"],

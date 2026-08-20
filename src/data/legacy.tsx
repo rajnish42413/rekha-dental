@@ -247,7 +247,7 @@ export const achievementsData = [
       title: "Clinical Success in Implant Rehabilitation",
       description:
         "Focused on implant-supported restorations, case selection, and achieving long-term functional outcomes.",
-      image: `${CLOUDINARY_BASE}/rekha-dental/lectures/lecture5`,
+      image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1784276423/20260408_155000_u6uqjl.jpg`,
     },
     {
       id: 6,
@@ -273,7 +273,7 @@ export const achievementsData = [
       image: `${CLOUDINARY_BASE}/rekha-dental/lectures/lecture10`,
     },
   ];
-  
+
   export const mediaData = [
     {
       id: 1,
@@ -312,5 +312,3 @@ export const achievementsData = [
       image: `${CLOUDINARY_BASE}/rekha-dental/media/media9`,
     },
   ];
-  
-  

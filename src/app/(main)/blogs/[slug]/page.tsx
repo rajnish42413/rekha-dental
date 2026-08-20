@@ -142,6 +142,7 @@ export default async function SingleBlogPage({ params }: PageProps) {
         title={blog.title}
         subtitle={blog.excerpt}
         overlayColor="bg-black/50"
+        objectFill={true}
       />
       <section className="relative z-10 -mt-24 pb-24">
         <div className="mx-auto max-w-5xl px-4">

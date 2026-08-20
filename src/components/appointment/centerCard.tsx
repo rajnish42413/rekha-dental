@@ -13,6 +13,7 @@ interface CenterCardProps {
     address: string;
     timings: string;
     phone: string;
+    href:string;
   };
   index?: number;
 }
@@ -57,9 +58,9 @@ export default function CenterCard({ center, index }: CenterCardProps) {
       <div className="mx-4 grid gap-3">
         <div className="flex items-start gap-3 rounded-xl border border-[#DCCEB9] p-4">
           <FaMapMarkerAlt className="mt-1 text-brand shrink-0" size={18} />
-          <p className="text-sm text-[#2C2C2C] line-clamp-2">
+          <a target="_blank" href={center.href} className="text-sm text-[#2C2C2C] line-clamp-2">
             {center.address}
-          </p>
+          </a>
         </div>
         <div className="flex items-start gap-3 rounded-xl border border-[#DCCEB9] p-4">
           <FaClock className="mt-1 text-brand shrink-0" size={18} />
@@ -95,7 +96,6 @@ export default function CenterCard({ center, index }: CenterCardProps) {
             font-medium active:scale-95 duration-200 
           "
         >
-         
           View
         </Link>
       </div>

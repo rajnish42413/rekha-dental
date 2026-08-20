@@ -92,7 +92,7 @@ function page() {
       <SectionHeader
         tag="Why India"
         title="The world comes to India for dentistry."
-        subtitle="Premium materials, world-trained clinicians, transparent pricing — refined into a single destination."
+        subtitle="Premium materials, exceptionally trained clinicians, transparent pricing — refined into a single destination."
       />
       <StorySection
         images={[

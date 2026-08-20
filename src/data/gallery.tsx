@@ -73,7 +73,7 @@ export const galleryImages = [
       id: 12,
       image: `${CLOUDINARY_BASE}/rekha-dental/gallery/technology-2`,
       category: "technology",
-      alt: "Laser",
+      alt: "Scanner",
     },
     {
       id: 13,
@@ -85,7 +85,7 @@ export const galleryImages = [
       id: 14,
       image: `${CLOUDINARY_BASE}/rekha-dental/gallery/technology-4`,
       category: "technology",
-      alt: "Diode Laser",
+      alt: "10x Sterilization ",
     },
     // {
     //   id: 15,
@@ -97,7 +97,7 @@ export const galleryImages = [
       id: 16,
       image: `${CLOUDINARY_BASE}/rekha-dental/gallery/technology-6`,
       category: "technology",
-      alt: "Physio Implant",
+      alt: "Scanner",
     },
     {
       id: 55,

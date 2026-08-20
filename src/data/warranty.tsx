@@ -19,7 +19,7 @@ export const warrantyPolicies = [
       slug: "dental-implants",
       title: "Dental Implants",
       image: "https://res.cloudinary.com/dygrzu3sm/image/upload/v1783768722/implant_yiuovg.png",
-      warranty: "1 Year",
+      warranty: "1-2 Years",
       description: "Implant re-treatment may be considered within 1 year after completion of treatment.",
       terms: [
         "All implant stages must be completed within the recommended timeline.",
@@ -35,7 +35,7 @@ export const warrantyPolicies = [
       slug: "dental-crowns",
       title: "Dental Crowns",
       image: "https://res.cloudinary.com/dygrzu3sm/image/upload/v1783768725/crowns_vtzaak.png",
-      warranty: "6 Months",
+      warranty: "1-2 Years",
       description: "Cementation-related issues may be considered under the re-treatment policy.",
       terms: [
         "Covers crown debonding (cementation failure) within the warranty period.",
@@ -50,7 +50,7 @@ export const warrantyPolicies = [
       slug: "dental-veneers",
       title: "Dental Veneers",
       image: "https://res.cloudinary.com/dygrzu3sm/image/upload/v1783768727/veneers_pjvrpi.png",
-      warranty: "6 Months",
+      warranty: "1 Year",
       description: "Treatment-related veneer issues may be considered within 6 months.",
       terms: [
         "Covers veneer debonding due to cementation failure.",

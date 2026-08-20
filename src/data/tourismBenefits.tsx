@@ -18,7 +18,7 @@ export const medicalTourismBenefits = [
   },
   {
     id: 2,
-    title: "Internationally Trained",
+    title: "Exceptionally Trained",
     description:
       "Dentists with degrees and fellowships from Karolinska, NYU, King's College and beyond.",
     icon: <TrophyOutlined />,

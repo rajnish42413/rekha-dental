@@ -18,9 +18,10 @@ function Lectures() {
   return (
     <section className=" py-10 lg:py-24 my-6">
       <div className="mx-4 lg:mx-10">
-        <SectionHeader tag=" LECTURES & WORKSHOPS" title=" Sharing knowledge, shaping future clinicians."/>
-     
-
+        <SectionHeader
+          tag=" LECTURES & WORKSHOPS"
+          title=" Sharing knowledge, shaping future clinicians."
+        />
         <div className="lg:mt-10 mt-6 px-1 lg:px-3">
           {!jsEnabled ? (
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-3">
@@ -37,10 +38,7 @@ function Lectures() {
           ) : (
             <CustomSwiper>
               {lecturesData.map((item) => (
-                <SwiperSlide
-                  key={item.id}
-                  style={{ width: "400px" }}
-                >
+                <SwiperSlide key={item.id} style={{ width: "400px" }}>
                   <LegacyCard
                     image={item.image}
                     title={item.title}

@@ -18,6 +18,7 @@ export interface Center {
   address: string;
   timings: string;
   phone: string;
+  href:string;
 }
 
 interface Props {
@@ -56,7 +57,7 @@ export default function VisitCard({ center }: Props) {
               Address
             </p>
 
-            <p className="text-sm leading-7 text-[#3E3E3E]">{center.address}</p>
+            <a href={center.href} target="_blank" className="text-sm leading-7 text-[#3E3E3E]">{center.address}</a>
           </div>
         </div>
 

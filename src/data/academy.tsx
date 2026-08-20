@@ -15,6 +15,18 @@ export const academyCourses = [
         "Learn the fundamentals of clinical dentistry including diagnosis, treatment planning, restorative procedures, and patient management.",
     },
     {
+      title: "Basic Implant Course",
+      slug: "basic-implant-course",
+      image: `${CLOUDINARY_BASE}/rekha-dental/courses/course6`,
+      discount: "10",
+      startingPrice: "60,000",
+      handsOn:false,
+      price: "66667",
+      duration: "4 months",
+      description:
+        "An introductory implantology course covering implant planning, placement protocols, instruments, and restorative basics.",
+    },
+    {
       title: "Endodontic Course",
       slug: "endodontic-course",
       image: `${CLOUDINARY_BASE}/rekha-dental/courses/course2`,
@@ -26,6 +38,7 @@ export const academyCourses = [
       description:
         "Master root canal procedures, rotary endodontics, access preparation, obturation techniques, and endodontic case management.",
     },
+   
     {
       title: "Prosthodontics Course",
       slug: "prosthodontics-course",
@@ -50,18 +63,7 @@ export const academyCourses = [
       description:
         "Understand surgical extractions, flap design, suturing techniques, impaction management, and minor oral surgical procedures.",
     },
-    {
-      title: "Basic Implant Course",
-      slug: "basic-implant-course",
-      image: `${CLOUDINARY_BASE}/rekha-dental/courses/course5`,
-      discount: "10",
-      startingPrice: "60,000",
-      handsOn:false,
-      price: "66667",
-      duration: "4 months",
-      description:
-        "An introductory implantology course covering implant planning, placement protocols, instruments, and restorative basics.",
-    },
+   
     {
       title: "Complete Implant Course",
       slug: "complete-implant-course",
@@ -405,7 +407,7 @@ export const academyCourses = [
       hero: {
         title: "Basic Implant Course",
         subtitle: "Start your journey into implant dentistry.",
-        image: `${CLOUDINARY_BASE}/rekha-dental/courses/course5`,
+        image: `${CLOUDINARY_BASE}/rekha-dental/courses/course6`,
       },
   
       overview: {

@@ -129,7 +129,7 @@ function page() {
         name="Dr. Mamta Raghav Saxena"
         role="Founder"
         specialization="Dental Implants & Cosmetic Dentistry"
-        experience="16+ Years of Practice"
+        experience="19+ Years of Practice"
         clinic="Rekha Dental"
         location="Raj Nagar Extension, Ghaziabad"
         rating={5.0}
