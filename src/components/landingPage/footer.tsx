@@ -1,4 +1,3 @@
-
 import { contactInfo, footerLinks, socialIcons } from "@/data/footer";
 import Link from "next/link";
 
@@ -13,7 +12,6 @@ export default function Footer() {
                 Rekha Dental
               </span>
             </div>
-          
           </Link>
           <p className="text-sm leading-relaxed text-white max-w-xs">
             Combining cutting-edge dental technology with expert care to craft
@@ -22,17 +20,17 @@ export default function Footer() {
           </p>
 
           <div className="space-y-3 text-sm text-white">
-  {contactInfo.map(({ icon: Icon, text, href }, index) => (
-    <a
-      key={index}
-      href={href}
-      className="flex items-center gap-3 hover:text-primary transition-colors"
-    >
-      <Icon className="shrink-0" />
-      <span>{text}</span>
-    </a>
-  ))}
-</div>
+            {contactInfo.map(({ icon: Icon, text, href }, index) => (
+              <a
+                key={index}
+                href={href}
+                className="flex items-center gap-3 hover:text-primary transition-colors"
+              >
+                <Icon className="shrink-0" />
+                <span>{text}</span>
+              </a>
+            ))}
+          </div>
 
           <div className="flex gap-4 pt-2">
             {socialIcons.map((item, index) => (

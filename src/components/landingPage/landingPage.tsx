@@ -1,6 +1,5 @@
 // import HeroBanner from "./heroBanner";
 import StatsStrip from "../general/statsCard";
-
 import StorySection from "../about/storySection";
 import ServiceGridLand from "./serviceGridLand";
 import Pillars from "./pillars";
@@ -19,6 +18,7 @@ import { heroBanners } from "@/data/heroBanner";
 import { aboutStatsData, reviewsData } from "@/data/doctor";
 import { homeFaqs, premiumDentalProcedures } from "@/data/landingPage";
 import DoctorSection from "./doctorSection";
+import VideoReviewsContainer from "./videoReviews";
 
 function LandingPage() {
   return (
@@ -73,6 +73,7 @@ function LandingPage() {
       <DoctorSection/>
       <GallerySection />
       <ReviewsSection data={reviewsData} />
+      <VideoReviewsContainer/>
       <Pillars />
       <AcademyBanner />
       <DentalPlanHighlights />
