@@ -74,11 +74,13 @@ function page() {
   return (
     <div>
       <Banner
-        imageSrc={`https://res.cloudinary.com/dygrzu3sm/image/upload/v1781084168/rekha-dental/academy-new/academy-new4.jpg`}
-        tag="REKHA DENTAL"
-        title="Personalized Dental Care"
-        subtitle="Trusted by thousands of smiles, backed by years of clinical excellence."
+        imageSrc={`https://res.cloudinary.com/dygrzu3sm/image/upload/v1787304190/ABOUT_US_NEW_SLIDE_eoptr7.png`}
+        // tag="REKHA DENTAL"
+        // title="Personalized Dental Care"
+        // subtitle="Trusted by thousands of smiles, backed by years of clinical excellence."
         highlightText=""
+        overlayColor="bg-[#0f3d3e]/10"
+        objectFill={true}
       />
       <StorySection
         images={[

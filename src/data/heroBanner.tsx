@@ -6,7 +6,7 @@ export const heroBanners = [
       slug:"/treatments/clear-aligners"
     },
     {
-      image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1783943589/bdd76ea7-7757-492f-a83b-43f999677397_odi7ht.png`,
+      image: `https://res.cloudinary.com/dygrzu3sm/image/upload/v1787304190/LIMITED_TIME_OFFER_urwr6o.png`,
       alt: "Dental Banner 2",
       slug:"/treatments/clear-aligners"
     },
@@ -18,7 +18,7 @@ export const heroBanners = [
     },
     {
       image:
-        "https://res.cloudinary.com/dygrzu3sm/image/upload/v1783943587/aca54ac3-7b9b-41d7-9306-895aaf6e3ffc_nhbtpq.png",
+        "https://res.cloudinary.com/dygrzu3sm/image/upload/v1787304190/SLODE_4_ahhsby.png",
       alt: "Dental Banner 4",
       slug:"/contact"
     },
