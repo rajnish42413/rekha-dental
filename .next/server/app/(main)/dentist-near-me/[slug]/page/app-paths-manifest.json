@@ -1,0 +1,3 @@
+{
+  "/(main)/dentist-near-me/[slug]/page": "app/(main)/dentist-near-me/[slug]/page.js"
+}
