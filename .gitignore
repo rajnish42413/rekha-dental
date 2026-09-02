@@ -14,7 +14,11 @@
 /coverage
 
 # next.js
-/.next/
+# .next is intentionally committed: the production server (4GB RAM) cannot
+# complete a build, so builds are produced locally and shipped via git.
+# The Turbopack cache is build-only, is never read by `next start`, and is
+# ~500MB, so it must stay out of the repo.
+/.next/cache/
 /out/
 
 # production
